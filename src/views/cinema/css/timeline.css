@@ -1,0 +1,291 @@
+/* cinema.css › timeline — Dòng thời gian 82 bia: nền chung + Sợi chỉ (r21 → r23, r43 đưa lại) + Thước khắc (r24).
+   (C: tách nguyên văn từ cinema.css — thứ tự @import trong cinema.css giữ nguyên cascade.) */
+/* ---------- Dòng thời gian 1442 → 1779 (r21, 82 bia) — nền chung + kiểu "Sợi chỉ" ----------
+   Một sợi chỉ năm, mỗi bia một vạch đặt đúng tỉ lệ theo năm, nhãn nửa thế kỷ (Bodoni), dấu vàng ở bia đang xem
+   (+ vạch chạy của tự chuyển ngay trên dấu). Rê / kéo / con trỏ tay → thẻ nhỏ: ảnh bia, năm, can chi. Mỗi vạch là một
+   đích nam châm (data-magnet) cho con trỏ tay. Cùng tinh thần mũi tên "Chỉ vàng": mảnh, vàng trầm, lặng. Vùng thước, nút
+   mốc và vạch chạy là nền chung — Thước khắc (khối r24 bên dưới) ghi đè phần hình. B bỏ Sợi chỉ; r43 đưa lại nguyên văn
+   khối của HEAD v0.5.12 (+ dòng gợi ý chọn bằng tay trong thẻ lúc dính, cuối khối). */
+.cinema .cin-prog { width: clamp(360px, 44vw, 760px); }
+.cinema .cin-tl__track {
+  position: relative;
+  height: 46px;
+  cursor: pointer;
+  touch-action: none;
+  outline: none;
+  pointer-events: auto;
+}
+.cinema .cin-tl__track:focus-visible .cin-tl__line { background: linear-gradient(to right, transparent, rgba(var(--nv-gold), .55) 4%, rgba(var(--nv-gold), .55) 96%, transparent); }
+.cinema .cin-tl__line {
+  position: absolute;
+  left: -10px;
+  right: -10px;
+  top: 24px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(236, 236, 236, .2) 4%, rgba(236, 236, 236, .2) 96%, transparent);
+  pointer-events: none;
+}
+.cinema .cin-tl__tick {
+  position: absolute;
+  top: 10px;
+  width: 9px;
+  height: 28px;
+  margin: 0 0 0 -4.5px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.cinema .cin-tl__tick > i {
+  position: absolute;
+  left: 4px;
+  top: 9px;
+  width: 1px;
+  height: 10px;
+  /* r23 kính lúp: --k 0..1 (timeline.js, nội suy mỗi khung) → cao tới 2,1× từ chân vạch + sáng hơn. Chỉ transform: nút
+     (vùng bấm / đích nam châm) không đổi. KHÔNG transition transform — đã nội suy trong JS. */
+  transform-origin: 50% 100%;
+  transform: scaleY(calc(1 + 1.1 * var(--k, 0)));
+  background: rgba(var(--nv-gold), calc(.42 + .4 * var(--k, 0)));
+  transition: height .25s var(--nv-ease), top .25s var(--nv-ease), background-color .2s ease, box-shadow .2s ease;
+}
+.cinema .cin-tl__tick.is-hot > i { background: rgb(255, 226, 170); box-shadow: 0 0 6px rgba(var(--nv-gold), .7); }
+.cinema .cin-tl__tick[aria-current="true"] > i { background: rgba(var(--nv-gold), .9); }
+.cinema .cin-tl__lab {
+  position: absolute;
+  top: 31px;
+  transform: translateX(-50%);
+  font-family: var(--display);
+  font-variant-numeric: lining-nums;
+  font-size: 10.5px;
+  letter-spacing: .06em;
+  line-height: 1;
+  color: var(--faint);
+  pointer-events: none;
+}
+/* dấu bia đang xem: hạt vàng trên sợi chỉ + vệt đứng mảnh; trôi êm khi đổi bia */
+.cinema .cin-tl__cur {
+  position: absolute;
+  top: 24px;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  transition: left .7s var(--nv-ease);
+}
+.cinema .cin-tl__cur::before {
+  content: '';
+  position: absolute;
+  left: -3.5px;
+  top: -3.5px;
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+  background: rgb(var(--nv-gold));
+  box-shadow: 0 0 10px rgba(var(--nv-gold), .45);
+}
+.cinema .cin-tl__cur::after {
+  content: '';
+  position: absolute;
+  left: -.5px;
+  top: -20px;
+  width: 1px;
+  height: 12px;
+  background: linear-gradient(to top, rgba(var(--nv-gold), .8), transparent);
+}
+.cinema .cin-tl__run {
+  position: absolute;
+  left: -11px;
+  top: 9px;
+  width: 22px;
+  height: 1px;
+  background: rgb(var(--nv-gold));
+  transform-origin: left center;
+  transform: scaleX(0);
+}
+/* Thẻ (r23): khối trên = năm khoa thi LỚN (Bodoni) + "khoa thi năm {can chi}"; vạch mảnh; khối dưới = "năm dựng bia
+   {năm}" (chưa biết: "· chờ dữ liệu", mờ — giữ nguyên chiều cao thẻ khi rê dọc thước, không nhảy). Vị trí: JS đặt left
+   (px) đã kẹp trong khung nhìn + vùng an toàn; --caret = chỗ mũi nhỏ chỉ đúng vạch. Cỡ lớn hơn r21 cho khoảng cách kiosk. */
+.cinema .cin-tl__pop {
+  --caret: 50%;
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 10px);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 13px 22px 14px 13px;
+  border-radius: 12px;
+  border: 1px solid rgba(var(--nv-gold), .22);
+  background: rgba(12, 12, 15, .8);
+  -webkit-backdrop-filter: blur(14px) saturate(115%);
+  backdrop-filter: blur(14px) saturate(115%);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, .5);
+  transform: translateY(5px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity .22s ease, transform .3s var(--nv-ease), left .2s var(--nv-ease), visibility 0s linear .22s;
+}
+/* mũi nhỏ (thoi) dưới thẻ, chỉ xuống đúng vạch — kể cả khi thẻ bị kẹp ở hai đầu thước */
+.cinema .cin-tl__pop::after {
+  content: '';
+  position: absolute;
+  left: var(--caret);
+  bottom: -5px;
+  width: 8px;
+  height: 8px;
+  margin-left: -4px;
+  transform: rotate(45deg);
+  background: rgb(14, 14, 17);
+  border-right: 1px solid rgba(var(--nv-gold), .22);
+  border-bottom: 1px solid rgba(var(--nv-gold), .22);
+  transition: left .2s var(--nv-ease);
+}
+.cinema .cin-tl__pop.is-jump, .cinema .cin-tl__pop.is-jump::after { transition: none !important; }
+.cinema .cin-tl[data-pop="1"] .cin-tl__pop { opacity: 1; visibility: visible; transform: none; transition: opacity .22s ease, transform .3s var(--nv-ease), left .2s var(--nv-ease), visibility 0s; }
+.cinema .cin-tl__img { width: 58px; height: 74px; display: block; flex: none; }
+.cinema .cin-tl__img img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.cinema .cin-tl__pop.is-noimg .cin-tl__img { display: none; }
+.cinema .cin-tl__meta { display: flex; flex-direction: column; align-items: stretch; }
+.cinema .cin-tl__year { font-family: var(--display); font-weight: 500; font-size: 38px; line-height: .92; letter-spacing: .01em; color: rgb(var(--nv-gold)); font-variant-numeric: lining-nums; }
+.cinema .cin-tl__cc { margin-top: 8px; font-family: var(--display-vi); font-size: 13.5px; line-height: 1.15; letter-spacing: .01em; color: rgba(236, 236, 236, .62); }
+.cinema .cin-tl__cc b { font-weight: 500; color: rgba(236, 236, 236, .92); }
+.cinema .cin-tl__rule { display: block; height: 1px; margin: 11px 0 9px; background: linear-gradient(to right, rgba(var(--nv-gold), .5), rgba(var(--nv-gold), .06)); }
+body.gesture-on .cinema .cin-tl__track { height: 58px; }
+body.gesture-on .cinema .cin-tl__tick { top: 12px; height: 40px; }
+body.gesture-on .cinema .cin-tl__tick > i { top: 12px; }
+body.gesture-on .cinema .cin-tl__line, body.gesture-on .cinema .cin-tl__cur { top: 30px; }
+body.gesture-on .cinema .cin-tl__lab { top: 38px; }
+@media (max-width: 760px) {
+  .cinema .cin-tl__lab.is-minor { visibility: hidden; }
+}
+.cinema .cin-tl__dung { font-family: var(--display-vi); font-size: 12.5px; line-height: 1.1; letter-spacing: .01em; color: rgba(236, 236, 236, .58); }
+.cinema .cin-tl__dung b { margin-left: 3px; font-family: var(--display); font-weight: 500; font-size: 19px; letter-spacing: .01em; color: rgba(var(--nv-gold), .92); font-variant-numeric: lining-nums; }
+.cinema .cin-tl__dung.is-pending { font-style: italic; color: rgba(236, 236, 236, .32); }
+/* dò vùng an toàn (env) cho JS kẹp thẻ — không hiện, không chiếm chỗ */
+.cinema .cin-tl__safe { position: fixed; left: 0; top: 0; width: 0; height: 0; padding: 0 env(safe-area-inset-right, 0px) 0 env(safe-area-inset-left, 0px); visibility: hidden; pointer-events: none; }
+@media (max-width: 760px) {
+  .cinema .cin-tl__pop { gap: 12px; padding: 11px 16px 12px 11px; }
+  .cinema .cin-tl__img { width: 46px; height: 58px; }
+  .cinema .cin-tl__year { font-size: 32px; }
+  .cinema .cin-tl__cc { font-size: 12.5px; }
+  .cinema .cin-tl__dung { font-size: 12px; }
+  .cinema .cin-tl__dung b { font-size: 17px; }
+}
+/* r43: dòng gợi ý chọn bằng tay trong thẻ khi tay đang dính (.cin-tl__yhint — hiện / ẩn theo .is-sticky ở khối r24) */
+.cinema .cin-tl[data-style="line"] .cin-tl__yhint { margin-top: 8px; white-space: nowrap; }
+
+/* ---------- r24: dòng thời gian "một thanh ba tầng" (timeline-concept.js) — Thước khắc (B: Dải lụa · Bia ký đã bỏ) -----
+   Hình học dọc khớp G trong timeline-concept.js: nhãn năm thi 0–28 · mốc năm thi đứng trên thanh (nút 24–64) · THANH
+   62–86 (đoạn triều đại) · mốc năm dựng tâm 93 · nhãn năm dựng từ 99 · tổng 118 px — nằm gọn giữa đáy bục và mép dưới
+   (đo ở 1024×768 → 2560×1440). Mốc năm thi phóng bằng transform theo --k (kính lúp dock) — nút giữ nguyên chỗ. */
+.cinema[data-tl="concept"] .cin-prog { width: clamp(420px, min(54vw, calc(100vw - 2 * (var(--gut) + 290px))), 940px); }
+.cinema .cin-tl[data-kind="concept"] .cin-tl__track { height: 118px; cursor: default; }
+.cinema .cin-tl__bar { position: absolute; left: 0; right: 0; top: 62px; height: 24px; pointer-events: none; }
+.cinema .cin-tl__sec {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: background-color .3s ease, box-shadow .3s ease;
+}
+.cinema .cin-tl__sec.is-cut { -webkit-mask-image: linear-gradient(to right, transparent, #000 26px); mask-image: linear-gradient(to right, transparent, #000 26px); }
+.cinema .cin-tl__secname { font-family: var(--display-vi); font-weight: 400; line-height: 1; transition: color .3s ease; }
+.cinema .cin-tl__seccount { font-family: var(--display-vi); font-style: italic; font-size: 10.5px; line-height: 1; color: rgba(var(--nv-gold), .85); max-width: 0; opacity: 0; transition: opacity .3s ease, max-width .3s ease; }
+.cinema .cin-tl__sec.is-hot .cin-tl__seccount { max-width: 90px; opacity: 1; }
+.cinema .cin-tl[data-kind="concept"] .cin-tl__lane { position: absolute; bottom: 0; height: 6px; box-sizing: border-box; }
+.cinema .cin-tl__nb { position: absolute; top: 88px; height: 5px; box-sizing: border-box; border: 1px solid rgba(236, 236, 236, .16); border-top: 0; pointer-events: none; }
+.cinema .cin-tl__nb > span {
+  position: absolute;
+  left: 50%;
+  top: 7px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--display-vi);
+  font-size: 8px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  line-height: 1;
+  color: rgba(236, 236, 236, .32);
+}
+.cinema .cin-tl[data-kind="concept"] .cin-tl__svg { position: absolute; left: 0; top: 0; width: 100%; height: 118px; overflow: visible; pointer-events: none; }
+.cinema .cin-tl__link { fill: none; stroke: rgb(var(--nv-gold)); stroke-width: 1; vector-effect: non-scaling-stroke; stroke-linejoin: round; opacity: 0; }
+.cinema .cin-tl__link.is-sel { opacity: .72; }
+.cinema .cin-tl__link.is-batch { opacity: .62; }
+.cinema .cin-tl__link.is-focus { opacity: 1; }
+.cinema .cin-tl[data-focus="1"] .cin-tl__link.is-sel:not(.is-focus),
+.cinema .cin-tl[data-batch] .cin-tl__link.is-sel:not(.is-batch) { opacity: .28; }
+/* mốc năm thi: nút (vùng bấm / nam châm) 24–64; nét vẽ bám đáy nút = mặt trên thanh */
+.cinema .cin-tl[data-kind="concept"] .cin-tl__tick { top: 24px; height: 40px; width: 9px; margin-left: -4.5px; }
+.cinema .cin-tl[data-kind="concept"] .cin-tl__tick > i,
+.cinema .cin-tl[data-kind="concept"] .cin-tl__tick > b { position: absolute; display: block; pointer-events: none; top: auto; transition: background-color .2s ease, box-shadow .2s ease, opacity .25s ease; }
+.cinema .cin-tl[data-kind="concept"][data-dyn] .cin-tl__tick > i,
+.cinema .cin-tl[data-kind="concept"][data-dyn] .cin-tl__tick > b,
+.cinema .cin-tl[data-kind="concept"][data-batch] .cin-tl__tick:not(.is-batch) > i,
+.cinema .cin-tl[data-kind="concept"][data-batch] .cin-tl__tick:not(.is-batch) > b { opacity: .26; }
+.cinema .cin-tl[data-dyn="le-so"] .cin-tl__tick[data-p~="le-so"] > *,
+.cinema .cin-tl[data-dyn="mac"] .cin-tl__tick[data-p~="mac"] > *,
+.cinema .cin-tl[data-dyn="le-trung-hung"] .cin-tl__tick[data-p~="le-trung-hung"] > * { opacity: 1; }
+.cinema .cin-tl__mark { position: absolute; top: 93px; width: 0; height: 0; pointer-events: none; }
+.cinema .cin-tl__mark > i { position: absolute; display: block; box-sizing: border-box; transition: background-color .2s ease, border-color .2s ease, box-shadow .25s ease; }
+/* nhãn: ô năm thi (chính) + "khoa …" · năm dựng (phụ, không ô) + "năm dựng bia" — chỉ khi có tiêu điểm */
+.cinema .cin-tl__elab,
+.cinema .cin-tl__dlab { position: absolute; left: 0; display: flex; white-space: nowrap; pointer-events: none; opacity: 0; transition: opacity .18s ease, left .16s var(--nv-ease); }
+.cinema .cin-tl__elab { top: 0; align-items: center; gap: 9px; }
+.cinema .cin-tl__dlab { top: 99px; align-items: baseline; gap: 7px; }
+.cinema .cin-tl__elab.is-flip, .cinema .cin-tl__dlab.is-flip { flex-direction: row-reverse; }
+.cinema .cin-tl[data-focus="1"] .cin-tl__elab, .cinema .cin-tl[data-dlab="1"] .cin-tl__dlab { opacity: 1; }
+.cinema .cin-tl__elab::after { content: ''; position: absolute; left: var(--caret, 50%); top: 100%; width: 1px; height: 6px; background: linear-gradient(rgba(var(--nv-gold), .7), transparent); }
+.cinema .cin-tl__ybox { display: block; font-family: var(--display); font-weight: 500; font-size: 21px; line-height: 1; letter-spacing: .01em; font-variant-numeric: lining-nums; color: rgb(var(--nv-gold)); padding: 4px 10px 3px; }
+.cinema .cin-tl__ykhoa { font-family: var(--display-vi); font-size: 12.5px; line-height: 1; color: rgba(236, 236, 236, .6); }
+.cinema .cin-tl__ykhoa em { font-style: normal; color: rgba(236, 236, 236, .92); }
+.cinema .cin-tl__yhint { display: none; font-family: var(--display-vi); font-style: italic; font-size: 11px; line-height: 1; color: rgba(var(--nv-gold), .82); }
+.cinema .cin-tl.is-sticky .cin-tl__yhint { display: inline; }
+.cinema .cin-tl__dyear { font-family: var(--display); font-weight: 500; font-size: 15px; line-height: 1; letter-spacing: .01em; font-variant-numeric: lining-nums; color: rgba(var(--nv-gold), .9); }
+.cinema .cin-tl__dyear:empty { display: none; }
+.cinema .cin-tl__dtext { font-family: var(--display-vi); font-size: 11.5px; line-height: 1; color: rgba(236, 236, 236, .55); }
+.cinema .cin-tl__dlab.is-pending .cin-tl__dtext { font-style: italic; color: rgba(236, 236, 236, .32); }
+.cinema .cin-tl[data-kind="concept"] .cin-tl__run { position: absolute; top: 18px; width: 26px; height: 1px; background: rgb(var(--nv-gold)); transform-origin: left center; transform: translateX(-50%) scaleX(0); }
+.cinema .cin-tl[data-kind="concept"][data-focus="1"] .cin-tl__run { opacity: 0; }
+
+/* chế độ dính của tay (hand:sticky 'timeline'): cả thước phóng 1,3× từ đáy giữa (kẹp trong khung — JS đặt --sticky) */
+.cinema .cin-tl { transform-origin: 50% 100%; transition: scale .35s var(--nv-ease), translate .35s var(--nv-ease); }
+.cinema .cin-tl.is-sticky { scale: var(--sticky, 1.3); translate: var(--sticky-dx, 0px) 0; }
+/* (r27: bỏ nền tối loang sau thước lúc dính — khối xám bo góc của lớp cử chỉ (.hi-morph, r27g) là nền dính duy nhất) */
+
+/* ===== A · Thước khắc — thanh đá sẫm, tên triều khắc chìm (chữ hoa nhỏ), vạch chia vàng; ghim vàng mảnh nhô lên,
+   hạt thoi nhỏ phía dưới; năm thi trong một ô viền vàng mảnh. */
+.cinema .cin-tl[data-style="ruler"] .cin-tl__bar {
+  background: linear-gradient(#1d1c1f, #121114);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .7), inset 0 -1px 0 rgba(255, 255, 255, .03), 0 -1px 0 rgba(var(--nv-gold), .2), 0 1px 0 rgba(var(--nv-gold), .2);
+}
+.cinema .cin-tl[data-style="ruler"] .cin-tl__sec + .cin-tl__sec { border-left: 1px solid rgba(var(--nv-gold), .5); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__secname { font-size: 9.5px; letter-spacing: .34em; text-transform: uppercase; color: rgba(236, 236, 236, .5); text-shadow: 0 1px 0 rgba(0, 0, 0, .95), 0 -1px 0 rgba(255, 255, 255, .07); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__sec.is-hot { background: rgba(var(--nv-gold), .08); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__sec.is-hot .cin-tl__secname { color: rgba(var(--nv-gold), .95); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__lane { height: 5px; background: repeating-linear-gradient(-45deg, rgba(var(--nv-gold), .5) 0 1px, transparent 1px 4px); border-top: 1px solid rgba(var(--nv-gold), .26); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__tick > i { left: 4px; bottom: 2px; width: 1px; height: 13px; background: rgba(var(--nv-gold), .5); transform-origin: 50% 100%; transform: scaleY(calc(1 + 1.3 * var(--k, 0))); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__tick > b { left: 3px; bottom: 14px; width: 3px; height: 3px; border-radius: 50%; background: rgba(var(--nv-gold), .72); transform: translateY(calc(-16.9px * var(--k, 0))); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__tick.is-sel > i { background: rgb(var(--nv-gold)); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__tick.is-sel > b { left: 2px; bottom: 13px; width: 5px; height: 5px; background: rgb(255, 226, 170); box-shadow: 0 0 7px rgba(var(--nv-gold), .75); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__tick.is-hot > i,
+.cinema .cin-tl[data-style="ruler"] .cin-tl__tick.is-batch > i { background: rgb(255, 226, 170); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__tick.is-hot > b,
+.cinema .cin-tl[data-style="ruler"] .cin-tl__tick.is-batch > b { background: rgb(255, 232, 190); box-shadow: 0 0 6px rgba(var(--nv-gold), .7); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__mark > i { left: -3.5px; top: -3.5px; width: 7px; height: 7px; transform: rotate(45deg); border: 1px solid rgba(var(--nv-gold), .62); background: #0d0d10; }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__mark.is-sel > i { background: rgb(var(--nv-gold)); border-color: rgb(var(--nv-gold)); box-shadow: 0 0 8px rgba(var(--nv-gold), .5); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__mark.is-hot > i { background: rgb(255, 226, 170); border-color: rgb(255, 226, 170); }
+.cinema .cin-tl[data-style="ruler"] .cin-tl__ybox { border: 1px solid rgba(var(--nv-gold), .75); background: rgba(12, 12, 15, .9); box-shadow: 0 6px 18px rgba(0, 0, 0, .45); }
+
+@media (prefers-reduced-motion: reduce) {
+  .cinema .cin-tl__cur, .cinema .cin-tl__tick > i, .cinema .cin-tl__tick > b, .cinema .cin-tl__pop, .cinema .cin-tl__pop::after, .cinema .cin-tl__link,
+  .cinema .cin-tl__mark > i, .cinema .cin-tl__sec, .cinema .cin-tl__secname, .cinema .cin-tl__seccount, .cinema .cin-tl__elab, .cinema .cin-tl__dlab,
+  .cinema .cin-tl { transition-duration: .01s !important; }
+}

@@ -1,0 +1,639 @@
+<title>Dòng thời gian Lê sơ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Playfair+Display:ital,wght@0,400..700;1,400..600&display=swap">
+<style>
+/* ── Tokens ───────────────────────────────────────────────────────────
+   Single dark theme, on purpose: this is the "cinema" look of the
+   Văn Miếu viewer (ink ground, stone slabs, gold leaf).               */
+:root{
+  color-scheme: dark;
+  --ink:#0d0b09;          /* mực: page ground                  */
+  --stone-a:#221d17;      /* đá: slab, lit edge                 */
+  --stone-b:#15120e;      /* đá: slab, shadow edge              */
+  --line:#3b3329;         /* ground line                        */
+  --line-soft:#2a241d;    /* slab outline                       */
+  --paper:#efe6d2;        /* giấy dó: primary text              */
+  --paper-2:#cdbfa4;      /* secondary text                     */
+  --ash:#9d917c;          /* tro: labels, captions              */
+  --gold:#d9b36c;         /* vàng thếp: accent                  */
+  --gold-hi:#efd59f;
+  --gold-deep:#a8854a;
+  --gold-ink:#1c1409;     /* text on gold leaf                  */
+  --rule:rgba(168,133,74,.62);
+
+  --f-num:'Bodoni Moda','Bodoni 72',Didot,'Bodoni MT',Georgia,serif;
+  --f-disp:'Playfair Display',Georgia,'Times New Roman',serif;
+  --f-ui:'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{background-color:var(--ink)}
+body{
+  margin:0;
+  min-height:100vh;
+  background:
+    radial-gradient(80rem 34rem at 24% -6rem, rgba(217,179,108,.075), transparent 70%) no-repeat,
+    var(--ink);
+  background-color:var(--ink);
+  color:var(--paper);
+  font-family:var(--f-ui);
+  font-size:16px;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+[hidden]{display:none!important}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+
+.page{
+  max-width:1640px;
+  margin-inline:auto;
+  padding-inline:clamp(16px,4vw,64px);
+  padding-block:clamp(28px,6vh,72px) 40px;
+  display:flex;flex-direction:column;
+  gap:clamp(32px,6vh,64px);
+  overflow-x:clip;
+}
+
+/* ── Masthead ─────────────────────────────────────────────────────── */
+.mast{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,26rem);align-items:end;gap:12px 48px}
+.eyebrow{grid-column:1/-1;margin:0;font-size:12px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-deep)}
+.mast h1{margin:0;font-family:var(--f-disp);font-weight:500;font-size:clamp(40px,4.8vw,72px);line-height:1;letter-spacing:-.015em;color:var(--paper);text-wrap:balance}
+.lede{margin:0;font-size:15px;line-height:1.6;color:var(--ash);max-width:36ch;justify-self:end;text-wrap:pretty}
+.lede b{font-family:var(--f-num);font-weight:500;font-size:17px;color:var(--paper-2)}
+
+/* ── Band (wide screens) ──────────────────────────────────────────── */
+.band{
+  --dh:76px;                          /* dynasty row   */
+  --ch:clamp(150px,21vh,230px);       /* slab row      */
+  --py:clamp(32px,3.1vw,52px);        /* pair year size */
+  --lh:64px;                          /* ground lane, compact */
+  position:relative;
+  height:calc(var(--dh) + var(--ch) + var(--lh));
+  transition:height .55s var(--ease);
+}
+.band.is-open{--lh:calc(var(--py) + 86px)}
+
+/* dynasty row */
+.dyn{position:absolute;left:0;right:0;top:0;height:var(--dh)}
+.dy{position:absolute;top:0;height:100%}
+.dy-rule{position:absolute;left:0;right:0;height:2px;background:var(--rule)}
+.dy.main .dy-rule{bottom:10px}
+.dy.main .dy-rule::before,.dy.main .dy-rule::after{content:"";position:absolute;top:0;width:2px;height:10px;background:var(--rule)}
+.dy.main .dy-rule::before{left:0}.dy.main .dy-rule::after{right:0}
+.dy-lab{position:absolute;left:0;display:flex;align-items:baseline;gap:12px;white-space:nowrap}
+.dy.main .dy-lab{bottom:22px}
+.dy-name{font-family:var(--f-disp);font-style:italic;font-weight:500;font-size:22px;line-height:1.1;color:var(--paper)}
+.dy-yrs{font-family:var(--f-num);font-size:15px;color:var(--ash);font-variant-numeric:lining-nums;letter-spacing:.02em}
+
+/* next dynasties: quiet hint of how the full timeline continues */
+.tail{position:absolute;top:0;bottom:0;pointer-events:none}
+.tail-fade{position:absolute;inset:0;-webkit-mask-image:linear-gradient(90deg,#000 0,#000 35%,transparent 96%);mask-image:linear-gradient(90deg,#000 0,#000 35%,transparent 96%)}
+.tail .dy-rule{background:rgba(168,133,74,.42);height:2px}
+.tail .r0{bottom:calc(100% - var(--dh) + 10px);left:6px;right:0}
+.tail .r1{bottom:calc(100% - var(--dh) + 44px);right:0}
+.tail .dy-lab{opacity:.62}
+.tail .dy-name{font-size:15px}
+.tail .dy-yrs{font-size:12px}
+.tail .l0{bottom:calc(100% - var(--dh) + 18px);left:8px}
+.tail .l1{bottom:calc(100% - var(--dh) + 52px)}
+.ghost{position:absolute;top:var(--dh);height:var(--ch);display:flex;flex-direction:column;align-items:center;padding-top:28px;border:1px dashed rgba(168,133,74,.34);border-bottom:0;border-radius:50% 50% 0 0/22px 22px 0 0;opacity:.5;container-type:inline-size}
+.ghost .c-y{color:var(--paper-2)}
+.tail-ax{position:absolute;left:0;right:0;top:calc(var(--dh) + var(--ch));height:1px;background:repeating-linear-gradient(90deg,var(--line) 0 6px,transparent 6px 11px)}
+.seam{position:absolute;top:6px;width:1px;height:calc(var(--dh) + var(--ch) - 6px);background:linear-gradient(180deg,transparent,rgba(168,133,74,.5) 18%,rgba(168,133,74,.5) 86%,rgba(168,133,74,.2));pointer-events:none}
+
+/* slabs */
+.cells{position:absolute;left:0;right:0;top:var(--dh);height:var(--ch);margin:0;padding:0;list-style:none}
+.cl{position:absolute;top:0;bottom:0}
+.cell{
+  position:relative;width:100%;height:100%;
+  display:flex;flex-direction:column;align-items:center;
+  padding:28px 2px 16px;text-align:center;
+  border:1px solid var(--line-soft);border-bottom:0;
+  border-radius:50% 50% 0 0/22px 22px 0 0;
+  background:linear-gradient(180deg,var(--stone-a) 0%,#1a1612 55%,var(--stone-b) 100%);
+  container-type:inline-size;
+  transition:border-color .35s var(--ease),box-shadow .6s var(--ease);
+}
+.cell::before{
+  content:"";position:absolute;inset:-1px -1px 0;border-radius:inherit;
+  background:linear-gradient(180deg,#f0d8a4 0%,#dcb872 40%,#bb9453 100%);
+  box-shadow:inset 0 1px 0 rgba(255,244,214,.55);
+  opacity:0;transition:opacity .45s var(--ease);
+}
+.cell>*{position:relative}
+.c-y{font-family:var(--f-num);font-weight:500;font-size:clamp(20px,38cqi,38px);line-height:1;letter-spacing:-.01em;font-variant-numeric:lining-nums;color:var(--paper);transition:color .35s var(--ease)}
+.c-cc{margin-top:clamp(12px,19cqi,22px);display:flex;flex-direction:column;font-family:var(--f-disp);font-size:clamp(13px,20cqi,19px);line-height:1.22;color:var(--paper-2);transition:color .35s var(--ease)}
+.cell[aria-current="true"]::before{opacity:1}
+.cell[aria-current="true"]{border-color:#f0d9a6;box-shadow:0 26px 50px -30px rgba(217,179,108,.6)}
+.cell[aria-current="true"] .c-y{color:var(--gold-ink)}
+.cell[aria-current="true"] .c-cc{color:#3b2c15}
+@media (hover:hover){
+  .cell:not([aria-current="true"]):hover{border-color:rgba(217,179,108,.5)}
+  .cell:not([aria-current="true"]):hover .c-y{color:var(--gold-hi)}
+}
+.cell:focus-visible{outline:2px solid var(--paper);outline-offset:4px}
+
+/* ground lane */
+.lane{position:absolute;left:0;right:0;top:calc(var(--dh) + var(--ch));height:var(--lh)}
+.ax{position:absolute;left:0;top:0;height:1px;background:var(--line)}
+.bd{position:absolute;top:12px;font-family:var(--f-num);font-size:14px;color:var(--ash);font-variant-numeric:lining-nums;transition:opacity .3s var(--ease)}
+.bd.b1{transform:translateX(-50%)}
+.hint{position:absolute;top:13px;margin:0;font-size:14px;color:var(--ash);text-align:center;white-space:nowrap;transform:translateX(-50%);transition:opacity .3s var(--ease)}
+.band.is-open .bd,.band.is-open .hint{opacity:0}
+
+.pw{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .3s var(--ease),visibility 0s linear .3s}
+.band.is-open .pw{opacity:1;visibility:visible;transition:opacity .5s var(--ease) .12s,visibility 0s}
+.dim{position:absolute;left:0;top:0;overflow:visible}
+.dim .stroke{fill:none;stroke:var(--gold);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.dim .trail{fill:none;stroke:url(#trailFade);stroke-width:1.5;stroke-dasharray:3 6;stroke-linecap:round}
+.dim .dot{fill:var(--gold)}
+.dim .ring{fill:var(--ink);stroke:var(--gold);stroke-width:2}
+.pill{position:absolute;top:30px;transform:translate(-50%,-50%);white-space:nowrap;font-size:13px;color:var(--gold-hi);letter-spacing:.02em;line-height:1}
+.pill b{font-family:var(--f-num);font-weight:500;font-size:19px;margin-right:5px;font-variant-numeric:lining-nums}
+.lb{position:absolute;top:48px;display:flex;flex-direction:column;align-items:center;gap:8px;white-space:nowrap}
+.lb-y{font-family:var(--f-num);font-weight:500;font-size:var(--py);line-height:1;height:var(--py);color:var(--paper);font-variant-numeric:lining-nums}
+.lb.er .lb-y{color:var(--gold)}
+.lb-c{font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--ash)}
+.lb-y.pend{display:flex;align-items:center;font-family:var(--f-disp);font-style:italic;font-weight:400;font-size:calc(var(--py) * .44);color:var(--ash);padding-inline:4px;border-bottom:1px dashed #5d5142}
+
+/* ── Vertical list (phones, tablets) ──────────────────────────────── */
+.vwrap{display:none}
+.vwrap{position:relative;padding-left:22px}
+.vrail{position:absolute;left:0;top:14px;width:2px;background:var(--rule)}
+.vrail::before,.vrail::after{content:"";position:absolute;left:0;width:10px;height:2px;background:var(--rule)}
+.vrail::before{top:0}.vrail::after{bottom:0}
+.vdyn{display:flex;align-items:baseline;gap:12px;margin:0 0 18px}
+.vlist{list-style:none;margin:0;padding:0}
+.vi{position:relative}
+.vrow{
+  position:relative;width:100%;
+  display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:18px;
+  min-height:64px;padding:10px 16px 10px 18px;text-align:left;
+  border:1px solid var(--line-soft);border-radius:3px;
+  background:linear-gradient(90deg,var(--stone-a),var(--stone-b));
+  transition:border-color .35s var(--ease);
+}
+.vrow::before{content:"";position:absolute;inset:-1px;border-radius:inherit;background:linear-gradient(90deg,#f0d8a4,#dcb872 45%,#c29b59);opacity:0;transition:opacity .45s var(--ease)}
+.vrow>*{position:relative}
+.v-y{font-family:var(--f-num);font-weight:500;font-size:32px;line-height:1;font-variant-numeric:lining-nums;color:var(--paper)}
+.v-cc{font-family:var(--f-disp);font-size:19px;color:var(--paper-2)}
+.v-ch{width:18px;height:18px;color:var(--ash);transition:transform .45s var(--ease)}
+.vrow[aria-current="true"]::before{opacity:1}
+.vrow[aria-current="true"]{border-color:#f0d9a6}
+.vrow[aria-current="true"] .v-y{color:var(--gold-ink)}
+.vrow[aria-current="true"] .v-cc{color:#3b2c15}
+.vrow[aria-current="true"] .v-ch{color:#4a3818}
+.vrow[aria-expanded="true"] .v-ch{transform:rotate(180deg)}
+.vrow:focus-visible{outline:2px solid var(--paper);outline-offset:3px}
+.vpair{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s var(--ease)}
+.vi.open .vpair{grid-template-rows:1fr}
+.vpair-in{min-height:0;overflow:hidden}
+.pair{display:grid;grid-template-columns:auto minmax(48px,1fr) auto;align-items:end;gap:14px;padding:18px 6px 8px;opacity:0;transform:translateY(-4px);transition:opacity .3s var(--ease),transform .4s var(--ease)}
+.vi.open .pair{opacity:1;transform:none;transition-delay:.1s}
+.pb{display:flex;flex-direction:column;align-items:flex-start;gap:6px}
+.pb.er{align-items:flex-end}
+.pb .lb-y{--py:40px}
+.pb.er .lb-y{color:var(--gold)}
+.pl{position:relative;align-self:stretch;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;padding-top:6px}
+.pl-g{font-size:12px;color:var(--gold-hi);white-space:nowrap}
+.pl-g b{font-family:var(--f-num);font-weight:500;font-size:17px;margin-right:4px}
+.pl-line{position:relative;width:100%;height:1.5px;margin-top:8px;background:var(--gold)}
+.pl-line::after{content:"";position:absolute;right:-1px;top:50%;width:8px;height:8px;border-top:1.5px solid var(--gold);border-right:1.5px solid var(--gold);transform:translateY(-50%) rotate(45deg)}
+.pl-line.pend{background:repeating-linear-gradient(90deg,var(--gold-deep) 0 3px,transparent 3px 9px);-webkit-mask-image:linear-gradient(90deg,#000 30%,transparent);mask-image:linear-gradient(90deg,#000 30%,transparent)}
+.pl-line.pend::after{display:none}
+.pair.same{grid-template-columns:auto 1fr}
+.pair.same .pl-g{align-self:center;justify-self:start}
+.vtail{position:relative;margin-top:28px;padding-top:26px}
+.vtail::before{content:"";position:absolute;left:-22px;right:0;top:0;height:1px;background:linear-gradient(90deg,rgba(168,133,74,.5),rgba(168,133,74,.12))}
+.vt-y{position:absolute;top:-9px;left:30%;padding-inline:8px;background:var(--ink);font-family:var(--f-num);font-size:13px;color:var(--ash)}
+.vt-cols{display:grid;grid-template-columns:1fr 1fr;gap:12px;opacity:.62}
+.vt-cols .dy-name{font-size:16px}
+.vt-cols .dy-yrs{font-size:12px}
+.vt-col{display:flex;align-items:baseline;gap:8px;padding-left:12px;border-left:2px solid rgba(168,133,74,.42)}
+.vt-col.l1{border-left-style:dotted}
+.vghost{margin-top:12px;display:flex;align-items:center;gap:18px;min-height:56px;padding:8px 18px;border:1px dashed rgba(168,133,74,.34);border-radius:3px;opacity:.5;-webkit-mask-image:linear-gradient(180deg,#000 30%,transparent);mask-image:linear-gradient(180deg,#000 30%,transparent)}
+.vghost .v-y{font-size:28px;color:var(--paper-2)}
+
+/* ── Footer ───────────────────────────────────────────────────────── */
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 40px;padding-top:20px;border-top:1px solid var(--line-soft);font-size:13px;line-height:1.6;color:var(--ash)}
+.foot p{margin:0;max-width:68ch}
+.foot strong{font-weight:500;color:var(--gold-hi)}
+.keys{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+kbd{display:inline-block;min-width:1.9em;padding:1px 6px;margin-right:4px;border:1px solid var(--line);border-bottom-width:2px;border-radius:3px;font-family:var(--f-ui);font-size:12px;text-align:center;color:var(--paper-2);background:#15120e}
+
+/* ── Breakpoint: vertical list below 1100px ───────────────────────── */
+@media (max-width:1099.98px){
+  .band{display:none}
+  .vwrap{display:block}
+  .mast{grid-template-columns:minmax(0,1fr)}
+  .lede{justify-self:start}
+  .keys{display:none}
+}
+@media (hover:none){.keys{display:none}}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{transition-duration:.01ms!important;transition-delay:0s!important;animation-duration:.01ms!important}
+}
+</style>
+
+<div class="page">
+  <header class="mast">
+    <p class="eyebrow">Dòng thời gian bia Tiến sĩ · Văn Miếu – Quốc Tử Giám</p>
+    <h1>Thời Lê sơ</h1>
+    <p class="lede"><b>13</b> bia, mỗi bia ghi một khoa thi. Khoảng cách giữa hai bia tỉ lệ với số năm giữa hai khoa thi.</p>
+  </header>
+
+  <section class="tl" aria-labelledby="tlTitle">
+    <h2 id="tlTitle" class="sr-only">Các khoa thi thời Lê sơ, 1442 đến 1518</h2>
+
+    <!-- Wide: one horizontal band -->
+    <div class="band" id="band">
+      <div class="dyn" id="dyn" aria-hidden="true">
+        <div class="dy main" id="dyMain">
+          <div class="dy-lab"><span class="dy-name">Lê sơ</span><span class="dy-yrs">1428 – 1527</span></div>
+          <div class="dy-rule"></div>
+        </div>
+      </div>
+      <ol class="cells" id="cells" aria-label="13 khoa thi, dùng phím mũi tên để chuyển"></ol>
+      <div class="tail" id="tail" aria-hidden="true">
+        <div class="tail-fade">
+          <div class="dy-rule r0"></div>
+          <div class="dy-rule r1" id="r1"></div>
+          <div class="ghost" id="ghost"><span class="c-y">1529</span><span class="c-cc"><span>Kỷ</span><span>Sửu</span></span></div>
+          <div class="tail-ax"></div>
+        </div>
+        <div class="dy-lab l0"><span class="dy-name">Mạc</span><span class="dy-yrs">1527</span></div>
+        <div class="dy-lab l1" id="l1"><span class="dy-name">Lê trung hưng</span><span class="dy-yrs">1533</span></div>
+      </div>
+      <div class="seam" id="seam" aria-hidden="true"></div>
+      <div class="lane" id="lane">
+        <div class="ax" id="ax"></div>
+        <span class="bd b0" aria-hidden="true">1428</span>
+        <span class="bd b1" id="b1" aria-hidden="true">1527</span>
+        <p class="hint" id="hint">Rê chuột hoặc chạm vào một khoa để xem năm dựng bia</p>
+        <div class="pw" id="pw" aria-hidden="true">
+          <svg class="dim" id="dim" focusable="false"></svg>
+          <span class="pill" id="pill"></span>
+          <div class="lb ex" id="lbA"></div>
+          <div class="lb er" id="lbB"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Narrow: vertical list, same states -->
+    <div class="vwrap" id="vwrap">
+      <div class="vrail" id="vrail" aria-hidden="true"></div>
+      <p class="vdyn" aria-hidden="true"><span class="dy-name">Lê sơ</span><span class="dy-yrs">1428 – 1527</span></p>
+      <ol class="vlist" id="vlist" aria-label="13 khoa thi"></ol>
+      <div class="vtail" aria-hidden="true">
+        <span class="vt-y">1527</span>
+        <div class="vt-cols">
+          <div class="vt-col"><span class="dy-name">Mạc</span><span class="dy-yrs">1527</span></div>
+          <div class="vt-col l1"><span class="dy-name">Lê trung hưng</span><span class="dy-yrs">1533</span></div>
+        </div>
+        <div class="vghost"><span class="v-y">1529</span><span class="v-cc">Kỷ Sửu</span></div>
+      </div>
+    </div>
+
+    <p class="sr-only" aria-live="polite" id="live"></p>
+  </section>
+
+  <footer class="foot">
+    <p>Năm thi và can chi theo danh mục 82 bia. Năm dựng bia mới có cho 4 khoa (1442, 1463, 1487, 1514), là dữ liệu sơ bộ, <strong>cần đối chiếu</strong>; các khoa khác hiện “chờ dữ liệu”. Mốc triều đại cần kiểm định.</p>
+    <p class="keys"><span><kbd>←</kbd><kbd>→</kbd>chuyển khoa</span><span><kbd>Enter</kbd>mở</span><span><kbd>Esc</kbd>thu gọn</span></p>
+  </footer>
+</div>
+
+<script>
+(() => {
+  /* ── Data: catalog.json (year ≤ 1527) + dựng bia from bia.json ───── */
+  const Y0 = 1428, Y1 = 1527, NEXT_YEAR = 1529, LTH = 1533;
+  const EXAMS = [
+    { id:'bia-1442', stt:81, year:1442, canChi:'Nhâm Tuất', dung:1484 },
+    { id:'bia-1448', stt:82, year:1448, canChi:'Mậu Thìn' },
+    { id:'bia-1463', stt:33, year:1463, canChi:'Quý Mùi',   dung:1484 },
+    { id:'bia-1466', stt:56, year:1466, canChi:'Bính Tuất' },
+    { id:'bia-1475', stt:34, year:1475, canChi:'Ất Mùi' },
+    { id:'bia-1478', stt:55, year:1478, canChi:'Mậu Tuất' },
+    { id:'bia-1481', stt:32, year:1481, canChi:'Tân Sửu' },
+    { id:'bia-1487', stt:17, year:1487, canChi:'Đinh Mùi',  dung:1487 },
+    { id:'bia-1496', stt:58, year:1496, canChi:'Bính Thìn' },
+    { id:'bia-1502', stt:36, year:1502, canChi:'Nhâm Tuất' },
+    { id:'bia-1511', stt:31, year:1511, canChi:'Tân Mùi' },
+    { id:'bia-1514', stt:35, year:1514, canChi:'Giáp Tuất', dung:1521 },
+    { id:'bia-1518', stt:59, year:1518, canChi:'Mậu Dần' },
+  ];
+  const N = EXAMS.length;
+
+  const $ = id => document.getElementById(id);
+  const band = $('band'), cellsEl = $('cells'), lane = $('lane'), dim = $('dim');
+  const lbA = $('lbA'), lbB = $('lbB'), pill = $('pill'), live = $('live');
+  const vlist = $('vlist');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+  const wide = matchMedia('(min-width: 1100px)');
+  const SVGNS = 'http://www.w3.org/2000/svg';
+
+  const state = { sel: 0, open: false, pin: null };
+  let geo = null;
+
+  const pairText = s => s.dung == null
+    ? `Khoa thi ${s.year}. Năm dựng bia: chờ dữ liệu.`
+    : s.dung === s.year
+      ? `Khoa thi ${s.year}. Dựng bia cùng năm ${s.dung}.`
+      : `Khoa thi ${s.year}. Dựng bia ${s.dung}, sau ${s.dung - s.year} năm.`;
+
+  /* ── Build: band slabs ────────────────────────────────────────── */
+  cellsEl.innerHTML = EXAMS.map((s, i) => {
+    const [can, chi] = s.canChi.split(' ');
+    return `<li class="cl"><button type="button" class="cell" data-i="${i}" tabindex="-1"
+      aria-label="Khoa ${s.canChi} ${s.year}, bia số ${s.stt}" aria-expanded="false">
+      <span class="c-y">${s.year}</span>
+      <span class="c-cc" aria-hidden="true"><span>${can}</span><span>${chi}</span></span>
+    </button></li>`;
+  }).join('');
+  const cellLis = [...cellsEl.children];
+  const cells = cellLis.map(li => li.firstElementChild);
+
+  /* ── Build: vertical rows ─────────────────────────────────────── */
+  const pairHTML = s => {
+    const ex = `<div class="pb"><span class="lb-y">${s.year}</span><span class="lb-c">Khoa thi</span></div>`;
+    if (s.dung == null) return `<div class="pair">${ex}
+      <div class="pl"><span class="pl-g">&nbsp;</span><span class="pl-line pend"></span></div>
+      <div class="pb er"><span class="lb-y pend">chờ dữ liệu</span><span class="lb-c">Dựng bia</span></div></div>`;
+    if (s.dung === s.year) return `<div class="pair same"><div class="pb"><span class="lb-y" style="color:var(--gold)">${s.year}</span><span class="lb-c">Khoa thi · Dựng bia</span></div>
+      <span class="pl-g">cùng năm</span></div>`;
+    return `<div class="pair">${ex}
+      <div class="pl"><span class="pl-g"><b>${s.dung - s.year}</b>năm</span><span class="pl-line"></span></div>
+      <div class="pb er"><span class="lb-y">${s.dung}</span><span class="lb-c">Dựng bia</span></div></div>`;
+  };
+  vlist.innerHTML = EXAMS.map((s, i) => {
+    const gap = i ? Math.round(Math.min(30, Math.max(8, (s.year - EXAMS[i - 1].year) * 1.6))) : 0;
+    return `<li class="vi" style="margin-top:${gap}px">
+      <button type="button" class="vrow" data-i="${i}" tabindex="-1" aria-expanded="false"
+        aria-controls="vp${i}" aria-label="Khoa ${s.canChi} ${s.year}, bia số ${s.stt}">
+        <span class="v-y">${s.year}</span><span class="v-cc">${s.canChi}</span>
+        <svg class="v-ch" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 7l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="vpair" id="vp${i}" role="region" aria-label="Năm thi và năm dựng bia, khoa ${s.year}" inert><div class="vpair-in">${pairHTML(s)}</div></div>
+    </li>`;
+  }).join('');
+  const vis = [...vlist.children];
+  const vrows = vis.map(li => li.querySelector('.vrow'));
+  const vpairs = vis.map(li => li.querySelector('.vpair'));
+
+  /* ── Geometry: piecewise time scale ────────────────────────────
+     Gaps between slabs = real years × k. A slab "freezes" time at its
+     exam year, so any year maps to one x: in a gap it is linear,
+     on a slab it is the slab centre.                                  */
+  function xAt(t) {
+    let px = 0, py = Y0;
+    for (const s of EXAMS) {
+      if (t < s.year) return px + (t - py) * geo.k;
+      if (t === s.year) return (s.x0 + s.x1) / 2;
+      px = s.x1; py = s.year;
+    }
+    return px + (t - py) * geo.k;
+  }
+
+  function layout() {
+    const Wt = band.clientWidth;
+    if (!Wt) return;
+    const T = Math.round(Math.min(180, Math.max(136, Wt * 0.105)));  // tail for next dynasties
+    const Wm = Wt - T;
+    const k = Math.min(3.2, Math.max(1.6, Wm / 600));
+    const w = (Wm - (Y1 - Y0) * k) / N;
+    geo = { Wt, Wm, T, k, w };
+    let x = 0, py = Y0;
+    EXAMS.forEach((s, i) => {
+      x += (s.year - py) * k;
+      s.x0 = x; s.x1 = x + w; x += w; py = s.year;
+      cellLis[i].style.left = s.x0 + 'px';
+      cellLis[i].style.width = w + 'px';
+    });
+    $('dyMain').style.left = '0px';
+    $('dyMain').style.width = Wm + 'px';
+    const tail = $('tail');
+    tail.style.left = Wm + 'px'; tail.style.width = T + 'px';
+    const lthX = (LTH - Y1) * k;
+    $('r1').style.left = lthX + 'px';
+    $('l1').style.left = (lthX + 2) + 'px';
+    const ghost = $('ghost');
+    ghost.style.left = ((NEXT_YEAR - Y1) * k) + 'px';
+    ghost.style.width = w + 'px';
+    $('seam').style.left = Wm + 'px';
+    $('ax').style.width = Wm + 'px';
+    $('b1').style.left = Wm + 'px';
+    $('hint').style.left = (Wm / 2) + 'px';
+    renderPair(false);
+  }
+
+  /* ── The expanded view: exam year → erection year ─────────────── */
+  function el(tag, attrs) {
+    const n = document.createElementNS(SVGNS, tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    return n;
+  }
+  function renderPair(animate) {
+    if (!geo || !wide.matches) return;
+    const s = EXAMS[state.sel];
+    const ex = (s.x0 + s.x1) / 2;
+    const Y = 30;                              // dimension line depth
+    const H = lane.offsetHeight + 40;
+    dim.setAttribute('width', geo.Wt);
+    dim.setAttribute('height', H);
+    dim.setAttribute('viewBox', `0 0 ${geo.Wt} ${H}`);
+    dim.replaceChildren();
+    const defs = el('defs', {});
+    const tEnd = s.dung == null ? ex + Math.min(150, geo.Wt - ex - 70) - 58 : ex + 1;
+    const grad = el('linearGradient', { id: 'trailFade', gradientUnits: 'userSpaceOnUse', x1: ex, x2: tEnd, y1: 0, y2: 0 });
+    grad.append(el('stop', { offset: '0', 'stop-color': '#d9b36c', 'stop-opacity': '.9' }),
+                el('stop', { offset: '1', 'stop-color': '#d9b36c', 'stop-opacity': '0' }));
+    defs.append(grad); dim.append(defs);
+
+    lbA.innerHTML = `<span class="lb-y">${s.year}</span><span class="lb-c">Khoa thi</span>`;
+    let erX, draw;
+
+    if (s.dung == null) {                                   // chờ dữ liệu
+      const L = Math.min(150, geo.Wt - ex - 70);
+      erX = ex + L;
+      lbB.innerHTML = `<span class="lb-y pend">chờ dữ liệu</span><span class="lb-c">Dựng bia</span>`;
+      pill.textContent = '';
+      draw = el('path', { class: 'stroke', d: `M${ex} 0V${Y}` });
+      dim.append(draw, el('path', { class: 'trail', d: `M${ex} ${Y}H${erX - 58}` }));
+      dim.append(el('circle', { class: 'dot', cx: ex, cy: 0, r: 4 }));
+    } else if (s.dung === s.year) {                        // same year
+      erX = ex;
+      lbA.innerHTML = `<span class="lb-y" style="color:var(--gold)">${s.year}</span><span class="lb-c">Khoa thi · Dựng bia</span>`;
+      lbB.innerHTML = '';
+      pill.innerHTML = 'cùng năm';
+      draw = el('path', { class: 'stroke', d: `M${ex} 0V${Y}` });
+      dim.append(draw, el('circle', { class: 'ring', cx: ex, cy: 0, r: 6 }), el('circle', { class: 'dot', cx: ex, cy: 0, r: 2.5 }));
+    } else {                                                // known, later year
+      erX = xAt(s.dung);
+      lbB.innerHTML = `<span class="lb-y">${s.dung}</span><span class="lb-c">Dựng bia</span>`;
+      pill.innerHTML = `<b>${s.dung - s.year}</b>năm`;
+      draw = el('path', { class: 'stroke', d: `M${ex} 0V${Y}H${erX}V0` });
+      const a = 6;
+      dim.append(draw,
+        el('path', { class: 'stroke', d: `M${erX - a - 1} ${Y - a}L${erX - 1} ${Y}L${erX - a - 1} ${Y + a}`, opacity: animate ? 0 : 1, id: 'arrowHead' }),
+        el('circle', { class: 'dot', cx: ex, cy: 0, r: 4 }),
+        el('circle', { class: 'ring', cx: erX, cy: 0, r: 6, id: 'ringEnd', opacity: animate ? 0 : 1 }));
+    }
+
+    // Place labels under their x; push apart if they would touch; keep inside the band.
+    lbB.hidden = false;
+    const wa = lbA.offsetWidth, wb = lbB.offsetWidth, gapMin = 22;
+    let la = ex - wa / 2, lb = erX - wb / 2;
+    if (wb && lb < la + wa + gapMin) { const d = la + wa + gapMin - lb; la -= d / 2; lb += d / 2; }
+    if (wb && lb + wb > geo.Wt) { const d = lb + wb - geo.Wt; lb -= d; la = Math.min(la, lb - gapMin - wa); }
+    if (la < 0) { la = 0; if (wb) lb = Math.max(lb, wa + gapMin); }
+    if (!wb && la + wa > geo.Wt) la = geo.Wt - wa;
+    lbA.style.left = la + 'px';
+    lbB.style.left = lb + 'px';
+    lbB.hidden = !wb;
+
+    // Measurement: centred on the dimension line, line broken around it.
+    if (pill.textContent) {
+      const mid = s.dung === s.year ? ex : (ex + erX) / 2;
+      pill.style.left = mid + 'px';
+      pill.style.top = Y + 'px';
+      pill.hidden = false;
+      if (s.dung !== s.year) {
+        const pw = pill.offsetWidth + 18;
+        const mask = el('rect', { x: mid - pw / 2, y: Y - 8, width: pw, height: 16, fill: '#0d0b09' });
+        dim.insertBefore(mask, dim.querySelector('.dot'));
+      } else {
+        pill.style.left = (ex + 14 + pill.offsetWidth / 2) + 'px';
+      }
+    } else pill.hidden = true;
+
+    // Calm draw: the gold path runs from the exam down, across the years, up to the erection year.
+    if (animate && !reduce.matches && draw.getTotalLength) {
+      const len = draw.getTotalLength();
+      draw.style.strokeDasharray = len;
+      draw.style.strokeDashoffset = len;
+      draw.getBoundingClientRect();
+      const dur = Math.min(900, 380 + len * 0.6);
+      draw.style.transition = `stroke-dashoffset ${dur}ms cubic-bezier(.45,.05,.25,1)`;
+      draw.style.strokeDashoffset = 0;
+      const late = [dim.querySelector('#ringEnd'), dim.querySelector('#arrowHead')].filter(Boolean);
+      late.forEach(n => { n.style.transition = `opacity .35s ease ${dur - 120}ms`; n.getBoundingClientRect(); n.setAttribute('opacity', 1); });
+      [lbA, lbB, pill].forEach(n => n.animate?.([{ opacity: 0, transform: n === pill ? 'translate(-50%,-50%)' : 'translateY(6px)' }, { opacity: 1, transform: n === pill ? 'translate(-50%,-50%)' : 'none' }], { duration: 420, delay: n === lbA ? 60 : Math.min(dur - 150, 520), easing: 'cubic-bezier(.22,.61,.36,1)', fill: 'backwards' }));
+    } else {
+      dim.querySelectorAll('[opacity]').forEach(n => n.setAttribute('opacity', 1));
+    }
+  }
+
+  /* ── State ────────────────────────────────────────────────────── */
+  function paint() {
+    const { sel, open } = state;
+    cells.forEach((b, i) => {
+      const on = i === sel;
+      b.tabIndex = on ? 0 : -1;
+      on ? b.setAttribute('aria-current', 'true') : b.removeAttribute('aria-current');
+      b.setAttribute('aria-expanded', on && open ? 'true' : 'false');
+    });
+    vrows.forEach((b, i) => {
+      const on = i === sel;
+      b.tabIndex = on ? 0 : -1;
+      on ? b.setAttribute('aria-current', 'true') : b.removeAttribute('aria-current');
+      b.setAttribute('aria-expanded', on && open ? 'true' : 'false');
+      vis[i].classList.toggle('open', on && open);
+      vpairs[i].inert = !(on && open);
+    });
+    band.classList.toggle('is-open', open);
+  }
+  function select(i) {
+    i = Math.max(0, Math.min(N - 1, i));
+    if (i === state.sel) return;
+    state.sel = i;
+    paint();
+    if (state.open) { renderPair(true); announce(); }
+    else renderPair(false);
+  }
+  function setOpen(v, pinAt) {
+    const was = state.open;
+    state.open = v;
+    state.pin = v ? (pinAt === undefined ? state.pin : pinAt) : null;
+    paint();
+    if (v && !was) { renderPair(true); announce(); }
+    if (v && !wide.matches) {
+      const li = vis[state.sel];
+      setTimeout(() => li.scrollIntoView({ block: 'nearest', behavior: reduce.matches ? 'auto' : 'smooth' }), 120);
+    }
+  }
+  function announce() { live.textContent = pairText(EXAMS[state.sel]); }
+
+  /* ── Input: pointer, touch, keyboard (both layouts) ───────────── */
+  let tHover = 0, tLeave = 0;
+  cellsEl.addEventListener('pointerover', e => {
+    if (e.pointerType !== 'mouse') return;
+    const b = e.target.closest('.cell'); if (!b) return;
+    clearTimeout(tLeave); clearTimeout(tHover);
+    const i = +b.dataset.i;
+    tHover = setTimeout(() => { select(i); if (!state.open) setOpen(true); }, state.open ? 90 : 160);
+  });
+  cellsEl.addEventListener('pointerout', e => {
+    if (!e.relatedTarget || !cellsEl.contains(e.relatedTarget)) clearTimeout(tHover);
+  });
+  band.addEventListener('pointerenter', () => clearTimeout(tLeave));
+  band.addEventListener('pointerleave', e => {
+    if (e.pointerType !== 'mouse') return;
+    clearTimeout(tHover);
+    tLeave = setTimeout(() => { if (state.pin === null) setOpen(false); }, 450);
+  });
+
+  function onActivate(e, sel) {
+    const b = e.target.closest(sel); if (!b) return;
+    const i = +b.dataset.i;
+    clearTimeout(tHover);
+    if (e.detail === 0) {                       // Enter / Space
+      if (i !== state.sel) select(i);
+      state.open ? setOpen(false) : setOpen(true, i);
+      return;
+    }
+    if (state.open && state.pin === i) setOpen(false);
+    else { select(i); setOpen(true, i); }
+  }
+  cellsEl.addEventListener('click', e => onActivate(e, '.cell'));
+  vlist.addEventListener('click', e => onActivate(e, '.vrow'));
+
+  function onKey(e, list) {
+    const k = e.key;
+    let i = null;
+    if (k === 'ArrowRight' || k === 'ArrowDown') i = state.sel + 1;
+    else if (k === 'ArrowLeft' || k === 'ArrowUp') i = state.sel - 1;
+    else if (k === 'Home') i = 0;
+    else if (k === 'End') i = N - 1;
+    else if (k === 'Escape') { if (state.open) { setOpen(false); e.preventDefault(); } return; }
+    if (i === null) return;
+    e.preventDefault();
+    select(i);
+    list[state.sel].focus();
+  }
+  cellsEl.addEventListener('keydown', e => onKey(e, cells));
+  vlist.addEventListener('keydown', e => onKey(e, vrows));
+  const onFocus = e => { const b = e.target.closest('[data-i]'); if (b) select(+b.dataset.i); };
+  cellsEl.addEventListener('focusin', onFocus);
+  vlist.addEventListener('focusin', onFocus);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && state.open) setOpen(false); });
+
+  /* ── Boot ─────────────────────────────────────────────────────── */
+  paint();
+  layout();
+  const vrail = $('vrail');
+  const sizeRail = () => { if (!wide.matches) vrail.style.height = (vlist.offsetTop + vlist.offsetHeight - 14) + 'px'; };
+  sizeRail();
+  let lastW = 0;   // relayout on width only: height changes while the lane opens must not restart the drawing
+  new ResizeObserver(entries => {
+    const w = entries[0].contentRect.width;
+    if (w !== lastW) { lastW = w; layout(); }
+    sizeRail();
+  }).observe(document.querySelector('.tl'));
+  wide.addEventListener('change', () => { layout(); sizeRail(); });
+  document.fonts?.ready.then(() => { layout(); sizeRail(); });
+})();
+</script>

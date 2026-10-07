@@ -1,0 +1,29 @@
+body[data-view="landing"] { background: #14120f; color: #f3ede2; }
+.landing { min-height: 100%; overflow: auto; padding: clamp(24px, 6vh, 72px) clamp(16px, 5vw, 80px); display: flex; flex-direction: column; gap: clamp(24px, 5vh, 56px); }
+.landing__kicker { font-size: 12px; letter-spacing: .22em; text-transform: uppercase; opacity: .6; }
+.landing__title { font-family: 'Playfair Display', Georgia, serif; font-weight: 600; font-size: clamp(40px, 7vw, 88px); line-height: 1.02; margin-top: 8px; }
+.landing__title em { font-style: italic; font-weight: 400; opacity: .75; }
+.landing__sub { max-width: 60ch; margin-top: 14px; font-size: clamp(14px, 1.4vw, 17px); line-height: 1.55; opacity: .78; }
+.landing__modes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.mode { position: relative; display: grid; grid-template-rows: auto auto 1fr auto; gap: 8px; min-height: 300px; padding: 22px; border-radius: 18px; overflow: hidden; isolation: isolate; transition: transform .35s cubic-bezier(.2,.8,.2,1), box-shadow .35s; }
+.mode:hover { transform: translateY(-4px); box-shadow: 0 24px 60px rgba(0,0,0,.45); }
+.mode__num { font-size: 12px; letter-spacing: .2em; opacity: .6; }
+.mode__name { font-size: clamp(28px, 3vw, 40px); line-height: 1.05; }
+.mode__tag { font-size: 14px; line-height: 1.5; max-width: 32ch; opacity: .85; }
+.mode__hint { font-size: 12px; opacity: .6; align-self: end; }
+.mode__img { position: absolute; right: -10%; bottom: -12%; width: 62%; opacity: .55; z-index: -1; pointer-events: none; transition: opacity .35s, transform .5s; mix-blend-mode: luminosity; }
+.mode:hover .mode__img { opacity: .85; transform: scale(1.04); }
+/* 01 Trưng bày: sáng, giấy, serif */
+.mode--gallery { background: #f4efe6; color: #24211c; font-family: 'Playfair Display', Georgia, serif; }
+.mode--gallery .mode__tag, .mode--gallery .mode__hint { font-family: 'Be Vietnam Pro', sans-serif; }
+.mode--gallery .mode__img { mix-blend-mode: multiply; }
+/* 02 Điện ảnh: đen, viền glass, chữ mảnh */
+.mode--cinema { background: radial-gradient(120% 100% at 30% 0%, #23242b, #08080a 70%); color: #f2f2f2; border: 1px solid rgba(255,255,255,.08); }
+.mode--cinema .mode__name { font-family: 'Playfair Display', serif; font-weight: 400; font-style: italic; }
+.mode--cinema .mode__img { mix-blend-mode: screen; opacity: .35; }
+/* 03 Nghiên cứu: xám kỹ thuật, mono, viền 1px, góc vuông */
+.mode--lab { background: #e9ebe7; color: #16181a; border-radius: 4px; border: 1px solid #16181a; font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace; box-shadow: 4px 4px 0 #16181a; }
+.mode--lab:hover { box-shadow: 8px 8px 0 #ff5a1f; }
+.mode--lab .mode__name { font-weight: 600; text-transform: uppercase; letter-spacing: .02em; font-size: clamp(24px, 2.6vw, 32px); }
+.mode--lab .mode__img { mix-blend-mode: multiply; filter: grayscale(1) contrast(1.1); }
+.landing__foot { font-size: 12px; opacity: .5; line-height: 1.5; }

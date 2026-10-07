@@ -1,0 +1,33 @@
+{
+  "name": "vanmieu-bia-3d",
+  "version": "0.5.25",
+  "private": true,
+  "type": "module",
+  "description": "Web app xem mô hình 3D bia tiến sĩ (rùa đá) Văn Miếu – Quốc Tử Giám, 3 chế độ xem",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "postinstall": "node tools/copy-basis.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare-models": "node tools/prepare-models.mjs",
+    "test:cinema": "node tests/cinema/run.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "three-mesh-bvh": "^0.9.15"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4",
+    "@gltf-transform/core": "^4",
+    "@gltf-transform/extensions": "^4",
+    "@gltf-transform/functions": "^4",
+    "meshoptimizer": "^0.22",
+    "mikktspace": "^1.1.1",
+    "playwright-core": "^1.63.0",
+    "sharp": "^0.33",
+    "vite": "^7"
+  }
+}

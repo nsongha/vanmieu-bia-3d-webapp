@@ -1,0 +1,567 @@
+/* cinema.css › arrows — Mũi tên hai bên (r20 → r29): ba kiểu Chỉ vàng · Kính khắc · Ấn triện, màn hẹp, giảm chuyển động.
+   (C: tách nguyên văn từ cinema.css — thứ tự @import trong cinema.css giữ nguyên cascade.) */
+/* ---------- Mũi tên hai bên (r20) — 3 kiểu: host[data-nav] = gold · glass · seal (settings.cinemaArrows) ----------
+   MỘT hệ cho mọi cách điều khiển: chuột (rê / bấm), bàn phím (Tab → :focus-visible, ←/→ → loé), cảm ứng, con trỏ tay
+   (data-magnet; --hand 0..1 = tay tiến lại); data-fired = vừa nhận. (r62: bỏ dạng "chế độ hai ngón" .cin-nav[data-handnav="1"]
+   — Điện ảnh không còn nhắm rồi vẩy; data-handnav luôn "0", chỉ còn làm móc độ ưu tiên; --p luôn 0.)
+   Mỗi nút mang năm (Bodoni) + can chi (Playfair, chữ hoa nhỏ) của bia kế bên. Lúc nghỉ lặng lẽ, không tranh với bia;
+   mọi chuyển động chậm, một nhịp (không nháy — WCAG 2.3.1). --nv-zone: bề rộng dải mép kiểu hiện thông tin chừa ra. */
+.cinema {
+  --nv-gold: 217, 179, 108;
+  --nv-cin: 132, 50, 38; /* son trầm (chu sa pha đất) — không đỏ gắt, đứng cạnh vàng + đá */
+  --nv-paper: 234, 220, 195;
+  --nv-ease: cubic-bezier(.2, .7, .2, 1);
+  /* vân giấy dó / đá: nhiễu SVG nội tuyến (không tải ảnh) — hạt sáng + hạt tối rất nhẹ, loang sáng góc trên */
+  --nv-grain:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .93 0 0 0 0 .86 0 0 0 .34 -.13'/%3E%3C/filter%3E%3Crect width='96' height='96' filter='url(%23n)'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Cfilter id='m'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.55' numOctaves='3' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .5 -.2'/%3E%3C/filter%3E%3Crect width='80' height='80' filter='url(%23m)'/%3E%3C/svg%3E"),
+    radial-gradient(120% 90% at 30% 18%, rgba(255, 236, 214, .08), transparent 60%),
+    linear-gradient(160deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .2));
+}
+.cinema .cin-nav { position: absolute; inset: 0; z-index: 5; pointer-events: none; transition: opacity .45s ease, visibility 0s; }
+.cinema[data-hud="off"] .cin-nav:not([data-handnav="1"]) { opacity: 0; visibility: hidden; transition: opacity .6s ease, visibility 0s linear .6s; }
+.cinema[data-panel="on"] .cin-nav { visibility: hidden; }
+.cinema .cin-nv {
+  --hover: 0;
+  --hand: 0;
+  --p: 0;
+  --near: max(var(--hand), var(--hover));
+  --o: -1; /* chiều "ra ngoài": trái = −1, phải = +1 */
+  position: absolute;
+  top: 50%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  color: var(--fg);
+  font: inherit;
+  cursor: pointer;
+  pointer-events: auto;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity .3s ease, scale .35s var(--nv-ease);
+  transform-origin: 0% 50%;
+}
+.cinema .cin-nv--next { --o: 1; transform-origin: 100% 50%; }
+/* r24 — chế độ dính của tay (hand:sticky 'nav-prev' / 'nav-next'): tay lại gần mép → mũi tên phóng 1,3× VÀO TRONG (gốc
+   phóng ở phía mép màn hình), sáng hẳn như đang rê, năm rõ hơn, hiện "nhón để chuyển"; nhón = bấm. */
+.cinema .cin-nv.is-sticky { --hover: 1; scale: 1.3; z-index: 7; }
+/* (r27: bỏ quầng vàng sau mũi tên lúc dính ở mọi kiểu — khối xám bo góc của lớp cử chỉ (.hi-morph, r27g) là nền dính duy nhất) */
+.cinema .cin-nv__hint { display: block; margin-top: 10px; font-family: var(--display-vi); font-style: italic; font-size: 10px; letter-spacing: .04em; white-space: nowrap; color: rgba(var(--nv-gold), .8); max-height: 0; opacity: 0; overflow: hidden; transition: opacity .3s ease, max-height .3s ease; }
+.cinema .cin-nv.is-sticky .cin-nv__hint { max-height: 16px; opacity: 1; }
+.cinema[data-nav="glass"] .cin-nv.is-sticky .cin-nv__ghost { opacity: .6; }
+.cinema[data-nav="glass"] .cin-nv__hint, .cinema[data-nav="seal"] .cin-nv__hint { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); margin-top: 8px; }
+/* r22: tay đang nắm quyền (data-input="hand", input-mode.js) → chuột đứng yên dưới con trỏ ẩn không còn "rê" được gì */
+/* r29: đang kéo camera (host[data-drag="1"] — nhấn giữ chuột / nhón–kéo của tay bắt đầu trên sân khấu) → con trỏ đi ngang
+   mũi tên không làm nó vào dáng "đang rê" */
+@media (hover: hover) { .cinema:not([data-input="hand"]):not([data-drag="1"]) .cin-nv:hover { --hover: 1; } }
+.cinema .cin-nv:focus-visible { --hover: 1; }
+.cinema .cin-nv:disabled { opacity: .22; cursor: default; }
+/* r26: đang lướt sang bia khác → khoá đổi bia (index.js navLocked): mũi tên lặng đi một chút, không "vô hiệu" ồn ào. Mờ
+   trễ 0,2 s để nhịp loé "đã nhận" (data-fired) kịp đọc; mở khoá là sáng lại ngay. */
+.cinema[data-navlock="1"] .cin-nv:not(:disabled) { opacity: .45; transition-delay: .2s; }
+.cinema .cin-nv[data-dim="1"] { opacity: .26; transition-duration: .18s; }
+.cinema .cin-nv__frame, .cinema .cin-nv__label { position: absolute; display: block; }
+.cinema .cin-nv__ghost, .cinema .cin-nv__fill, .cinema .cin-nv__sheen, .cinema .cin-nv__digits { display: none; }
+.cinema .cin-nv__mark { position: absolute; display: block; line-height: 0; }
+.cinema .cin-nv__chev { display: block; width: 100%; height: 100%; overflow: visible; }
+.cinema .cin-nv__chev path { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; }
+.cinema .cin-nv__year { display: block; font-family: var(--display); font-variant-numeric: lining-nums; line-height: 1; }
+.cinema .cin-nv__cc { display: block; font-family: var(--display-vi); text-transform: uppercase; line-height: 1.2; white-space: nowrap; }
+
+/* ===== A · Chỉ vàng — không khung: một sợi chỉ sáng vàng, dấu chevron mảnh nằm trong khe giữa sợi chỉ, năm bia kế
+   bên đứng cạnh. Rê: chỉ dài + sáng lên, chevron trôi ra ngoài vài px. Hai ngón: chỉ dài 50 % khung, ánh sáng dâng
+   từ giữa ra hai đầu theo tiến độ. */
+.cinema[data-nav="gold"] {
+  --nv-zone: 150px;
+  /* r26b — tinh chỉnh nhanh: */
+  --nv-tilt: 7deg; /* góc nghiêng mỗi đoạn chỉ quanh viên thoi khi thành mũi tên (rê / dính / loé) — nghỉ: thẳng đứng */
+  /* một đường cong cho cả phóng + dịch vào + gập chỉ: vào ease-out mượt, ra đầu nhanh đuôi dài êm */
+  --nv-in: .45s var(--nv-ease);
+  --nv-out: .65s cubic-bezier(.25, .8, .35, 1);
+  --nv-pull: 18px; /* rê / tay tới gần → mũi tên dịch VÀO TRONG ngần này, như bị hút về phía con trỏ */
+  --nv-grow: .1; /* rê → phóng thêm 10 % quanh viên thoi (tay dính: 1,3×) */
+  --nv-chev: 0; /* 0 = bỏ chevron nhỏ cạnh viên thoi (hai đoạn chỉ đã là mũi tên) · 1 = giữ (khi đó --nv-gap: 22px) */
+  --nv-gap: 13px; /* khe mỗi cánh để trống quanh viên thoi (13px: đỉnh mũi tên rõ · 22px: đủ chỗ cho chevron) */
+  --nv-gx: 22px; /* tâm viên thoi tính từ mép NGOÀI của nút (khung 9 px + dấu 7 px + 6 px) */
+  /* r27 — nhịp "nhấn" khi kích hoạt (xem .cin-nv[data-fired]): quãng nhích về hướng đi · thời gian ấn · thời gian trả về */
+  --nv-press: 9px;
+  --nv-press-in: 140ms;
+  --nv-press-out: 340ms;
+  /* r29 — tay DÍNH vào mũi tên: cả mũi tên đi VÀO gần giữa màn hình tới khi tâm viên thoi cách mép của nó ngần này (mỗi
+     bên chỉnh riêng — bên trái vào sâu hơn: sát mép trái nhón hay hụt), mũi tên tới với tay chứ không bắt tay tìm ra sát
+     mép; ra khỏi vùng dính thì về lại mép. Cùng họ đường cong r26b, dài hơn cho quãng đi xa. Rê chuột vẫn chỉ --nv-pull. */
+  --nv-hand-x-prev: 12vw;
+  --nv-hand-x-next: 11vw;
+  --nv-hand-in: .6s var(--nv-ease);
+  --nv-hand-out: .8s cubic-bezier(.25, .8, .35, 1);
+  --nv-rest-x: calc(max(4px, var(--gut) - 22px) + var(--nv-gx)); /* tâm viên thoi lúc nghỉ, tính từ mép (như left / right) */
+}
+.cinema[data-nav="gold"] .cin-nv {
+  width: 132px;
+  height: max(250px, 38vh);
+  /* r26b: căn giữa dọc bằng `translate` (áp TRƯỚC scale) + gốc phóng = tâm viên thoi → mọi lần phóng (rê, tay dính 1,3×)
+     viên thoi đứng yên. (Trước: transform translateY(-50%) áp SAU scale → dính 1,3× kéo cả mũi tên lên ~60 px.) */
+  transform: none;
+  /* mức "thành mũi tên" 0..1: rê / tay tiến lại (--near) · tiến độ hai ngón phía này (--p) · vừa loé "đã nhận" (--fire) */
+  --fire: 0;
+  --bend: max(var(--near), var(--p), var(--fire));
+  --pull: calc(var(--nv-pull) * var(--near)); /* quãng dịch vào (px) — rê / tay tiến lại; dính: tới --nv-hand-x (r29) */
+  translate: calc(var(--o) * -1 * var(--pull)) -50%;
+  --s: calc(1 + var(--nv-grow) * var(--near)); /* mức phóng hiện tại (dính: 1,3) — nhịp "nhấn" chia cho nó */
+  scale: var(--s);
+  transform-origin: var(--nv-gx) 50%;
+  /* ra (và lúc tay tiến lại dần — --hand đổi liên tục, mỗi lần đổi là một lượt chuyển tiếp mới): đầu nhanh, đuôi dài êm —
+     đường cong chậm-đầu (ease-in-out) sẽ luôn tụt lại sau tay */
+  transition: opacity .3s ease, scale var(--nv-out), translate var(--nv-out);
+}
+.cinema[data-nav="gold"] .cin-nv[data-fired="1"] { --fire: 1; }
+.cinema[data-nav="gold"] .cin-nv--prev { --nv-hand-x: var(--nv-hand-x-prev); }
+.cinema[data-nav="gold"] .cin-nv--next { --nv-hand-x: var(--nv-hand-x-next); transform-origin: calc(100% - var(--nv-gx)) 50%; }
+/* r29: tay nắm quyền → ra khỏi vùng dính là quãng về xa (từ --nv-hand-x về mép) → chậm hơn --nv-out */
+.cinema[data-nav="gold"][data-input="hand"] .cin-nv { transition: opacity .3s ease, scale var(--nv-out), translate var(--nv-hand-out); }
+/* vào: ease-out mượt — rê chuột, tiêu điểm bàn phím, tay dính (1,3× nối tiếp từ mức rê, không giật) */
+@media (hover: hover) {
+  .cinema[data-nav="gold"]:not([data-input="hand"]) .cin-nv:hover { transition: opacity .3s ease, scale var(--nv-in), translate var(--nv-in); }
+  .cinema[data-nav="gold"]:not([data-input="hand"]) .cin-nv:hover .cin-nv__arm { transition: height var(--nv-in), rotate var(--nv-in); }
+}
+.cinema[data-nav="gold"] .cin-nv:focus-visible { transition: opacity .3s ease, scale var(--nv-in), translate var(--nv-in); }
+.cinema[data-nav="gold"] .cin-nv.is-sticky { transition: opacity .3s ease, scale var(--nv-in), translate var(--nv-hand-in); }
+.cinema[data-nav="gold"] .cin-nv:focus-visible .cin-nv__arm,
+.cinema[data-nav="gold"] .cin-nv.is-sticky .cin-nv__arm,
+.cinema[data-nav="gold"] .cin-nv[data-fired="1"] .cin-nv__arm { transition: height var(--nv-in), rotate var(--nv-in); }
+.cinema[data-nav="gold"] .cin-nv.is-sticky {
+  --s: 1.3;
+  --pull: max(var(--nv-pull), calc(var(--nv-hand-x) - var(--nv-rest-x))); /* r29: tâm viên thoi tới --nv-hand-x */
+}
+/* r26b: không quầng ấm sau mũi tên (cả lúc dính); ::before thành dải bấm vô hình ở phía mép ngoài, đúng bằng quãng mũi tên
+   dịch vào — con trỏ đứng sát mép màn hình không rơi ra ngoài nút khi nó bị "hút" vào (không nhấp nháy rê / thôi rê). */
+.cinema[data-nav="gold"] .cin-nv::before,
+.cinema[data-nav="gold"] .cin-nv.is-sticky::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 calc(-1 * var(--nv-pull) - 6px);
+  width: calc(var(--nv-pull) + 6px);
+  border-radius: 0;
+  background: none;
+}
+.cinema[data-nav="gold"] .cin-nv--next::before,
+.cinema[data-nav="gold"] .cin-nv--next.is-sticky::before { inset: 0 calc(-1 * var(--nv-pull) - 6px) 0 auto; }
+.cinema[data-nav="gold"] .cin-nv__hint { display: none; } /* r26b: bỏ chữ "nhón để chuyển" */
+.cinema[data-nav="gold"] .cin-nv--prev { left: calc(env(safe-area-inset-left, 0px) + max(4px, var(--gut) - 22px)); }
+.cinema[data-nav="gold"] .cin-nv--next { right: calc(env(safe-area-inset-right, 0px) + max(4px, var(--gut) - 22px)); }
+.cinema[data-nav="gold"] .cin-nv__frame { top: 0; bottom: 0; width: 26px; left: 9px; }
+.cinema[data-nav="gold"] .cin-nv--next .cin-nv__frame { left: auto; right: 9px; }
+/* r26b — sợi chỉ thành MŨI TÊN khi rê (người dùng: "chỉ hover thì 2 vạch dài mới thành mũi tên"): hai đoạn (trên / dưới
+   viên thoi); nghỉ: thẳng đứng như cũ. Rê chuột / tay tiến lại / tay dính / vừa loé "đã nhận" / tiến độ hai ngón (--bend):
+   mỗi đoạn quay quanh TÂM VIÊN THOI tới --nv-tilt, đầu xa nghiêng vào phía giữa màn hình → một chevron rất mở, đỉnh ở viên
+   thoi, chỉ ra ngoài (phải = tới ">", trái = lùi "<") — cùng nhịp, cùng đường cong với phóng + dịch vào.
+   Mỗi đoạn là một cánh .cin-nv__arm dựng từ tâm viên thoi lên trên (gốc quay = giữa đáy cánh); cánh dưới = cánh trên quay
+   thêm 180° → mặt nạ, vệt sáng chạy khi rê (::after), vệt loé "đã nhận" (<i>) và vệt tiến độ hai ngón (<b>) viết MỘT lần
+   cho cả hai cánh, toạ độ cục bộ "từ viên thoi ra đầu xa = lên trên". Dài = nửa sợi chỉ cũ (21vh + 10vh·gần → mỗi cánh
+   10,5vh + 5vh·gần). Lõi 1 px; mặt nạ: khe --nv-gap quanh viên thoi, 44 % cuối tan dần. */
+.cinema .cin-nv__arm { display: none; }
+.cinema[data-nav="gold"] .cin-nv__arm {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  width: 26px;
+  height: calc(10.5vh + 5vh * var(--near));
+  transform-origin: 13px 100%;
+  rotate: calc(var(--o) * -1 * var(--nv-tilt) * var(--bend));
+  transition: height var(--nv-out), rotate var(--nv-out);
+  pointer-events: none;
+}
+.cinema[data-nav="gold"] .cin-nv__arm--dn { rotate: calc(180deg + var(--o) * var(--nv-tilt) * var(--bend)); }
+.cinema[data-nav="gold"] .cin-nv__arm::before,
+.cinema[data-nav="gold"] .cin-nv__arm > i,
+.cinema[data-nav="gold"] .cin-nv__arm > b {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  -webkit-mask-image: linear-gradient(to top, transparent var(--nv-gap), #000 calc(var(--nv-gap) + 2px), #000 56%, transparent);
+  mask-image: linear-gradient(to top, transparent var(--nv-gap), #000 calc(var(--nv-gap) + 2px), #000 56%, transparent);
+}
+.cinema[data-nav="gold"] .cin-nv__arm::before {
+  /* r27: lõi có mép mềm (không điểm dừng cứng) — cánh nghiêng ở màn DPR 1 không bị răng cưa bậc thang */
+  background: linear-gradient(to right, transparent 12px, rgb(var(--nv-gold)) 12.8px 13.2px, transparent 14px);
+  opacity: calc(.36 + .54 * var(--near));
+  transition: opacity .45s ease;
+}
+.cinema[data-nav="gold"] .cin-nv.is-sticky .cin-nv__arm::before { opacity: 1; }
+.cinema[data-nav="gold"] .cin-nv__arm > i {
+  background: linear-gradient(to right, transparent 3px, rgba(var(--nv-gold), .28) 13px, transparent 23px), linear-gradient(to right, transparent 11.4px, rgb(255, 236, 196) 12.3px 13.7px, transparent 14.6px);
+  opacity: 0;
+}
+.cinema[data-nav="gold"] .cin-nv__mark {
+  left: 7px;
+  top: calc(50% - 11px);
+  width: 12px;
+  height: 22px;
+  color: rgb(var(--nv-gold));
+  opacity: calc(.55 + .45 * var(--near));
+  transition: transform .5s var(--nv-ease), opacity .45s ease;
+}
+.cinema[data-nav="gold"] .cin-nv__chev path { stroke-width: 1.15; }
+.cinema[data-nav="gold"] .cin-nv__label {
+  top: 50%;
+  left: 46px;
+  transform: translateY(-50%);
+  text-align: left;
+}
+.cinema[data-nav="gold"] .cin-nv--next .cin-nv__label { left: auto; right: 46px; text-align: right; }
+.cinema[data-nav="gold"] .cin-nv__year {
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: .03em;
+  color: rgba(var(--nv-gold), calc(.5 + .5 * var(--near)));
+  transition: color .45s ease;
+}
+.cinema[data-nav="gold"] .cin-nv__cc {
+  margin-top: 7px;
+  font-size: 9.5px;
+  letter-spacing: .24em;
+  color: rgba(236, 236, 236, calc(.3 + .38 * var(--near)));
+  transition: color .45s ease;
+}
+/* r27: tiêu điểm bàn phím (Tab) — KHÔNG khung chữ nhật quanh số năm nữa: viên thoi sáng, lớn lên + một vòng thoi mảnh quanh
+   nó (cùng ngôn ngữ Chỉ vàng), kèm dáng "đang rê" (mũi tên, phóng, hút vào) như rê chuột. Bấm chuột không lấy tiêu điểm
+   (hud.js), nên vòng này chỉ hiện với bàn phím. */
+.cinema[data-nav="gold"] .cin-nv:focus-visible .cin-nv__gem {
+  scale: 1.35;
+  box-shadow: 0 0 0 2px rgba(8, 8, 10, .92), 0 0 0 3px rgba(var(--nv-gold), .9), 0 0 12px rgba(var(--nv-gold), .55);
+}
+/* loé "đã nhận": vệt sáng chạy dọc hai cánh, năm ấm lên, viên thoi nảy tại chỗ (không trôi khỏi đỉnh mũi tên); r27: cả
+   mũi tên "nhấn" về hướng đi (nv-press-*, dưới) thay cho cú đẩy riêng chevron */
+.cinema[data-nav="gold"] .cin-nv[data-fired="1"] .cin-nv__arm > i { animation: nv-gold-glow .95s var(--nv-ease); }
+.cinema[data-nav="gold"] .cin-nv[data-fired="1"] .cin-nv__gem { animation: nv-gem-pulse .7s var(--nv-ease); }
+.cinema[data-nav="gold"] .cin-nv[data-fired="1"] .cin-nv__year { animation: nv-gold-year .95s ease; }
+@keyframes nv-gold-glow { 0% { opacity: 0; } 16% { opacity: 1; } 100% { opacity: 0; } }
+@keyframes nv-gold-year { 16% { color: rgb(255, 232, 188); } }
+@keyframes nv-gem-pulse { 0%, 100% { scale: 1; } 30% { scale: 1.6; } }
+/* r27 — "nhấn": kích hoạt (bấm chuột, ← / →, nhón chọn lúc dính, cú vẩy hai ngón được nhận — mọi đường gọi hud.navFired;
+   cú bị khoá đổi bia bỏ thì không gọi → không nhích) → cả mũi tên nhích --nv-press về hướng nó dẫn tới (tới → phải, lùi →
+   trái) như bị ấn về phía đó: ấn nhanh ease-out, trả về chậm hơn ease-in-out.
+   · Nhích bằng `transform` — thuộc tính riêng, chồng lên `translate` / `scale` đang có → tính TỪ vị trí hiện tại (đang rê:
+     từ chỗ đã hút vào), không kéo về nghỉ trước; chia cho mức phóng hiện tại (--s) để đúng --nv-press px trên màn hình.
+   · Hai hoạt ảnh CSS nối nhau (ấn, rồi trả về sau --nv-press-in), không hẹn giờ JS → không thể kẹt giữa chừng; hết là về
+     đúng trạng thái đang có (rê / nghỉ). Bấm lại = data-fired đặt lại → chạy lại từ đầu, không cộng dồn. */
+@keyframes nv-press-go { from { transform: none; } to { transform: translateX(calc(var(--o) * var(--nv-press) / var(--s))); } }
+@keyframes nv-press-back { from { transform: translateX(calc(var(--o) * var(--nv-press) / var(--s))); } to { transform: none; } }
+.cinema[data-nav="gold"] .cin-nv[data-fired="1"] {
+  animation:
+    nv-press-back var(--nv-press-out) cubic-bezier(.45, 0, .55, 1) var(--nv-press-in) backwards,
+    nv-press-go var(--nv-press-in) cubic-bezier(.2, .7, .3, 1);
+}
+/* r22 — Chỉ vàng tinh chỉnh (người dùng: "vẫn đơn điệu"): cùng ngôn ngữ — không khung, một sợi chỉ vàng. Chevron mảnh
+   hơn, đỉnh gắn một viên thoi vàng (chỗ sợi chỉ ngắt). Rê (hay tay tiến sát, data-near): vệt sáng chạy dọc sợi chỉ từ khe
+   ra hai đầu MỘT lần. Nghỉ: lặng như cũ.
+   r26 (người dùng): bỏ chữ dẫn "BIA TRƯỚC / BIA SAU", vạch ngang giữa năm và can chi, bóng ảnh bia kế bên — chỉ còn năm
+   + can chi. Năm Bodoni nét tóc quá mảnh, khó đọc → vẫn Bodoni Moda (khớp năm trên bục / dòng thời gian) nhưng dày hơn
+   (wght 600) và lấy cỡ quang học của chữ NHỎ (opsz 11 — nét tóc dày, tương phản nét thấp hơn hẳn bản tự động opsz ≈ 31),
+   lúc nghỉ sáng hơn (.7 thay .5); can chi cách năm một chút (thay chỗ vạch) và rõ hơn một bậc. */
+.cinema .cin-nv__glint, .cinema .cin-nv__gem { display: none; }
+.cinema[data-nav="gold"] .cin-nv__year {
+  font-size: 31px;
+  font-weight: 600;
+  font-variation-settings: 'wght' 600, 'opsz' 11;
+  letter-spacing: .015em;
+  color: rgba(var(--nv-gold), calc(.7 + .3 * var(--near)));
+}
+.cinema[data-nav="gold"] .cin-nv__cc { margin-top: 8px; font-size: 9px; letter-spacing: .32em; color: rgba(236, 236, 236, calc(.4 + .34 * var(--near))); }
+/* khe sợi chỉ: viên thoi vàng nằm ĐÚNG trên trục sợi chỉ; chevron mảnh, nhỏ lại, đứng ngay bên ngoài viên thoi (rê: chỉ
+   chevron trôi ra thêm vài px, viên thoi đứng yên trên chỉ) */
+.cinema[data-nav="gold"] .cin-nv__mark { transform: none; }
+.cinema[data-nav="gold"] .cin-nv__chev { transform: translateX(calc(var(--o) * (7px + 3px * var(--near)))) scale(.72); opacity: var(--nv-chev); transition: transform .5s var(--nv-ease); }
+.cinema[data-nav="gold"] .cin-nv__chev path { stroke-width: 1.25; }
+.cinema[data-nav="gold"] .cin-nv__gem {
+  display: block;
+  position: absolute;
+  top: 8.5px; /* tâm (6 ; 11) trong khung dấu 12 × 22 = trục sợi chỉ */
+  left: 3.5px;
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg);
+  background: rgb(var(--nv-gold));
+  box-shadow: 0 0 calc(3px + 6px * var(--near)) rgba(var(--nv-gold), calc(.25 + .45 * var(--near)));
+  transition: box-shadow .45s ease;
+}
+
+/* vệt sáng chạy MỘT lần từ viên thoi ra đầu xa của mỗi cánh khi rê / tay tiến sát (cùng nhịp r22, nay men theo cánh nghiêng) */
+.cinema[data-nav="gold"] .cin-nv__arm::after {
+  content: '';
+  position: absolute;
+  left: 12px;
+  bottom: -26px;
+  width: 2px;
+  height: 52px;
+  background: linear-gradient(to bottom, transparent, rgba(255, 240, 210, .95), transparent);
+  opacity: 0;
+}
+.cinema[data-nav="gold"]:not([data-input="hand"]):not([data-drag="1"]) .cin-nv:hover .cin-nv__arm::after,
+.cinema[data-nav="gold"] .cin-nv:focus-visible .cin-nv__arm::after,
+.cinema[data-nav="gold"] .cin-nv[data-near="1"] .cin-nv__arm::after { animation: nv-glint-up 1.3s var(--nv-ease) .06s 1 both; }
+@keyframes nv-glint-up { 0% { opacity: 0; transform: translateY(-22px); } 16% { opacity: .95; } 100% { opacity: 0; transform: translateY(-15vh); } }
+
+/* vệt tiến độ (<b>) theo --p (r20: cú vẩy hai ngón — r62: không còn ai đặt --p, luôn 0) */
+.cinema[data-nav="gold"] .cin-nv__arm > b {
+  background: linear-gradient(to right, transparent 2px, rgba(var(--nv-gold), .34) 13px, transparent 24px), linear-gradient(to right, transparent 11.4px, rgb(255, 232, 188) 12.3px 13.7px, transparent 14.6px);
+  height: calc(16vh * var(--p));
+  opacity: calc(var(--p) * 1.4);
+  transition: height .12s linear, opacity .12s linear;
+}
+
+/* ===== B · Kính khắc — tấm kính mờ đứng, chevron khắc chìm (rãnh tối, mép dưới bắt sáng), bóng mờ của bia kế bên
+   (ảnh thu nhỏ trong suốt → mặt nạ, đơn sắc) + năm ở chân tấm. Rê: vệt phản quang lướt qua một lần, bóng bia rõ hơn.
+   Hai ngón: tấm cao 50 % khung, ánh vàng dâng từ chân lên theo tiến độ. */
+.cinema[data-nav="glass"] { --nv-zone: 124px; }
+.cinema[data-nav="glass"] .cin-nv {
+  width: 66px;
+  height: 196px;
+  transform: translateY(-50%) translateY(calc(var(--near) * -2px));
+  transition: transform .5s var(--nv-ease), opacity .3s ease, height .5s var(--nv-ease), width .5s var(--nv-ease), scale .35s var(--nv-ease);
+}
+.cinema[data-nav="glass"] .cin-nv--prev { left: calc(env(safe-area-inset-left, 0px) + max(12px, var(--gut) - 10px)); }
+.cinema[data-nav="glass"] .cin-nv--next { right: calc(env(safe-area-inset-right, 0px) + max(12px, var(--gut) - 10px)); }
+.cinema[data-nav="glass"] .cin-nv:focus-visible { outline: 1px solid rgba(var(--nv-gold), .75); outline-offset: 4px; border-radius: 16px; }
+.cinema[data-nav="glass"] .cin-nv__frame {
+  inset: 0;
+  overflow: hidden;
+  border-radius: 13px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, calc(.07 + .04 * var(--near))), rgba(255, 255, 255, calc(.025 + .025 * var(--near))) 70%, rgba(255, 255, 255, calc(.04 + .03 * var(--near))));
+  -webkit-backdrop-filter: blur(14px) saturate(118%);
+  backdrop-filter: blur(14px) saturate(118%);
+  border: 1px solid rgba(255, 255, 255, calc(.1 + .14 * var(--near)));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .16), inset 0 -1px 0 rgba(0, 0, 0, .45), 0 18px 42px rgba(0, 0, 0, .38);
+  transition: background .45s ease, border-color .45s ease;
+}
+.cinema[data-nav="glass"] .cin-nv__ghost {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+  bottom: 40px;
+  background: linear-gradient(180deg, rgb(236, 236, 236), rgba(var(--nv-gold), .85));
+  /* ảnh thu nhỏ có lề trong suốt rộng (bia ≈ 51 % bề ngang) → phóng 190 % để bóng bia gần kín bề ngang tấm kính */
+  -webkit-mask: var(--thumb) 50% 58% / 190% auto no-repeat;
+  mask: var(--thumb) 50% 58% / 190% auto no-repeat;
+  opacity: calc(.1 + .16 * var(--near));
+  transition: opacity .6s ease;
+}
+.cinema[data-nav="glass"] .cin-nv__sheen {
+  display: block;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(104deg, transparent 38%, rgba(255, 255, 255, .17) 49%, rgba(255, 255, 255, .05) 53%, transparent 62%) 115% 0 / 320% 100% no-repeat;
+}
+@media (hover: hover) {
+  .cinema[data-nav="glass"]:not([data-input="hand"]):not([data-drag="1"]) .cin-nv:hover .cin-nv__sheen { background-position: -15% 0; transition: background-position 1.15s var(--nv-ease); }
+}
+.cinema[data-nav="glass"] .cin-nv:focus-visible .cin-nv__sheen { background-position: -15% 0; transition: background-position 1.15s var(--nv-ease); }
+.cinema[data-nav="glass"] .cin-nv__mark {
+  left: calc(50% - 7px);
+  top: calc(50% - 26px);
+  width: 14px;
+  height: 28px;
+  /* kính khắc axit: nét khắc mờ đục (sáng hơn kính trong) + bóng tối phía dưới mép rãnh → lõm vào mặt kính */
+  color: rgba(236, 236, 236, calc(.46 + .34 * var(--near)));
+  filter: drop-shadow(0 1px 0 rgba(0, 0, 0, .7)) drop-shadow(0 -1px 0 rgba(255, 255, 255, .08));
+  transform: translateX(calc(var(--o) * var(--near) * 3px));
+  transition: transform .5s var(--nv-ease), color .45s ease;
+}
+.cinema[data-nav="glass"] .cin-nv__chev path { stroke-width: 1.7; }
+.cinema[data-nav="glass"] .cin-nv__label { left: 0; right: 0; bottom: 14px; text-align: center; }
+.cinema[data-nav="glass"] .cin-nv__year {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: .04em;
+  color: rgba(236, 236, 236, calc(.52 + .4 * var(--near)));
+  transition: color .45s ease;
+}
+.cinema[data-nav="glass"] .cin-nv__cc {
+  position: absolute;
+  left: 50%;
+  top: calc(100% + 26px);
+  transform: translateX(-50%);
+  font-size: 9px;
+  letter-spacing: .2em;
+  color: rgba(236, 236, 236, calc(.3 + .35 * var(--near)));
+  transition: color .45s ease;
+}
+.cinema[data-nav="glass"] .cin-nv__fill {
+  display: block;
+  position: absolute;
+  inset: 0;
+  transform-origin: 50% 100%;
+  transform: scaleY(var(--p));
+  background: linear-gradient(to top, rgba(var(--nv-gold), .32), rgba(var(--nv-gold), .08) 85%, rgba(var(--nv-gold), .22));
+  box-shadow: inset 0 0 0 1px rgba(var(--nv-gold), calc(var(--p) * .9));
+  transition: transform .12s linear;
+}
+.cinema[data-nav="glass"] .cin-nv[data-fired="1"] .cin-nv__frame { animation: nv-glass-fire .85s var(--nv-ease); }
+@keyframes nv-glass-fire {
+  0% { transform: scale(1); }
+  18% { transform: scale(.965); box-shadow: inset 0 0 0 1px rgba(var(--nv-gold), .9), 0 0 34px rgba(var(--nv-gold), .32), 0 18px 42px rgba(0, 0, 0, .38); }
+  45% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+@keyframes nv-glass-glow { 18% { box-shadow: inset 0 0 0 1px rgba(var(--nv-gold), .9), 0 0 34px rgba(var(--nv-gold), .32), 0 18px 42px rgba(0, 0, 0, .38); } }
+@keyframes nv-seal-glow { 22% { background-color: rgb(var(--nv-cin)); box-shadow: 0 0 0 1px rgba(var(--nv-paper), .5), 0 8px 18px rgba(0, 0, 0, .5); } }
+
+/* ===== C · Ấn triện — con dấu son trầm (không đỏ gắt) vân giấy / đá bằng nhiễu SVG nội tuyến; ô trên khắc chevron,
+   dưới là năm bia kế bên xếp 2 × 2 như ấn; nét khắc màu giấy (âm bản). Rê: dấu nhấc nhẹ. Nhận: nhịp "đóng dấu" +
+   vệt mực loang. Hai ngón: dải ấn dọc cao 50 % khung, mực son dâng từ chân lên theo tiến độ. */
+.cinema[data-nav="seal"] { --nv-zone: 108px; }
+.cinema[data-nav="seal"] .cin-nv {
+  width: 52px;
+  height: 84px;
+  transform: translateY(-50%) translateY(calc(var(--near) * -2px));
+  transition: transform .5s var(--nv-ease), opacity .3s ease, height .5s var(--nv-ease), width .5s var(--nv-ease), scale .35s var(--nv-ease);
+}
+.cinema[data-nav="seal"] .cin-nv--prev { left: calc(env(safe-area-inset-left, 0px) + max(14px, var(--gut) - 4px)); }
+.cinema[data-nav="seal"] .cin-nv--next { right: calc(env(safe-area-inset-right, 0px) + max(14px, var(--gut) - 4px)); }
+.cinema[data-nav="seal"] .cin-nv:focus-visible { outline: 1px solid rgba(var(--nv-gold), .75); outline-offset: 5px; border-radius: 4px; }
+.cinema[data-nav="seal"] .cin-nv__frame {
+  inset: 0;
+  border-radius: 3px;
+  background-color: rgba(var(--nv-cin), calc(.78 + .18 * var(--near)));
+  background-image:
+var(--nv-grain);
+  box-shadow: 0 calc(3px + 5px * var(--near)) calc(8px + 10px * var(--near)) rgba(0, 0, 0, calc(.34 + .16 * var(--near)));
+  transition: background-color .45s ease, box-shadow .5s var(--nv-ease);
+}
+/* viền khắc màu giấy bên trong + vạch ngăn ô chevron / ô năm */
+.cinema[data-nav="seal"] .cin-nv__frame::before {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border: 1px solid rgba(var(--nv-paper), .6);
+  border-radius: 1.5px;
+}
+.cinema[data-nav="seal"] .cin-nv__frame::after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: 30px;
+  border-top: 1px solid rgba(var(--nv-paper), .45);
+}
+.cinema[data-nav="seal"] .cin-nv__mark {
+  left: calc(50% - 5px);
+  top: 7px;
+  width: 10px;
+  height: 18px;
+  color: rgba(var(--nv-paper), .92);
+  transform: translateX(calc(var(--o) * var(--near) * 2px));
+  transition: transform .5s var(--nv-ease);
+}
+.cinema[data-nav="seal"] .cin-nv__chev path { stroke-width: 2.4; }
+.cinema[data-nav="seal"] .cin-nv__digits {
+  display: grid;
+  position: absolute;
+  left: 7px;
+  right: 7px;
+  top: 34px;
+  bottom: 6px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1;
+  color: rgba(var(--nv-paper), .94);
+}
+.cinema[data-nav="seal"] .cin-nv__digits i { font-style: normal; }
+.cinema[data-nav="seal"] .cin-nv__label { left: 50%; top: calc(100% + 12px); transform: translateX(-50%); text-align: center; }
+.cinema[data-nav="seal"] .cin-nv__year { display: none; }
+.cinema[data-nav="seal"] .cin-nv__cc {
+  font-size: 9px;
+  letter-spacing: .2em;
+  color: rgba(236, 236, 236, calc(.34 + .36 * var(--near)));
+  transition: color .45s ease;
+}
+.cinema[data-nav="seal"] .cin-nv__sheen {
+  display: block;
+  position: absolute;
+  inset: -4px;
+  border-radius: 6px;
+  border: 1px solid rgba(var(--nv-cin), .0);
+  pointer-events: none;
+}
+.cinema[data-nav="seal"] .cin-nv__fill {
+  display: block;
+  position: absolute;
+  inset: 0;
+  border-radius: 3px;
+  transform-origin: 50% 100%;
+  transform: scaleY(0);
+  background-color: rgb(118, 44, 34); /* mực son đầy: trầm hơn nền dấu một chút — khối lớn không thành đỏ gắt */
+  background-image: var(--nv-grain);
+}
+.cinema[data-nav="seal"] .cin-nv[data-fired="1"] .cin-nv__frame { animation: nv-stamp .62s var(--nv-ease); }
+.cinema[data-nav="seal"] .cin-nv[data-fired="1"] .cin-nv__sheen { animation: nv-ink .95s ease-out; }
+@keyframes nv-stamp {
+  0% { transform: scale(1); }
+  22% { transform: scale(.9) translateY(1px); background-color: rgb(var(--nv-cin)); }
+  55% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+@keyframes nv-ink {
+  0% { border-color: rgba(var(--nv-cin), 0); transform: scale(.96); }
+  22% { border-color: rgba(var(--nv-cin), .85); transform: scale(1); }
+  100% { border-color: rgba(var(--nv-cin), 0); transform: scale(1.28); }
+}
+
+/* ===== màn hẹp: bản gọn (không can chi — chỉ năm) ===== */
+@media (max-width: 760px) {
+  .cinema[data-nav="gold"] { --nv-zone: 84px; }
+  .cinema[data-nav="gold"] .cin-nv { width: 84px; height: max(180px, 28vh); }
+  .cinema[data-nav="gold"] .cin-nv__label { left: 40px; }
+  .cinema[data-nav="gold"] .cin-nv--next .cin-nv__label { right: 40px; }
+  .cinema[data-nav="gold"] .cin-nv__year { font-size: 16px; }
+  .cinema[data-nav="gold"] .cin-nv__cc { display: none; }
+  .cinema[data-nav="gold"] .cin-nv__kick, .cinema[data-nav="gold"] .cin-nv__rule, .cinema[data-nav="gold"] .cin-nv__thumb { display: none; }
+  .cinema[data-nav="glass"] { --nv-zone: 68px; }
+  .cinema[data-nav="glass"] .cin-nv { width: 46px; height: 132px; }
+  .cinema[data-nav="glass"] .cin-nv__ghost { top: 12px; bottom: 32px; left: 5px; right: 5px; }
+  .cinema[data-nav="glass"] .cin-nv__year { font-size: 12px; }
+  .cinema[data-nav="glass"] .cin-nv__label { bottom: 10px; }
+  .cinema[data-nav="glass"] .cin-nv__mark { top: calc(50% - 20px); }
+  .cinema[data-nav="glass"] .cin-nv__cc { display: none; }
+  .cinema[data-nav="seal"] { --nv-zone: 62px; }
+  .cinema[data-nav="seal"] .cin-nv { width: 40px; height: 66px; }
+  .cinema[data-nav="seal"] .cin-nv__mark { top: 5px; left: calc(50% - 4px); width: 8px; height: 15px; }
+  .cinema[data-nav="seal"] .cin-nv__frame::after { top: 24px; left: 6px; right: 6px; }
+  .cinema[data-nav="seal"] .cin-nv__digits { top: 27px; left: 5px; right: 5px; bottom: 4px; font-size: 13px; }
+  .cinema[data-nav="seal"] .cin-nv__cc { display: none; }
+}
+
+/* ===== giảm chuyển động: không trôi / quét / nảy — chỉ đổi độ sáng, màu (vẫn thấy rõ trạng thái) ===== */
+@media (prefers-reduced-motion: reduce) {
+  .cinema .cin-nv, .cinema .cin-nv__mark, .cinema .cin-nv__frame::before, .cinema .cin-nv__hint { transition-duration: .01s !important; }
+  .cinema .cin-nv__mark { translate: none !important; }
+  .cinema[data-nav="gold"] .cin-nv__mark, .cinema[data-nav="glass"] .cin-nv__mark, .cinema[data-nav="seal"] .cin-nv__mark { transform: none; }
+  .cinema[data-nav="glass"] .cin-nv, .cinema[data-nav="seal"] .cin-nv { transform: translateY(-50%); }
+  .cinema[data-nav="glass"] .cin-nv__sheen { display: none; }
+  .cinema .cin-nv[data-fired="1"] .cin-nv__mark { animation: none !important; }
+  .cinema[data-nav="glass"] .cin-nv[data-fired="1"] .cin-nv__frame { animation: nv-glass-glow .85s ease !important; }
+  .cinema[data-nav="seal"] .cin-nv[data-fired="1"] .cin-nv__frame { animation: nv-seal-glow .8s ease !important; }
+  .cinema[data-nav="seal"] .cin-nv__sheen { opacity: 0; border-color: rgba(var(--nv-cin), .85); }
+  .cinema[data-nav="seal"] .cin-nv[data-fired="1"] .cin-nv__sheen { animation: nv-fade 1s ease-out !important; transform: none; }
+  .cinema[data-nav="gold"] .cin-nv__arm, .cinema[data-nav="gold"] .cin-nv__arm::before, .cinema[data-nav="gold"] .cin-nv .cin-nv__arm { transition: none !important; }
+  .cinema[data-nav="gold"] .cin-nv__arm::after { display: none; }
+  .cinema[data-nav="gold"] .cin-nv:not(.is-sticky) { translate: 0 -50%; } /* không "hút" vào — chỉ sáng + phóng tại chỗ (tay dính vẫn đưa mũi tên vào, tức thời — r29) */
+  .cinema[data-nav="gold"] .cin-nv[data-fired="1"], .cinema[data-nav="gold"] .cin-nv[data-fired="1"] .cin-nv__gem { animation: none; }
+}
+@keyframes nv-fade { 0% { opacity: 0; } 20% { opacity: 1; } 100% { opacity: 0; } }
+
+/* (r62: bỏ khối r52 → r56g "chế độ V — nhắm rồi vẩy" (tấm kính chevron, vòng, gợi ý — vnav-arrows.js đã xoá): ở Điện ảnh hai
+   ngón là KÉO BIA, vòng cầm 3D trên sàn — grab-ring.js.) Kính khắc / Ấn triện: nhịp chuyển tiếp của nút (từ r52). */
+.cinema[data-nav="glass"] .cin-nv, .cinema[data-nav="seal"] .cin-nv { transition: transform .5s var(--nv-ease), opacity .3s ease, height .5s var(--nv-ease), width .5s var(--nv-ease), scale .35s var(--nv-ease), translate .8s cubic-bezier(.25, .8, .35, 1); }

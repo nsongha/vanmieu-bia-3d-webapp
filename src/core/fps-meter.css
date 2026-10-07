@@ -1,0 +1,19 @@
+/* Đồng hồ FPS gỡ lỗi (core/fps-meter.js): nhỏ, không bắt chuột, nổi trên mọi view. */
+.fps-meter {
+  position: fixed;
+  top: calc(4px + env(safe-area-inset-top, 0px));
+  left: calc(6px + env(safe-area-inset-left, 0px));
+  z-index: 9999;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #9be29b;
+  font: 500 10.5px/1.4 ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+  pointer-events: none;
+  user-select: none;
+}
+.fps-meter[data-level='warn'] { color: #f2c46b; }
+.fps-meter[data-level='bad'] { color: #ff7a6b; }
+.fps-meter[hidden] { display: none; }

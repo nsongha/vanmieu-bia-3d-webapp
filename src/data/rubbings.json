@@ -1,0 +1,15 @@
+{
+  "$doc": "r74 — bản dập chiếu lên mặt bia (Điện ảnh: giữ hai ngón trên mặt bia). Ảnh do tools/rubbing_clean.py làm sạch, cắt đúng MÉP NGOÀI khung chạm. tex = ảnh màu + alpha (mặt nạ vòm) — shader chỉ dùng độ sáng + alpha (ảnh màu ngả cam); strokes = bản đồ nét (trắng = nét chạm, nền ~0,45–0,55 → shader lấy ngưỡng). fit: toạ độ ảnh CHUẨN HOÁ (u, v ∈ 0..1, gốc trên trái) → toạ độ mô hình bia (x ngang, y cao; bia cao 1): x = x0 + (u − u0)·sx, y = y0 − (v − v0)·sy — khớp khung ngoài (trái / phải / đỉnh vòm / chân) với khung chạm trên mô hình (ảnh chính diện trực giao, vm.cinemaOrthoFront); dải trán + viền trong khớp trong ~3 mm. frame: khung mặt bia (toạ độ mô hình) — trái / phải / chân / chân vòm / đỉnh vòm; ngoài khung không chiếu. landmarks: mốc chuẩn hoá từ bia-1442.json của công cụ làm sạch (để đối chiếu).",
+  "bia-1442": {
+    "tex": "rubbings/bia-1442.webp",
+    "strokes": "rubbings/bia-1442-strokes.webp",
+    "img": [1423, 2048],
+    "fit": { "u0": 0.0062, "v0": 0.0068, "x0": -0.2916, "y0": 0.995, "sx": 0.58685, "sy": 0.80835 },
+    "frame": { "left": -0.2916, "right": 0.2858, "bottom": 0.197, "spring": 0.896, "top": 0.995 },
+    "landmarks": {
+      "outer_frame": { "left": 0.0062, "right": 0.9901, "bottom": 0.994, "apex": [0.513, 0.0068], "spring_y": 0.1289 },
+      "inner_border": { "left": 0.0875, "right": 0.9135, "bottom": 0.9373, "apex": [0.513, 0.0594] },
+      "header_band": { "top": 0.1578, "bottom": 0.2643 }
+    }
+  }
+}

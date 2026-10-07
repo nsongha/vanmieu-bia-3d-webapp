@@ -1,0 +1,450 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 1768048305419 ()",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1565",
+ "year": 1565,
+ "canChi": "Ất Sửu",
+ "title": "Bài ký đề danh khoa thi Chế khoa Ất Sửu niên hiệu Chính Trị năm thứ 8",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Lê Trung Hưng",
+ "era": "Chính Trị",
+ "eraYear": 8,
+ "king": {
+  "name": "Lê Anh Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Chính Trị trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 10,
+ "passedRaw": "10",
+ "erected": 1653,
+ "contributors": {
+  "author": "Nguyễn Đăng Cảo",
+  "calligrapher": "Đào Vinh Lộc",
+  "editor": "",
+  "engraver": "Vũ Cử"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Chế khoa Tiến sĩ xuất thân",
+   "count": 4
+  },
+  {
+   "tier": 2,
+   "label": "Đồng Chế khoa Tiến sĩ xuất thân",
+   "count": 6
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 0
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Lê Khiêm",
+   "tier": 1,
+   "title": null,
+   "rank": "Đệ nhất giáp Chế khoa Tiến sĩ xuất thân",
+   "hometown": "xã Bảo Đà huyện Lôi Dương",
+   "honors": []
+  },
+  {
+   "name": "Bùi Khắc Nhất",
+   "tier": 1,
+   "title": null,
+   "rank": "Đệ nhất giáp Chế khoa Tiến sĩ xuất thân",
+   "hometown": "xã Bột Thái huyện Hoằng Hóa",
+   "honors": []
+  },
+  {
+   "name": "Đỗ Tế Mỹ",
+   "tier": 1,
+   "title": null,
+   "rank": "Đệ nhất giáp Chế khoa Tiến sĩ xuất thân",
+   "hometown": "xã Cổ Đôi huyện Nông Cống",
+   "honors": []
+  },
+  {
+   "name": "Dương Trí Dụng",
+   "tier": 1,
+   "title": null,
+   "rank": "Đệ nhất giáp Chế khoa Tiến sĩ xuất thân",
+   "hometown": "xã Bạt Trạc huyện Thiên Lộc",
+   "honors": []
+  },
+  {
+   "name": "Lê Nghĩa Trạch",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa Tiến sĩ xuất thân",
+   "hometown": "xã Cổ Đôi huyện Nông Cống",
+   "honors": []
+  },
+  {
+   "name": "Đinh Doãn Tín",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa Tiến sĩ xuất thân",
+   "hometown": "xã Văn Giáp huyện Thượng Phúc",
+   "honors": []
+  },
+  {
+   "name": "Lê Văn Xướng",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa Tiến sĩ xuất thân",
+   "hometown": "xã Đan Hải huyện Nghi Xuân",
+   "honors": []
+  },
+  {
+   "name": "Hoàng Quốc Thực",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa Tiến sĩ xuất thân",
+   "hometown": "xã Dực Thượng huyện Quảng Xương",
+   "honors": []
+  },
+  {
+   "name": "Đỗ Cảnh",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa Tiến sĩ xuất thân",
+   "hometown": "xã Hoằng Liệt huyện Thanh Trì",
+   "honors": []
+  },
+  {
+   "name": "Lê Đa Năng",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa Tiến sĩ xuất thân",
+   "hometown": "Xã Yên Chế huyện Lệ Thuỷ",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Bia khoa thi Chế khoa Ất Sửu, niên hiệu Chính Trị thứ 8 (1565), lấy đỗ 10 người, gồm 4 người đỗ Đệ nhất giáp và 6 người đỗ Đệ nhị giáp, đứng đầu là Lê Khiêm, Bùi Khắc Nhất.",
+   "Đây là bia đầu tiên trong 82 bia Tiến sĩ tại Văn Miếu có hình Rồng trên trán bia — một “Rồng thức” 3 móng, chầu vào vầng nhật nguyệt.",
+   "Bia cao 172cm, rộng 124cm, dày 25cm, dựng đợt 2 năm 1653, khắc bài văn do Nguyễn Đăng Cảo soạn.",
+   "Bài văn bia có câu: “Hiền tài là nguyên khí của quốc gia phải nên vun trồng; khoa cử là chế độ của triều đình phải nên chấn chỉnh.”"
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Bia được dựng vào năm 1653 trong đợt dựng bia lớn cho các khoa thi từ năm 1554 đến 1652.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 1,
+    "match": "Bia được dựng đợt 2, năm 1653 (từ khoa thi 1554 đến khoa thi 1652)."
+   }
+  },
+  {
+   "text": "Đây là tấm bia đầu tiên trong hệ thống 82 bia Tiến sĩ tại Văn Miếu xuất hiện hình tượng Rồng trên trán bia.",
+   "kind": "note"
+  },
+  {
+   "text": "Hình tượng Rồng trên bia có 3 móng, được thể hiện dưới dạng 'Rồng thức' chầu mặt trời, tượng trưng cho uy quyền và sự thiêng liêng.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 2,
+    "match": "Rồng thức"
+   }
+  },
+  {
+   "text": "Văn bia nhấn mạnh tư tưởng: 'Hiền tài là nguyên khí của quốc gia phải nên vun trồng; khoa cử là chế độ của triều đình phải nên chấn chỉnh'.",
+   "kind": "note",
+   "label": "Văn bia nhấn mạnh tư tưởng",
+   "labelKind": "inline",
+   "anchor": {
+    "section": "body",
+    "para": 4,
+    "match": "Trong đó có nội dung đề cao vai trò, giá trị hiền tài đối với đất nước, cần sự chăm lo, vun trồng của triều đình: “Đến nay Hoàng thượng bệ hạ nghĩ muốn mở mang nghiệp lớn của tiên tổ, muốn mở quy chế lậu dài; đặc biệt nghĩ hiền tài là nguyên khí của quốc gia phải nên vun trồng; khoa cử là chế độ của triều đỉnh phải nên chấn chỉnh…”"
+   }
+  },
+  {
+   "text": "Khoa thi lấy đỗ 10 người, gồm 4 người đỗ Đệ nhất giáp và 6 người đỗ Đệ nhị giáp.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 5,
+    "match": "Khoa thi này triều đình lấy đỗ được 10 người, trong đó có 4 người đỗ Đệ nhất giáp Chế khoa xuất thân và 6 người đỗ Đệ nhị giáp đồng Chế khoa xuất thân."
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Nguyễn Đăng Cảo",
+   "dates": "Không rõ",
+   "description": "Giữ chức Hàn lâm viện Đãi chế, là người vâng sắc soạn bài văn bia cho khoa thi Chế khoa năm 1565.",
+   "hometown": "Không rõ",
+   "roles": [
+    "Hàn lâm viện Đãi chế",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Đào Vinh Lộc",
+   "dates": "Không rõ",
+   "description": "Trung thư giám Hoa văn học sinh, người vâng sắc viết chữ chân cho bia Tiến sĩ khoa 1565.",
+   "hometown": "phường Vĩnh Thái huyện Thọ Xương, trú quán xã Hoa Đường",
+   "roles": [
+    "Trung thư giám Hoa văn học sinh",
+    "Người viết chữ chân"
+   ]
+  },
+  {
+   "name": "Vũ Cử",
+   "dates": "Không rõ",
+   "description": "Trung thư giám Hoa văn học sinh, người vâng sắc viết chữ triện cho bia Tiến sĩ khoa 1565.",
+   "hometown": "phường Báo Thiên huyện Thọ Xương, nhà ở xã Hoa Đường",
+   "roles": [
+    "Trung thư giám Hoa văn học sinh",
+    "Người viết chữ triện"
+   ]
+  }
+ ],
+ "content": {
+  "title": null,
+  "paragraphs": [
+   "Bia Tiến sĩ khoa thi Chế khoa năm Ất Sửu, niên hiệu Chính Trị 8 (1565) là nguồn sử liệu vô cùng quý giá trong hệ thống 82 bia tiến sĩ đặt tại Di tích Văn Miếu - Quốc Tử Giám.",
+   "Bia được dựng đợt 2, năm 1653 (từ khoa thi 1554 đến khoa thi 1652). Bia có chiều cao 172cm, rộng 124cm, độ dày 25cm. Tấm bia không chỉ là biểu tượng của truyền thống hiếu học và đạo làm người của kẻ sĩ, mà còn là tác phẩm nghệ thuật độc đáo cho thấy kỹ nghệ chạm khắc đạt đỉnh cao, đặc biệt là các đồ án trang trí trên trán bia và diềm bia được người xưa gửi gắm nhiều thông điệp ý nghĩa.",
+   "Trên trán bia khoa thi 1565, lần đầu tiên xuất hiện hình tượng Rồng. Vốn là linh vật đứng đầu trong danh sách “Tứ linh”, Rồng luôn được coi là đại diện thiêng liêng, cao quý và chỉ dành cho các bậc quân vương. Tuy nhiên, Rồng trên trán bia khoa thi 1565 được tạo tác chỉ có 3 móng, dưới dạng “Rồng thức”. Hình Rồng uốn khúc từ trên vòng xuống, vi vảy chạm rõ, uy nghi đĩnh đạc, râu tóc uốn lượn, thần thái dũng mãnh chầu vào vầng nhật nguyệt với các tia sáng xung quanh. Rùa đội bia có dáng cổ rụt, mặt bẹt, sống mũi uốn cao, hốc mũi và mắt tạo thành hình chữ T, mắt lồi, miệng rộng, mai cong đều và có một gờ nhỏ chạy dọc sống lưng. Phần trên cùng sát với trán bia có khắc niên đại tổ chức khoa thi theo thể chữ triện: “Bài ký đề danh khoa thi Chế khoa Ất Sửu niên hiệu Chính Trị năm thứ 8”.",
+   "Hai bên diềm bia trang trí hoa bảo tiên (bảo tướng hoa)",
+   "Trên thân bia có khắc bài văn bia do Hàn lâm viện Đãi chế Nguyễn Đăng Cảo vâng sắc soạn. Trong đó có nội dung đề cao vai trò, giá trị hiền tài đối với đất nước, cần sự chăm lo, vun trồng của triều đình: “Đến nay Hoàng thượng bệ hạ nghĩ muốn mở mang nghiệp lớn của tiên tổ, muốn mở quy chế lậu dài; đặc biệt nghĩ hiền tài là nguyên khí của quốc gia phải nên vun trồng; khoa cử là chế độ của triều đỉnh phải nên chấn chỉnh…”",
+   "Khoa thi này triều đình lấy đỗ được 10 người, trong đó có 4 người đỗ Đệ nhất giáp Chế khoa xuất thân và 6 người đỗ Đệ nhị giáp đồng Chế khoa xuất thân. Họ tên, quê quán của 10 vị Tiến sĩ được khắc bên trái thân bia theo thứ hạng từ cao xuống thấp."
+  ],
+  "colophon": [
+   "Cuối bài văn bia chép họ tên, thông tin của người viết chữ trên bia: Trung thư giám Hoa văn học sinh người phường Vĩnh Thái huyện Thọ Xương, trú quán xã Hoa Đường là Đào Vinh Lộc vâng sắc viết chữ chân. Trung thư giám Hoa văn học sinh người phường Báo Thiên huyện Thọ Xương, nhà ở xã Hoa Đường là Vũ Cử vâng sắc viết chữ triện."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhất giáp Chế khoa Tiến sĩ xuất thân",
+    "count": 4,
+    "names": [
+     {
+      "name": "LÊ KHIÊM",
+      "from": "xã Bảo Đà huyện Lôi Dương"
+     },
+     {
+      "name": "BÙI KHẮC NHẤT",
+      "from": "xã Bột Thái huyện Hoằng Hóa"
+     },
+     {
+      "name": "ĐỖ TẾ MỸ",
+      "from": "xã Cổ Đôi huyện Nông Cống"
+     },
+     {
+      "name": "DƯƠNG TRÍ DỤNG",
+      "from": "xã Bạt Trạc huyện Thiên Lộc"
+     }
+    ],
+    "preface": "DANH SÁCH TIẾN SĨ KHOA ẤT SỬU, NIÊN HIỆU CHÍNH TRỊ 8 (1565):"
+   },
+   {
+    "heading": "Đệ nhị giáp đồng Chế khoa Tiến sĩ xuất thân",
+    "count": 6,
+    "names": [
+     {
+      "name": "LÊ NGHĨA TRẠCH",
+      "from": "xã Cổ Đôi huyện Nông Cống"
+     },
+     {
+      "name": "ĐINH DOÃN TÍN",
+      "from": "xã Văn Giáp huyện Thượng Phúc"
+     },
+     {
+      "name": "LÊ VĂN XƯỚNG",
+      "from": "xã Đan Hải huyện Nghi Xuân"
+     },
+     {
+      "name": "HOÀNG QUỐC THỰC",
+      "from": "xã Dực Thượng huyện Quảng Xương"
+     },
+     {
+      "name": "ĐỖ CẢNH",
+      "from": "xã Hoằng Liệt huyện Thanh Trì"
+     },
+     {
+      "name": "LÊ ĐA NĂNG",
+      "from": "Xã Yên Chế huyện Lệ Thuỷ"
+     }
+    ]
+   }
+  ],
+  "kind": "description"
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Đăng Cảo"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Đào Vinh Lộc"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Vũ Cử"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Đăng Cảo",
+   "others": [
+    {
+     "id": "bia-1554",
+     "year": 1554
+    },
+    {
+     "id": "bia-1577",
+     "year": 1577
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1653,
+  "raw": "1653",
+  "gap": 88,
+  "batch": {
+   "count": 24,
+   "entries": [
+    {
+     "id": "bia-1554",
+     "year": 1554
+    },
+    {
+     "id": "bia-1565",
+     "year": 1565
+    },
+    {
+     "id": "bia-1577",
+     "year": 1577
+    },
+    {
+     "id": "bia-1583",
+     "year": 1583
+    },
+    {
+     "id": "bia-1589",
+     "year": 1589
+    },
+    {
+     "id": "bia-1592",
+     "year": 1592
+    },
+    {
+     "id": "bia-1595",
+     "year": 1595
+    },
+    {
+     "id": "bia-1598",
+     "year": 1598
+    },
+    {
+     "id": "bia-1602",
+     "year": 1602
+    },
+    {
+     "id": "bia-1604",
+     "year": 1604
+    },
+    {
+     "id": "bia-1607",
+     "year": 1607
+    },
+    {
+     "id": "bia-1610",
+     "year": 1610
+    },
+    {
+     "id": "bia-1613",
+     "year": 1613
+    },
+    {
+     "id": "bia-1616",
+     "year": 1616
+    },
+    {
+     "id": "bia-1619",
+     "year": 1619
+    },
+    {
+     "id": "bia-1623",
+     "year": 1623
+    },
+    {
+     "id": "bia-1628",
+     "year": 1628
+    },
+    {
+     "id": "bia-1631",
+     "year": 1631
+    },
+    {
+     "id": "bia-1637",
+     "year": 1637
+    },
+    {
+     "id": "bia-1640",
+     "year": 1640
+    },
+    {
+     "id": "bia-1643",
+     "year": 1643
+    },
+    {
+     "id": "bia-1646",
+     "year": 1646
+    },
+    {
+     "id": "bia-1650",
+     "year": 1650
+    },
+    {
+     "id": "bia-1652",
+     "year": 1652
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Nguyễn Đăng Cảo",
+   "dates": "Không rõ",
+   "description": "Giữ chức Hàn lâm viện Đãi chế, là người vâng sắc soạn bài văn bia cho khoa thi Chế khoa năm 1565.",
+   "isLaureate": false
+  },
+  {
+   "name": "Đào Vinh Lộc",
+   "dates": "Không rõ",
+   "description": "Trung thư giám Hoa văn học sinh, người vâng sắc viết chữ chân cho bia Tiến sĩ khoa 1565.",
+   "isLaureate": false
+  },
+  {
+   "name": "Vũ Cử",
+   "dates": "Không rõ",
+   "description": "Trung thư giám Hoa văn học sinh, người vâng sắc viết chữ triện cho bia Tiến sĩ khoa 1565.",
+   "isLaureate": false
+  }
+ ],
+ "authorBio": {
+  "name": "Nguyễn Đăng Cảo",
+  "dates": "Không rõ",
+  "description": "Giữ chức Hàn lâm viện Đãi chế, là người vâng sắc soạn bài văn bia cho khoa thi Chế khoa năm 1565.",
+  "hometown": "Không rõ",
+  "roles": [
+   "Hàn lâm viện Đãi chế",
+   "Người soạn văn bia"
+  ]
+ }
+}

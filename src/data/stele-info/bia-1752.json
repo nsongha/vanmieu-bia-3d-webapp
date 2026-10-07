@@ -1,0 +1,407 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 71 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/71/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1752",
+ "year": 1752,
+ "canChi": "Nhâm Thân",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA NHÂM THÂN NIÊN HIỆU CẢNH HƯNG NĂM THỨ 13 (1752)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Lê Trung hưng",
+ "era": "Cảnh Hưng",
+ "eraYear": 13,
+ "king": {
+  "name": "Lê Hiển Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 6,
+ "passedRaw": "6",
+ "erected": 1753,
+ "contributors": {
+  "author": "Nhữ Đình Toản",
+  "calligrapher": "",
+  "editor": "Nguyễn Công Thái",
+  "engraver": ""
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 1
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 1
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 4
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Lê Quý Đôn",
+   "tier": 1,
+   "title": "Bảng nhãn",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ (Bảng Nhãn)",
+   "hometown": "xã Diên Hà huyện Diên Hà (nay thuộc xã Độc Lập huyện Hưng Hà tỉnh Thái Bình)",
+   "honors": []
+  },
+  {
+   "name": "Đoàn Nguyễn Thục",
+   "tier": 2,
+   "title": "Hoàng giáp",
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân (Hoàng Giáp)",
+   "hometown": "xã Hải Yên huyện Quỳnh Côi (nay thuộc xã Quỳnh Nguyên huyện Quỳnh Phụ tỉnh Thái Bình), nguyên quán xã Đại Hạnh huyện Văn Giang (nay thuộc huyện Văn Giang tỉnh Hưng Yên)",
+   "honors": []
+  },
+  {
+   "name": "Nghiêm Vũ Đăng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Kỳ Nhai huyện Thanh Lan (nay thuộc xã Thái Phúc huyện Thái Thụy tỉnh Thái Bình)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Diêu",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Hoàng Xá huyện Thư Trì (nay thuộc xã Nguyên Xá huyện Vũ Thư tỉnh Thái Bình)",
+   "honors": []
+  },
+  {
+   "name": "Tạ Đình Hoán",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Đại Định huyện Thanh Oai (nay thuộc xã Tam Hưng huyện Thanh Oai tỉnh Hà Tây)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Xuân Huy",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Quy Đông huyện Lương Tài (nay thuộc xã Trung Chính huyện Lương Tài tỉnh Bắc Ninh)",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa đông năm Nhâm Thân, niên hiệu Cảnh Hưng thứ 13 (1752), triều đình mở khoa thi Hội cho các Cống sĩ, qua bốn trường chọn được 6 người.",
+   "Vào Điện thí tháng 12, triều đình ban Lê Quý Đôn đỗ Đệ nhất giáp Tiến sĩ cập đệ (Bảng Nhãn), Đoàn Nguyễn Thục đỗ Đệ nhị giáp Tiến sĩ xuất thân (Hoàng Giáp), 4 người còn lại đỗ Đệ tam giáp đồng Tiến sĩ xuất thân.",
+   "Lê Quý Đôn là nhà bác học lớn, học vấn văn chương của ông được cả người Trung Quốc và sứ thần Triều Tiên ca ngợi.",
+   "Bia được dựng tháng 2 năm sau, 1753, do Nhữ Đình Toản soạn bài ký."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Hoàng triều trung hưng tính đến đời vua Cảnh Hưng đã truyền được 14 đời vua, bốn biển yên bình, cơ đồ vững chắc.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Hoàng triều trung hưng đã được 14 đời, bốn biển yên bình, cơ đồ càng thêm vững chắc."
+   }
+  },
+  {
+   "text": "Khoa thi Hội năm Nhâm Thân (1752) tổ chức vào mùa đông cho các Cống sĩ trong nước.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Mùa đông năm Nhâm Thân thi Hội cho các Cống sĩ trong nước."
+   }
+  },
+  {
+   "text": "Kỳ thi Điện (Điện thí) được tổ chức vào tháng 12 năm Nhâm Thân.",
+   "kind": "note"
+  },
+  {
+   "text": "Các quan viên tổ chức kỳ thi gồm: Đặng Đình Trứ (Đề điệu), Trần Danh Ninh (Quyền Tri Cống cử), Dương Công Chú (Giám thí).",
+   "kind": "gloss",
+   "label": "Các quan viên tổ chức kỳ thi gồm",
+   "labelKind": "inline",
+   "terms": [
+    {
+     "term": "Đặng Đình Trứ",
+     "def": "Đề điệu"
+    },
+    {
+     "term": "Trần Danh Ninh",
+     "def": "Quyền Tri Cống cử"
+    },
+    {
+     "term": "Dương Công Chú",
+     "def": "Giám thí"
+    }
+   ],
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Đặng Đình Trứ"
+   }
+  },
+  {
+   "text": "Lê Quý Đôn là nhà bác học lớn, học vấn văn chương của ông được cả người Trung Quốc và sứ thần Triều Tiên ca ngợi.",
+   "kind": "note"
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Lê Quý Đôn",
+   "dates": "1726-1784",
+   "description": "Tự Doãn Hậu, hiệu Quế Đường. Đỗ Bảng nhãn khoa Nhâm Thân (1752). Ông giữ nhiều chức vụ quan trọng như Nhập thị Bồi tụng, Tả Thị lang Bộ Hộ, Đô Ngự sử, Hiệp trấn Nghệ An. Sau khi mất được tặng chức Thượng thư Bộ Công, tước Dĩnh Quận công. Ông là nhà bác học, sử gia và nhà văn lớn với nhiều công trình nghiên cứu nổi tiếng.",
+   "hometown": "xã Diên Hà huyện Diên Hà (nay thuộc xã Độc Lập huyện Hưng Hà tỉnh Thái Bình)",
+   "roles": [
+    "Nho sinh trúng thức",
+    "Bảng Nhãn",
+    "Nhập thị Bồi tụng",
+    "Tả Thị lang Bộ Hộ",
+    "Đô Ngự sử",
+    "Hiệp trấn Nghệ An",
+    "Phó sứ sang nhà Thanh"
+   ]
+  },
+  {
+   "name": "Đoàn Nguyễn Thục",
+   "dates": "1728-1783",
+   "description": "Tên cũ là Đoàn Duy Tĩnh, vốn họ Nguyễn. Đỗ Hoàng giáp khoa Nhâm Thân (1752). Ông giữ các chức quan Thống lĩnh Tây đạo, Phó Đô Ngự sử, Đốc thị Nghệ An và từng được cử đi sứ sang nhà Thanh.",
+   "hometown": "xã Hải Yên huyện Quỳnh Côi (nay thuộc xã Quỳnh Nguyên huyện Quỳnh Phụ tỉnh Thái Bình)",
+   "roles": [
+    "Nho sinh trúng thức",
+    "Hoàng Giáp",
+    "Thống lĩnh Tây đạo",
+    "Phó Đô Ngự sử",
+    "Đốc thị Nghệ An",
+    "Sứ giả sang nhà Thanh"
+   ]
+  },
+  {
+   "name": "Nhữ Đình Toản",
+   "dates": "Không rõ",
+   "description": "Tiến sĩ khoa Bính Thìn, giữ chức Nhập thị Bồi tụng, Hình bộ Tả Thị lang, Tri Hàn lâm viện sự, tước Bá Trạch hầu. Ông là người vâng sắc soạn bài ký cho văn bia khoa Nhâm Thân (1752).",
+   "hometown": "Không rõ",
+   "roles": [
+    "Tiến sĩ",
+    "Nhập thị Bồi tụng",
+    "Hình bộ Tả Thị lang",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Nguyễn Công Thái",
+   "dates": "Không rõ",
+   "description": "Giữ chức Tham tụng, Thiếu bảo, Thượng thư Bộ Hộ kiêm Đông các Hiệu thư, tước Kiều Quận công. Ông là người vâng sắc nhuận sắc cho văn bia khoa Nhâm Thân (1752).",
+   "hometown": "Không rõ",
+   "roles": [
+    "Tham tụng",
+    "Thượng thư Bộ Hộ",
+    "Người nhuận sắc văn bia"
+   ]
+  },
+  {
+   "name": "Nguyễn Diêu",
+   "dates": "1728-?",
+   "description": "Tên cũ là Nguyễn Xuân Huyên. Đỗ Đồng Tiến sĩ xuất thân. Làm quan đến chức Hàn lâm viện Thừa chỉ, tước Thư Xuyên bá, từng đi sứ nhà Thanh. Sau khi mất được tặng chức Hữu Thị lang.",
+   "hometown": "xã Hoàng Xá huyện Thư Trì (nay thuộc xã Nguyên Xá huyện Vũ Thư tỉnh Thái Bình)",
+   "roles": [
+    "Giám sinh",
+    "Đồng Tiến sĩ xuất thân",
+    "Hàn lâm viện Thừa chỉ",
+    "Sứ giả sang nhà Thanh"
+   ]
+  },
+  {
+   "name": "Nguyễn Xuân Huy",
+   "dates": "1704-?",
+   "description": "Đỗ Đồng Tiến sĩ xuất thân khi đang làm Tri phủ. Sau làm quan đến chức Đô Cấp sự trung, Đốc đồng trấn Sơn Nam.",
+   "hometown": "xã Quy Đông huyện Lương Tài (nay thuộc xã Trung Chính huyện Lương Tài tỉnh Bắc Ninh)",
+   "roles": [
+    "Tri phủ",
+    "Đồng Tiến sĩ xuất thân",
+    "Đô Cấp sự trung",
+    "Đốc đồng trấn Sơn Nam"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA NHÂM THÂN NIÊN HIỆU CẢNH HƯNG NĂM THỨ 13 (1752)",
+  "paragraphs": [
+   "Hoàng triều trung hưng đã được 14 đời, bốn biển yên bình, cơ đồ càng thêm vững chắc. Kính vâng: Hoàng thượng quẻ Thái lập mệnh, đức Kiền giữ ngôi. Thực nhờ [Đại nguyên súy Thống quốc chính Thượng sư Thượng phụ Minh vương] sáng công uy vũ, văn trị sáng ngời. Mùa đông năm Nhâm Thân thi Hội cho các Cống sĩ trong nước. Đô đốc Thiêm sự trí sĩ khởi phục ngũ lão Vinh Quận công Đặng Đình Trứ làm Đề điệu, Nhập thị Bồi tụng Phó Đô Ngự sử Bảo Lĩnh hầu Trần Danh Ninh làm Quyền Tri Cống cử, Bồi tụng Hàn lâm viện Thừa chỉ Đạo Phái bá Dương Công Chú làm Giám thí. Qua bốn trường, lấy trúng cách bọn Lê Quý Đôn 6 người. Tháng 12 Điện thí. Ban cho bọn Lê Quý Đôn đỗ Cập đệ và Xuất thân có thứ bậc khác nhau. Lại sai khắc tên lên đá để truyền tới lâu dài."
+  ],
+  "colophon": [
+   "Tiến sĩ khoa Bính Thìn, Nhập thị Bồi tụng Hình bộ Tả Thị lang Tri Hàn lâm viện sự Bá Trạch hầu Nhữ Đình Toản vâng sắc soạn. Tham tụng Thiếu bảo ngũ lão Thượng thư Bộ Hộ kiêm Đông các Hiệu thư Kiều Quận công Nguyễn Công Thái vâng sắc nhuận. Bia dựng tháng hai niên hiệu Cảnh Hưng thứ 14 (1753) Hoàng Lê."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhất giáp Tiến sĩ cập đệ",
+    "count": 1,
+    "names": [
+     {
+      "name": "LÊ QUÝ ĐÔN",
+      "from": "xã Diên Hà huyện Diên Hà, Nho sinh trúng thức"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 1,
+    "names": [
+     {
+      "name": "ĐOÀN NGUYỄN THỤC",
+      "from": "xã Hải Yên huyện Quỳnh Côi, Nho sinh trúng thức, nguyên quán xã Đại Hạnh huyện Văn Giang, vốn họ Nguyễn, tên cũ là Đoàn Duy Tĩnh"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 4,
+    "names": [
+     {
+      "name": "NGHIÊM VŨ ĐĂNG",
+      "from": "xã Kỳ Nhai huyện Thanh Lan, Sinh đồ, tên cũ là Nghiêm Vũ Chiêu"
+     },
+     {
+      "name": "NGUYỄN DIÊU",
+      "from": "xã Hoàng Xá huyện Thư Trì. Giám sinh, tên cũ là Nguyễn Xuân Huyên"
+     },
+     {
+      "name": "TẠ ĐÌNH HOÁN",
+      "from": "xã Đại Định huyện Thanh Oai, Giám sinh"
+     },
+     {
+      "name": "NGUYỄN XUÂN HUY",
+      "from": "xã Quy Đông huyện Lương Tài, Tri phủ"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nhữ Đình Toản"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Công Thái"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Nhữ Đình Toản",
+   "others": [
+    {
+     "id": "bia-1757",
+     "year": 1757
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Công Thái",
+   "others": [
+    {
+     "id": "bia-1724",
+     "year": 1724
+    },
+    {
+     "id": "bia-1739",
+     "year": 1739
+    },
+    {
+     "id": "bia-1743",
+     "year": 1743
+    },
+    {
+     "id": "bia-1746",
+     "year": 1746
+    },
+    {
+     "id": "bia-1748",
+     "year": 1748
+    },
+    {
+     "id": "bia-1754",
+     "year": 1754
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1753,
+  "raw": "1753",
+  "gap": 1,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1752",
+     "year": 1752
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Lê Quý Đôn",
+   "dates": "1726-1784",
+   "description": "Tự Doãn Hậu, hiệu Quế Đường. Đỗ Bảng nhãn khoa Nhâm Thân (1752). Ông giữ nhiều chức vụ quan trọng như Nhập thị Bồi tụng, Tả Thị lang Bộ Hộ, Đô Ngự sử, Hiệp trấn Nghệ An. Sau khi mất được tặng chức Thượng thư Bộ Công, tước Dĩnh Quận công. Ông là nhà bác học, sử gia và nhà văn lớn với nhiều công trình nghiên cứu nổi tiếng.",
+   "isLaureate": true
+  },
+  {
+   "name": "Đoàn Nguyễn Thục",
+   "dates": "1728-1783",
+   "description": "Tên cũ là Đoàn Duy Tĩnh, vốn họ Nguyễn. Đỗ Hoàng giáp khoa Nhâm Thân (1752). Ông giữ các chức quan Thống lĩnh Tây đạo, Phó Đô Ngự sử, Đốc thị Nghệ An và từng được cử đi sứ sang nhà Thanh.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nhữ Đình Toản",
+   "dates": "Không rõ",
+   "description": "Tiến sĩ khoa Bính Thìn, giữ chức Nhập thị Bồi tụng, Hình bộ Tả Thị lang, Tri Hàn lâm viện sự, tước Bá Trạch hầu. Ông là người vâng sắc soạn bài ký cho văn bia khoa Nhâm Thân (1752).",
+   "isLaureate": false
+  },
+  {
+   "name": "Nguyễn Công Thái",
+   "dates": "Không rõ",
+   "description": "Giữ chức Tham tụng, Thiếu bảo, Thượng thư Bộ Hộ kiêm Đông các Hiệu thư, tước Kiều Quận công. Ông là người vâng sắc nhuận sắc cho văn bia khoa Nhâm Thân (1752).",
+   "isLaureate": false
+  },
+  {
+   "name": "Nguyễn Diêu",
+   "dates": "1728-?",
+   "description": "Tên cũ là Nguyễn Xuân Huyên. Đỗ Đồng Tiến sĩ xuất thân. Làm quan đến chức Hàn lâm viện Thừa chỉ, tước Thư Xuyên bá, từng đi sứ nhà Thanh. Sau khi mất được tặng chức Hữu Thị lang.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Xuân Huy",
+   "dates": "1704-?",
+   "description": "Đỗ Đồng Tiến sĩ xuất thân khi đang làm Tri phủ. Sau làm quan đến chức Đô Cấp sự trung, Đốc đồng trấn Sơn Nam.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nhữ Đình Toản",
+  "dates": "Không rõ",
+  "description": "Tiến sĩ khoa Bính Thìn, giữ chức Nhập thị Bồi tụng, Hình bộ Tả Thị lang, Tri Hàn lâm viện sự, tước Bá Trạch hầu. Ông là người vâng sắc soạn bài ký cho văn bia khoa Nhâm Thân (1752).",
+  "hometown": "Không rõ",
+  "roles": [
+   "Tiến sĩ",
+   "Nhập thị Bồi tụng",
+   "Hình bộ Tả Thị lang",
+   "Người soạn văn bia"
+  ]
+ }
+}

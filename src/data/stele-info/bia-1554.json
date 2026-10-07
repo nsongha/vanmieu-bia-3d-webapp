@@ -1,0 +1,641 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 15 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/15/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1554",
+ "year": 1554,
+ "canChi": "Giáp Dần",
+ "title": "VĂN BIA ĐỀ DANH CHẾ KHOA GIÁP DẦN NIÊN HIỆU THUẬN BÌNH NĂM THỨ 6 (1554)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Lê Trung hưng",
+ "era": "Thuận Bình",
+ "eraYear": 6,
+ "king": {
+  "name": "Lê Trung Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Thuận Bình trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 13,
+ "passedRaw": "13",
+ "erected": 1653,
+ "contributors": {
+  "author": "Nguyễn Đăng Cảo",
+  "calligrapher": "Đỗ Soạn",
+  "editor": "Dương Trí Trạch",
+  "engraver": "Đỗ Công Vị"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Chế khoa xuất thân",
+   "count": 5
+  },
+  {
+   "tier": 2,
+   "label": "Đồng Chế khoa xuất thân",
+   "count": 8
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 0
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Đinh Bạt Tụy",
+   "tier": 1,
+   "title": null,
+   "rank": "Đệ nhất giáp Chế khoa xuất thân",
+   "hometown": "xã Bùi Khổng huyện Hưng Nguyên",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Văn Nghi",
+   "tier": 1,
+   "title": null,
+   "rank": "Đệ nhất giáp Chế khoa xuất thân",
+   "hometown": "xã Ngọc Bôi huyện Đông Sơn",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Sư Lộ",
+   "tier": 1,
+   "title": null,
+   "rank": "Đệ nhất giáp Chế khoa xuất thân",
+   "hometown": "xã Bột Thái huyện Hoằng Hóa",
+   "honors": []
+  },
+  {
+   "name": "Phan Tất Thông",
+   "tier": 1,
+   "title": null,
+   "rank": "Đệ nhất giáp Chế khoa xuất thân",
+   "hometown": "xã Hạ Thành huyện Đông Thành",
+   "honors": []
+  },
+  {
+   "name": "Đỗ Danh Đại",
+   "tier": 1,
+   "title": null,
+   "rank": "Đệ nhất giáp Chế khoa xuất thân",
+   "hometown": "xã Cổ Đôi huyện Nông Cống",
+   "honors": []
+  },
+  {
+   "name": "Chu Quang Trứ",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa xuất thân",
+   "hometown": "xã Nam Hoa Thượng huyện Thanh Chương",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Chiêu",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa xuất thân",
+   "hometown": "xã Yên Việt Thượng huyện La Sơn",
+   "honors": []
+  },
+  {
+   "name": "Lê Văn Hiếu",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa xuất thân",
+   "hometown": "xã Châu Xuyết huyện Nông Cống",
+   "honors": []
+  },
+  {
+   "name": "Biện Hoành",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa xuất thân",
+   "hometown": "xã Hoa Duệ huyện Kỳ Hoa",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Công Dự",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa xuất thân",
+   "hometown": "xã Văn Lâm huyện Quảng Xương",
+   "honors": []
+  },
+  {
+   "name": "Vũ Hoán",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa xuất thân",
+   "hometown": "xã Hồng Khê huyện Duy Tiên",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Sằn",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa xuất thân",
+   "hometown": "xã Dịch Vọng huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Đức",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp đồng Chế khoa xuất thân",
+   "hometown": "xã Nỗ Bạn huyện Thanh Trì",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Năm Giáp Dần, niên hiệu Thuận Bình thứ 6 (1554), vua Lê Trung Tông mở Chế khoa đầu tiên thời Trung hưng, ra đề văn sách, chọn được 13 người.",
+   "Đệ nhất giáp Chế khoa xuất thân gồm 5 người, đứng đầu là Đinh Bạt Tụy, Nguyễn Văn Nghi.",
+   "Trong số người đỗ có Nguyễn Sằn, được gọi là “Tiến sĩ năm ngày” vì ông từ Bắc vào Thanh Hóa dự thi khi đã đến trường thứ ba mà vẫn làm đủ bài và trúng tuyển.",
+   "Mãi đến ngày 16 tháng 11 niên hiệu Thịnh Đức thứ 1 (1653), bia mới được dựng, do Nguyễn Đăng Cảo soạn, Dương Trí Trạch nhuận sắc."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Chế khoa Giáp Dần (1554) là khoa thi đầu tiên của thời Trung hưng do vua Lê Trung Tông mở để kén chọn hiền tài giúp việc khôi phục cơ đồ.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Trung Tông Vũ hoàng đế khôi phục tạo lập cơ đồ lớn lao, tôn chuộng nho nhã, bèn mở khoa thi này, thật là khoa đệ nhất thời Trung hưng vậy."
+   }
+  },
+  {
+   "text": "Vào năm Minh Mệnh thứ 21 (1840), triều Nguyễn đã ra lệnh đục bỏ các dòng chữ đề cao công đức của các chúa Trịnh trên các bia Tiến sĩ đời Lê Trung hưng.",
+   "kind": "note"
+  },
+  {
+   "text": "Việc đục bia chỉ thực hiện với các dòng liên quan đến các chúa Trịnh từ đời Trịnh Tráng trở về sau, do sự đối địch giữa hai họ Trịnh - Nguyễn.",
+   "kind": "note"
+  },
+  {
+   "text": "Nguyễn Sằn được người đương thời gọi là 'Tiến sĩ năm ngày' vì ông từ Bắc vào Thanh Hóa dự thi khi đã đến trường thứ ba nhưng vẫn làm đủ bài và trúng tuyển.",
+   "kind": "note"
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Dương Trí Trạch",
+   "dates": "Không ghi",
+   "description": "Dực vận Tán trị công thần, Đặc tiến Kim tử Vinh lộc đại phu, Lễ bộ Thượng thư kiêm Hàn lâm viện Thị giảng, Tham Chưởng Hàn lâm viện sự, tước Bạt Quận công, Thượng trụ quốc. Ông là người nhuận sắc văn bia.",
+   "hometown": "Không ghi",
+   "roles": [
+    "Lễ bộ Thượng thư",
+    "Hàn lâm viện Thị giảng",
+    "Nhuận sắc văn bia"
+   ]
+  },
+  {
+   "name": "Nguyễn Đăng Cảo",
+   "dates": "1619 - ?",
+   "description": "Người xã Hoài Bão, huyện Tiên Du. Ông đỗ Hội nguyên, Đình nguyên, Thám hoa năm 1646. Là người cương trực, làm quan đến chức Đông các Đại học sĩ nhưng bị nhiều người ghen ghét nên không được trọng dụng lâu dài. Ông là người soạn văn bia này.",
+   "hometown": "xã Hoài Bão huyện Tiên Du",
+   "roles": [
+    "Hàn lâm viện Đãi chế",
+    "Đông các Đại học sĩ",
+    "Soạn văn bia"
+   ]
+  },
+  {
+   "name": "Đinh Bạt Tụy",
+   "dates": "1527 - 1600",
+   "description": "Đỗ Đệ nhất giáp Chế khoa xuất thân. Làm quan đến chức Thượng thư Bộ Binh, tước Khê Quận công.",
+   "hometown": "xã Bùi Khổng huyện Hưng Nguyên",
+   "roles": [
+    "Thượng thư Bộ Binh",
+    "Khê Quận công"
+   ]
+  },
+  {
+   "name": "Nguyễn Văn Nghi",
+   "dates": "1526 - 1595",
+   "description": "Đỗ Đệ nhất giáp Chế khoa xuất thân. Làm quan Tả Thị lang Bộ Lại kiêm Đông các Đại học sĩ, Nhập thị Kinh diên. Sau khi mất được tặng Thượng thư, Thái bảo, phong phúc thần.",
+   "hometown": "xã Ngọc Bôi huyện Đông Sơn",
+   "roles": [
+    "Tả Thị lang Bộ Lại",
+    "Đông các Đại học sĩ",
+    "Thái bảo"
+   ]
+  },
+  {
+   "name": "Nguyễn Sằn",
+   "dates": "Không ghi",
+   "description": "Đỗ Đệ nhị giáp đồng Chế khoa xuất thân. Nổi tiếng với danh hiệu 'Tiến sĩ năm ngày'. Làm quan đến chức Tham chính, vinh phong Kiệt tiết công thần.",
+   "hometown": "xã Dịch Vọng huyện Từ Liêm",
+   "roles": [
+    "Tham chính",
+    "Kiệt tiết công thần"
+   ]
+  },
+  {
+   "name": "Nguyễn Đức",
+   "dates": "1497 - ?",
+   "description": "Đỗ Đệ nhị giáp đồng Chế khoa xuất thân. Làm quan đến chức Thượng thư Bộ Hình.",
+   "hometown": "xã Nỗ Bạn huyện Thanh Trì",
+   "roles": [
+    "Thượng thư Bộ Hình"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH CHẾ KHOA GIÁP DẦN NIÊN HIỆU THUẬN BÌNH NĂM THỨ 6 (1554)",
+  "paragraphs": [
+   "Đặt khoa thi chọn kẻ sĩ là quy chế đã lập thành của các bậc đế vương mưu đồ nền trí trị, trọng dụng người hiền không hạn chế bởi cách nào là đạo thường xưa nay không thay đổi. Kính nghĩ: Thánh triều Trung Tông Vũ hoàng đế thông minh đức độ lớn, khoát đạt chí nhân, căm giận ngụy Mạc dám nghịch cương thường, luôn mong có được hiền thần để mở mang công nghiệp. Thực nhờ Thế tổ Minh Khang Thái vương kính giúp, phấn chí anh hùng, mưu lo khôi phục. Bấy giờ những dũng tướng nanh vuốt xông pha ở nơi tên đạn thì nhiều mà mưu thần tâm phúc giúp vận trù ở nơi màn trướng thì ít. Bèn vào năm Giáp Dần niên hiệu Thuận Bình thứ 6 bắt đầu đặt Chế khoa, đích thân ra đề thi văn sách hỏi về đạo trị nước xưa nay. Sai các quan Đề điệu, Tri Cống cử, Giám thí vâng mệnh khảo thí, trúng tuyển được 13 người, vâng mệnh dâng lên để Hoàng thượng ngự lãm, định thứ bậc cao thấp. Sắc ban cho bọn Đinh Bạt Tụy 5 người đỗ Đệ nhất giáp Chế khoa xuất thân, bọn Chu Quang Trứ 8 người đỗ Đệ nhị giáp đồng Chế khoa xuất thân. Cho dự yến tiệc và ban mũ áo, ơn vinh thật đầy đủ. Những người đỗ Chế khoa năm ấy vốn đều có tài kinh luân, cùng nhau đồng tâm hiệp lực, hiến kế vạch mưu, nhân tài nối nhau xuất hiện, dành dùng mấy đời cũng không hết. Đến nay, Hoàng thượng nghĩ chu đáo vạn cơ, lo chỉnh tề mọi việc, chưa rỗi làm việc khác mà kíp lo việc cầu hiền, thu nạp nhân tài để mở nền trí trị. Thực nhờ Đại nguyên súy Thống quốc chính Thượng phụ Thanh vương mưu lo lập lại chính sự, mở mang pháp độ. Chuyên uỷ cho Nguyên súy Chưởng quốc chính Tây Định vương bên trong cai quản trăm quan, bên ngoài điều hoà bốn bể. Hiền sĩ như mây họp, cứ ba năm lại mở một khoa thi. Đời thịnh chọn được người ở khoa này là rất nhiều vậy. Thánh thượng sâu nghĩ đến đức nghiệp danh vọng của các bậc tuấn kiệt thời trước, muốn dùng bia đá đề danh để truyền lại lâu dài. Đặc sai các từ thần ở Viện Hàn lâm soạn bài ký ghi sự việc. Bọn thần há dám không cúi đầu rập đầu mà dâng lời rằng: Trời đất sinh nuôi muôn vật tất phải nhờ đến đóng bốn mùa để thành công. Đế vương giữ yên muôn phương, tất phải nhờ đông đảo hiền tài giúp trị, mà muốn được người tuấn kiệt ắt phải chọn trong chốn khoa trường. Kính nghĩ: Thái tổ Cao hoàng đế nhân thời mở vận, lấy đại nghĩa mà thi hành việc quân, lo giữ yên cho thiên hạ, thu phục các bậc anh hiền, gây thành nghiệp đế để truyền lại cho đời sau. Liệt thánh kế thừa chính thống. Trung Tông Vũ hoàng đế khôi phục tạo lập cơ đồ lớn lao, tôn chuộng nho nhã, bèn mở khoa thi này, thật là khoa đệ nhất thời Trung hưng vậy. Kế đến Anh Tông Tuấn hoàng đế, Thế tông Nghị hoàng đế tuân theo quy củ, lại lập Chế khoa. Kẻ sĩ hào kiệt đều do khoa này mà tiến lên, công khanh đại phu đều do đường ấy mà xuất hiện. Công danh sự nghiệp của những người đỗ Chế khoa thật lớn lao không thể ghi chép hết, đến nay những ai nghe biết đều không khỏi trạnh lòng tưởng nhớ ngưỡng mộ. Những người có chức quan vẫn thường nghiền ngẫm trung nghĩa, dồi mài liêm cần, nguyện làm vị Trạng nguyên trung hiếu, làm bậc quân tử ngọc vàng, ngõ hầu không hổ thẹn với các bậc tu thân toàn mỹ đời trước. Thảng hoặc có kẻ ngoài ngọc trong đá, tiếng phượng hoàng mà lông diều hâu, làm kẻ gian tà hèn nhát, làm kẻ tầm thường a dua nịnh hót không biết hổ thẹn bởi sự chỉ trích chê bai của người đời sau. Vậy thì tấm đá này dựng lên uy nghiêm suốt cả nghìn năm, công luận phải trái vẫn còn đó, há chẳng đáng sợ lắm thay! Bọn thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Dực vận Tán trị công thần Đặc tiến Kim tử Vinh lộc đại phu Lễ bộ Thượng thư kiêm Hàn lâm viện Thị giảng Tham Chưởng Hàn lâm viện sự Bạt Quận công Thượng trụ quốc Dương Trí Trạch vâng sắc nhuận.",
+   "Hàn lâm viện Đãi chế Nguyễn Đăng Cảo vâng sắc soạn.",
+   "Trung thư giám Hoa văn học sinh quê xã Thái Lạc huyện Văn Giang là Đỗ Soạn vâng sắc viết chữ (chân).",
+   "Trung thư giám Hoa văn học sinh người phường Thịnh Quang huyện Quảng Đức là Đỗ Công Vị vâng sắc viết chữ triện.",
+   "Bia dựng ngày 16 tháng 11 niên hiệu Thịnh Đức thứ 1 (1653) Hoàng Việt."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhất giáp Chế khoa xuất thân",
+    "count": 5,
+    "names": [
+     {
+      "name": "ĐINH BẠT TỤY",
+      "from": "xã Bùi Khổng huyện Hưng Nguyên"
+     },
+     {
+      "name": "NGUYỄN VĂN NGHI",
+      "from": "xã Ngọc Bôi huyện Đông Sơn"
+     },
+     {
+      "name": "NGUYỄN SƯ LỘ",
+      "from": "xã Bột Thái huyện Hoằng Hóa"
+     },
+     {
+      "name": "PHAN TẤT THÔNG",
+      "from": "xã Hạ Thành huyện Đông Thành"
+     },
+     {
+      "name": "ĐỖ DANH ĐẠI",
+      "from": "xã Cổ Đôi huyện Nông Cống"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ nhị giáp đồng Chế khoa xuất thân",
+    "count": 8,
+    "names": [
+     {
+      "name": "CHU QUANG TRỨ",
+      "from": "xã Nam Hoa Thượng huyện Thanh Chương"
+     },
+     {
+      "name": "NGUYỄN CHIÊU",
+      "from": "xã Yên Việt Thượng huyện La Sơn"
+     },
+     {
+      "name": "LÊ VĂN HIẾU",
+      "from": "xã Châu Xuyết huyện Nông Cống"
+     },
+     {
+      "name": "BIỆN HOÀNH",
+      "from": "xã Hoa Duệ huyện Kỳ Hoa"
+     },
+     {
+      "name": "NGUYỄN CÔNG DỰ",
+      "from": "xã Văn Lâm huyện Quảng Xương"
+     },
+     {
+      "name": "VŨ HOÁN",
+      "from": "xã Hồng Khê huyện Duy Tiên"
+     },
+     {
+      "name": "NGUYỄN SẰN",
+      "from": "xã Dịch Vọng huyện Từ Liêm"
+     },
+     {
+      "name": "NGUYỄN ĐỨC",
+      "from": "xã Nỗ Bạn huyện Thanh Trì"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Đăng Cảo"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Dương Trí Trạch"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Đỗ Soạn"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Đỗ Công Vị"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Đăng Cảo",
+   "others": [
+    {
+     "id": "bia-1565",
+     "year": 1565
+    },
+    {
+     "id": "bia-1577",
+     "year": 1577
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Dương Trí Trạch",
+   "others": [
+    {
+     "id": "bia-1577",
+     "year": 1577
+    },
+    {
+     "id": "bia-1580",
+     "year": 1580
+    },
+    {
+     "id": "bia-1583",
+     "year": 1583
+    },
+    {
+     "id": "bia-1589",
+     "year": 1589
+    },
+    {
+     "id": "bia-1592",
+     "year": 1592
+    },
+    {
+     "id": "bia-1595",
+     "year": 1595
+    },
+    {
+     "id": "bia-1598",
+     "year": 1598
+    },
+    {
+     "id": "bia-1602",
+     "year": 1602
+    },
+    {
+     "id": "bia-1604",
+     "year": 1604
+    },
+    {
+     "id": "bia-1607",
+     "year": 1607
+    },
+    {
+     "id": "bia-1610",
+     "year": 1610
+    },
+    {
+     "id": "bia-1613",
+     "year": 1613
+    },
+    {
+     "id": "bia-1616",
+     "year": 1616
+    },
+    {
+     "id": "bia-1619",
+     "year": 1619
+    },
+    {
+     "id": "bia-1623",
+     "year": 1623
+    },
+    {
+     "id": "bia-1628",
+     "year": 1628
+    },
+    {
+     "id": "bia-1631",
+     "year": 1631
+    },
+    {
+     "id": "bia-1637",
+     "year": 1637
+    },
+    {
+     "id": "bia-1640",
+     "year": 1640
+    },
+    {
+     "id": "bia-1643",
+     "year": 1643
+    },
+    {
+     "id": "bia-1646",
+     "year": 1646
+    },
+    {
+     "id": "bia-1650",
+     "year": 1650
+    },
+    {
+     "id": "bia-1652",
+     "year": 1652
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Đỗ Công Vị",
+   "others": [
+    {
+     "id": "bia-1631",
+     "year": 1631
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1653,
+  "raw": "1653",
+  "gap": 99,
+  "batch": {
+   "count": 24,
+   "entries": [
+    {
+     "id": "bia-1554",
+     "year": 1554
+    },
+    {
+     "id": "bia-1565",
+     "year": 1565
+    },
+    {
+     "id": "bia-1577",
+     "year": 1577
+    },
+    {
+     "id": "bia-1583",
+     "year": 1583
+    },
+    {
+     "id": "bia-1589",
+     "year": 1589
+    },
+    {
+     "id": "bia-1592",
+     "year": 1592
+    },
+    {
+     "id": "bia-1595",
+     "year": 1595
+    },
+    {
+     "id": "bia-1598",
+     "year": 1598
+    },
+    {
+     "id": "bia-1602",
+     "year": 1602
+    },
+    {
+     "id": "bia-1604",
+     "year": 1604
+    },
+    {
+     "id": "bia-1607",
+     "year": 1607
+    },
+    {
+     "id": "bia-1610",
+     "year": 1610
+    },
+    {
+     "id": "bia-1613",
+     "year": 1613
+    },
+    {
+     "id": "bia-1616",
+     "year": 1616
+    },
+    {
+     "id": "bia-1619",
+     "year": 1619
+    },
+    {
+     "id": "bia-1623",
+     "year": 1623
+    },
+    {
+     "id": "bia-1628",
+     "year": 1628
+    },
+    {
+     "id": "bia-1631",
+     "year": 1631
+    },
+    {
+     "id": "bia-1637",
+     "year": 1637
+    },
+    {
+     "id": "bia-1640",
+     "year": 1640
+    },
+    {
+     "id": "bia-1643",
+     "year": 1643
+    },
+    {
+     "id": "bia-1646",
+     "year": 1646
+    },
+    {
+     "id": "bia-1650",
+     "year": 1650
+    },
+    {
+     "id": "bia-1652",
+     "year": 1652
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Dương Trí Trạch",
+   "dates": "Không ghi",
+   "description": "Dực vận Tán trị công thần, Đặc tiến Kim tử Vinh lộc đại phu, Lễ bộ Thượng thư kiêm Hàn lâm viện Thị giảng, Tham Chưởng Hàn lâm viện sự, tước Bạt Quận công, Thượng trụ quốc. Ông là người nhuận sắc văn bia.",
+   "isLaureate": false
+  },
+  {
+   "name": "Nguyễn Đăng Cảo",
+   "dates": "1619 - ?",
+   "description": "Người xã Hoài Bão, huyện Tiên Du. Ông đỗ Hội nguyên, Đình nguyên, Thám hoa năm 1646. Là người cương trực, làm quan đến chức Đông các Đại học sĩ nhưng bị nhiều người ghen ghét nên không được trọng dụng lâu dài. Ông là người soạn văn bia này.",
+   "isLaureate": false,
+   "links": [
+    {
+     "id": "bia-1646",
+     "year": 1646,
+     "$verify": "cần đối chiếu"
+    }
+   ]
+  },
+  {
+   "name": "Đinh Bạt Tụy",
+   "dates": "1527 - 1600",
+   "description": "Đỗ Đệ nhất giáp Chế khoa xuất thân. Làm quan đến chức Thượng thư Bộ Binh, tước Khê Quận công.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Văn Nghi",
+   "dates": "1526 - 1595",
+   "description": "Đỗ Đệ nhất giáp Chế khoa xuất thân. Làm quan Tả Thị lang Bộ Lại kiêm Đông các Đại học sĩ, Nhập thị Kinh diên. Sau khi mất được tặng Thượng thư, Thái bảo, phong phúc thần.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Sằn",
+   "dates": "Không ghi",
+   "description": "Đỗ Đệ nhị giáp đồng Chế khoa xuất thân. Nổi tiếng với danh hiệu 'Tiến sĩ năm ngày'. Làm quan đến chức Tham chính, vinh phong Kiệt tiết công thần.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Đức",
+   "dates": "1497 - ?",
+   "description": "Đỗ Đệ nhị giáp đồng Chế khoa xuất thân. Làm quan đến chức Thượng thư Bộ Hình.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nguyễn Đăng Cảo",
+  "dates": "1619 - ?",
+  "description": "Người xã Hoài Bão, huyện Tiên Du. Ông đỗ Hội nguyên, Đình nguyên, Thám hoa năm 1646. Là người cương trực, làm quan đến chức Đông các Đại học sĩ nhưng bị nhiều người ghen ghét nên không được trọng dụng lâu dài. Ông là người soạn văn bia này.",
+  "hometown": "xã Hoài Bão huyện Tiên Du",
+  "roles": [
+   "Hàn lâm viện Đãi chế",
+   "Đông các Đại học sĩ",
+   "Soạn văn bia"
+  ],
+  "links": [
+   {
+    "id": "bia-1646",
+    "year": 1646,
+    "$verify": "cần đối chiếu"
+   }
+  ]
+ }
+}

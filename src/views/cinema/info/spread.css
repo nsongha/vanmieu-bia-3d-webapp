@@ -1,0 +1,387 @@
+/* ============================================================
+   Kiểu hiện thông tin "Trang triển lãm" (info/spread.js).
+   Một trang kính mờ 16:9 neo theo MÀN HÌNH trong .cin-hudroot, ô cửa trong ở giữa.
+   Mọi selector nằm dưới .cin-sp. Kích thước chữ nhân theo --u (JS đặt theo bề ngang trang).
+
+   Lưu ý kỹ thuật:
+   · Không đặt opacity / filter / mask lên TỔ TIÊN của lớp kính: các thuộc tính đó tạo
+     "backdrop root" → backdrop-filter chỉ còn làm mờ khoảng trống. Vì vậy mỗi lớp tự mờ
+     dần (kính, viền, dấu góc, từng dòng chữ); khung ngoài chỉ mang transform.
+   · Lỗ ô cửa là clip-path path(evenodd) do JS vẽ (có hoạt ảnh mở) — kính không phủ ô cửa.
+   · Cả trang KHÔNG nhận chuột: kéo/xoay/lăn đi thẳng xuống canvas phía sau.
+   ============================================================ */
+
+.cin-sp {
+  --u: 1;
+  --sp-ink: #f1ebdf;
+  --sp-body: rgba(241, 235, 223, .76);
+  --sp-dim: rgba(241, 235, 223, .58);
+  --sp-faint: rgba(241, 235, 223, .36);
+  --sp-gold: #d9b36c;
+  --sp-hair: rgba(255, 255, 255, .13);
+  --sp-radius: 14px;
+  --sp-sans: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  /* Bodoni Moda không có bộ chữ tiếng Việt → chỉ dùng cho chữ số / chữ cái Latin trơn. */
+  --sp-didone: 'Bodoni Moda', 'Playfair Display', Didot, Georgia, serif;
+  --sp-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --sp-out: cubic-bezier(.33, 1, .68, 1); /* ease-out cubic */
+  --sp-in: cubic-bezier(.32, 0, .67, 0); /* ease-in cubic */
+  --sp-t-in: 520ms;
+  --sp-t-out: 300ms;
+  --sp-lines: 110ms; /* chữ bắt đầu hiện sau kính một nhịp */
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transform-origin: 50% 50%;
+  color: var(--sp-ink);
+  font-family: var(--sp-sans);
+  font-size: calc(13px * var(--u));
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  /* Ẩn hẳn sau khi mờ xong: lớp kính không còn tốn GPU lúc không hiện. */
+  transition: visibility 0s linear calc(var(--sp-t-out) + 40ms);
+}
+.cin-sp[data-state="pre"],
+.cin-sp[data-state="in"] {
+  visibility: visible;
+  transition: none;
+  /* KHÔNG will-change: transform — lớp ghép cố định bị raster một lần ở tỉ lệ cũ, chữ nhoè. */
+}
+.cin-sp * { box-sizing: border-box; }
+
+/* ---------- Khung nâng (nhô lên khi hiện, chìm xuống khi ẩn) ---------- */
+.cin-sp__lift {
+  position: absolute;
+  inset: 0;
+  transform: translateY(12px);
+  transition: transform var(--sp-t-out) var(--sp-in);
+}
+.cin-sp[data-state="pre"] .cin-sp__lift { transform: translateY(24px); transition: none; }
+/* Đứng yên thì không còn transform nào: chữ nằm đúng lưới điểm ảnh, sắc nét. */
+.cin-sp[data-state="in"] .cin-sp__lift { transform: none; transition: transform var(--sp-t-in) var(--sp-out); }
+
+/* ---------- Bóng đổ (chỉ vẽ BÊN NGOÀI mép trang → ô cửa không bị tối) ---------- */
+.cin-sp__shadow {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--sp-radius);
+  box-shadow: 0 48px 110px -36px rgba(0, 0, 0, .7), 0 2px 14px rgba(0, 0, 0, .22);
+}
+
+/* ---------- Kính mờ ---------- */
+.cin-sp__frost {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--sp-radius);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, .055) 0, rgba(255, 255, 255, .012) 26%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, .02) 100%),
+    rgba(12, 12, 16, .52);
+  -webkit-backdrop-filter: blur(0px) saturate(100%);
+  backdrop-filter: blur(0px) saturate(100%);
+}
+.cin-sp[data-state="in"] .cin-sp__frost {
+  -webkit-backdrop-filter: blur(18px) saturate(115%);
+  backdrop-filter: blur(18px) saturate(115%);
+}
+
+/* Viền tóc + ánh sáng mảnh ở mép trên */
+.cin-sp__edge {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--sp-radius);
+  border: 1px solid rgba(255, 255, 255, .12);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .075);
+}
+
+/* Các lớp nền cùng mờ vào / ra với trang */
+.cin-sp__shadow,
+.cin-sp__frost,
+.cin-sp__edge,
+.cin-sp__marks {
+  opacity: 0;
+  transition:
+    opacity var(--sp-t-out) var(--sp-in),
+    -webkit-backdrop-filter var(--sp-t-out) var(--sp-in),
+    backdrop-filter var(--sp-t-out) var(--sp-in);
+}
+.cin-sp[data-state="pre"] :is(.cin-sp__shadow, .cin-sp__frost, .cin-sp__edge, .cin-sp__marks) { transition: none; }
+.cin-sp[data-state="in"] :is(.cin-sp__shadow, .cin-sp__frost, .cin-sp__edge, .cin-sp__marks) {
+  opacity: 1;
+  transition:
+    opacity var(--sp-t-in) var(--sp-out),
+    -webkit-backdrop-filter var(--sp-t-in) var(--sp-out),
+    backdrop-filter var(--sp-t-in) var(--sp-out);
+}
+
+/* ---------- Dấu góc ô cửa (JS dời theo hoạt ảnh mở cửa) ---------- */
+.cin-sp__marks { position: absolute; inset: 0; }
+.cin-sp__mark {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 14px;
+  height: 14px;
+  border: 0 solid rgba(255, 255, 255, .5);
+}
+.cin-sp__mark[data-c="tl"] { border-top-width: 1px; border-left-width: 1px; }
+.cin-sp__mark[data-c="tr"] { border-top-width: 1px; border-right-width: 1px; }
+.cin-sp__mark[data-c="bl"] { border-bottom-width: 1px; border-left-width: 1px; }
+.cin-sp__mark[data-c="br"] { border-bottom-width: 1px; border-right-width: 1px; }
+
+/* ---------- Dòng chữ: so le theo cột (90 ms) và theo dòng (35 ms) ---------- */
+.cin-sp__ln {
+  opacity: 0;
+  transition: opacity var(--sp-t-out) var(--sp-in);
+}
+.cin-sp[data-state="pre"] .cin-sp__ln { transform: translateY(6px); transition: none; }
+.cin-sp[data-state="in"] .cin-sp__ln {
+  opacity: 1;
+  transform: none;
+  transition: opacity 460ms var(--sp-out), transform 460ms var(--sp-out);
+  transition-delay: calc(var(--sp-lines) + var(--c, 0) * 90ms + var(--i, 0) * 35ms);
+}
+
+/* ---------- Cột ---------- */
+.cin-sp__col {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* Cột trái — nhãn "tombstone" của bảo tàng */
+.cin-sp__year {
+  margin: 0;
+  font-family: var(--sp-didone);
+  font-weight: 400;
+  font-size: calc(96px * var(--u));
+  line-height: 1;
+  letter-spacing: -.01em;
+  font-variant-numeric: lining-nums;
+  color: var(--sp-ink);
+  /* Cắt phần đầu dòng trống để đỉnh chữ số chạm đúng đường mép trên của ô cửa. */
+  margin-top: -.104em;
+  margin-bottom: -.2em;
+}
+.cin-sp__no {
+  margin: calc(20px * var(--u)) 0 0;
+  font-size: max(9px, calc(10px * var(--u)));
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--sp-dim);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.cin-sp__no b { font-weight: 600; color: var(--sp-ink); }
+.cin-sp__fill { flex: 1 1 auto; min-height: 10px; }
+.cin-sp__rule {
+  flex: none;
+  height: 1px;
+  margin: 0 0 calc(16px * var(--u));
+  background: linear-gradient(90deg, rgba(255, 255, 255, .2), rgba(255, 255, 255, .08));
+}
+.cin-sp__facts {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(9px * var(--u));
+  min-height: 0;
+}
+.cin-sp__row {
+  display: grid;
+  grid-template-columns: calc(88px * var(--u)) minmax(0, 1fr);
+  column-gap: calc(12px * var(--u));
+  align-items: baseline;
+}
+.cin-sp__row dt {
+  font-size: max(8.5px, calc(9px * var(--u)));
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--sp-gold);
+  opacity: .92;
+}
+.cin-sp__row dd {
+  margin: 0;
+  font-size: max(11.5px, calc(13px * var(--u)));
+  font-weight: 400;
+  line-height: 1.38;
+  color: var(--sp-ink);
+  font-variant-numeric: lining-nums;
+  text-wrap: balance; /* "Trạng nguyên / Nguyễn Trực", không bẻ giữa họ tên */
+}
+/* Cột hẹp: nhãn nằm trên giá trị */
+.cin-sp[data-dense="1"] .cin-sp__row { grid-template-columns: minmax(0, 1fr); row-gap: 2px; }
+
+/* Giữa — chú thích dưới ô cửa */
+.cin-sp__cap {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0;
+  font-family: var(--sp-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: max(11.5px, calc(13.5px * var(--u)));
+  line-height: 1.38;
+  letter-spacing: .01em;
+  color: var(--sp-dim);
+  white-space: nowrap;
+  overflow: hidden;
+}
+.cin-sp__cap span { overflow: hidden; text-overflow: ellipsis; }
+.cin-sp__cap i { font-style: normal; padding: 0 .55em; color: var(--sp-faint); }
+
+/* Cột phải — bài viết */
+.cin-sp__title {
+  flex: none;
+  margin: 0;
+  margin-top: -.31em; /* đỉnh chữ hoa thẳng mép trên ô cửa */
+  font-family: var(--sp-serif);
+  font-weight: 400;
+  font-size: calc(25px * var(--u));
+  line-height: 1.2;
+  letter-spacing: -.004em;
+  color: var(--sp-ink);
+  text-wrap: balance;
+}
+.cin-sp__sep {
+  flex: none;
+  width: 28px;
+  height: 1px;
+  margin: calc(18px * var(--u)) 0 calc(17px * var(--u));
+  background: var(--sp-gold);
+  opacity: .75;
+}
+.cin-sp__body {
+  flex: 0 1 auto;
+  min-height: 0;
+  overflow: hidden;
+}
+/* Bài dài hơn chỗ trống → cắt mềm bằng dải mờ ở đáy */
+.cin-sp__body[data-clip="1"] {
+  -webkit-mask-image: linear-gradient(180deg, #000 calc(100% - 3.4em), transparent);
+  mask-image: linear-gradient(180deg, #000 calc(100% - 3.4em), transparent);
+}
+.cin-sp__desc.is-pending { font-size: max(10px, calc(11px * var(--u))); letter-spacing: .22em; text-transform: uppercase; opacity: .7; }
+.cin-sp__desc.is-pending::first-letter { float: none; margin: 0; font: inherit; line-height: inherit; color: inherit; -webkit-initial-letter: normal; initial-letter: normal; }
+.cin-sp__desc {
+  margin: 0;
+  max-width: 34ch;
+  font-size: max(12px, calc(13.5px * var(--u)));
+  font-weight: 300;
+  line-height: 1.72;
+  color: var(--sp-body);
+  text-wrap: pretty;
+}
+/* Chữ hoa thả hai dòng, cùng họ chữ với tiêu đề (Playfair có đủ dấu tiếng Việt) */
+.cin-sp__desc::first-letter {
+  float: left;
+  margin: .1em .14em 0 0;
+  font-family: var(--sp-serif);
+  font-weight: 400;
+  font-size: 3.3em;
+  line-height: .8;
+  color: var(--sp-gold);
+}
+@supports ((initial-letter: 2) or (-webkit-initial-letter: 2)) {
+  .cin-sp__desc::first-letter {
+    float: none;
+    -webkit-initial-letter: 2;
+    initial-letter: 2;
+    margin: 0 .18em 0 0;
+    font-size: inherit;
+    line-height: inherit;
+  }
+}
+
+/* Đồ hoạ nhỏ: ba đợt dựng bia */
+.cin-sp__waves {
+  flex: none;
+  margin-top: auto;
+  padding-top: calc(22px * var(--u));
+}
+.cin-sp__k {
+  margin: 0 0 calc(13px * var(--u));
+  font-size: max(8.5px, calc(9px * var(--u)));
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--sp-gold);
+  opacity: .92;
+}
+.cin-sp__tl {
+  position: relative;
+  height: calc(10px + max(11px, calc(13px * var(--u))) * 1.3);
+  margin: 0 3px;
+}
+.cin-sp__axis {
+  position: absolute;
+  left: -3px;
+  right: -3px;
+  top: 3px;
+  height: 1px;
+  background: rgba(255, 255, 255, .16);
+}
+.cin-sp__span {
+  position: absolute;
+  top: 2px;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(241, 235, 223, .3);
+}
+.cin-sp__dot {
+  position: absolute;
+  top: 3.5px;
+  width: 7px;
+  height: 7px;
+  margin: -3.5px 0 0 -3.5px;
+  border-radius: 50%;
+  background: #121216;
+  border: 1px solid rgba(241, 235, 223, .55);
+}
+.cin-sp__yr {
+  position: absolute;
+  bottom: 0;
+  font-size: max(9.5px, calc(10.5px * var(--u)));
+  line-height: 1.3;
+  letter-spacing: .04em;
+  color: var(--sp-faint);
+  font-variant-numeric: lining-nums tabular-nums;
+  white-space: nowrap;
+}
+.cin-sp__yr[data-a="c"] { transform: translateX(-50%); }
+.cin-sp__yr[data-a="r"] { transform: translateX(-100%); }
+.cin-sp__span[data-on] { background: var(--sp-gold); opacity: .85; }
+.cin-sp__dot[data-on] {
+  background: var(--sp-gold);
+  border-color: var(--sp-gold);
+  box-shadow: 0 0 0 3px rgba(217, 179, 108, .16), 0 0 14px rgba(217, 179, 108, .45);
+}
+.cin-sp__yr[data-on] { color: var(--sp-gold); }
+
+/* ---------- Giảm chuyển động: chỉ mờ dần, không nhô / chìm / so le / mở cửa ---------- */
+.cin-sp[data-rm="1"] .cin-sp__lift,
+.cin-sp[data-rm="1"][data-state] .cin-sp__lift { transform: none; }
+.cin-sp[data-rm="1"][data-state="pre"] .cin-sp__ln { transform: none; }
+.cin-sp[data-rm="1"][data-state="in"] .cin-sp__ln { transition: opacity 260ms ease; transition-delay: 0ms; }
+.cin-sp[data-rm="1"] .cin-sp__frost {
+  -webkit-backdrop-filter: blur(18px) saturate(115%);
+  backdrop-filter: blur(18px) saturate(115%);
+}
+.cin-sp[data-rm="1"][data-state="in"] :is(.cin-sp__shadow, .cin-sp__frost, .cin-sp__edge, .cin-sp__marks) {
+  transition: opacity 260ms ease;
+}
+.cin-sp[data-rm="1"] :is(.cin-sp__shadow, .cin-sp__frost, .cin-sp__edge, .cin-sp__marks) {
+  transition: opacity 200ms ease;
+}

@@ -1,0 +1,4 @@
+{
+  "$comment": "r21 — sửa tay đầu rùa khi dò tự động sai (v1 lẫn v2): { \"bia-xxxx\": { \"center\": [x, y, z], \"radius\": r, \"neck\"?: {…}, \"note\": \"…\" } }, toạ độ mô hình (đo bằng __vm.cinemaHead() trong DEV). Ghi đè từng trường lên số đo tự động lúc khởi động (src/data/index.js).",
+  "steles": {}
+}

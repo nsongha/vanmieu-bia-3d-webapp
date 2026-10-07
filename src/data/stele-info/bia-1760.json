@@ -1,0 +1,338 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 74 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/74/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1760",
+ "year": 1760,
+ "canChi": "Canh Thìn",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA CANH THÌN NIÊN HIỆU CẢNH HƯNG NĂM THỨ 21 (1760)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Lê Trung Hưng",
+ "era": "Cảnh Hưng",
+ "eraYear": 21,
+ "king": {
+  "name": "Lê Hiển Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 5,
+ "passedRaw": "5",
+ "erected": 1760,
+ "contributors": {
+  "author": "Nguyễn Nghiễm",
+  "calligrapher": "",
+  "editor": "",
+  "engraver": ""
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 0
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 5
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Ngô Trần Thực",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân [Đình Nguyên]",
+   "hometown": "Xã Bách Tính huyện Nam Chân (nay thuộc xã Nam Hồng huyện Nam Trực tỉnh Nam Định)",
+   "honors": [
+    "Đình nguyên"
+   ]
+  },
+  {
+   "name": "Nguyễn Khản",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Tiên Điền huyện Nghi Xuân (nay thuộc xã Tiên Điền huyện Nghi Xuân tỉnh Hà Tĩnh)",
+   "honors": []
+  },
+  {
+   "name": "Tạ Đăng Đạo",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Đại Phùng huyện Đan Phượng (nay thuộc xã Đan Phượng huyện Đan Phượng tỉnh Hà Tây)",
+   "honors": []
+  },
+  {
+   "name": "Đào Duy Doãn",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Chương Dương huyện Thượng Phúc (nay thuộc xã Chương Dương huyện Thường Tín tỉnh Hà Tây)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Huy Cẩn",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân [Hội Nguyên]",
+   "hometown": "Xã Phú Thị huyện Gia Lâm (nay thuộc xã Phú Thị huyện Gia Lâm Tp. Hà Nội)",
+   "honors": [
+    "Hội nguyên"
+   ]
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa xuân tháng 2 năm Canh Thìn, niên hiệu Cảnh Hưng thứ 21 (1760), triều đình mở khoa thi Hội cho các Cống sĩ, qua bốn trường chọn được 5 người trúng cách.",
+   "Vào Điện thí, cả 5 người đều đỗ Đệ tam giáp đồng Tiến sĩ xuất thân, trong đó Ngô Trần Thực đỗ đầu kỳ thi Đình và Nguyễn Huy Cẩn đỗ đầu kỳ thi Hội.",
+   "Việc cầu tìm hiền tài khoa này được giao cho Thái uý Tĩnh quốc công, tổng quản quyền chính đương thời.",
+   "Bia được dựng ngay mùa xuân năm ấy, do Nguyễn Nghiễm — Tiến sĩ cập đệ khoa Tân Hợi — soạn bài ký."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Hội được tổ chức vào tháng 2 năm Canh Thìn (1760) cho các Cống sĩ trong nước.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Mùa xuân tháng 2 năm Canh Thìn chuẩn lời tâu của Bộ Lễ, thi Hội cho các Cống sĩ trong nước."
+   }
+  },
+  {
+   "text": "Chúa Trịnh Sâm (Minh vương) lúc bấy giờ giữ vai trò Đại nguyên súy Thống quốc chính, lo việc cầu tìm hiền tài.",
+   "kind": "note"
+  },
+  {
+   "text": "Các quan viên tổ chức kỳ thi gồm: Nghiêm Quận công Trịnh Miên (Đề điệu), Nghĩa Phương hầu Nguyễn Vĩ (Tri Cống cử), Du Nhạc hầu Trần Danh Lâm và Viên Lĩnh hầu Đào Xuân Lan (Giám thí).",
+   "kind": "note",
+   "label": "Các quan viên tổ chức kỳ thi gồm",
+   "labelKind": "inline",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Sai Phó Đô tướng hậu trung quân doanh Thự phủ sự Đô đốc phủ Đô đốc thiêm sự Nghiêm Quận công Trịnh Miên làm Đề điệu, Bồi tụng Công bộ Thượng thư hành Lại bộ sự kiêm Quốc tử giám Tế tửu Nhập thị Kinh diên Nghĩa Phương hầu Nguyễn Vĩ làm Tri Cống cử, Nhập thị Bồi tụng Lại bộ Hữu Thị lang Du Nhạc hầu Trần Danh Lâm, Sơn Nam xứ tán trị Thừa chính sứ ty Thừa chính sứ Viên Lĩnh hầu Đào Xuân Lan làm Giám thí."
+   }
+  },
+  {
+   "text": "Kỳ thi Điện diễn ra một tháng sau kỳ thi Hội, kết quả lấy đỗ 5 người đều thuộc hạng Đồng Tiến sĩ xuất thân.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Qua tháng sau Điện thí, cho bọn Ngô Trần Thực đều đỗ đồng Tiến sĩ xuất thân."
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Nguyễn Nghiễm",
+   "dates": "1708-1775",
+   "description": "Đỗ Chánh Tiến sĩ khoa Tân Hợi (1731). Ông giữ nhiều chức vụ quan trọng như Tham tụng, Thiếu bảo, Thượng thư Bộ Công kiêm Quốc tử giám Tế tửu. Ông là cha của Tiến sĩ Nguyễn Khản và đại thi hào Nguyễn Du.",
+   "hometown": "Xã Tiên Điền huyện Nghi Xuân",
+   "roles": [
+    "Tham tụng",
+    "Thiếu bảo",
+    "Thượng thư Bộ Công",
+    "Quốc tử giám Tế tửu",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Nguyễn Khản",
+   "dates": "1734-?",
+   "description": "Con trai của Nguyễn Nghiễm, anh trai Nguyễn Du. Ông giữ nhiều chức vụ cao cấp như Tham tụng, Thượng thư Bộ Lại, tước Toản Quận công. Ông còn có tên khác là Nguyễn Lệ và nổi tiếng với tài văn chương, nghệ thuật.",
+   "hometown": "Xã Tiên Điền huyện Nghi Xuân (nay thuộc xã Tiên Điền huyện Nghi Xuân tỉnh Hà Tĩnh)",
+   "roles": [
+    "Tham tụng",
+    "Thượng thư Bộ Lại",
+    "Toản Quận công",
+    "Đô đốc"
+   ]
+  },
+  {
+   "name": "Nguyễn Huy Cẩn",
+   "dates": "1729-1790",
+   "description": "Đỗ Hội nguyên khoa Canh Thìn. Ông là cháu của Nguyễn Huy Nhuận và con của Nguyễn Huy Dận. Sau khi thi đỗ, ông đã cáo từ không ra làm quan. Có tài liệu ghi tên ông là Nguyễn Huy Cận.",
+   "hometown": "Xã Phú Thị huyện Gia Lâm (nay thuộc xã Phú Thị huyện Gia Lâm Tp. Hà Nội)",
+   "roles": [
+    "Thự Tri phủ",
+    "Thị nội Văn chức"
+   ]
+  },
+  {
+   "name": "Ngô Trần Thực",
+   "dates": "1722-?",
+   "description": "Đỗ đầu khoa thi Điện (Đình nguyên). Từng giữ chức Đông các Đại học sĩ, Thự Thiên đô ngự sử.",
+   "hometown": "Xã Bách Tính huyện Nam Chân (nay thuộc xã Nam Hồng huyện Nam Trực tỉnh Nam Định)",
+   "roles": [
+    "Đông các Đại học sĩ",
+    "Thự Thiên đô ngự sử"
+   ]
+  },
+  {
+   "name": "Tạ Đăng Đạo",
+   "dates": "1731-?",
+   "description": "Cháu nội Tạ Đăng Vọng, con của Tạ Đăng Huân. Ông làm quan đến chức Lễ khoa Cấp sự trung.",
+   "hometown": "Xã Đại Phùng huyện Đan Phượng (nay thuộc xã Đan Phượng huyện Đan Phượng tỉnh Hà Tây)",
+   "roles": [
+    "Lễ khoa Cấp sự trung"
+   ]
+  },
+  {
+   "name": "Đào Duy Doãn",
+   "dates": "1726-?",
+   "description": "Làm quan đến chức Hiến sát sứ.",
+   "hometown": "Xã Chương Dương huyện Thượng Phúc (nay thuộc xã Chương Dương huyện Thường Tín tỉnh Hà Tây)",
+   "roles": [
+    "Hiến sát sứ",
+    "Huấn đạo"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA CANH THÌN NIÊN HIỆU CẢNH HƯNG NĂM THỨ 21 (1760)",
+  "paragraphs": [
+   "Mừng nay hoàng đồ bền vững, văn vận hanh thông. Kính vâng Hoàng thượng bệ hạ, thể trời mệnh lớn yên vững. Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư Thượng phụ Minh vương noi đức nhà Ngu xây đắp móng nền, theo lễ nhà Chu sửa sang pháp độ. Chuyên uỷ cho Khâm sai Tiết chế các xứ thuỷ bộ chư quân kiêm Chưởng chính cơ, Thái uý Tĩnh quốc công tổng quản quyền chính, lo việc cầu tìm hiền tài. Mùa xuân tháng 2 năm Canh Thìn chuẩn lời tâu của Bộ Lễ, thi Hội cho các Cống sĩ trong nước. Sai Phó Đô tướng hậu trung quân doanh Thự phủ sự Đô đốc phủ Đô đốc thiêm sự Nghiêm Quận công Trịnh Miên làm Đề điệu, Bồi tụng Công bộ Thượng thư hành Lại bộ sự kiêm Quốc tử giám Tế tửu Nhập thị Kinh diên Nghĩa Phương hầu Nguyễn Vĩ làm Tri Cống cử, Nhập thị Bồi tụng Lại bộ Hữu Thị lang Du Nhạc hầu Trần Danh Lâm, Sơn Nam xứ tán trị Thừa chính sứ ty Thừa chính sứ Viên Lĩnh hầu Đào Xuân Lan làm Giám thí. Qua trường bốn lấy trúng cách bọn Nguyễn Huy Cẩn 5 người. Qua tháng sau Điện thí, cho bọn Ngô Trần Thực đều đỗ đồng Tiến sĩ xuất thân. Lại sai khắc tên vào đá để lưu truyền mãi mãi."
+  ],
+  "colophon": [
+   "Bia dựng tháng 2 mùa xuân niên hiệu Cảnh Hưng thứ 21 (1760) Hoàng Lê.",
+   "Chánh Tiến sĩ khoa Tân Hợi Nhập thị Tham tụng Thiếu bảo, Thượng thư Bộ Công kiêm Quốc tử giám Tế tửu Nhập thị Kinh diên Xuân Nhạc hầu Nguyễn Nghiễm vâng sắc soạn."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 5,
+    "names": [
+     {
+      "name": "NGÔ TRẦN THỰC",
+      "from": "xã Bách Tính huyện Nam Chân, trú quán xã Phật Tích huyện Tiên Du, Thị nội Văn chức, Thự Tri phủ"
+     },
+     {
+      "name": "NGUYỄN KHẢN",
+      "from": "xã Tiên Điền huyện Nghi Xuân, Viên ngoại lang Bộ Lại"
+     },
+     {
+      "name": "TẠ ĐĂNG ĐẠO",
+      "from": "xã Đại Phùng huyện Đan Phượng, Kiêm tri Tri phủ"
+     },
+     {
+      "name": "ĐÀO DUY DOÃN",
+      "from": "xã Chương Dương huyện Thượng Phúc, Huấn đạo"
+     },
+     {
+      "name": "NGUYỄN HUY CẨN",
+      "from": "xã Phú Thị huyện Gia Lâm, Thị nội Văn chức, Thự Tri phủ"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Nghiễm"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Nghiễm",
+   "others": [
+    {
+     "id": "bia-1766",
+     "year": 1766
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1760,
+  "raw": "1760",
+  "gap": 0,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1760",
+     "year": 1760
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Nguyễn Nghiễm",
+   "dates": "1708-1775",
+   "description": "Đỗ Chánh Tiến sĩ khoa Tân Hợi (1731). Ông giữ nhiều chức vụ quan trọng như Tham tụng, Thiếu bảo, Thượng thư Bộ Công kiêm Quốc tử giám Tế tửu. Ông là cha của Tiến sĩ Nguyễn Khản và đại thi hào Nguyễn Du.",
+   "isLaureate": false,
+   "links": [
+    {
+     "id": "bia-1731",
+     "year": 1731,
+     "$verify": "cần đối chiếu"
+    }
+   ]
+  },
+  {
+   "name": "Nguyễn Khản",
+   "dates": "1734-?",
+   "description": "Con trai của Nguyễn Nghiễm, anh trai Nguyễn Du. Ông giữ nhiều chức vụ cao cấp như Tham tụng, Thượng thư Bộ Lại, tước Toản Quận công. Ông còn có tên khác là Nguyễn Lệ và nổi tiếng với tài văn chương, nghệ thuật.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Huy Cẩn",
+   "dates": "1729-1790",
+   "description": "Đỗ Hội nguyên khoa Canh Thìn. Ông là cháu của Nguyễn Huy Nhuận và con của Nguyễn Huy Dận. Sau khi thi đỗ, ông đã cáo từ không ra làm quan. Có tài liệu ghi tên ông là Nguyễn Huy Cận.",
+   "isLaureate": true
+  },
+  {
+   "name": "Ngô Trần Thực",
+   "dates": "1722-?",
+   "description": "Đỗ đầu khoa thi Điện (Đình nguyên). Từng giữ chức Đông các Đại học sĩ, Thự Thiên đô ngự sử.",
+   "isLaureate": true
+  },
+  {
+   "name": "Tạ Đăng Đạo",
+   "dates": "1731-?",
+   "description": "Cháu nội Tạ Đăng Vọng, con của Tạ Đăng Huân. Ông làm quan đến chức Lễ khoa Cấp sự trung.",
+   "isLaureate": true
+  },
+  {
+   "name": "Đào Duy Doãn",
+   "dates": "1726-?",
+   "description": "Làm quan đến chức Hiến sát sứ.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nguyễn Nghiễm",
+  "dates": "1708-1775",
+  "description": "Đỗ Chánh Tiến sĩ khoa Tân Hợi (1731). Ông giữ nhiều chức vụ quan trọng như Tham tụng, Thiếu bảo, Thượng thư Bộ Công kiêm Quốc tử giám Tế tửu. Ông là cha của Tiến sĩ Nguyễn Khản và đại thi hào Nguyễn Du.",
+  "hometown": "Xã Tiên Điền huyện Nghi Xuân",
+  "roles": [
+   "Tham tụng",
+   "Thiếu bảo",
+   "Thượng thư Bộ Công",
+   "Quốc tử giám Tế tửu",
+   "Người soạn văn bia"
+  ],
+  "links": [
+   {
+    "id": "bia-1731",
+    "year": 1731,
+    "$verify": "cần đối chiếu"
+   }
+  ]
+ }
+}

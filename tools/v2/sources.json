@@ -1,0 +1,2479 @@
+{
+  "$comment": "Sinh bởi tools/v2/inventory.mjs — nguồn đề xuất cho pipeline v2 (đường dẫn tương đối SOURCE_DIR). Sửa lựa chọn qua MANUAL trong script rồi chạy lại. flag = cần soát bằng mắt.",
+  "sourceDir": "/Users/songha/Documents/Projects/2.3. Xây dựng nội dung số 3D Cấp độ 3 (82 bia)",
+  "generated": "2026-09-25T13:35:10.385Z",
+  "steles": {
+    "bia-1733": {
+      "stt": 1,
+      "year": 1733,
+      "folder": "1-1733",
+      "path": "1-1733/1-1733.glb",
+      "bytes": 20697956,
+      "tris": 183522,
+      "verts": 533280,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1429279,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "1-1733/1-1733-test.glb (5.4 MB, 37k tris)",
+        "1-1733/1-1733-test2.glb (2.9 MB, 15k tris)",
+        "1-1733/1-1733-test3.glb (9.3 MB, 73k tris)",
+        "1-1733/1-1733.blend (19.8 MB)",
+        "1-1733/1-1733.fbx (6.8 MB)"
+      ],
+      "reason": "điểm cao nhất trong 4 GLB/glTF",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.91 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1739": {
+      "stt": 2,
+      "year": 1739,
+      "folder": "2-1739",
+      "path": "2-1739/fix 2-1739.glb",
+      "bytes": 10472704,
+      "tris": 88858,
+      "verts": 250240,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1397245,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "2-1739/fix 2-1739.blend (9.8 MB)",
+        "2-1739/fix 2-1739.fbx (3.2 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.82 đỉnh/tam giác)",
+        "ít tam giác (89k) — LOD0 không thể dày hơn nguồn"
+      ],
+      "flag": true
+    },
+    "bia-1746": {
+      "stt": 3,
+      "year": 1746,
+      "folder": "3-1746",
+      "path": "3-1746/3-1746.glb",
+      "bytes": 26376300,
+      "tris": 242899,
+      "verts": 689451,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1397652,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "3-1746/3-1746.blend (25.3 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.84 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1752": {
+      "stt": 4,
+      "year": 1752,
+      "folder": "4-1752",
+      "path": "4-1752/4-1752.glb",
+      "bytes": 19715984,
+      "tris": 173956,
+      "verts": 505140,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1462602,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "4-1752/4-1752.blend (18.8 MB)",
+        "4-1752/4-1752.fbx (6.4 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.9 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1554": {
+      "stt": 5,
+      "year": 1554,
+      "folder": "5-1554",
+      "path": "5-1554/NEW/5.glb",
+      "bytes": 27287956,
+      "tris": 244298,
+      "verts": 667008,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3010658,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "5-1554/5-1554.blend (19.8 MB)",
+        "5-1554/5-1554.fbx (6.9 MB)",
+        "5-1554/5-1554.glb (22.7 MB, 184k tris)",
+        "5-1554/NEW/5.blend (24.5 MB)",
+        "5-1554/NEW/5.fbx (8.6 MB)"
+      ],
+      "reason": "điểm cao nhất trong 2 GLB/glTF",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.73 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1577": {
+      "stt": 6,
+      "year": 1577,
+      "folder": "6-1577",
+      "path": "6-1577/6-1577.glb",
+      "bytes": 17769440,
+      "tris": 157394,
+      "verts": 454364,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1339635,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "6-1577/6-1577.blend (17.0 MB)",
+        "6-1577/6-1577.fbx (5.7 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.89 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1583": {
+      "stt": 7,
+      "year": 1583,
+      "folder": "7-1583",
+      "path": "7-1583/7-1583.glb",
+      "bytes": 21787284,
+      "tris": 195234,
+      "verts": 563234,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1419559,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "7-1583/7-1583.blend (20.8 MB)",
+        "7-1583/7-1583.fbx (7.1 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.88 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1757": {
+      "stt": 8,
+      "year": 1757,
+      "folder": "8-1757",
+      "path": "8-1757/8-1757.glb",
+      "bytes": 27925196,
+      "tris": 253402,
+      "verts": 734834,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1368260,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "8-1757/8-1757.blend (27.0 MB)",
+        "8-1757/8-1757.fbx (9.2 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.9 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1610": {
+      "stt": 9,
+      "year": 1610,
+      "folder": "9-1610",
+      "path": "9-1610/9-1610.glb",
+      "bytes": 16145536,
+      "tris": 138694,
+      "verts": 402620,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1595913,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "9-1610/9-1610.blend (15.2 MB)",
+        "9-1610/9-1610.fbx (5.1 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.9 đỉnh/tam giác)",
+        "ít tam giác (139k) — LOD0 không thể dày hơn nguồn"
+      ],
+      "flag": true
+    },
+    "bia-1604": {
+      "stt": 10,
+      "year": 1604,
+      "folder": "10-1604",
+      "path": "10-1604/10-1604.glb",
+      "bytes": 22557632,
+      "tris": 208207,
+      "verts": 581052,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1464054,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "10-1604/10-1604.blend (21.5 MB)",
+        "10-1604/10-1604.fbx (7.3 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.79 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1661": {
+      "stt": 11,
+      "year": 1661,
+      "folder": "11-1661",
+      "path": "11-1661/11-1661.glb",
+      "bytes": 12053280,
+      "tris": 106682,
+      "verts": 296908,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1270610,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "11-1661/11-1661.blend (11.5 MB)",
+        "11-1661/11-1661.fbx (3.8 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.78 đỉnh/tam giác)",
+        "ít tam giác (107k) — LOD0 không thể dày hơn nguồn"
+      ],
+      "flag": true
+    },
+    "bia-1667": {
+      "stt": 12,
+      "year": 1667,
+      "folder": "12-1667",
+      "path": "12-1667/12-1667.glb",
+      "bytes": 18463232,
+      "tris": 178041,
+      "verts": 468017,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1348731,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "12-1667/12-1667.blend (17.6 MB)",
+        "12-1667/12-1667.fbx (6.0 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.63 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1592": {
+      "stt": 13,
+      "year": 1592,
+      "folder": "13-1592",
+      "path": "13-1592/13.glb",
+      "bytes": 30294848,
+      "tris": 287903,
+      "verts": 795921,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1369067,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "13-1592/13.blend (29.1 MB)",
+        "13-1592/13.fbx (10.2 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.76 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1673": {
+      "stt": 14,
+      "year": 1673,
+      "folder": "14-1673",
+      "path": "14-1673/14.glb",
+      "bytes": 15750460,
+      "tris": 143372,
+      "verts": 390864,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1520880,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "14-1673/14.blend (14.7 MB)",
+        "14-1673/14.fbx (5.0 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.73 đỉnh/tam giác)",
+        "ít tam giác (143k) — LOD0 không thể dày hơn nguồn"
+      ],
+      "flag": true
+    },
+    "bia-1598": {
+      "stt": 15,
+      "year": 1598,
+      "folder": "15-1598",
+      "path": "15-1598/15-1598.glb",
+      "bytes": 27148164,
+      "tris": 240348,
+      "verts": 715682,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1360686,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "15-1598/15-1598.blend (25.7 MB)",
+        "15-1598/15-1598.fbx (9.0 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.98 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1680": {
+      "stt": 16,
+      "year": 1680,
+      "folder": "16-1680",
+      "path": "16-1680/new/16.glb",
+      "bytes": 30596608,
+      "tris": 281250,
+      "verts": 804192,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1485990,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "16-1680/16-1680.blend (26.3 MB)",
+        "16-1680/16-1680.fbx (9.2 MB)",
+        "16-1680/16-1680.glb (27.9 MB, 246k tris)",
+        "16-1680/new/16.blend (29.4 MB)",
+        "16-1680/new/16.fbx (10.2 MB)"
+      ],
+      "reason": "điểm cao nhất trong 2 GLB/glTF",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.86 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1487": {
+      "stt": 17,
+      "year": 1487,
+      "folder": "17-1487",
+      "path": "17-1487/17.glb",
+      "bytes": 29130124,
+      "tris": 266966,
+      "verts": 765902,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1416196,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "17-1487/17.blend (28.0 MB)",
+        "17-1487/17.fbx (9.8 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.87 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1685": {
+      "stt": 18,
+      "year": 1685,
+      "folder": "18-1685",
+      "path": "18-1685/18.glb",
+      "bytes": 33840628,
+      "tris": 314563,
+      "verts": 894427,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1442729,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "18-1685/18.blend (32.6 MB)",
+        "18-1685/18.fbx (11.4 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.84 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1616": {
+      "stt": 19,
+      "year": 1616,
+      "folder": "19-1616",
+      "path": "19-1616/19.glb",
+      "bytes": 35830748,
+      "tris": 321640,
+      "verts": 915994,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 2657823,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "19-1616/19.blend (33.3 MB)",
+        "19-1616/19.fbx (11.7 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.85 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1691": {
+      "stt": 20,
+      "year": 1691,
+      "folder": "20-1691",
+      "path": "20-1691/20.glb",
+      "bytes": 36092144,
+      "tris": 335746,
+      "verts": 950736,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1638203,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "20-1691/20.blend (34.5 MB)",
+        "20-1691/20.fbx (12.1 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.83 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1697": {
+      "stt": 21,
+      "year": 1697,
+      "folder": "21-1697",
+      "path": "21-1697/21.glb",
+      "bytes": 20603944,
+      "tris": 197180,
+      "verts": 528780,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1315389,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "21-1697/21.blend (19.7 MB)",
+        "21-1697/21.fbx (6.9 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.68 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1703": {
+      "stt": 22,
+      "year": 1703,
+      "folder": "22-1703",
+      "path": "22-1703/22.glb",
+      "bytes": 13806112,
+      "tris": 124462,
+      "verts": 338614,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1475451,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "22-1703/22.blend (12.8 MB)",
+        "22-1703/22.fbx (4.3 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.72 đỉnh/tam giác)",
+        "ít tam giác (124k) — LOD0 không thể dày hơn nguồn"
+      ],
+      "flag": true
+    },
+    "bia-1631": {
+      "stt": 23,
+      "year": 1631,
+      "folder": "23-1631",
+      "path": "23-1631/23.glb",
+      "bytes": 20061388,
+      "tris": 183686,
+      "verts": 514228,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1400468,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "23-1631/23.blend (19.1 MB)",
+        "23-1631/23.fbx (6.6 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.8 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1710": {
+      "stt": 24,
+      "year": 1710,
+      "folder": "24-1710",
+      "path": "24-1710/24.glb",
+      "bytes": 35875368,
+      "tris": 336340,
+      "verts": 950578,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1419356,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "24-1710/24.blend (34.6 MB)",
+        "24-1710/24.fbx (12.1 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.83 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1640": {
+      "stt": 25,
+      "year": 1640,
+      "folder": "25-1640",
+      "path": "25-1640/25-1640.glb",
+      "bytes": 13742236,
+      "tris": 420397,
+      "verts": 222123,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1588106,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "25-1640/25-1640.blend (44.1 MB)",
+        "25-1640/25-1640.fbx (14.7 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [],
+      "flag": false
+    },
+    "bia-1715": {
+      "stt": 26,
+      "year": 1715,
+      "folder": "26-1715",
+      "path": "26-1715/26-1715.glb",
+      "bytes": 48094708,
+      "tris": 435034,
+      "verts": 1298924,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1307292,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "26-1715/26-1715.blend (45.9 MB)",
+        "26-1715/26-1715.fbx (0.0 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "HỎNG: 26-1715/26-1715.fbx — tệp rỗng (0 byte)",
+        "pháp tuyến phẳng từng mặt (2.99 đỉnh/tam giác)"
+      ],
+      "flag": true
+    },
+    "bia-1646": {
+      "stt": 27,
+      "year": 1646,
+      "folder": "27-1646",
+      "path": "27-1646/27.glb",
+      "bytes": 47747720,
+      "tris": 444088,
+      "verts": 1272604,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1693893,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "27-1646/27.blend (45.9 MB)",
+        "27-1646/27.fbx (16.2 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.87 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1656": {
+      "stt": 28,
+      "year": 1656,
+      "folder": "28-1656",
+      "path": "28-1656/28.glb",
+      "bytes": 28026424,
+      "tris": 263006,
+      "verts": 726988,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1605265,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "28-1656/28.blend (26.7 MB)",
+        "28-1656/28.fbx (9.3 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.76 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1721": {
+      "stt": 29,
+      "year": 1721,
+      "folder": "29-1721",
+      "path": "29-1721/29.glb",
+      "bytes": 48035584,
+      "tris": 459270,
+      "verts": 1282820,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1472624,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "29-1721/29.blend (46.3 MB)",
+        "29-1721/29.fbx (16.3 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.79 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1727": {
+      "stt": 30,
+      "year": 1727,
+      "folder": "30-1727",
+      "path": "30-1727/30-1727.glb",
+      "bytes": 71425740,
+      "tris": 695692,
+      "verts": 1907148,
+      "meshes": 2,
+      "primitives": 2,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1552160,
+          "role": "baseColor"
+        },
+        {
+          "w": 2046,
+          "h": 2046,
+          "mime": "image/png",
+          "bytes": 4668232,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "30-1727/30-1727.blend (68.6 MB)",
+        "30-1727/30-1727.fbx (12.2 MB)",
+        "30-1727/30-1727.gltf (89.0 MB, 696k tris)",
+        "30-1727/30-1727a.blend (34.1 MB)"
+      ],
+      "reason": "điểm cao nhất trong 2 GLB/glTF",
+      "notes": [
+        "2 mesh / 2 primitive",
+        "mesh trùng lặp: 30-1727 = 30-1727.001",
+        "pháp tuyến phẳng từng mặt (2.74 đỉnh/tam giác)"
+      ],
+      "flag": true
+    },
+    "bia-1511": {
+      "stt": 31,
+      "year": 1511,
+      "folder": "31-1511",
+      "path": "31-1511/31.glb",
+      "bytes": 35819892,
+      "tris": 338290,
+      "verts": 943638,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1562507,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "31-1511/31.blend (34.4 MB)",
+        "31-1511/31.fbx (12.0 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.79 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1481": {
+      "stt": 32,
+      "year": 1481,
+      "folder": "32-1481",
+      "path": "32-1481/NEW/32.glb",
+      "bytes": 44210636,
+      "tris": 412641,
+      "verts": 1177195,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1587224,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "32-1481/32.blend (41.1 MB)",
+        "32-1481/32.fbx (14.7 MB)",
+        "32-1481/32.glb (43.6 MB, 389k tris)",
+        "32-1481/NEW/32.blend (42.5 MB)",
+        "32-1481/NEW/32.fbx (14.9 MB)"
+      ],
+      "reason": "điểm cao nhất trong 2 GLB/glTF",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.85 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1463": {
+      "stt": 33,
+      "year": 1463,
+      "folder": "33-1463",
+      "path": "33-1463/33.glb",
+      "bytes": 96504652,
+      "tris": 1078896,
+      "verts": 2117592,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/png",
+          "bytes": 15793530,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "33-1463/33.blend (78.6 MB)",
+        "33-1463/33.fbx (29.9 MB)",
+        "33-1463/33.obj (83.7 MB, 1079k tris)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [],
+      "flag": false
+    },
+    "bia-1475": {
+      "stt": 34,
+      "year": 1475,
+      "folder": "34-1475",
+      "path": "34-1475/NEW/34.glb",
+      "bytes": 25932828,
+      "tris": 244028,
+      "verts": 674030,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1434063,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "34-1475/34.blend (23.5 MB)",
+        "34-1475/34.fbx (8.1 MB)",
+        "34-1475/34.glb (25.2 MB, 223k tris)",
+        "34-1475/NEW/34.blend (24.8 MB)",
+        "34-1475/NEW/34.fbx (8.5 MB)"
+      ],
+      "reason": "điểm cao nhất trong 2 GLB/glTF",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.76 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1514": {
+      "stt": 35,
+      "year": 1514,
+      "folder": "35-1514",
+      "path": "35-1514/NEW/35.glb",
+      "bytes": 34643772,
+      "tris": 323861,
+      "verts": 911091,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1601052,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "35-1514/35.blend (31.9 MB)",
+        "35-1514/35.fbx (11.2 MB)",
+        "35-1514/35.glb (33.8 MB, 302k tris)",
+        "35-1514/NEW/35.blend (33.2 MB)",
+        "35-1514/NEW/35.fbx (11.6 MB)"
+      ],
+      "reason": "điểm cao nhất trong 2 GLB/glTF",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.81 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1502": {
+      "stt": 36,
+      "year": 1502,
+      "folder": "36-1502",
+      "path": "36-1502/NEW/36.glb",
+      "bytes": 30836680,
+      "tris": 286778,
+      "verts": 807680,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1548105,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "36-1502/36.blend (29.6 MB)",
+        "36-1502/36.fbx (10.4 MB)",
+        "36-1502/36.glb (31.6 MB, 284k tris)",
+        "36-1502/NEW/36.blend (29.5 MB)",
+        "36-1502/NEW/36.fbx (10.3 MB)"
+      ],
+      "reason": "điểm cao nhất trong 2 GLB/glTF",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.82 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1775": {
+      "stt": 37,
+      "year": 1775,
+      "folder": "37-1775",
+      "path": "37-1775/new/37.glb",
+      "bytes": 31552124,
+      "tris": 294894,
+      "verts": 824248,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1635989,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "37-1775/37.blend (28.3 MB)",
+        "37-1775/37.fbx (9.9 MB)",
+        "37-1775/37.glb (30.0 MB, 267k tris)",
+        "37-1775/new/37.blend (30.1 MB)",
+        "37-1775/new/37.fbx (10.5 MB)"
+      ],
+      "reason": "điểm cao nhất trong 2 GLB/glTF",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.8 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1623": {
+      "stt": 38,
+      "year": 1623,
+      "folder": "38-1623",
+      "path": "38-1623/NEW/38.glb",
+      "bytes": 26695732,
+      "tris": 233922,
+      "verts": 644534,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 3262104,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "38-1623/38.blend (21.7 MB)",
+        "38-1623/38.fbx (7.6 MB)",
+        "38-1623/38.glb (23.4 MB, 203k tris)",
+        "38-1623/NEW/38.blend (23.7 MB)",
+        "38-1623/NEW/38.fbx (8.3 MB)"
+      ],
+      "reason": "điểm cao nhất trong 2 GLB/glTF",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.76 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1769": {
+      "stt": 39,
+      "year": 1769,
+      "folder": "39-1769",
+      "path": "39-1769/new/39.glb",
+      "bytes": 38455360,
+      "tris": 358568,
+      "verts": 1013364,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1723420,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "39-1769/39.blend (35.0 MB)",
+        "39-1769/39.fbx (12.3 MB)",
+        "39-1769/39.glb (36.7 MB, 331k tris)",
+        "39-1769/new/39.blend (36.8 MB)",
+        "39-1769/new/39.fbx (12.9 MB)"
+      ],
+      "reason": "điểm cao nhất trong 2 GLB/glTF",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.83 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1763": {
+      "stt": 40,
+      "year": 1763,
+      "folder": "40-1763",
+      "path": "40-1763/40.glb",
+      "bytes": 29734380,
+      "tris": 265417,
+      "verts": 768653,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 2048,
+          "h": 2048,
+          "mime": "image/jpeg",
+          "bytes": 1950970,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "40-1763/40.blend (28.1 MB)",
+        "40-1763/40.fbx (9.9 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.9 đỉnh/tam giác)",
+        "texture nguồn chỉ 2048px — LOD0 không lên 4096 được"
+      ],
+      "flag": true
+    },
+    "bia-1731": {
+      "stt": 41,
+      "year": 1731,
+      "folder": "41-1731",
+      "path": "41-1731/42.glb",
+      "bytes": 35313124,
+      "tris": 317668,
+      "verts": 917972,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 2048,
+          "h": 2048,
+          "mime": "image/jpeg",
+          "bytes": 2124543,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "41-1731/42.blend (33.4 MB)",
+        "41-1731/42.fbx (11.8 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.89 đỉnh/tam giác)",
+        "tên tệp lệch thư mục: 41-1731/42.blend",
+        "tên tệp lệch thư mục: 41-1731/42.fbx",
+        "tên tệp lệch thư mục: 41-1731/42.glb",
+        "texture nguồn chỉ 2048px — LOD0 không lên 4096 được"
+      ],
+      "flag": true
+    },
+    "bia-1529": {
+      "stt": 42,
+      "year": 1529,
+      "folder": "42-1529",
+      "path": "42-1529/42.glb",
+      "bytes": 34834716,
+      "tris": 314204,
+      "verts": 904796,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 2048,
+          "h": 2048,
+          "mime": "image/jpeg",
+          "bytes": 2109328,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "42-1529/42.blend (33.0 MB)",
+        "42-1529/42.fbx (11.5 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.88 đỉnh/tam giác)",
+        "texture nguồn chỉ 2048px — LOD0 không lên 4096 được"
+      ],
+      "flag": true
+    },
+    "bia-1724": {
+      "stt": 43,
+      "year": 1724,
+      "folder": "43-1724",
+      "path": "43-1724/43.glb",
+      "bytes": 60536804,
+      "tris": 528226,
+      "verts": 1508188,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 8192,
+          "h": 8192,
+          "mime": "image/jpeg",
+          "bytes": 5934660,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "43-1724/43.blend (54.3 MB)",
+        "43-1724/43.fbx (19.5 MB)",
+        "43-1724/43.obj (56.8 MB, 528k tris)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.86 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1643": {
+      "stt": 44,
+      "year": 1643,
+      "folder": "44-1643",
+      "path": "44-1643/44.glb",
+      "bytes": 34515428,
+      "tris": 313266,
+      "verts": 910700,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 2048,
+          "h": 2048,
+          "mime": "image/jpeg",
+          "bytes": 1612377,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "44-1643/44.blend (33.2 MB)",
+        "44-1643/44.fbx (11.7 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.91 đỉnh/tam giác)",
+        "texture nguồn chỉ 2048px — LOD0 không lên 4096 được"
+      ],
+      "flag": true
+    },
+    "bia-1718": {
+      "stt": 45,
+      "year": 1718,
+      "folder": "45-1718",
+      "path": "45-1718/45.glb",
+      "bytes": 35262948,
+      "tris": 321384,
+      "verts": 912864,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 2048,
+          "h": 2048,
+          "mime": "image/jpeg",
+          "bytes": 2193182,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "45-1718/45.blend (33.3 MB)",
+        "45-1718/45.fbx (11.6 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.84 đỉnh/tam giác)",
+        "texture nguồn chỉ 2048px — LOD0 không lên 4096 được"
+      ],
+      "flag": true
+    },
+    "bia-1628": {
+      "stt": 46,
+      "year": 1628,
+      "folder": "46 -1628",
+      "path": "46 -1628/46.glb",
+      "bytes": 27034892,
+      "tris": 257738,
+      "verts": 700626,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1520532,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "46 -1628/46.blend (25.7 MB)",
+        "46 -1628/46.fbx (9.0 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.72 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1712": {
+      "stt": 47,
+      "year": 1712,
+      "folder": "47 -1712",
+      "path": "47 -1712/47.glb",
+      "bytes": 32069788,
+      "tris": 297762,
+      "verts": 842670,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1529730,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "47 -1712/47.blend (30.7 MB)",
+        "47 -1712/47.fbx (10.8 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.83 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1619": {
+      "stt": 48,
+      "year": 1619,
+      "folder": "48 -1619",
+      "path": "48 -1619/48.glb",
+      "bytes": 32449944,
+      "tris": 303263,
+      "verts": 848695,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1651070,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "48 -1619/48.blend (30.9 MB)",
+        "48 -1619/48.fbx (10.8 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.8 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1706": {
+      "stt": 49,
+      "year": 1706,
+      "folder": "49 -1706",
+      "path": "49 -1706/49.glb",
+      "bytes": 37808972,
+      "tris": 355777,
+      "verts": 996643,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1645638,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "49 -1706/49.blend (36.2 MB)",
+        "49 -1706/49.fbx (12.7 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.8 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1700": {
+      "stt": 50,
+      "year": 1700,
+      "folder": "50-1700",
+      "path": "50-1700/50.glb",
+      "bytes": 30982128,
+      "tris": 295272,
+      "verts": 811634,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1465146,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "50-1700/50.blend (29.6 MB)",
+        "50-1700/50.fbx (10.4 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.75 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1778": {
+      "stt": 51,
+      "year": 1778,
+      "folder": "51-1778",
+      "path": "51-1778/51.glb",
+      "bytes": 37828644,
+      "tris": 338754,
+      "verts": 951204,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3323584,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "51-1778/51.blend (34.6 MB)",
+        "51-1778/51.fbx (12.1 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.81 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1779": {
+      "stt": 52,
+      "year": 1779,
+      "folder": "52-1779",
+      "path": "52-1779/52.glb",
+      "bytes": 37594536,
+      "tris": 338004,
+      "verts": 942410,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3379936,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "52-1779/52.blend (34.3 MB)",
+        "52-1779/52.fbx (12.0 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.79 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1637": {
+      "stt": 53,
+      "year": 1637,
+      "folder": "53-1637",
+      "path": "53-1637/53.glb",
+      "bytes": 38075180,
+      "tris": 1098944,
+      "verts": 566051,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 8192,
+          "h": 8192,
+          "mime": "image/jpeg",
+          "bytes": 6772772,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "53-1637/53.blend (128.4 MB)",
+        "53-1637/53.fbx (37.8 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [],
+      "flag": false
+    },
+    "bia-1613": {
+      "stt": 54,
+      "year": 1613,
+      "folder": "54-1613",
+      "path": "54-1613/54.glb",
+      "bytes": 36508456,
+      "tris": 326854,
+      "verts": 914388,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3324318,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "54-1613/54.blend (33.3 MB)",
+        "54-1613/54.fbx (11.6 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.8 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1478": {
+      "stt": 55,
+      "year": 1478,
+      "folder": "55-1478",
+      "path": "55-1478/55.glb",
+      "bytes": 99288416,
+      "tris": 919131,
+      "verts": 2654309,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3319480,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "55-1478/55.blend (94.8 MB)",
+        "55-1478/55.fbx (33.7 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.89 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1466": {
+      "stt": 56,
+      "year": 1466,
+      "folder": "56-1466",
+      "path": "56-1466/56.glb",
+      "bytes": 51395624,
+      "tris": 456428,
+      "verts": 1331112,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3321463,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "56-1466/56-1466.obj (50.1 MB, 456k tris)",
+        "56-1466/56.blend (48.0 MB)",
+        "56-1466/56.fbx (16.8 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.92 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1652": {
+      "stt": 57,
+      "year": 1652,
+      "folder": "57-1652",
+      "path": "57-1652/57.glb",
+      "bytes": 35752148,
+      "tris": 317228,
+      "verts": 897148,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3235243,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "57-1652/57-1652.obj (33.1 MB, 317k tris)",
+        "57-1652/57.blend (32.7 MB)",
+        "57-1652/57.fbx (11.5 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.83 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1496": {
+      "stt": 58,
+      "year": 1496,
+      "folder": "58-1496",
+      "path": "58-1496/58.glb",
+      "bytes": 27129596,
+      "tris": 231043,
+      "verts": 658667,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3278258,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "58-1496/58-1496.obj (23.9 MB, 231k tris)",
+        "58-1496/58.blend (24.2 MB)",
+        "58-1496/58.fbx (8.3 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.85 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1518": {
+      "stt": 59,
+      "year": 1518,
+      "folder": "59-1518",
+      "path": "59-1518/59.glb",
+      "bytes": 24815056,
+      "tris": 208040,
+      "verts": 591520,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3388437,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "59-1518/59-1518.obj (21.4 MB, 208k tris)",
+        "59-1518/59.blend (21.8 MB)",
+        "59-1518/59.fbx (7.5 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.84 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1650": {
+      "stt": 60,
+      "year": 1650,
+      "folder": "60-1650",
+      "path": "60-1650/60.glb",
+      "bytes": 38623788,
+      "tris": 336644,
+      "verts": 963584,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3747938,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "60-1650/60-1650.obj (35.6 MB, 337k tris)",
+        "60-1650/60.blend (35.0 MB)",
+        "60-1650/60.fbx (12.3 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.86 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1659": {
+      "stt": 61,
+      "year": 1659,
+      "folder": "61-1659",
+      "path": "61-1659/61.glb",
+      "bytes": 71787356,
+      "tris": 608020,
+      "verts": 1716496,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 9561803,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "61-1659/61.blend (61.7 MB)",
+        "61-1659/61.fbx (21.8 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.82 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1664": {
+      "stt": 62,
+      "year": 1664,
+      "folder": "62-1664",
+      "path": "62-1664/62.glb",
+      "bytes": 57364520,
+      "tris": 525331,
+      "verts": 1495495,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3203222,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "62-1664/62-1664.obj (56.2 MB, 525k tris)",
+        "62-1664/62.blend (53.8 MB)",
+        "62-1664/62.fbx (19.1 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.85 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1670": {
+      "stt": 63,
+      "year": 1670,
+      "folder": "63-1670",
+      "path": "63-1670/63.glb",
+      "bytes": 37614308,
+      "tris": 340992,
+      "verts": 942432,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3363145,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "63-1670/63.blend (34.3 MB)",
+        "63-1670/63.fbx (12.0 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.76 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1676": {
+      "stt": 64,
+      "year": 1676,
+      "folder": "64-1676",
+      "path": "64-1676/64.glb",
+      "bytes": 26230432,
+      "tris": 229561,
+      "verts": 644127,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 2862163,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "64-1676/64-1676.obj (23.6 MB, 230k tris)",
+        "64-1676/64.blend (23.7 MB)",
+        "64-1676/64.fbx (8.3 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.81 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1580": {
+      "stt": 65,
+      "year": 1580,
+      "folder": "65-1580",
+      "path": "65-1580/65.glb",
+      "bytes": 33563944,
+      "tris": 294569,
+      "verts": 825187,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3621696,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "65-1580/65.blend (30.1 MB)",
+        "65-1580/65.fbx (10.6 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.8 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1683": {
+      "stt": 66,
+      "year": 1683,
+      "folder": "66-1683",
+      "path": "66-1683/66.glb",
+      "bytes": 27425064,
+      "tris": 240719,
+      "verts": 674437,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 2953024,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "66-1683/66-1683.obj (24.4 MB, 241k tris)",
+        "66-1683/66.blend (24.8 MB)",
+        "66-1683/66.fbx (8.6 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.8 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1565": {
+      "stt": 67,
+      "year": 1565,
+      "folder": "67-1565",
+      "path": "67-1565/67.glb",
+      "bytes": 45907340,
+      "tris": 413150,
+      "verts": 1177992,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3252357,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "67-1565/67-1565.obj (43.7 MB, 413k tris)",
+        "67-1565/67.blend (41.8 MB)",
+        "67-1565/67.fbx (15.0 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.85 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1688": {
+      "stt": 68,
+      "year": 1688,
+      "folder": "68-1688",
+      "path": "68-1688/68.glb",
+      "bytes": 52272240,
+      "tris": 479877,
+      "verts": 1354623,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3164338,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "68-1688/68-1688.obj (51.1 MB, 480k tris)",
+        "68-1688/68.blend (48.9 MB)",
+        "68-1688/68.fbx (17.5 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.82 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1607": {
+      "stt": 69,
+      "year": 1607,
+      "folder": "69-1607",
+      "path": "69-1607/69.glb",
+      "bytes": 39324388,
+      "tris": 352808,
+      "verts": 994912,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3252071,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "69-1607/69.blend (36.1 MB)",
+        "69-1607/69.fbx (12.7 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.82 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1694": {
+      "stt": 70,
+      "year": 1694,
+      "folder": "70-1694",
+      "path": "70-1694/70.glb",
+      "bytes": 66396112,
+      "tris": 627989,
+      "verts": 1736329,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3296276,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "70-1694/70-1694.obj (45.9 MB, 551k tris)",
+        "70-1694/70.blend (62.4 MB)",
+        "70-1694/70.fbx (22.6 MB)",
+        "70-1694/70.obj (65.7 MB, 628k tris)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.76 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1772": {
+      "stt": 71,
+      "year": 1772,
+      "folder": "71-1772",
+      "path": "71-1772/HOAN THIEN/71.glb",
+      "bytes": 40266560,
+      "tris": 359336,
+      "verts": 1018192,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3370901,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "71-1772/71-1772.obj (28.3 MB, 345k tris)",
+        "71-1772/HOAN THIEN/71.blend (36.9 MB)",
+        "71-1772/HOAN THIEN/71.fbx (12.9 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.83 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1595": {
+      "stt": 72,
+      "year": 1595,
+      "folder": "72-1595",
+      "path": "72-1595/72.glb",
+      "bytes": 41635700,
+      "tris": 378570,
+      "verts": 1062570,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3089181,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "72-1595/72-1595.obj (39.5 MB, 379k tris)",
+        "72-1595/72.blend (37.8 MB)",
+        "72-1595/72.fbx (13.6 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.81 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1766": {
+      "stt": 73,
+      "year": 1766,
+      "folder": "73-1766",
+      "path": "73-1766/73.glb",
+      "bytes": 74880304,
+      "tris": 694318,
+      "verts": 1977564,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3265006,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "73-1766/73-1766.obj (75.0 MB, 694k tris)",
+        "73-1766/73.blend (69.5 MB)",
+        "73-1766/73.fbx (25.2 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.85 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1589": {
+      "stt": 74,
+      "year": 1589,
+      "folder": "74-1589",
+      "path": "74-1589/74.glb",
+      "bytes": 34284508,
+      "tris": 299800,
+      "verts": 856984,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3261944,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "74-1589/74-1589.obj (31.4 MB, 300k tris)",
+        "74-1589/74.blend (30.7 MB)",
+        "74-1589/74.fbx (10.9 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.86 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1760": {
+      "stt": 75,
+      "year": 1760,
+      "folder": "75-1760",
+      "path": "75-1760/75.glb",
+      "bytes": 35314656,
+      "tris": 312486,
+      "verts": 886394,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3198779,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "75-1760/75-1760.obj (32.5 MB, 312k tris)",
+        "75-1760/75.blend (31.7 MB)",
+        "75-1760/75.fbx (11.3 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.84 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1602": {
+      "stt": 76,
+      "year": 1602,
+      "folder": "76-1602",
+      "path": "76-1602/76.glb",
+      "bytes": 39661800,
+      "tris": 349950,
+      "verts": 998028,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3524027,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "76-1602/76-1602.obj (37.1 MB, 350k tris)",
+        "76-1602/76.blend (35.5 MB)",
+        "76-1602/76.fbx (12.7 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.85 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1754": {
+      "stt": 77,
+      "year": 1754,
+      "folder": "77-1754",
+      "path": "77-1754/77.glb",
+      "bytes": 40992124,
+      "tris": 365464,
+      "verts": 1042172,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3255504,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "77-1754/77-1754.obj (38.7 MB, 365k tris)",
+        "77-1754/77.blend (37.1 MB)",
+        "77-1754/77.fbx (13.3 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.85 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1748": {
+      "stt": 78,
+      "year": 1748,
+      "folder": "78-1748",
+      "path": "78-1748/78blend.glb",
+      "bytes": 36628496,
+      "tris": 329670,
+      "verts": 915560,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3373104,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "78-1748/78-1747.obj (33.9 MB, 330k tris)",
+        "78-1748/78blend.blend (32.7 MB)",
+        "78-1748/78blend.fbx (11.8 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.78 đỉnh/tam giác)",
+        "tên tệp lệch thư mục: 78-1748/78-1747.obj"
+      ],
+      "flag": true
+    },
+    "bia-1743": {
+      "stt": 79,
+      "year": 1743,
+      "folder": "79-1743",
+      "path": "79-1743/79.glb",
+      "bytes": 11856588,
+      "tris": 301742,
+      "verts": 156255,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3234114,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "79-1743/79-1743.obj (27.9 MB, 302k tris)",
+        "79-1743/79.blend (33.9 MB)",
+        "79-1743/79.fbx (10.6 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [],
+      "flag": false
+    },
+    "bia-1736": {
+      "stt": 80,
+      "year": 1736,
+      "folder": "80-1736",
+      "path": "80-1736/80.glb",
+      "bytes": 37787640,
+      "tris": 338589,
+      "verts": 948863,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 6000,
+          "h": 6000,
+          "mime": "image/jpeg",
+          "bytes": 3359494,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "80-1736/80-1736.obj (35.1 MB, 339k tris)",
+        "80-1736/80.blend (33.8 MB)",
+        "80-1736/80.fbx (12.2 MB)"
+      ],
+      "reason": "GLB duy nhất",
+      "notes": [
+        "pháp tuyến phẳng từng mặt (2.8 đỉnh/tam giác)"
+      ],
+      "flag": false
+    },
+    "bia-1442": {
+      "stt": 81,
+      "year": 1442,
+      "folder": "81-1442",
+      "path": "81-1442/bia 2.1 (1442)/2.glb",
+      "bytes": 9301852,
+      "tris": 71418,
+      "verts": 37642,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 5668201,
+          "role": "normal"
+        },
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1998910,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "81-1442/1442 final/bia-tien-si-nham-tuat-ai-bao-thu-3-1442/01.glb (39.1 MB, 31k tris)",
+        "81-1442/bia 2.1 (1442)/bake.obj (5.3 MB, 71k tris)"
+      ],
+      "reason": "chọn tay: v1: bake low-poly 71k + normal map; \"1442 final/01.glb\" là khối thô 31k tam giác (cùng con rùa, chân có vuốt). Không có bản quét gốc (Biaso81.obj là rùa của 1448)",
+      "notes": [
+        "có normal map sẵn (bake low-poly)",
+        "ít tam giác (71k) — LOD0 không thể dày hơn nguồn",
+        "GLB khác có thể tốt hơn: 81-1442/1442 final/bia-tien-si-nham-tuat-ai-bao-thu-3-1442/01.glb (31k, tex 6451px²)"
+      ],
+      "flag": true
+    },
+    "bia-1448": {
+      "stt": 82,
+      "year": 1448,
+      "folder": "82-1448",
+      "path": "82-1448/bia 1.1/01.glb",
+      "bytes": 9155592,
+      "tris": 40072,
+      "verts": 21321,
+      "meshes": 1,
+      "primitives": 1,
+      "textures": [
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 6696692,
+          "role": "normal"
+        },
+        {
+          "w": 4096,
+          "h": 4096,
+          "mime": "image/jpeg",
+          "bytes": 1534520,
+          "role": "baseColor"
+        }
+      ],
+      "alternatives": [
+        "82-1448/1448 final/bia 1.1/01.glb (40.6 MB, 40k tris)",
+        "82-1448/1448 final/bia 1.1/bake.obj (3.0 MB, 40k tris)",
+        "82-1448/Biaso81.obj (209.6 MB, 2929k tris)",
+        "82-1448/bia 1.1/bake.obj (2.9 MB, 40k tris)"
+      ],
+      "reason": "chọn tay: cùng kiểu với 1442 (bake low-poly 40k + normal map 4096); \"1448 final/bia 1.1/01.glb\" có màu 6000 PNG nhưng KHÔNG gắn normal map. Đã soát (phase 2, .captures/v2-ident-biaso81.jpg): Biaso81.obj (2,93 triệu tam giác, 9295×8935, nghiêng + còn nền đất) là bản quét CHỈ PHẦN RÙA + gốc phiến bia gãy — rùa khớp 1448 (chân mái chèo tròn, đầu thấp nằm ngang), KHÔNG khớp 1442 (chân có vuốt, đầu ngẩng). Không có phiến bia → không dùng làm nguồn đầy đủ; dùng low-poly bake sẵn",
+      "notes": [
+        "có normal map sẵn (bake low-poly)",
+        "ít tam giác (40k) — LOD0 không thể dày hơn nguồn",
+        "OBJ dày hơn: 82-1448/Biaso81.obj (2929k tam giác) — cân nhắc làm nguồn bake",
+        "GLB khác có thể tốt hơn: 82-1448/1448 final/bia 1.1/01.glb (40k, tex 6000px²)",
+        "bản quét thô 82-1448/Biaso81.obj: chỉ phần rùa (đã soát) — không dùng làm nguồn"
+      ],
+      "highResCandidate": "82-1448/Biaso81.obj",
+      "flag": true
+    }
+  }
+}

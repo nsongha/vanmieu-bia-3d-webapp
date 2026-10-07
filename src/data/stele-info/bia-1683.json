@@ -1,0 +1,739 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 48 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/48/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1683",
+ "year": 1683,
+ "canChi": "Quý Hợi",
+ "title": "Bia Tiến sĩ khoa Quý Hợi niên hiệu Chính Hòa năm thứ 4 (1683)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Lê Trung Hưng",
+ "era": "Chính Hòa",
+ "eraYear": 4,
+ "king": {
+  "name": "Lê Hy Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Chính Hòa trong tiêu đề"
+ },
+ "candidates": 3000,
+ "candidatesRaw": "3.000 người",
+ "passed": 18,
+ "passedRaw": "18 người",
+ "erected": 1717,
+ "contributors": {
+  "author": "Nguyễn Kiều",
+  "calligrapher": "Ngô Bảo",
+  "editor": "Nguyễn Quý Đức",
+  "engraver": "Nguyễn Đình Huy"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 3
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 1
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 14
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Nguyễn Đăng Đạo",
+   "tier": 1,
+   "title": "Trạng nguyên",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ (Trạng Nguyên)",
+   "hometown": "xã Hoài Bão huyện Tiên Du",
+   "honors": []
+  },
+  {
+   "name": "Phạm Quang Trạch",
+   "tier": 1,
+   "title": "Bảng nhãn",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ (Bảng Nhãn)",
+   "hometown": "xã Đông Ngạc huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Quách Giai",
+   "tier": 1,
+   "title": "Thám hoa",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ (Thám Hoa)",
+   "hometown": "xã Phù Khê huyện Đông Ngàn",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Đương Hồ",
+   "tier": 2,
+   "title": "Hoàng giáp",
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân (Hoàng Giáp)",
+   "hometown": "xã Dương Húc huyện Tiên Du",
+   "honors": []
+  },
+  {
+   "name": "Trần Thiện Thuật",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Bát Tràng huyện Gia Lâm",
+   "honors": []
+  },
+  {
+   "name": "Lê Đăng Phụ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "hương Biện Thượng huyện Vĩnh Phúc",
+   "honors": []
+  },
+  {
+   "name": "Hoa Công Phương",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã An Dân huyện Đông Yên",
+   "honors": []
+  },
+  {
+   "name": "Đỗ Công Toản",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Thượng Yên Quyết huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Trần Phụ Dực",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Bảo Triện huyện Gia Định",
+   "honors": []
+  },
+  {
+   "name": "Trịnh Đức Vận",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Đại Mão huyện Siêu Loại",
+   "honors": []
+  },
+  {
+   "name": "Trần Tiến Gián",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Triền Dương huyện Chí Linh",
+   "honors": []
+  },
+  {
+   "name": "Dương Công Độ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Nhị Khê huyện Thượng Phúc",
+   "honors": []
+  },
+  {
+   "name": "Đào Tuấn Ngạn",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Ngọc Cục huyện Đường An",
+   "honors": []
+  },
+  {
+   "name": "Phí Quốc Thể",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Thượng Trưng huyện Bạch Hạc",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Thủ Xứng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Hương Trai huyện Hương Sơn",
+   "honors": []
+  },
+  {
+   "name": "Tạ Đăng Vọng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Đại Phùng huyện Đan Phượng",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Long Bảng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Chân Hộ huyện Yên Phong",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Đình Bách",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Nguyệt Áng huyện Thanh Trì",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa đông năm Quý Hợi, niên hiệu Chính Hòa thứ 4 (1683), mở khoa thi Hội; 3.000 sĩ tử dự thi, chọn được 18 người.",
+   "Đầu năm Giáp Tý (1684) vào thi Đình, vua ban Nguyễn Đăng Đạo đỗ Trạng nguyên, Phạm Quang Trạch đỗ Bảng nhãn, Quách Giai đỗ Thám hoa, cùng 1 người đỗ Hoàng giáp và 14 người đỗ đồng Tiến sĩ xuất thân.",
+   "Bia dựng ngày 2 tháng 3 niên hiệu Vĩnh Thịnh thứ 13 (1717) do Nguyễn Kiều soạn, Nguyễn Quý Đức nhuận sắc.",
+   "Bài ký mở đầu: “Hiền tài là khí dụng của quốc gia, khí dụng đủ thì điều khiển giao phó chẳng việc gì không được”."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Hiền tài là khí dụng của quốc gia, khí dụng đủ thì điều khiển giao phó chẳng việc gì không được, chính sự không việc gì không làm nổi, cơ đồ vững chắc.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Bởi vì hiền tài là khí dụng của quốc gia, khí dụng đủ thì điều khiển giao phó chẳng việc gì không được, chính sự không việc gì không làm nổi, mà cơ đồ không thể không vững chắc, thế đạo không thể không thịnh sáng vậy."
+   }
+  },
+  {
+   "text": "Khoa thi Hội tổ chức vào mùa đông năm Quý Hợi (1683), thi Đình vào tháng Giêng năm Giáp Tý (1684).",
+   "kind": "note"
+  },
+  {
+   "text": "Việc dựng bia bị trì hoãn từ năm Bính Thân đến năm Vĩnh Thịnh thứ 13 (1717) mới thực hiện để làm cùng một thể cho nhiều khoa.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Nhưng việc khắc đá đề danh chưa kịp cử hành, đó là vì các khoa từ năm Bính Thân tới nay vẫn chưa dựng bia là muốn đợi thời làm luôn một thể."
+   }
+  },
+  {
+   "text": "Vua Hy Tông đích thân đến yết lễ tại Quốc tử giám, xem các bia cũ và ra lệnh dựng bổ sung các bia còn thiếu.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Vừa rồi Thánh thượng đích thân đến yết lễ ở Quốc tử giám, xem hết các tấm bia cũ, cảm khái muốn hoàn thành điển lễ còn thiếu."
+   }
+  },
+  {
+   "text": "Sau 30 năm kể từ khoa thi, trong số người đỗ đạt chỉ còn một người tại chức, một người hàng quốc lão, hai người làm ở Ngự sử đài.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Nhưng bấm đốt ngón tay đếm lại, sau ba thập kỷ, tại chức chỉ còn một người, lên hàng quốc lão một người, làm quan ở Ngự sử đài hai người, những người khác cũng từng được đeo đai đại thần của các triều."
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Nguyễn Đăng Đạo",
+   "dates": "1651-1719",
+   "description": "Đỗ Trạng nguyên khoa Quý Hợi (1683). Ông giữ các chức Đô Ngự sử, Thượng thư Bộ Binh, Tham tụng kiêm Đông các Đại học sĩ. Từng đi sứ nhà Thanh thương lượng đòi lại đất ở Tuyên Quang. Sau khi mất được tặng Thượng thư Bộ Lại, tước Thọ Quận công.",
+   "hometown": "xã Hoài Bão huyện Tiên Du (nay thuộc Bắc Ninh)",
+   "roles": [
+    "Trạng nguyên",
+    "Thượng thư Bộ Binh",
+    "Tham tụng",
+    "Sứ giả"
+   ]
+  },
+  {
+   "name": "Nguyễn Quý Đức",
+   "dates": "Không ghi",
+   "description": "Giữ chức Tham tụng, Thượng thư Bộ Lại kiêm Đông các Đại học sĩ, Thiếu phó, Liêm Quận công. Ông là người vâng sắc nhuận sắc cho văn bia này.",
+   "hometown": "Không ghi",
+   "roles": [
+    "Tham tụng",
+    "Thượng thư Bộ Lại",
+    "Người nhuận sắc bia"
+   ]
+  },
+  {
+   "name": "Nguyễn Kiều",
+   "dates": "Không ghi",
+   "description": "Giữ chức Cẩn sự lang Hàn lâm viện Hiệu thảo. Ông là người vâng sắc soạn bài ký cho văn bia khoa Quý Hợi.",
+   "hometown": "Không ghi",
+   "roles": [
+    "Hàn lâm viện Hiệu thảo",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Phạm Quang Trạch",
+   "dates": "1653-?",
+   "description": "Đỗ Bảng nhãn, làm quan đến chức Hữu Thị lang Bộ Lễ, tước nam. Sau khi mất được tặng Tả Thị lang, tước tử.",
+   "hometown": "xã Đông Ngạc huyện Từ Liêm (nay thuộc Hà Nội)",
+   "roles": [
+    "Bảng nhãn",
+    "Hữu Thị lang Bộ Lễ"
+   ]
+  },
+  {
+   "name": "Nguyễn Đương Hồ",
+   "dates": "1657-1740",
+   "description": "Đỗ Hoàng giáp, làm quan đến chức Thượng thư Bộ Hình, Thiếu bảo, tước Phúc Quận công.",
+   "hometown": "xã Dương Húc huyện Tiên Du (nay thuộc Bắc Ninh)",
+   "roles": [
+    "Hoàng giáp",
+    "Thượng thư Bộ Hình",
+    "Thiếu bảo"
+   ]
+  }
+ ],
+ "content": {
+  "title": null,
+  "paragraphs": [
+   "Trời mở vận văn minh, đời có vua thánh trí. Kính nghĩ: Hy Tông Chương hoàng đế nối nghiệp thái bình, đức lớn sáng suốt, theo đạo vương để cầu sĩ, học đạo đế để cầu hiền. Thực nhờ Chiêu Tổ Khang vương theo nếp nhà trung hậu, nắm giữ quốc chính, tổng quản binh quyền, lưu tâm chọn người tài giỏi. Mùa đông năm Quý Hợi thi Hội cho các cống sĩ trong nước. Đặc sai Trung quân Đô đốc phủ Tả Đô đốc Thiếu phó Lộc Quận công Đinh Văn Tả làm Đề điệu, Bồi tụng Ngự sử đài Đô Ngự sử Hải Sơn tử Nguyễn Danh Thực làm Tri Cống cử, Bồi tụng Tả Thị lang Nhập thị Kinh diên Vĩnh Ngạn tử Nguyễn Công Vọng, Bồi tụng Hữu Thị lang Bộ Lại Nguyễn Viết Đương làm Giám thí, cùng các quan hữu ty chia giữ các việc. Chiếu trên ban xuống, kẻ sĩ trong nước náo nức chiếm tên bảng vàng, hát thơ Lộc minh đến ứng thí tất cả đến 3.000 người. Qua trường bốn, lấy hạng trúng cách được 18 người. Bảng mực nhạt vừa mới treo lên thì năm cũ cũng vừa sắp hết. Đến ngày tháng Giêng năm Giáp Tý vào sân lớn làm bài đối sách, Hoàng thượng định thứ bậc cao thấp. Ban cho bọn Nguyễn Đăng Đạo 3 người đỗ Đệ nhất giáp Tiến sĩ cập đệ, Nguyễn Đương Hồ đỗ Đệ nhị giáp Tiến sĩ xuất thân, bọn Trần Thiện Thuật 14 người đỗ Đệ tam giáp đồng Tiến sĩ xuất thân. Loa truyền xướng danh, treo bảng đề tên ở nhà Quốc học. Được ban áo xanh đai mũ, yến Quỳnh hoa bạc, sự đãi ngộ ân sủng chẳng kém gì các khoa trước. Nhưng việc khắc đá đề danh chưa kịp cử hành, đó là vì các khoa từ năm Bính Thân tới nay vẫn chưa dựng bia là muốn đợi thời làm luôn một thể. Mở rộng công xưa, mở mang nếp cũ, ắt phải đợi đến ngày nay chăng? Ôi! Nghĩ Hoàng thượng giữ gìn cơ đồ do tiên vương sáng nghiệp truyền lại, gánh trách nhiệm trị hóa của bậc làm vua làm thầy, uy nghi rạng tỏ, trau dồi đạo đức, tôn quý người hiền. Thực nhờ chăm lo dạy bảo, sáng suốt trau dồi, điểm tô quy chế trị bình, hoàn bị thể thức văn vật. Vừa rồi Thánh thượng đích thân đến yết lễ ở Quốc tử giám, xem hết các tấm bia cũ, cảm khái muốn hoàn thành điển lễ còn thiếu. Đặc ban chỉ dụ rằng những khoa Tiến sĩ lâu nay chưa dựng bia phải dựng thêm cho đủ. Bèn sai quan Bộ Công khắc đá, từ thần soạn bài ký. Thần giữ chức biên soạn, không dám viện cớ vụng về nông cạn chối từ. Cung kính cúi đầu rập đầu mà dâng lời rằng: Trời sinh hiền tài là muốn để dùng cho đời, bậc nhân quân trị nước điều cốt yếu cần rộng chọn hiền tài. Bởi vì hiền tài là khí dụng của quốc gia, khí dụng đủ thì điều khiển giao phó chẳng việc gì không được, chính sự không việc gì không làm nổi, mà cơ đồ không thể không vững chắc, thế đạo không thể không thịnh sáng vậy. Cho nên đời xưa trị nước, không gì gấp bằng cầu tìm hiền tài để tin giao công việc. Kính nghĩ: Quốc triều thánh tổ thần tông sáng suốt kế thừa công tích các đời trước, lưu ý việc văn, dựng nhà học để dưỡng dục nhân tài, đặt khoa thi để kén chọn kẻ sĩ, noi theo lệ cũ, thể thức đủ đầy. Đăng khoa có sách, đề danh có bia, khen thưởng tôn sùng, lưu tâm Nho học thật đã hết mức vậy. Cho nên nhiều kẻ sĩ ra đời, nhân tài nối nhau xuất hiện làm rường cột cho nước nhà, mở cuộc thái bình cho đương thời, làm rạng rỡ đời xưa, mở đường cho đời sau khỏi thiếu sót. Kính trông: Hoàng thượng nối chí cầu hiền, công xưa thêm đẹp, bồi đắp mệnh mạch tư văn, tô điểm quy mô của một thời, sai dựng bia đá theo đúng lệ xưa, thật là việc lớn của đời thịnh vậy. Hãy nói về khoa này, những người đỗ đạt bước chân vào đường sĩ hoạn, việc trong việc ngoài bao lần thay đổi, vất vả lo toan việc nước nhà, công lao nhiều ít đại khái đã thấy rõ. Nhưng bấm đốt ngón tay đếm lại, sau ba thập kỷ, tại chức chỉ còn một người, lên hàng quốc lão một người, làm quan ở Ngự sử đài hai người, những người khác cũng từng được đeo đai đại thần của các triều. Đó là chỉ kể các vị đỗ thứ nhất, thứ ba, thứ tư và vị trưởng khoa, số còn lại đã cưỡi sao Cơ về trời, hồng bay mất dấu, thành người thiên cổ cả rồi, không còn nói gì được nữa. Nhưng những người hiện đang được triều nay trọng dụng há không nhớ ơn lựa chọn của tiên vương, cảm nghĩ sự biểu dương ngày nay mà cẩn thận bước đường về sau, mỗi ngày một tiến để khỏi hổ thẹn với khoa danh sao? Thảng hoặc không được như thế, chỉ nặng nghĩ lo riêng cho mình mà nhẹ lòng vì việc nước, cầu may cho được chu toàn, thích xu nịnh, né tránh việc mất lòng, ắt không tránh khỏi công luận mai sau, há chẳng đáng sợ hay sao? Như thế đủ biết thánh triều đặt ra định chế dựng bia là để nêu tỏ việc đã qua, gửi gắm khuyên răn đời sau, chứ không phải bày đặt phù phiếm đâu! Những ai đọc bia này đều nên suy nghĩ cho thấu đáo. Thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Cẩn sự lang Hàn lâm viện Hiệu thảo Nguyễn Kiều vâng sắc soạn. Tá lý công thần Đặc tiến Kim tử Vinh lộc đại phu Tham tụng Thượng thư Bộ Lại kiêm Đông các Đại học sĩ Thiếu phó Liêm Quận công Nguyễn Quý Đức vâng sắc nhuận. Bia dựng ngày mồng 2 tháng 3 niên hiệu Vĩnh Thịnh 13 (1717), Hoàng Việt.",
+   "Thị nội Thư tả Thủy binh phiên Tướng sĩ lang Phó sở sứ người xã Phú Thị huyện Gia Lâm là Ngô Bảo vâng viết chữ (chân). Kim quan môn Đãi chiếu Triện thích thái hàm Tự thừa, Liêu Tường nam Nguyễn Đình Huy vâng viết chữ triện."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhất giáp Tiến sĩ cập đệ",
+    "count": 3,
+    "names": [
+     {
+      "name": "NGUYỄN ĐĂNG ĐẠO",
+      "from": "xã Hoài Bão huyện Tiên Du"
+     },
+     {
+      "name": "PHẠM QUANG TRẠCH",
+      "from": "xã Đông Ngạc huyện Từ Liêm"
+     },
+     {
+      "name": "QUÁCH GIAI",
+      "from": "xã Phù Khê huyện Đông Ngàn"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 1,
+    "names": [
+     {
+      "name": "NGUYỄN ĐƯƠNG HỒ",
+      "from": "xã Dương Húc huyện Tiên Du"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 14,
+    "names": [
+     {
+      "name": "TRẦN THIỆN THUẬT",
+      "from": "xã Bát Tràng huyện Gia Lâm"
+     },
+     {
+      "name": "LÊ ĐĂNG PHỤ",
+      "from": "hương Biện Thượng huyện Vĩnh Phúc"
+     },
+     {
+      "name": "HOA CÔNG PHƯƠNG",
+      "from": "xã An Dân huyện Đông Yên"
+     },
+     {
+      "name": "ĐỖ CÔNG TOẢN",
+      "from": "xã Thượng Yên Quyết huyện Từ Liêm"
+     },
+     {
+      "name": "TRẦN PHỤ DỰC",
+      "from": "xã Bảo Triện huyện Gia Định"
+     },
+     {
+      "name": "TRỊNH ĐỨC VẬN",
+      "from": "xã Đại Mão huyện Siêu Loại"
+     },
+     {
+      "name": "TRẦN TIẾN GIÁN",
+      "from": "Triền Dương huyện Chí Linh"
+     },
+     {
+      "name": "DƯƠNG CÔNG ĐỘ",
+      "from": "xã Nhị Khê huyện Thượng Phúc"
+     },
+     {
+      "name": "ĐÀO TUẤN NGẠN",
+      "from": "xã Ngọc Cục huyện Đường An"
+     },
+     {
+      "name": "PHÍ QUỐC THỂ",
+      "from": "xã Thượng Trưng huyện Bạch Hạc"
+     },
+     {
+      "name": "NGUYỄN THỦ XỨNG",
+      "from": "xã Hương Trai huyện Hương Sơn"
+     },
+     {
+      "name": "TẠ ĐĂNG VỌNG",
+      "from": "xã Đại Phùng huyện Đan Phượng"
+     },
+     {
+      "name": "NGUYỄN LONG BẢNG",
+      "from": "xã Chân Hộ huyện Yên Phong"
+     },
+     {
+      "name": "NGUYỄN ĐÌNH BÁCH",
+      "from": "xã Nguyệt Áng huyện Thanh Trì"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Kiều"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Quý Đức"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Ngô Bảo"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Nguyễn Đình Huy"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Kiều",
+   "others": [
+    {
+     "id": "bia-1667",
+     "year": 1667
+    },
+    {
+     "id": "bia-1697",
+     "year": 1697
+    },
+    {
+     "id": "bia-1712",
+     "year": 1712
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Quý Đức",
+   "others": [
+    {
+     "id": "bia-1656",
+     "year": 1656
+    },
+    {
+     "id": "bia-1659",
+     "year": 1659
+    },
+    {
+     "id": "bia-1661",
+     "year": 1661
+    },
+    {
+     "id": "bia-1664",
+     "year": 1664
+    },
+    {
+     "id": "bia-1667",
+     "year": 1667
+    },
+    {
+     "id": "bia-1670",
+     "year": 1670
+    },
+    {
+     "id": "bia-1673",
+     "year": 1673
+    },
+    {
+     "id": "bia-1676",
+     "year": 1676
+    },
+    {
+     "id": "bia-1680",
+     "year": 1680
+    },
+    {
+     "id": "bia-1685",
+     "year": 1685
+    },
+    {
+     "id": "bia-1688",
+     "year": 1688
+    },
+    {
+     "id": "bia-1691",
+     "year": 1691
+    },
+    {
+     "id": "bia-1694",
+     "year": 1694
+    },
+    {
+     "id": "bia-1697",
+     "year": 1697
+    },
+    {
+     "id": "bia-1700",
+     "year": 1700
+    },
+    {
+     "id": "bia-1703",
+     "year": 1703
+    },
+    {
+     "id": "bia-1706",
+     "year": 1706
+    },
+    {
+     "id": "bia-1710",
+     "year": 1710
+    },
+    {
+     "id": "bia-1712",
+     "year": 1712
+    },
+    {
+     "id": "bia-1715",
+     "year": 1715
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Ngô Bảo",
+   "others": [
+    {
+     "id": "bia-1670",
+     "year": 1670
+    },
+    {
+     "id": "bia-1676",
+     "year": 1676
+    },
+    {
+     "id": "bia-1697",
+     "year": 1697
+    },
+    {
+     "id": "bia-1715",
+     "year": 1715
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Nguyễn Đình Huy",
+   "others": [
+    {
+     "id": "bia-1656",
+     "year": 1656
+    },
+    {
+     "id": "bia-1673",
+     "year": 1673
+    },
+    {
+     "id": "bia-1676",
+     "year": 1676
+    },
+    {
+     "id": "bia-1688",
+     "year": 1688
+    },
+    {
+     "id": "bia-1694",
+     "year": 1694
+    },
+    {
+     "id": "bia-1700",
+     "year": 1700
+    },
+    {
+     "id": "bia-1706",
+     "year": 1706
+    },
+    {
+     "id": "bia-1715",
+     "year": 1715
+    },
+    {
+     "id": "bia-1718",
+     "year": 1718
+    },
+    {
+     "id": "bia-1724",
+     "year": 1724
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": {
+  "candidates": 3000,
+  "passed": 18,
+  "ratio": 0.006,
+  "oneIn": 167,
+  "phrase": "cứ khoảng 167 người dự thi có 1 người đỗ"
+ },
+ "erection": {
+  "year": 1717,
+  "raw": "1717",
+  "gap": 34,
+  "batch": {
+   "count": 21,
+   "entries": [
+    {
+     "id": "bia-1656",
+     "year": 1656
+    },
+    {
+     "id": "bia-1659",
+     "year": 1659
+    },
+    {
+     "id": "bia-1661",
+     "year": 1661
+    },
+    {
+     "id": "bia-1664",
+     "year": 1664
+    },
+    {
+     "id": "bia-1667",
+     "year": 1667
+    },
+    {
+     "id": "bia-1670",
+     "year": 1670
+    },
+    {
+     "id": "bia-1673",
+     "year": 1673
+    },
+    {
+     "id": "bia-1676",
+     "year": 1676
+    },
+    {
+     "id": "bia-1680",
+     "year": 1680
+    },
+    {
+     "id": "bia-1683",
+     "year": 1683
+    },
+    {
+     "id": "bia-1685",
+     "year": 1685
+    },
+    {
+     "id": "bia-1688",
+     "year": 1688
+    },
+    {
+     "id": "bia-1691",
+     "year": 1691
+    },
+    {
+     "id": "bia-1694",
+     "year": 1694
+    },
+    {
+     "id": "bia-1697",
+     "year": 1697
+    },
+    {
+     "id": "bia-1700",
+     "year": 1700
+    },
+    {
+     "id": "bia-1703",
+     "year": 1703
+    },
+    {
+     "id": "bia-1706",
+     "year": 1706
+    },
+    {
+     "id": "bia-1710",
+     "year": 1710
+    },
+    {
+     "id": "bia-1712",
+     "year": 1712
+    },
+    {
+     "id": "bia-1715",
+     "year": 1715
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Nguyễn Đăng Đạo",
+   "dates": "1651-1719",
+   "description": "Đỗ Trạng nguyên khoa Quý Hợi (1683). Ông giữ các chức Đô Ngự sử, Thượng thư Bộ Binh, Tham tụng kiêm Đông các Đại học sĩ. Từng đi sứ nhà Thanh thương lượng đòi lại đất ở Tuyên Quang. Sau khi mất được tặng Thượng thư Bộ Lại, tước Thọ Quận công.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Quý Đức",
+   "dates": "Không ghi",
+   "description": "Giữ chức Tham tụng, Thượng thư Bộ Lại kiêm Đông các Đại học sĩ, Thiếu phó, Liêm Quận công. Ông là người vâng sắc nhuận sắc cho văn bia này.",
+   "isLaureate": false
+  },
+  {
+   "name": "Nguyễn Kiều",
+   "dates": "Không ghi",
+   "description": "Giữ chức Cẩn sự lang Hàn lâm viện Hiệu thảo. Ông là người vâng sắc soạn bài ký cho văn bia khoa Quý Hợi.",
+   "isLaureate": false
+  },
+  {
+   "name": "Phạm Quang Trạch",
+   "dates": "1653-?",
+   "description": "Đỗ Bảng nhãn, làm quan đến chức Hữu Thị lang Bộ Lễ, tước nam. Sau khi mất được tặng Tả Thị lang, tước tử.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Đương Hồ",
+   "dates": "1657-1740",
+   "description": "Đỗ Hoàng giáp, làm quan đến chức Thượng thư Bộ Hình, Thiếu bảo, tước Phúc Quận công.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nguyễn Kiều",
+  "dates": "Không ghi",
+  "description": "Giữ chức Cẩn sự lang Hàn lâm viện Hiệu thảo. Ông là người vâng sắc soạn bài ký cho văn bia khoa Quý Hợi.",
+  "hometown": "Không ghi",
+  "roles": [
+   "Hàn lâm viện Hiệu thảo",
+   "Người soạn văn bia"
+  ]
+ }
+}

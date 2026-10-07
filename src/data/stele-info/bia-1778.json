@@ -1,0 +1,300 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 80 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/80/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1778",
+ "year": 1778,
+ "canChi": "Mậu Tuất",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA MẬU TUẤT NIÊN HIỆU CẢNH HƯNG NĂM THỨ 39 (1778)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Nhà Lê",
+ "dynastyVerify": "cần đối chiếu — nguồn ghi \"Nhà Lê\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1778 theo mốc 1533–1789 của src/data/dynasties.js",
+ "era": "Cảnh Hưng",
+ "eraYear": 39,
+ "king": {
+  "name": "Lê Hiển Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 4,
+ "passedRaw": "4",
+ "erected": 1780,
+ "contributors": {
+  "author": "Nguyễn Hoản",
+  "calligrapher": "",
+  "editor": "",
+  "engraver": ""
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 0
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 4
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Nguyễn Duân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Phật Tích, huyện Tiên Du, tỉnh Bắc Ninh",
+   "honors": []
+  },
+  {
+   "name": "Chu Doãn Mại",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Dục Tú, huyện Đông Ngàn, nay thuộc huyện Đông Anh, Tp. Hà Nội",
+   "honors": []
+  },
+  {
+   "name": "Phạm Trọng Huyến",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Dũng Quyết, huyện Ý Yên, tỉnh Nam Định",
+   "honors": []
+  },
+  {
+   "name": "Ninh Tốn",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân [Hội nguyên]",
+   "hometown": "xã Côi Trì, huyện Yên Mô, tỉnh Ninh Bình",
+   "honors": [
+    "Hội nguyên"
+   ]
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa xuân năm Mậu Tuất, niên hiệu Cảnh Hưng thứ 39 (1778), triều đình mở khoa thi Hội cho các cống sĩ, qua bốn trường chọn được 4 người trúng cách.",
+   "Vào Điện thí, cả 4 người đều đỗ Đệ tam giáp đồng Tiến sĩ xuất thân: Nguyễn Duân, từng đỗ Tứ trọng khoa Mậu Tý, là Khoa trưởng; Ninh Tốn là người đỗ đầu kỳ thi Hội (Hội nguyên).",
+   "“Tứ trọng” là kỳ khảo hạch tại Quốc tử giám qua các kỳ Tiểu tập, Đại tập; đỗ đủ bốn kỳ được Bộ Lại bổ dụng.",
+   "Bia dựng đầu xuân năm Canh Tý, niên hiệu Cảnh Hưng thứ 41 (1780), do Nguyễn Hoản soạn bài ký."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Mùa xuân năm Mậu Tuất thi Hội cho các cống sĩ trong nước.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Mùa xuân năm Mậu Tuất thi Hội cho các cống sĩ trong nước."
+   }
+  },
+  {
+   "text": "Tứ trọng là kỳ thi khảo hạch học trò tại Quốc tử giám, gồm các kỳ Tiểu tập và Đại tập; ai đỗ bốn kỳ được gọi là đỗ Tứ trọng và được Bộ Lại bổ dụng.",
+   "kind": "note"
+  },
+  {
+   "text": "Khoa thi do Nghiêm Quận công Trịnh Miên làm Đề điệu, Liên Khê hầu Vũ Miên làm Tri Cống cử và Phạm Bá Ưng quyền Giám thí.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Phó Đô tướng Thự Phủ sự Thiếu phó Nghiêm Quận công Trịnh Miên làm Đề điệu, Nhập thị hành Tham tụng Binh bộ Tả Thị lang Liên Khê hầu Vũ Miên làm Tri Cống cử, Đông các Học sĩ Phạm Bá Ưng quyền Giám thí."
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Nguyễn Hoản",
+   "dates": "1713-1792",
+   "description": "Người xã Lan Điền, huyện Chương Đức (nay thuộc Hà Nội). Đỗ Tiến sĩ khoa Quý Hợi (1743). Ông giữ chức Thượng thư Bộ Lại kiêm Tri Đông các, tước Viện Quận công, là người vâng sắc soạn văn bia này.",
+   "hometown": "xã Lan Điền, huyện Chương Đức",
+   "roles": [
+    "Tác giả văn bia",
+    "Thượng thư Bộ Lại",
+    "Viện Quận công"
+   ]
+  },
+  {
+   "name": "Nguyễn Duân",
+   "dates": "1736-?",
+   "description": "Cháu nội Nguyễn Đức Ánh, con Nguyễn Đức Vĩ. Ông làm quan đến chức Hàn lâm viện Thị chế, Đốc đồng Kinh Bắc.",
+   "hometown": "xã Phật Tích, huyện Tiên Du, tỉnh Bắc Ninh",
+   "roles": [
+    "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "Hàn lâm viện Thị chế",
+    "Đốc đồng Kinh Bắc"
+   ]
+  },
+  {
+   "name": "Chu Doãn Mại",
+   "dates": "1740-?",
+   "description": "Còn có tên là Chu Doãn Lệ. Ông làm quan Hàn lâm viện Đãi chế, Quốc tử giám Tuỳ giảng, Đông các Hiệu thư. Khi nhà Lê mất, ông giữ tiết tháo không làm quan với nhà Tây Sơn.",
+   "hometown": "xã Dục Tú, huyện Đông Ngàn, nay thuộc huyện Đông Anh, Tp. Hà Nội",
+   "roles": [
+    "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "Hàn lâm viện Đãi chế",
+    "Đông các Hiệu thư"
+   ]
+  },
+  {
+   "name": "Phạm Trọng Huyến",
+   "dates": "1746-?",
+   "description": "Làm quan đến chức Hàn lâm viện Thị chế, Tri Hộ phiên, Hàn lâm Thị thư.",
+   "hometown": "xã Dũng Quyết, huyện Ý Yên, tỉnh Nam Định",
+   "roles": [
+    "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "Hàn lâm viện Thị chế",
+    "Tri Hộ phiên"
+   ]
+  },
+  {
+   "name": "Ninh Tốn",
+   "dates": "1744-1790",
+   "description": "Hiệu Chuyết Am, Mẫn Hiên. Ông đỗ Hội nguyên khoa thi này. Từng giữ các chức Đông các Đại học sĩ, Thự Hữu Thị lang Bộ Hình. Thời Tây Sơn, ông giữ chức Thượng thư Bộ Binh, tước Trường Nguyên bá.",
+   "hometown": "xã Côi Trì, huyện Yên Mô, tỉnh Ninh Bình",
+   "roles": [
+    "Hội nguyên",
+    "Đông các Đại học sĩ",
+    "Thượng thư Bộ Binh"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA MẬU TUẤT NIÊN HIỆU CẢNH HƯNG NĂM THỨ 39 (1778)",
+  "paragraphs": [
+   "Nước nhà hưởng thái bình trường cửu, văn vận đại hanh thông. Hoàng thượng kế thừa mưu lược rộng xa, thụ hưởng phúc lành to lớn. Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư Tĩnh vương chấn chỉnh đất trời, mở rộng trị bình giáo hoá. Mùa xuân năm Mậu Tuất thi Hội cho các cống sĩ trong nước. Phó Đô tướng Thự Phủ sự Thiếu phó Nghiêm Quận công Trịnh Miên làm Đề điệu, Nhập thị hành Tham tụng Binh bộ Tả Thị lang Liên Khê hầu Vũ Miên làm Tri Cống cử, Đông các Học sĩ Phạm Bá Ưng quyền Giám thí. Qua bốn trường lấy bọn Ninh Tốn 4 người trúng cách. Sang tháng sau Điện thí, ban cho bọn Nguyễn Duân đều đỗ đồng Tiến sĩ xuất thân. Lại sai khắc tên vào bia đá để lưu truyền bất hủ."
+  ],
+  "colophon": [
+   "Bia dựng ngày đầu tháng mùa xuân năm Canh Tý niên hiệu Cảnh Hưng thứ 41 (1780). Tiến sĩ khoa Quý Hợi, Hữu tư giảng Tham tụng quốc lão Phụ đức công thần Thượng thư Bộ Lại kiêm Tri Đông các, trí sĩ khởi phục thái tể Viện Quận công Nguyễn Hoản vâng sắc soạn."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 4,
+    "names": [
+     {
+      "name": "NGUYỄN DUÂN",
+      "from": "xã Phật Tích huyện Tiên Du. Đỗ Tứ trọng khoa Mậu Tý, Tham nghị, thi đỗ năm 43 tuổi, Khoa trưởng"
+     },
+     {
+      "name": "CHU DOÃN MẠI",
+      "from": "xã Dục Tú huyện Đông Ngàn, Tri huyện, thi đỗ năm 39 tuổi"
+     },
+     {
+      "name": "PHẠM TRỌNG HUYẾN",
+      "from": "xã Dũng Quyến huyện Ý Yên, đỗ năm 33 tuổi, Thiếu tuấn"
+     },
+     {
+      "name": "NINH TỐN",
+      "from": "xã Côi Trì huyện Yên Mô, đỗ Tứ trọng năm Canh Dần, năm Ất Mùi tiến triều, được bổ chức Thiêm sai Tri Công phiên, Hàn lâm viện Hiệu thảo kiêm Quốc sử Toản tu, thi đỗ năm 35 tuổi, Hội nguyên"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Hoản"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Hoản",
+   "others": [
+    {
+     "id": "bia-1775",
+     "year": 1775
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1780,
+  "raw": "1780",
+  "gap": 2,
+  "batch": {
+   "count": 2,
+   "entries": [
+    {
+     "id": "bia-1778",
+     "year": 1778
+    },
+    {
+     "id": "bia-1779",
+     "year": 1779
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Nguyễn Hoản",
+   "dates": "1713-1792",
+   "description": "Người xã Lan Điền, huyện Chương Đức (nay thuộc Hà Nội). Đỗ Tiến sĩ khoa Quý Hợi (1743). Ông giữ chức Thượng thư Bộ Lại kiêm Tri Đông các, tước Viện Quận công, là người vâng sắc soạn văn bia này.",
+   "isLaureate": false,
+   "links": [
+    {
+     "id": "bia-1743",
+     "year": 1743,
+     "$verify": "cần đối chiếu"
+    }
+   ]
+  },
+  {
+   "name": "Nguyễn Duân",
+   "dates": "1736-?",
+   "description": "Cháu nội Nguyễn Đức Ánh, con Nguyễn Đức Vĩ. Ông làm quan đến chức Hàn lâm viện Thị chế, Đốc đồng Kinh Bắc.",
+   "isLaureate": true
+  },
+  {
+   "name": "Chu Doãn Mại",
+   "dates": "1740-?",
+   "description": "Còn có tên là Chu Doãn Lệ. Ông làm quan Hàn lâm viện Đãi chế, Quốc tử giám Tuỳ giảng, Đông các Hiệu thư. Khi nhà Lê mất, ông giữ tiết tháo không làm quan với nhà Tây Sơn.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phạm Trọng Huyến",
+   "dates": "1746-?",
+   "description": "Làm quan đến chức Hàn lâm viện Thị chế, Tri Hộ phiên, Hàn lâm Thị thư.",
+   "isLaureate": true
+  },
+  {
+   "name": "Ninh Tốn",
+   "dates": "1744-1790",
+   "description": "Hiệu Chuyết Am, Mẫn Hiên. Ông đỗ Hội nguyên khoa thi này. Từng giữ các chức Đông các Đại học sĩ, Thự Hữu Thị lang Bộ Hình. Thời Tây Sơn, ông giữ chức Thượng thư Bộ Binh, tước Trường Nguyên bá.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nguyễn Hoản",
+  "dates": "1713-1792",
+  "description": "Người xã Lan Điền, huyện Chương Đức (nay thuộc Hà Nội). Đỗ Tiến sĩ khoa Quý Hợi (1743). Ông giữ chức Thượng thư Bộ Lại kiêm Tri Đông các, tước Viện Quận công, là người vâng sắc soạn văn bia này.",
+  "hometown": "xã Lan Điền, huyện Chương Đức",
+  "roles": [
+   "Tác giả văn bia",
+   "Thượng thư Bộ Lại",
+   "Viện Quận công"
+  ],
+  "links": [
+   {
+    "id": "bia-1743",
+    "year": 1743,
+    "$verify": "cần đối chiếu"
+   }
+  ]
+ }
+}

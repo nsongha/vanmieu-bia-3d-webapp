@@ -1,0 +1,233 @@
+/* cinema.css › overlays — Nhãn "Tự trình chiếu" (r19), nút "i" + bảng chi tiết, thẻ lỗi tải.
+   (C: tách nguyên văn từ cinema.css — thứ tự @import trong cinema.css giữ nguyên cascade.) */
+/* ---------- Nhãn "Tự trình chiếu" (r19) — hiện cả khi HUD tự ẩn; mờ vào / ra chậm, không nháy. r26: cụm nút đã bỏ → nhãn
+   xuống góc dưới phải, ngang chân dòng thời gian; bề rộng giới hạn trong phần lề cạnh dòng thời gian (≥ --gut + 290px ở mọi
+   bề rộng desktop — xem .cin-prog) nên màn hẹp tự xuống hai dòng thay vì đè lên thước. ---------- */
+.cinema .cin-autonote {
+  position: absolute;
+  z-index: 5;
+  right: calc(var(--gut) + env(safe-area-inset-right, 0px));
+  bottom: calc(var(--bar) + env(safe-area-inset-bottom, 0px) + clamp(14px, 2.4vh, 26px));
+  max-width: min(420px, calc(23vw - var(--gut) - 16px));
+  margin: 0;
+  display: block; /* chấm vàng nằm trong dòng chữ → xuống hai dòng thì chấm vẫn sát đầu dòng đầu (căn phải) */
+  font-size: clamp(10px, .9vw, 12px);
+  letter-spacing: .06em;
+  line-height: 1.3;
+  color: var(--dim);
+  text-align: right;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .9s ease;
+}
+.cinema .cin-autonote__dot { display: inline-block; width: 5px; height: 5px; margin-right: 8px; vertical-align: .18em; border-radius: 50%; background: var(--gold); opacity: .8; }
+.cinema[data-auto="idle"] .cin-autonote { opacity: .8; }
+@media (max-width: 760px) {
+  .cinema .cin-autonote { bottom: calc(var(--bar) + env(safe-area-inset-bottom, 0px) + clamp(14px, 2.4vh, 26px) + 106px); }
+}
+
+/* ---------- Nút "i" nổi bên phải + bảng chi tiết ---------- */
+.cinema .cin-fab {
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  right: calc(var(--gut) + env(safe-area-inset-right, 0px));
+  transform: translateY(-50%);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--fg);
+  background: rgba(255, 255, 255, .07);
+  border: 1px solid rgba(255, 255, 255, .18);
+  -webkit-backdrop-filter: blur(14px) saturate(130%);
+  backdrop-filter: blur(14px) saturate(130%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+  transition: opacity .4s ease, background-color .25s ease, border-color .25s ease, color .25s ease;
+}
+.cinema:not([data-input="hand"]) .cin-fab:hover { background: rgba(255, 255, 255, .13); border-color: rgba(236, 236, 236, .34); }
+/* HUD ẩn thì nút chỉ mờ đi, KHÔNG biến mất — luôn với tới được. */
+.cinema[data-hud="off"] .cin-fab { opacity: .38; }
+.cinema[data-panel="on"] .cin-fab {
+  opacity: 1;
+  color: var(--gold);
+  border-color: rgba(217, 179, 108, .5);
+  background: rgba(217, 179, 108, .14);
+}
+.cinema .cin-fab > span {
+  grid-area: 1 / 1;
+  display: grid;
+  place-items: center;
+  transition: opacity .28s ease, transform .38s cubic-bezier(.22, 1, .36, 1);
+}
+.cinema .cin-fab__i { font-family: var(--display); font-style: italic; font-size: 24px; line-height: 1; }
+.cinema .cin-fab__x { opacity: 0; transform: rotate(-90deg) scale(.6); }
+.cinema .cin-fab__x svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.cinema[data-panel="on"] .cin-fab__i { opacity: 0; transform: rotate(90deg) scale(.6); }
+.cinema[data-panel="on"] .cin-fab__x { opacity: 1; transform: none; }
+
+/* Máy có con trỏ chính xác (chuột/bút): vòng "i" ngay trong cảnh 3D thay hẳn nút mép
+   màn hình — ở đó có hover nên điểm mời đặt thẳng lên hiện vật tự nhiên hơn. Thiết bị
+   cảm ứng không có hover nên vẫn giữ nút này.
+   LƯU Ý: khối phải nằm SAU nhóm luật .cin-fab ở trên; media query không cộng thêm
+   độ đặc hiệu nên đặt trước thì "display: grid" bên dưới sẽ đè mất. */
+@media (pointer: fine) {
+  .cinema .cin-fab { display: none; }
+}
+
+.cinema .cin-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 7;
+  background: rgba(4, 4, 6, .55);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .34s ease, visibility 0s linear .34s;
+}
+.cinema[data-panel="on"] .cin-scrim { opacity: 1; visibility: visible; transition: opacity .34s ease, visibility 0s; }
+@media (min-width: 761px) { .cinema .cin-scrim { display: none; } }
+
+.cinema .cin-panel {
+  position: absolute;
+  z-index: 8;
+  top: 50%;
+  right: calc(var(--gut) + env(safe-area-inset-right, 0px) + 72px);
+  width: min(420px, calc(100vw - 2 * var(--gut) - 104px));
+  max-height: 72vh;
+  max-height: min(72svh, 640px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: rgba(18, 18, 22, .86);
+  -webkit-backdrop-filter: blur(28px) saturate(135%);
+  backdrop-filter: blur(28px) saturate(135%);
+  border: 1px solid rgba(255, 255, 255, .12);
+  border-radius: 18px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, .58);
+  /* Nở ra từ phía nút "i" */
+  transform-origin: right center;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-50%) translateX(18px) scale(.9);
+  transition: transform .38s cubic-bezier(.22, 1, .36, 1), opacity .26s ease, visibility 0s linear .38s;
+}
+.cinema[data-panel="on"] .cin-panel {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%) translateX(0) scale(1);
+  transition: transform .38s cubic-bezier(.22, 1, .36, 1), opacity .22s ease, visibility 0s;
+}
+.cinema .cin-panel__head { display: none; }
+.cinema .cin-panel__x {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--fg);
+  background: rgba(255, 255, 255, .07);
+  border: 1px solid rgba(255, 255, 255, .18);
+  -webkit-backdrop-filter: blur(14px) saturate(130%);
+  backdrop-filter: blur(14px) saturate(130%);
+  transition: background-color .25s ease, border-color .25s ease;
+}
+.cinema:not([data-input="hand"]) .cin-panel__x:hover { background: rgba(255, 255, 255, .13); border-color: rgba(236, 236, 236, .34); }
+.cinema .cin-panel__x svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.cinema .cin-panel__in {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: clamp(22px, 2.2vw, 30px);
+}
+.cinema .cin-panel__year {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -.02em;
+  color: var(--gold);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.cinema .cin-panel__h {
+  margin-top: 10px;
+  font-family: var(--display-vi);
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.3;
+}
+.cinema .cin-panel__p.is-pending { font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: var(--faint); }
+.cinema .cin-panel__p {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: var(--dim);
+}
+.cinema .cin-rows { margin: 24px 0 0; border-top: 1px solid rgba(236, 236, 236, .1); }
+.cinema .cin-row {
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr);
+  gap: 12px;
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(236, 236, 236, .07);
+}
+.cinema .cin-row dt {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  line-height: 1.8;
+  color: var(--faint);
+}
+.cinema .cin-row dd { margin: 0; font-size: 13.5px; line-height: 1.55; color: var(--fg); opacity: .9; }
+.cinema .cin-panel__links { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 8px; }
+.cinema .cin-panel__links a {
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--hair);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  color: var(--dim);
+  transition: color .25s ease, background-color .25s ease, border-color .25s ease;
+}
+.cinema:not([data-input="hand"]) .cin-panel__links a:hover { color: var(--fg); border-color: rgba(236, 236, 236, .3); background: rgba(255, 255, 255, .05); }
+
+/* ---------- Lỗi tải ---------- */
+.cinema .cin-err {
+  position: absolute;
+  inset: 0;
+  z-index: 11;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  pointer-events: none;
+}
+.cinema .cin-err[hidden] { display: none; }
+.cinema .cin-err__card {
+  pointer-events: auto;
+  max-width: 400px;
+  text-align: center;
+  padding: 28px 26px;
+  border-radius: 16px;
+  background: rgba(15, 15, 19, .82);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--hair);
+}
+.cinema .cin-err__k { font-size: 11px; text-transform: uppercase; letter-spacing: .18em; color: var(--gold); }
+.cinema .cin-err__id { margin-top: 12px; font-size: 13px; color: var(--fg); }
+.cinema .cin-err__msg { margin-top: 8px; font-size: 12.5px; font-weight: 300; line-height: 1.6; color: var(--dim); }
+.cinema .cin-err__go {
+  margin-top: 20px;
+  padding: 12px 22px;
+  min-height: 44px;
+  border-radius: 999px;
+  border: 1px solid rgba(217, 179, 108, .45);
+  background: rgba(217, 179, 108, .12);
+  color: var(--gold);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  transition: background-color .25s ease;
+}
+.cinema:not([data-input="hand"]) .cin-err__go:hover { background: rgba(217, 179, 108, .2); }

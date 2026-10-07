@@ -1,0 +1,826 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 11 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/11/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1511",
+ "year": 1511,
+ "canChi": "Tân Mùi",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA TÂN MÙI NIÊN HIỆU HỒNG THUẬN NĂM THỨ 3 (1511)",
+ "dynasty": "Lê sơ",
+ "dynastyId": "le-so",
+ "dynastyRaw": "Nhà Lê (Lê Tương Dực)",
+ "dynastyVerify": "cần đối chiếu — nguồn ghi \"Nhà Lê (Lê Tương Dực)\" (không rõ giai đoạn), suy Lê sơ từ năm thi 1511 theo mốc 1428–1527 của src/data/dynasties.js",
+ "era": "Hồng Thuận",
+ "eraYear": 3,
+ "king": {
+  "name": "Lê Tương Dực",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Hồng Thuận trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 47,
+ "passedRaw": "47",
+ "erected": 1513,
+ "contributors": {
+  "author": "Lê Tung",
+  "calligrapher": "Ngô Ninh",
+  "editor": "Không ghi",
+  "engraver": "Nguyễn Huệ"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 3
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 9
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 35
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Hoàng Nghĩa Phú",
+   "tier": 1,
+   "title": "Trạng nguyên",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ đệ nhất danh (Trạng nguyên)",
+   "hometown": "Xã Mạc Xá, huyện Chương Đức, phủ Ứng Thiên (nay thuộc huyện Chương Mỹ, tỉnh Hà Tây)",
+   "honors": []
+  },
+  {
+   "name": "Trần Bảo Tín",
+   "tier": 1,
+   "title": "Bảng nhãn",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ đệ nhị danh (Bảng nhãn)",
+   "hometown": "Xã Khải Mông, huyện Nghi Xuân, phủ Đức Quang (nay thuộc huyện Nghi Xuân, tỉnh Hà Tĩnh)",
+   "honors": []
+  },
+  {
+   "name": "Vũ Duy Chu",
+   "tier": 1,
+   "title": "Thám hoa",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ đệ tam danh (Thám hoa)",
+   "hometown": "Xã Tu Lễ, huyện Sơn Minh, phủ Ứng Thiên (nay thuộc huyện Ứng Hòa, tỉnh Hà Tây)",
+   "honors": []
+  },
+  {
+   "name": "Bùi Doãn Hiệp",
+   "tier": 2,
+   "title": "Hoàng giáp",
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp)",
+   "hometown": "Xã Đào Xá, huyện Phù Vân, phủ Thường Tín (nay thuộc huyện Phú Xuyên, tỉnh Hà Tây)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Hy Tái",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Tam Sơn, huyện Đông Ngàn, phủ Từ Sơn (nay thuộc xã Tam Sơn, huyện Từ Sơn, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Lê Tư",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Làng Mộ Trạch, huyện Đường An, phủ Thượng Hồng (nay thuộc xã Tân Hồng, huyện Bình Giang, tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Duy Tường",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Lý Hải, huyện Yên Lãng, phủ Tam Đới (nay thuộc xã Phú Xuân, thị xã Vĩnh Yên, tỉnh Vĩnh Phúc)",
+   "honors": []
+  },
+  {
+   "name": "Mai Bang",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Đào Tai, huyện Quế Dương, phủ Từ Sơn (nay thuộc xã Đào Viên, huyện Quế Võ, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Đào Khắc Cần",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Mai Đồng, huyện Thủy Đường, phủ Kinh Môn (nay thuộc xã Liên Khê, huyện Thủy Nguyên, Tp. Hải Phòng)",
+   "honors": []
+  },
+  {
+   "name": "Phan Chính Nghị",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Phan Xá, huyện Nghi Xuân, phủ Đức Quang (nay thuộc xã Tiên Điền, huyện Nghi Xuân, tỉnh Nghệ An)",
+   "honors": []
+  },
+  {
+   "name": "Phạm Vĩnh Toán",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Hoa Xá, huyện Gia Phúc, phủ Hạ Hồng (nay thuộc huyện Gia Lộc, tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Dực",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Nội Duệ, huyện Tiên Du, phủ Từ Sơn (nay thuộc xã Nội Duệ, huyện Tiên Du, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Trần Doãn Minh",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Lan Khê, huyện Bình Hà (nay thuộc xã Việt Hồng, huyện Thanh Hà, tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Lê Bá Khang",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Phủ Lý, huyện Đông Sơn, phủ Thiệu Thiên (nay thuộc xã Thiệu Trung, huyện Đông Sơn, tỉnh Thanh Hóa)",
+   "honors": []
+  },
+  {
+   "name": "Thái Kính",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Đậu Liên, huyện Thiên Lộc, phủ Đức Quang (nay thuộc xã Thanh Lộc, huyện Can Lộc, tỉnh Hà Tĩnh)",
+   "honors": []
+  },
+  {
+   "name": "Trần Bích Hoành",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Điền Khê, huyện Duy Tiên, phủ Lị Nhân (nay thuộc huyện Duy Tiên, tỉnh Hà Nam)",
+   "honors": []
+  },
+  {
+   "name": "Ngô Sĩ Kiện",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Cổ Điển, huyện Thanh Trì, phủ Thường Tín (nay thuộc xã Tứ Hiệp, huyện Thanh Trì, Tp. Hà Nội)",
+   "honors": []
+  },
+  {
+   "name": "Đào Xuân Vi",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Lạc Thực, huyện Thanh Lâm, phủ Nam Sách (nay thuộc xã Đồng Lạc, huyện Nam Sách, tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Dương Khải",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Huyện Vũ Ninh, phủ Từ Sơn (nay thuộc huyện Quế Võ, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Đàm Sâm",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Xa Kệ, huyện Văn Lãng, phủ Tam Đới (nay thuộc xã Văn Lãng, huyện Đồng Hỉ, tỉnh Bắc Thái)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Ý",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Thư Nhi, huyện Giao Thuỷ, phủ Thiên Trường (nay thuộc huyện Giao Thủy, tỉnh Nam Định)",
+   "honors": []
+  },
+  {
+   "name": "Kiều Văn Bá",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Đông Ma, huyện Phúc Lộc, phủ Quốc Oai (nay thuộc huyện Phúc Thọ, tỉnh Hà Tây)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Quang",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Lũng Sơn, huyện Tiên Du, phủ Từ Sơn (nay thuộc huyện Tiên Du, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Thì Khắc",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Lũng Tuyền, huyện Lập Thạch, phủ Tam Đới (nay thuộc huyện Lập Thạch, tỉnh Vĩnh Phúc)",
+   "honors": []
+  },
+  {
+   "name": "Ngọ Cương Trung",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Xuân Lôi, huyện Yên Phú, phủ Từ Sơn (nay thuộc xã Tam Giang, huyện Yên Phong, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Trần Viết Thứ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Phất Não, huyện Thạch Hà, phủ Hà Hoa (nay thuộc xã Thạch Bình, huyện Thạch Hà, tỉnh Hà Tĩnh)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Hữu Quan",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Văn Xá, huyện Lương Tài, phủ Thuận An (nay thuộc xã Phú Hòa, huyện Lương Tài, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Huyễn",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Kim Bài, huyện Thanh Oai, phủ Ứng Thiên (nay thuộc xã Kim An, huyện Thanh Oai, tỉnh Hà Tây)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Vô Địch",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Ngô Cương, huyện Gia Định, phủ Thuận An (nay thuộc xã Nhân Thắng, huyện Gia Bình, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Bạt Tụy",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Phá Lãng, huyện Lương Tài, phủ Thuận An (nay thuộc xã Phá Lãng, huyện Lương Tài, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Ngô Đĩnh Trực",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Làng Đình Bảng, huyện Đông Ngàn, phủ Từ Sơn (nay là xã Đình Bảng, huyện Từ Sơn, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Phạm Nguyên",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Triền Đông, huyện Đường An, phủ Thượng Hồng (nay thuộc xã Cẩm Chế, huyện Cẩm Giàng, tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Tạ Đình Huy",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Hồng Khê, huyện Duy Tiên, phủ Lị Nhân (nay thuộc xã Yên Nam, huyện Duy Tiên, tỉnh Hà Nam)",
+   "honors": []
+  },
+  {
+   "name": "La Thế Nghiệp",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Lục Trúc, huyện Thuần Hựu, phủ Hà Trung (nay thuộc huyện Hậu Lộc, tỉnh Thanh Hóa)",
+   "honors": []
+  },
+  {
+   "name": "Đào Trung Hòa",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Lai Xá, huyện Lương Tài, phủ Thuận An (nay thuộc xã Phú Lương, huyện Lương Tài, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Đoàn Văn Thông",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Lương Xá, huyện Lương Tài, phủ Thuận An (nay thuộc xã Phú Lương, huyện Lương Tài, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Thái Hoa",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Đại Dục, huyện Thanh Lâm, phủ Nam Sách (nay thuộc xã Nam Chính, huyện Nam Sách, tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Quách Thu Ưng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Phượng Tường, huyện Tiên Lữ, phủ Khoái Châu (nay thuộc xã Nhật Tân, huyện Tiên Lữ, tỉnh Hưng Yên)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Tuệ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Kim Bài, huyện Thanh Oai, phủ Ứng Thiên (nay thuộc xã Kim An, huyện Thanh Oai, tỉnh Hà Tây)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Mậu Thuật",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Yên Ninh, huyện Chí Linh, phủ Nam Sách (nay thuộc huyện Chí Linh, tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Thu",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Lai Xá, huyện Thiện Tài, phủ Thuận An (nay thuộc xã Phú Lương, huyện Lương Tài, tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Lê Vô Cương",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Thiên Biều, huyện Yên Lãng, phủ Tam Đới (nay thuộc xã Kim Chung, huyện Đông Anh, TP. Hà Nội)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Văn Đàm",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Chiêu Độ, huyện Kim Thành, phủ Kinh Môn (nay thuộc huyện Kim Thành, tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Vũ Phi Hổ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Dư Xá, huyện Hoành Bồ, phủ Hải Đông (nay thuộc huyện Hoành Bồ, tỉnh Quảng Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Lương Đức Mậu",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Phù Vệ, huyện Đường Hào, phủ Thượng Hồng (nay thuộc huyện Ân Thi, tỉnh Hưng Yên)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Mạo",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Bất Đoạt, huyện Kim Bảng, phủ Lị Nhân (nay thuộc xã Châu Sơn, huyện Kim Bảng, tỉnh Hà Nam)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Kiều",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Lưu Xá, huyện Đông Yên, phủ Khoái Châu (nay thuộc xã Nghĩa Dân, huyện Kim Động, tỉnh Hưng Yên)",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa xuân năm Tân Mùi, niên hiệu Hồng Thuận thứ 3 (1511) — khoa đầu đời Trung hưng dưới vua Lê Tương Dực — triều đình thi Hội, chọn được 47 người.",
+   "Ngày 17 tháng 4, vua ra bài văn sách hỏi đạo trị nước, ban Hoàng Nghĩa Phú đỗ Trạng nguyên, Trần Bảo Tín đỗ Bảng nhãn, Vũ Duy Chu đỗ Thám hoa.",
+   "Đến ngày 15 tháng 3 niên hiệu Hồng Thuận thứ 5 (1513), bia được dựng, do Lê Tung vâng sắc soạn bài ký.",
+   "Bài ký có câu: “Hiền tài là nguyên khí của quốc gia, phải chăm lo bồi đắp; khoa mục là điển chương của thánh triều, phải chấn hưng trước hết.”"
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Tân Mùi (1511) là khoa thi đầu tiên của đời Trung hưng dưới triều vua Lê Tương Dực.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 1,
+    "match": "Kính nghĩ hoàng đế bệ hạ ứng vận hội, trời thuận người theo, vỗ yên chúng dân trong nước, tới trường giảng đạo, chuộng mến nho phong, bắt đầu từ khoa Tân Mùi là khoa thứ nhất trong đời Trung hưng."
+   }
+  },
+  {
+   "text": "Quan niệm về hiền tài: 'Hiền tài là nguyên khí của quốc gia, phải chăm lo bồi đắp; khoa mục là điển chương của thánh triều, phải chấn hưng trước hết'.",
+   "kind": "note",
+   "label": "Quan niệm về hiền tài",
+   "labelKind": "title",
+   "anchor": {
+    "section": "body",
+    "para": 1,
+    "match": "Nghĩ hiền tài là nguyên khí của quốc gia, phải chăm lo bồi đắp; khoa mục là điển chương của thánh triều, phải chấn hưng trước hết."
+   }
+  },
+  {
+   "text": "Vua Lê Tương Dực sai Nguyễn Văn Lang sửa lại trường Quốc học và cất nhà bia mới ở phía đông và tây.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Đặc sai Dương vũ Hiệp mưu Đồng đức Hiệu trung khai quốc công thần Đặc tiến Kim tử Vinh lộc đại phu Tán lý Hiệp thuận Khai phủ Nghi đồng Tam ty Bình chương quân Quốc trọng sự Phụ quốc Thừa tướng Thượng tể Thái phó Nghĩa quốc công Thượng trụ quốc Nguyễn Văn Lang sửa lại trường Quốc học, cất nhà bia mới ở phía đông và tây."
+   }
+  },
+  {
+   "text": "Việc dựng bia không chỉ để vinh danh mà còn có ngụ ý khuyên răn kẻ sĩ: ngợi khen người hiền lương và răn đe kẻ gian ác, tà học.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 1,
+    "match": "Được như thế thì tấm bia này dựng lên, trong chỗ ngợi khen còn có ngụ ý khuyên răn nữa."
+   }
+  },
+  {
+   "text": "Cuộc Trung hưng đời Hồng Thuận đánh dấu sự kiện Lê Oanh lật đổ Lê Uy Mục tàn bạo để lên ngôi vua.",
+   "kind": "note"
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Lê Tung",
+   "dates": "1452-1514",
+   "description": "Nguyên họ tên là Dương Bang Bản, đỗ Tiến sĩ khoa Giáp Thìn (1484). Ông giữ các chức quan Thượng thư Bộ Lễ, Thiếu bảo Đông các Đại học sĩ, kiêm Quốc tử giám Tế tửu. Ông là người soạn bài ký cho văn bia này.",
+   "hometown": "Xã An Cư, huyện Thanh Liêm (nay thuộc tỉnh Hà Nam)",
+   "roles": [
+    "Thượng thư Bộ Lễ",
+    "Đông các Đại học sĩ",
+    "Quốc tử giám Tế tửu",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Trần Doãn Minh",
+   "dates": "Không ghi",
+   "description": "Từng đỗ Tiến sĩ năm 1508 nhưng từ chối vì không đỗ hạng Tam khôi. Đến khoa 1511 thi lại và đỗ đồng Tiến sĩ xuất thân. Làm quan đến chức Thượng thư, tước Văn An bá, từng đi sứ hai lần.",
+   "hometown": "Xã Lan Khê, huyện Bình Hà (nay thuộc tỉnh Hải Dương)",
+   "roles": [
+    "Thượng thư",
+    "Sứ thần"
+   ]
+  },
+  {
+   "name": "Nguyễn Bạt Tụy",
+   "dates": "1485-?",
+   "description": "Từng đỗ năm 1508 nhưng không nhận, thi lại năm 1511. Sau làm quan cho nhà Mạc đến chức Thượng thư, Thái bảo, tước Quận công và từng hai lần đi sứ nhà Minh.",
+   "hometown": "Xã Phá Lãng, huyện Lương Tài (nay thuộc tỉnh Bắc Ninh)",
+   "roles": [
+    "Thượng thư",
+    "Thái bảo",
+    "Sứ thần"
+   ]
+  },
+  {
+   "name": "Lê Vô Cương",
+   "dates": "1481-1526",
+   "description": "Giữ chức Hữu Thị lang Bộ Lễ. Ông là người tiết nghĩa, không chịu khuất phục khi Mạc Đăng Dung cướp ngôi nhà Lê nên bị giết.",
+   "hometown": "Xã Thiên Biều, huyện Yên Lãng (nay thuộc huyện Đông Anh, Hà Nội)",
+   "roles": [
+    "Hữu Thị lang Bộ Lễ"
+   ]
+  },
+  {
+   "name": "Phan Chính Nghị",
+   "dates": "1476-?",
+   "description": "Làm quan đến chức Đô Ngự sử. Ông tử nạn khi Mạc Đăng Dung chiếm ngôi nhà Lê, sau được triều Lê Trung hưng phong làm phúc thần.",
+   "hometown": "Xã Phan Xá, huyện Nghi Xuân (nay thuộc tỉnh Nghệ An)",
+   "roles": [
+    "Đô Ngự sử",
+    "Phúc thần"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA TÂN MÙI NIÊN HIỆU HỒNG THUẬN NĂM THỨ 3 (1511)",
+  "paragraphs": [
+   "Trời mở vận trung hưng, năm đúng kỳ mở khoa thi lớn. Mùa xuân năm Tân Mùi niên hiệu Hồng Thuận thứ 3 (1511), Bộ Lễ kính theo lệ cũ, triệu tập sĩ tử tới kinh đô để đua tài, chọn được hạng ưu tú 47 người. Ngày 17 tháng 4, Hoàng thượng đích thân ra bài văn sách, hỏi về đạo trị nước xưa nay. Sai Đề điệu là Suy trung Tán trị Minh kính Khiêm cung công thần Đặc tiến Khai phủ Kim tử Vinh lộc đại phu Bình chương quân Quốc trọng sự Thống quốc chính Thái tể Thái sư Thiệu quốc công thượng trụ quốc Lê Quảng Độ, Phụng trực đại phu Công bộ Thượng thư Tư chính Thượng khanh Trình Chí Sâm; Giám thí là Gia hạnh đại phu Hộ bộ Tả Thị lang Khuông nghĩa doãn Phạm Hạo, Tả Thị lang Bộ Lại Triều liệt đại phu Tu thận doãn Đặng Minh Khiêm cùng các quan hữu ty chia giữ các việc. Sáng hôm sau, các viên đọc quyển là Phụng trực đại phu Lễ bộ Thượng thư Tư chính Thượng khanh Nguyễn Bá Nhậm, Phụng trực đại phu Thượng thư Ngự sử đài Đô Ngự sử Tư chính thượng khanh Nguyễn Thì Ung, Phụng trực đại phu Thượng thư Đông các Đại học sĩ Nhập thị Kinh diên Tư chính Thượng khanh Đỗ Nhạc dâng quyển lên đọc. Hoàng thượng đích thân xem xét, định thứ bậc cao thấp. Lấy bọn Hoàng Nghĩa Phú 3 người đỗ Tiến sĩ cập đệ, bọn Bùi Doãn Hiệp 9 người đỗ Tiến sĩ xuất thân, bọn Trần Doãn Minh 35 người đỗ đồng Tiến sĩ xuất thân. Ngày mồng 4 tháng 5, Hoàng thượng ngự điện Kính Thiên, cho truyền loa xướng tên người thi đỗ, trăm quan mặc triều phục chúc mừng. Bộ Lại vâng ban ơn mệnh, Bộ Lễ vâng rước bảng vàng treo ở ngoài cửa nhà Thái học. Lại ban áo mũ cân đai cho các vị tân khoa, ban ơn cho dự yến tiệc, lễ đãi hiền đầy đủ cả lễ nhạc. Đặc sai Dương vũ Hiệp mưu Đồng đức Hiệu trung khai quốc công thần Đặc tiến Kim tử Vinh lộc đại phu Tán lý Hiệp thuận Khai phủ Nghi đồng Tam ty Bình chương quân Quốc trọng sự Phụ quốc Thừa tướng Thượng tể Thái phó Nghĩa quốc công Thượng trụ quốc Nguyễn Văn Lang sửa lại trường Quốc học, cất nhà bia mới ở phía đông và tây. Lại sai Tá lý công thần, Đặc tiến Kim tử Vinh lộc đại phu, Công bộ Thượng thư Chưởng lục bộ Sự tri Hiển Phúc điện Uy Quận công Thượng trụ quốc Nguyễn Bá Lân trông coi việc dựng bia đề tên, sai từ thần soạn bài ký.",
+   "Thần kính cẩn cúi đầu rập đầu dâng lời rằng: Trời đất sinh thành muôn vật ắt phải nhờ có bốn mùa để thành công. Đế vương muốn yên định muôn phương ắt phải tìm người hiền giúp trị. Cho nên nhà Ngu do không bỏ sót người hiền ở đồng quê mà tới mức thái bình thịnh trị. Nhà Chu có cảnh vui vẻ khang ninh là nhờ trong triều có nhiều hiền tài. Đến các đời Hán, Đường, Tống vua nào muốn có trị bình, ắt phải coi việc dùng hiền kén sĩ làm việc đầu tiên. Kính nghĩ thánh triều: Thái Tổ Cao hoàng đế dùng võ công dẹp yên thiên hạ, lấy văn giáo dấy nền thái bình, bắt đầu lập Quốc học mà văn giáo từ đây ngày càng mới. Thái Tông Văn hoàng đế nối tiếp nghiệp lớn, sửa sang điển chế, bắt đầu mở khoa thi mà văn minh càng thêm rực rỡ. Nhân Tông Tuyên hoàng đế kính theo mưu lược của tiên đế, tuân giữ điển chương chế độ, nuôi dưỡng dự bị sẵn người tài, Nho phong phấn phát. Thánh Tông Thuần hoàng đế chỉnh đốn mối giềng, sửa sang trị bình giáo hóa, chuộng văn trọng đạo, học vấn cao minh, chăm lo tác thành người tài tuấn, các bậc chân Nho nối nhau xuất hiện. Hiến Tông Duệ hoàng đế giữ cơ nghiệp sẵn thành, mở mang cội nguồn giáo hóa, lựa dùng hiền tài, nhân tài chen vai cùng tiến. Kính nghĩ hoàng đế bệ hạ ứng vận hội, trời thuận người theo, vỗ yên chúng dân trong nước, tới trường giảng đạo, chuộng mến nho phong, bắt đầu từ khoa Tân Mùi là khoa thứ nhất trong đời Trung hưng. Nghĩ hiền tài là nguyên khí của quốc gia, phải chăm lo bồi đắp; khoa mục là điển chương của thánh triều, phải chấn hưng trước hết. Kẻ hào kiệt thường vẫn từ con đường ấy mà tiến thân. Nhà Đường được Phòng [Huyền] Linh mà đạt được nền thái bình đời Trinh Quán. Nhà Tống được Hàn Kỳ mà đặt thiên hạ vào thế yên như Thái Sơn. Trải qua các đời nhờ khoa mục thu dụng được nhân tài mà giúp ích cho nền trị đạo, quan hệ lớn lao như thế. Lòng thánh đế lo xa, đã có sẵn quy hoạch, đối với những người thi đỗ trong bảng này đặc cách ban khen bạt dụng, đều bổ cho giữ các chức ở Hàn lâm viện và các chức khoa đài ở các bộ, ơn huệ rất dày, chế độ rất đủ. Đăng khoa thì có sách chép, đề danh thì có bia là cốt để lưu tiếng thơm trong sử sách, làm rạng rỡ sự nghiệp đến muôn đời. Kẻ sĩ ở đời được ghi tên vào tấm đá này thực may mắn biết bao! Nếu quả thật biết dồi mài trung nghĩa, cố gắng liêm cần để có tiếng là vị Trạng nguyên trung hiếu, là bậc quân tử ngọc vàng, thì mai sau các học trò nhà Thái học sẽ chỉ vào tên mà nói: Vị này vào hàng khoa bảng, vị này là bậc hiền tài, người hiền lương biết vậy mà lấy làm khích lệ. Thảng như có kẻ ngoài ngọc trong đá, bề ngoài như chim phượng mà tiếng kêu như cú diều, dua nịnh giống phường dựa cột, hèn nhát như lũ bó tay, thiên hạ đời sau sẽ chê cười nói: kẻ ấy tà học như hạng Công Tôn Hoằng, kẻ kia phản lại kinh sách cũng như Vương An Thạch, kẻ gian ác thấy đấy mà tự lấy làm răn. Được như thế thì tấm bia này dựng lên, trong chỗ ngợi khen còn có ngụ ý khuyên răn nữa. Rực rỡ lớn lao thay quy mô chọn dùng hiền tài của liệt thánh. Kế thừa cao cả thay mực thước chọn dùng hiền tài của Thánh thượng ngày nay. Đó là vì muốn cho trời đất sinh hiền tài mà lập tâm, vì muốn nước nhà sử dụng được hiền tài mà lập pháp; và vì có ý mở ra cuộc thái bình muôn nghìn đời cho thiên hạ vậy. Thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Đặc tiến Kim tử Vinh lộc đại phu Thiếu bảo Thượng thư Bộ Lễ, Đông các Đại học sĩ kiêm Quốc tử giám Tế tửu Tri Kinh diên sự Đôn Thư bá trụ quốc Lê Tung vâng sắc soạn.",
+   "Triều liệt đại phu Trung thư giám Trung thư xá nhân Tu thận doãn Ngô Ninh vâng viết chữ (chân).",
+   "Lễ bộ Tả Thị lang hành Kim quang môn Đãi chiếu Tri Thượng bảo giám các cục sự Nguyễn Huệ vâng sắc viết chữ triện.",
+   "Bia dựng ngày 15 tháng 3 niên hiệu Hồng Thuận thứ 5 (1513)."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhất giáp Tiến sĩ cập đệ",
+    "count": 3,
+    "names": [
+     {
+      "name": "HOÀNG NGHĨA PHÚ",
+      "from": "huyện Chương Đức phủ Ứng Thiên"
+     },
+     {
+      "name": "TRẦN BẢO TÍN",
+      "from": "huyện Nghi Xuân phủ Đức Quang"
+     },
+     {
+      "name": "VŨ DUY CHU",
+      "from": "huyện Sơn Minh phủ Ứng Thiên"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 9,
+    "names": [
+     {
+      "name": "BÙI DOÃN HIỆP",
+      "from": "huyện Phù Vân phủ Thường Tín"
+     },
+     {
+      "name": "NGUYỄN HY TÁI",
+      "from": "huyện Đông Ngàn phủ Từ Sơn"
+     },
+     {
+      "name": "LÊ TƯ",
+      "from": "huyện Đường An phủ Thượng Hồng"
+     },
+     {
+      "name": "NGUYỄN DUY TƯỜNG",
+      "from": "huyện Yên Lãng phủ Tam Đới"
+     },
+     {
+      "name": "MAI BANG",
+      "from": "huyện Quế Dương phủ Từ Sơn"
+     },
+     {
+      "name": "ĐÀO KHẮC CẦN",
+      "from": "huyện Thủy Đường phủ Kinh Môn"
+     },
+     {
+      "name": "PHAN CHÍNH NGHỊ",
+      "from": "huyện Nghi Xuân phủ Đức Quang"
+     },
+     {
+      "name": "PHẠM VĨNH TOÁN",
+      "from": "huyện Gia Phúc phủ Hạ Hồng"
+     },
+     {
+      "name": "NGUYỄN DỰC",
+      "from": "huyện Tiên Du phủ Từ Sơn"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 35,
+    "names": [
+     {
+      "name": "TRẦN DOÃN MINH",
+      "from": "xã Lan Khê huyện Bình Hà"
+     },
+     {
+      "name": "LÊ BÁ KHANG",
+      "from": "huyện Đông Sơn phủ Thiệu Thiên"
+     },
+     {
+      "name": "THÁI KÍNH",
+      "from": "huyện Thiên Lộc phủ Đức Quang"
+     },
+     {
+      "name": "TRẦN BÍCH HOÀNH",
+      "from": "huyện Duy Tiên phủ Lị Nhân"
+     },
+     {
+      "name": "NGÔ SĨ KIỆN",
+      "from": "huyện Thanh Trì phủ Thường Tín"
+     },
+     {
+      "name": "ĐÀO XUÂN VI",
+      "from": "huyện Thanh Lâm phủ Nam Sách"
+     },
+     {
+      "name": "DƯƠNG KHẢI",
+      "from": "huyện Vũ Ninh phủ Từ Sơn"
+     },
+     {
+      "name": "ĐÀM SÂM",
+      "from": "huyện Văn Lãng phủ Tam Đới"
+     },
+     {
+      "name": "NGUYỄN Ý",
+      "from": "huyện Giao Thuỷ phủ Thiên Trường"
+     },
+     {
+      "name": "KIỀU VĂN BÁ",
+      "from": "huyện Phúc Lộc phủ Quốc Oai"
+     },
+     {
+      "name": "NGUYỄN QUANG",
+      "from": "huyện Tiên Du phủ Từ Sơn"
+     },
+     {
+      "name": "NGUYỄN THÌ KHẮC",
+      "from": "huyện Lập Thạch phủ Tam Đới"
+     },
+     {
+      "name": "NGỌ CƯƠNG TRUNG",
+      "from": "huyện Yên Phú phủ Từ Sơn"
+     },
+     {
+      "name": "TRẦN VIẾT THỨ",
+      "from": "huyện Thạch Hà phủ Hà Hoa"
+     },
+     {
+      "name": "NGUYỄN HỮU QUAN",
+      "from": "huyện Lương Tài phủ Thuận An"
+     },
+     {
+      "name": "NGUYỄN HUYỄN",
+      "from": "huyện Thanh Oai phủ Ứng Thiên"
+     },
+     {
+      "name": "NGUYỄN VÔ ĐỊCH",
+      "from": "huyện Gia Định phủ Thuận An"
+     },
+     {
+      "name": "NGUYỄN BẠT TỤY",
+      "from": "huyện Lương Tài phủ Thuận An"
+     },
+     {
+      "name": "NGÔ ĐĨNH TRỰC",
+      "from": "huyện Đông Ngàn phủ Từ Sơn"
+     },
+     {
+      "name": "PHẠM NGUYÊN",
+      "from": "huyện Đường An phủ Thượng Hồng"
+     },
+     {
+      "name": "TẠ ĐÌNH HUY",
+      "from": "huyện Duy Tiên phủ Lị Nhân"
+     },
+     {
+      "name": "LA THẾ NGHIỆP",
+      "from": "huyện Thuần Hựu phủ Hà Trung"
+     },
+     {
+      "name": "ĐÀO TRUNG HÒA",
+      "from": "huyện Lương Tài phủ Thuận An"
+     },
+     {
+      "name": "ĐOÀN VĂN THÔNG",
+      "from": "huyện Quảng Đức phủ Phụng Thiên"
+     },
+     {
+      "name": "NGUYỄN THÁI HOA",
+      "from": "huyện Thanh Lâm phủ Nam Sách"
+     },
+     {
+      "name": "QUÁCH THU ƯNG",
+      "from": "huyện Tiên Lữ phủ Khoái Châu"
+     },
+     {
+      "name": "NGUYỄN TUỆ",
+      "from": "huyện Thanh Oai phủ Ứng Thiên"
+     },
+     {
+      "name": "NGUYỄN MẬU THUẬT",
+      "from": "huyện Chí Linh phủ Nam Sách"
+     },
+     {
+      "name": "NGUYỄN THU",
+      "from": "huyện Thiện Tài phủ Thuận An"
+     },
+     {
+      "name": "LÊ VÔ CƯƠNG",
+      "from": "huyện Yên Lãng phủ Tam Đới"
+     },
+     {
+      "name": "NGUYỄN VĂN ĐÀM",
+      "from": "huyện Kim Thành phủ Kinh Môn"
+     },
+     {
+      "name": "VŨ PHI HỔ",
+      "from": "huyện Hoành Bồ phủ Hải Đông"
+     },
+     {
+      "name": "LƯƠNG ĐỨC MẬU",
+      "from": "huyện Đường Hào phủ Thượng Hồng"
+     },
+     {
+      "name": "NGUYỄN MẠO",
+      "from": "huyện Kim Bảng phủ Lị Nhân"
+     },
+     {
+      "name": "NGUYỄN KIỀU",
+      "from": "huyện Đông Yên phủ Khoái Châu"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Lê Tung"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Ngô Ninh"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Nguyễn Huệ"
+  }
+ ],
+ "crossRefs": [],
+ "passRate": null,
+ "erection": {
+  "year": 1513,
+  "raw": "1513",
+  "gap": 2,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1511",
+     "year": 1511
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Lê Tung",
+   "dates": "1452-1514",
+   "description": "Nguyên họ tên là Dương Bang Bản, đỗ Tiến sĩ khoa Giáp Thìn (1484). Ông giữ các chức quan Thượng thư Bộ Lễ, Thiếu bảo Đông các Đại học sĩ, kiêm Quốc tử giám Tế tửu. Ông là người soạn bài ký cho văn bia này.",
+   "isLaureate": false
+  },
+  {
+   "name": "Trần Doãn Minh",
+   "dates": "Không ghi",
+   "description": "Từng đỗ Tiến sĩ năm 1508 nhưng từ chối vì không đỗ hạng Tam khôi. Đến khoa 1511 thi lại và đỗ đồng Tiến sĩ xuất thân. Làm quan đến chức Thượng thư, tước Văn An bá, từng đi sứ hai lần.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Bạt Tụy",
+   "dates": "1485-?",
+   "description": "Từng đỗ năm 1508 nhưng không nhận, thi lại năm 1511. Sau làm quan cho nhà Mạc đến chức Thượng thư, Thái bảo, tước Quận công và từng hai lần đi sứ nhà Minh.",
+   "isLaureate": true
+  },
+  {
+   "name": "Lê Vô Cương",
+   "dates": "1481-1526",
+   "description": "Giữ chức Hữu Thị lang Bộ Lễ. Ông là người tiết nghĩa, không chịu khuất phục khi Mạc Đăng Dung cướp ngôi nhà Lê nên bị giết.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phan Chính Nghị",
+   "dates": "1476-?",
+   "description": "Làm quan đến chức Đô Ngự sử. Ông tử nạn khi Mạc Đăng Dung chiếm ngôi nhà Lê, sau được triều Lê Trung hưng phong làm phúc thần.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Lê Tung",
+  "dates": "1452-1514",
+  "description": "Nguyên họ tên là Dương Bang Bản, đỗ Tiến sĩ khoa Giáp Thìn (1484). Ông giữ các chức quan Thượng thư Bộ Lễ, Thiếu bảo Đông các Đại học sĩ, kiêm Quốc tử giám Tế tửu. Ông là người soạn bài ký cho văn bia này.",
+  "hometown": "Xã An Cư, huyện Thanh Liêm (nay thuộc tỉnh Hà Nam)",
+  "roles": [
+   "Thượng thư Bộ Lễ",
+   "Đông các Đại học sĩ",
+   "Quốc tử giám Tế tửu",
+   "Người soạn văn bia"
+  ]
+ }
+}

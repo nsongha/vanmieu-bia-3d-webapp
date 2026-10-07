@@ -1,0 +1,582 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 18 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/18/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1583",
+ "year": 1583,
+ "canChi": "Quý Mùi",
+ "title": "VĂN BIA ĐỀ DANH TIẾS SĨ KHOA QUÝ MÙI NIÊN HIỆU QUANG HƯNG NĂM THỨ 6 (1583)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Nhà Lê (Lê Trung hưng)",
+ "era": "Quang Hưng",
+ "eraYear": 6,
+ "king": {
+  "name": "Lê Thế Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Quang Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 4,
+ "passedRaw": "4",
+ "erected": 1653,
+ "contributors": {
+  "author": "Khương Thế Hiền",
+  "calligrapher": "Trịnh Khuê",
+  "editor": "Dương Trí Trạch",
+  "engraver": "Nguyễn Quang Độ"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 3
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 1
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Nguyễn Nhân Thiệm",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Bột Thái, huyện Hoằng Hóa",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Phong",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Bình Hồ, huyện La Sơn",
+   "honors": []
+  },
+  {
+   "name": "Trần Phúc Hựu",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Yên Việt Hạ, huyện La Sơn",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Văn Thông",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Hương Cái, huyện Hưng Nguyên",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Năm Quý Mùi, niên hiệu Quang Hưng thứ 6 (1583), giữa lúc còn lo việc quân dẹp trừ ngụy Mạc, triều đình vẫn mở khoa thi Hội tại ấp Thang Mộc, chọn được 4 người.",
+   "Đỗ Đệ nhị giáp Tiến sĩ xuất thân có Nguyễn Nhân Thiệm, Nguyễn Phong, Trần Phúc Hựu; đỗ Đệ tam giáp có Nguyễn Văn Thông.",
+   "Bia dựng ngày 16 tháng 11 niên hiệu Thịnh Đức thứ 1 (1653), do Khương Thế Hiền soạn, Dương Trí Trạch nhuận sắc.",
+   "Bài ký hỏi: “Công lao giúp cho sự khôi phục quốc gia, há chẳng phải sức của nhân tài hay sao?”"
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi được tổ chức tại ấp Thang Mộc trong bối cảnh đất nước đang lo việc quân, dẹp trừ ngụy Mạc.",
+   "kind": "note"
+  },
+  {
+   "text": "Vua Lê Thế Tông cùng Thanh vương Trịnh Tùng và Tây Định vương Trịnh Tạc chủ trương cầu hiền tài để khôi phục quốc gia.",
+   "kind": "note"
+  },
+  {
+   "text": "Bia được dựng nhằm biểu dương danh thơm, khuyến khích kẻ trung thần và răn đe kẻ ác thông qua việc lưu danh thiên cổ.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 2,
+    "match": "Mới đem các khoa thi trước sau khắc vào đá tốt, vừa là để biểu dương danh thơm đức tốt, vừa là để khuyến khích kẻ trung thần."
+   }
+  },
+  {
+   "text": "Đây là một trong các khoa thi từ thời Trung hưng được lệnh khắc bia vào năm Thịnh Đức thứ 1 (1653).",
+   "kind": "note"
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Nguyễn Nhân Thiệm",
+   "dates": "1563-1645",
+   "description": "Đỗ Tiến sĩ khoa Quý Mùi (1583). Ông làm quan đến chức Thái thường tự khanh, sau thăng Thượng thư Bộ Công và từng được cử đi sứ sang nhà Minh.",
+   "hometown": "Xã Bột Thái, huyện Hoằng Hóa (nay thuộc xã Hoằng Vinh, huyện Hoằng Hóa, tỉnh Thanh Hóa)",
+   "roles": [
+    "Thái thường tự khanh",
+    "Thượng thư Bộ Công",
+    "Sứ giả"
+   ]
+  },
+  {
+   "name": "Nguyễn Phong",
+   "dates": "1559-?",
+   "description": "Đỗ Tiến sĩ khoa Quý Mùi (1583). Ông làm quan đến chức Thái thường Tự khanh, khi mất được tặng chức Tả Thị lang.",
+   "hometown": "Xã Bình Hồ, huyện La Sơn (nay thuộc xã Yên Hồ, huyện Đức Thọ, tỉnh Hà Tĩnh)",
+   "roles": [
+    "Thái thường Tự khanh",
+    "Tả Thị lang (truy tặng)"
+   ]
+  },
+  {
+   "name": "Trần Phúc Hựu",
+   "dates": "1551-?",
+   "description": "Đỗ Tiến sĩ khoa Quý Mùi (1583). Ông làm quan đến chức Đại lý Tự khanh, khi mất được tặng chức Hữu Thị lang, tước nam. Có tài liệu ghi tên ông là Nguyễn Phúc Hựu.",
+   "hometown": "Xã Yên Việt Hạ, huyện La Sơn (nay thuộc xã Đức Châu, huyện Đức Thọ, tỉnh Hà Tĩnh)",
+   "roles": [
+    "Đại lý Tự khanh",
+    "Hữu Thị lang (truy tặng)",
+    "Tước Nam"
+   ]
+  },
+  {
+   "name": "Nguyễn Văn Thông",
+   "dates": "1561-?",
+   "description": "Đỗ đồng Tiến sĩ khoa Quý Mùi (1583). Ông làm quan đến chức Binh khoa Đô Cấp sự trung. Có tài liệu ghi tên ông là Lê Văn Thông.",
+   "hometown": "Xã Hương Cái, huyện Hưng Nguyên (nay thuộc xã Hưng Chính, huyện Hưng Nguyên, tỉnh Nghệ An)",
+   "roles": [
+    "Binh khoa Đô Cấp sự trung"
+   ]
+  },
+  {
+   "name": "Dương Trí Trạch",
+   "dates": "Không rõ",
+   "description": "Dực vận Tán trị công thần, Lễ bộ Thượng thư kiêm Hàn lâm viện Thị giảng, Tham Chưởng Hàn lâm viện sự, Bạt Quận công. Ông là người nhuận sắc cho văn bia này.",
+   "hometown": "Không rõ",
+   "roles": [
+    "Lễ bộ Thượng thư",
+    "Hàn lâm viện Thị giảng",
+    "Bạt Quận công",
+    "Người nhuận sắc bia"
+   ]
+  },
+  {
+   "name": "Khương Thế Hiền",
+   "dates": "Không rõ",
+   "description": "Hàn lâm viện Đãi chế, là người vâng sắc soạn bài ký cho văn bia khoa thi 1583.",
+   "hometown": "Không rõ",
+   "roles": [
+    "Hàn lâm viện Đãi chế",
+    "Người soạn văn bia"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾS SĨ KHOA QUÝ MÙI NIÊN HIỆU QUANG HƯNG NĂM THỨ 6 (1583)",
+  "paragraphs": [
+   "Kính nghĩ: Thế Tông Nghị hoàng đế tấm lòng nhân hậu, chí khí anh hùng, muốn mở mang cơ nghiệp tổ tông, thu nạp hết anh tài đất nước. Thực nhờ Thành Tổ Triết vương khuông phò chính thống, giúp dựng qui mô. Buổi bấy giờ còn phải lo việc quân, nhưng vẫn lấy việc cầu hiền làm trên hết. Bèn mở khoa thi Hội tại ấp Thang Mộc, sai các quan Đề điệu, Tri Cống cử, Giám thí thi Hội các văn nhân tài tuấn, lấy được 4 người trúng cách. Hôm sau Điện thí, Hoàng thượng đích thân xét định, cho bọn Nguyễn Nhân Thiệm 3 người đỗ Tiến sĩ xuất thân, Nguyễn Văn Thông 1 người đỗ đồng Tiến sĩ xuất thân. Ơn vinh ban cấp theo thứ bậc như lệ cũ. Những người xuất thân trong khoa này đều là những nhân tài thạc học, bậc tuấn sĩ anh tài, mừng vui được đem tài năng ứng dụng cho đời, giúp việc quân cơ, dẹp trừ ngụy Mạc. Kinh đô nhà Hạ từ đó được thu hồi, cơ nghiệp nhà Hán lại thêm sáng rạng. Công lao giúp cho sự khôi phục quốc gia, há chẳng phải sức của nhân tài hay sao?",
+   "Kính nghĩ: Hoàng thượng bệ hạ đảm đương lịch số nối truyền, gánh trách nhiệm làm vua làm thầy, chăm lo cầu trị, tin dùng chân Nho. Thực nhờ Đại nguyên súy Thống quốc chính Thượng chủ Sư phụ Công cao Thông đoán Nhân thánh Thanh vương kế thừa cơ nghiệp hai đời thánh chúa, chấn chỉnh kỉ cương, giúp vua gây dựng ơn đức. Muốn mở mang nghiệp lớn phải dùng đến mưu lược rộng xa. Uỷ quyền cho Nguyên súy Chưởng quốc chính Tây Định vương cai quản trăm quan, điều hoà bốn bể, xét quyết mọi việc, thả lưới thu nạp nhân tài. Lúc bấy giờ hiền tài đông dường mây cuốn, pháp độ sáng tỏa như sao. Nhân khi muôn việc rảnh rang, nghĩ đến việc các khoa thi Chế khoa từ Trung hưng đến nay (chưa khắc bia), bèn sai quan bộ Công khắc đá đề danh, từ thần soạn bài ký dựng ở cửa nhà Thái học để khuyến khích kẻ sĩ trong nước.",
+   "Bọn thần kính vâng chỉ dụ, vâng mệnh thuật việc khắc bia, đâu dám viện cớ vụng về chối từ, kính cẩn cúi đầu rập đầu dâng lời rằng: Có đế vương hưng nghiệp, ắt có chế độ hưng vương. Ngước xem việc khắc đá đề danh, chính bắt đầu từ Thánh Tông Thuần hoàng đế lập quy mô lớn lao tốt đẹp, mở nền thái bình muôn đời. Từ khi đất nước khôi phục tới nay, phép ấy bị bỏ bễ đã lâu, đó là vì bận nhiều việc chưa kịp làm theo quy chế cũ. Có lẽ để làm việc ấy cũng còn trông đợi ở ngày nay. Kính nghĩ: Thánh thượng chuộng văn giữ gìn thành pháp, trọng đạo sùng Nho, noi theo điển chương của tiền vương, làm sáng rõ chế độ ở đời thái bình. Mới đem các khoa thi trước sau khắc vào đá tốt, vừa là để biểu dương danh thơm đức tốt, vừa là để khuyến khích kẻ trung thần. Thật tốt đẹp biết bao!",
+   "Hãy lấy những người đỗ trong khoa này mà điểm lại: Có người nổi tiếng nhờ đức hạnh chính sự, có người nổi tiếng là thanh liêm trung trực. Trong đó cũng không thể không có kẻ gian tà hèn nhát. Một khi đã khắc tên lên bia đá này, người đời sau đến xem sẽ chỉ tên mà bảo nhau: người này được, người kia hỏng; người này hay, người kia dở, nhờ đó mà kẻ thiện biết tự khuyến khích, kẻ ác biết tự răn đe. Thế thì bia đá này dựng lên, há chỉ chuộng hư danh làm cho đẹp mắt mà thôi đâu! Ý nghĩa sâu xa của sự khuyến khích răn đe chính gửi ở trong đó. Bọn thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Dực vận Tán trị công thần Đặc tiến Kim tử Vinh lộc đại phu Lễ bộ Thượng thư kiêm Hàn lâm viện Thị giảng Tham Chưởng Hàn lâm viện sự Bạt Quận công Thượng trụ quốc Dương Trí Trạch vâng sắc nhuận.",
+   "Hàn lâm viện Đãi chế Khương Thế Hiền vâng sắc soạn.",
+   "Trung thư giám Hoa văn học sinh người xã Lai Duệ huyện Thụy Nguyên là Trịnh Khuê vâng sắc viết chữ (chân).",
+   "Quang tiến Thận lộc đại phu Kim quang môn Đãi chiếu kiêm Triện thích thái hàm Quế Lan nam Nguyễn Quang Độ vâng sắc viết chữ triện.",
+   "Bia dựng ngày 16 tháng 11 niên hiệu Thịnh Đức năm thứ 1 (1653) Hoàng Việt."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 3,
+    "names": [
+     {
+      "name": "NGUYỄN NHÂN THIỆM",
+      "from": "xã Bột Thái huyện Hoằng Hóa"
+     },
+     {
+      "name": "NGUYỄN PHONG",
+      "from": "xã Bình Hồ huyện La Sơn"
+     },
+     {
+      "name": "TRẦN PHÚC HỰU",
+      "from": "xã Yên Việt Hạ huyện La Sơn"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 1,
+    "names": [
+     {
+      "name": "NGUYỄN VĂN THÔNG",
+      "from": "xã Hương Cái huyện Hưng Nguyên"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Khương Thế Hiền"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Dương Trí Trạch"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Trịnh Khuê"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Nguyễn Quang Độ"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Khương Thế Hiền",
+   "others": [
+    {
+     "id": "bia-1580",
+     "year": 1580
+    },
+    {
+     "id": "bia-1589",
+     "year": 1589
+    },
+    {
+     "id": "bia-1602",
+     "year": 1602
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Dương Trí Trạch",
+   "others": [
+    {
+     "id": "bia-1554",
+     "year": 1554
+    },
+    {
+     "id": "bia-1577",
+     "year": 1577
+    },
+    {
+     "id": "bia-1580",
+     "year": 1580
+    },
+    {
+     "id": "bia-1589",
+     "year": 1589
+    },
+    {
+     "id": "bia-1592",
+     "year": 1592
+    },
+    {
+     "id": "bia-1595",
+     "year": 1595
+    },
+    {
+     "id": "bia-1598",
+     "year": 1598
+    },
+    {
+     "id": "bia-1602",
+     "year": 1602
+    },
+    {
+     "id": "bia-1604",
+     "year": 1604
+    },
+    {
+     "id": "bia-1607",
+     "year": 1607
+    },
+    {
+     "id": "bia-1610",
+     "year": 1610
+    },
+    {
+     "id": "bia-1613",
+     "year": 1613
+    },
+    {
+     "id": "bia-1616",
+     "year": 1616
+    },
+    {
+     "id": "bia-1619",
+     "year": 1619
+    },
+    {
+     "id": "bia-1623",
+     "year": 1623
+    },
+    {
+     "id": "bia-1628",
+     "year": 1628
+    },
+    {
+     "id": "bia-1631",
+     "year": 1631
+    },
+    {
+     "id": "bia-1637",
+     "year": 1637
+    },
+    {
+     "id": "bia-1640",
+     "year": 1640
+    },
+    {
+     "id": "bia-1643",
+     "year": 1643
+    },
+    {
+     "id": "bia-1646",
+     "year": 1646
+    },
+    {
+     "id": "bia-1650",
+     "year": 1650
+    },
+    {
+     "id": "bia-1652",
+     "year": 1652
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Nguyễn Quang Độ",
+   "others": [
+    {
+     "id": "bia-1580",
+     "year": 1580
+    },
+    {
+     "id": "bia-1589",
+     "year": 1589
+    },
+    {
+     "id": "bia-1592",
+     "year": 1592
+    },
+    {
+     "id": "bia-1595",
+     "year": 1595
+    },
+    {
+     "id": "bia-1598",
+     "year": 1598
+    },
+    {
+     "id": "bia-1602",
+     "year": 1602
+    },
+    {
+     "id": "bia-1604",
+     "year": 1604
+    },
+    {
+     "id": "bia-1607",
+     "year": 1607
+    },
+    {
+     "id": "bia-1610",
+     "year": 1610
+    },
+    {
+     "id": "bia-1613",
+     "year": 1613
+    },
+    {
+     "id": "bia-1616",
+     "year": 1616
+    },
+    {
+     "id": "bia-1623",
+     "year": 1623
+    },
+    {
+     "id": "bia-1628",
+     "year": 1628
+    },
+    {
+     "id": "bia-1650",
+     "year": 1650
+    },
+    {
+     "id": "bia-1652",
+     "year": 1652
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1653,
+  "raw": "1653",
+  "gap": 70,
+  "batch": {
+   "count": 24,
+   "entries": [
+    {
+     "id": "bia-1554",
+     "year": 1554
+    },
+    {
+     "id": "bia-1565",
+     "year": 1565
+    },
+    {
+     "id": "bia-1577",
+     "year": 1577
+    },
+    {
+     "id": "bia-1583",
+     "year": 1583
+    },
+    {
+     "id": "bia-1589",
+     "year": 1589
+    },
+    {
+     "id": "bia-1592",
+     "year": 1592
+    },
+    {
+     "id": "bia-1595",
+     "year": 1595
+    },
+    {
+     "id": "bia-1598",
+     "year": 1598
+    },
+    {
+     "id": "bia-1602",
+     "year": 1602
+    },
+    {
+     "id": "bia-1604",
+     "year": 1604
+    },
+    {
+     "id": "bia-1607",
+     "year": 1607
+    },
+    {
+     "id": "bia-1610",
+     "year": 1610
+    },
+    {
+     "id": "bia-1613",
+     "year": 1613
+    },
+    {
+     "id": "bia-1616",
+     "year": 1616
+    },
+    {
+     "id": "bia-1619",
+     "year": 1619
+    },
+    {
+     "id": "bia-1623",
+     "year": 1623
+    },
+    {
+     "id": "bia-1628",
+     "year": 1628
+    },
+    {
+     "id": "bia-1631",
+     "year": 1631
+    },
+    {
+     "id": "bia-1637",
+     "year": 1637
+    },
+    {
+     "id": "bia-1640",
+     "year": 1640
+    },
+    {
+     "id": "bia-1643",
+     "year": 1643
+    },
+    {
+     "id": "bia-1646",
+     "year": 1646
+    },
+    {
+     "id": "bia-1650",
+     "year": 1650
+    },
+    {
+     "id": "bia-1652",
+     "year": 1652
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Nguyễn Nhân Thiệm",
+   "dates": "1563-1645",
+   "description": "Đỗ Tiến sĩ khoa Quý Mùi (1583). Ông làm quan đến chức Thái thường tự khanh, sau thăng Thượng thư Bộ Công và từng được cử đi sứ sang nhà Minh.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Phong",
+   "dates": "1559-?",
+   "description": "Đỗ Tiến sĩ khoa Quý Mùi (1583). Ông làm quan đến chức Thái thường Tự khanh, khi mất được tặng chức Tả Thị lang.",
+   "isLaureate": true
+  },
+  {
+   "name": "Trần Phúc Hựu",
+   "dates": "1551-?",
+   "description": "Đỗ Tiến sĩ khoa Quý Mùi (1583). Ông làm quan đến chức Đại lý Tự khanh, khi mất được tặng chức Hữu Thị lang, tước nam. Có tài liệu ghi tên ông là Nguyễn Phúc Hựu.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Văn Thông",
+   "dates": "1561-?",
+   "description": "Đỗ đồng Tiến sĩ khoa Quý Mùi (1583). Ông làm quan đến chức Binh khoa Đô Cấp sự trung. Có tài liệu ghi tên ông là Lê Văn Thông.",
+   "isLaureate": true
+  },
+  {
+   "name": "Dương Trí Trạch",
+   "dates": "Không rõ",
+   "description": "Dực vận Tán trị công thần, Lễ bộ Thượng thư kiêm Hàn lâm viện Thị giảng, Tham Chưởng Hàn lâm viện sự, Bạt Quận công. Ông là người nhuận sắc cho văn bia này.",
+   "isLaureate": false
+  },
+  {
+   "name": "Khương Thế Hiền",
+   "dates": "Không rõ",
+   "description": "Hàn lâm viện Đãi chế, là người vâng sắc soạn bài ký cho văn bia khoa thi 1583.",
+   "isLaureate": false
+  }
+ ],
+ "authorBio": {
+  "name": "Khương Thế Hiền",
+  "dates": "Không rõ",
+  "description": "Hàn lâm viện Đãi chế, là người vâng sắc soạn bài ký cho văn bia khoa thi 1583.",
+  "hometown": "Không rõ",
+  "roles": [
+   "Hàn lâm viện Đãi chế",
+   "Người soạn văn bia"
+  ]
+ }
+}

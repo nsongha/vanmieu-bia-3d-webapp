@@ -1,0 +1,210 @@
+/* cinema.css › info — Lớp của các kiểu hiện thông tin (info/*.js) + tên người đỗ trên thân bia (names.js).
+   (C: tách nguyên văn từ cinema.css — thứ tự @import trong cinema.css giữ nguyên cascade.) */
+/* ---------- Lớp của các kiểu hiện thông tin (info/*.js) ----------
+   Thứ tự lớp: canvas (0) → CSS3D bám mặt phẳng bia (1) → hiệu ứng phim: vignette + hạt (2)
+   → HUD màn hình của kiểu thông tin (4) → HUD của view (5) → tải / FAB / bảng / cài đặt.
+   · .cin-css3d nằm DƯỚI hiệu ứng phim: nội dung gắn trên mặt phẳng là "đồ vật trong cảnh",
+     chịu cùng vignette + hạt như chữ số 3D.
+   · .cin-hudroot nằm TRÊN hiệu ứng phim: giao diện màn hình, chữ sạch, không bị làm tối mép.
+   Cả hai trùm kín khung và KHÔNG nhận chuột; phần tử nào cần bấm thì tự bật pointer-events. */
+.cinema .cin-css3d { position: absolute; inset: 0; z-index: 1; pointer-events: none; overflow: hidden; }
+.cinema .cin-hudroot { position: absolute; inset: 0; z-index: 4; pointer-events: none; overflow: hidden; }
+
+/* ---------- Tên người đỗ trên thân bia (names.js — lớp CSS3D, bám mặt phẳng từng khay) ----------
+   r72 — KHẮC CHÌM: chữ nằm trên mặt đá, màu nét khắc đã tô (--nm-ink 0 = ngà trên đá tối … 1 = mực trên đá sáng, trộn liên
+   tục theo độ sáng đá đang vẽ) + bóng khắc theo hướng đèn (--lx, --ly = hướng TỚI đèn trong mặt bia, CSS y xuống): mép phía
+   đèn tối (thành rãnh che), mép kia bắt sáng — đọc thành nét lõm vào đá. Dải tiêu đề giáp giữa hai chỉ khắc; tên xếp cột;
+   hiện từng trang (giáp) — mỗi tên mở ra như vừa khắc. Không tấm nền, không quầng loang. */
+.cinema .cin-nm {
+  --nm-ink: 0;
+  --nm-k: calc(var(--nm-ink) * 100%);
+  --lx: -0.6;
+  --ly: -0.8;
+  /* nét khắc đã tô: mực nâu đen (đá sáng) ↔ vôi ngà (đá tối) — không trắng tinh, không đen tuyền */
+  --fill: color-mix(in srgb, #2b1b0f var(--nm-k), #eadfc8);
+  --fill-soft: color-mix(in srgb, rgba(43, 27, 15, .8) var(--nm-k), rgba(234, 223, 200, .78));
+  /* rãnh: thành rãnh phía đèn đổ tối vào lòng chữ (lệch về phía đèn), mép đối diện bắt sáng (px thiết kế — CSS3D co giãn) */
+  --cut-dark: color-mix(in srgb, rgba(0, 0, 0, .5) var(--nm-k), rgba(8, 4, 0, .72));
+  --cut-lite: color-mix(in srgb, rgba(255, 246, 226, .55) var(--nm-k), rgba(255, 238, 208, .28));
+  --incise:
+    calc(var(--lx) * 1.4px) calc(var(--ly) * 1.4px) 0 var(--cut-dark),
+    calc(var(--lx) * -0.9px) calc(var(--ly) * -0.9px) 0 var(--cut-lite),
+    0 0 2px color-mix(in srgb, rgba(255, 246, 230, .18) var(--nm-k), rgba(0, 0, 0, .35));
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--fill);
+  font-family: "Be Vietnam Pro", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  pointer-events: none;
+}
+.cinema .cin-nm p { margin: 0; }
+/* r80: ô chữ = tên ĐỖ ĐẦU (lớn, đứng yên, đầu ô) + cuộn dọc những người còn lại (cột flex: phần cuộn chiếm hết chỗ còn lại) */
+.cinema .cin-nm:not(:has(.cin-nm__flag--pending)) { display: flex; flex-direction: column; align-items: stretch; }
+.cinema .cin-nm__head {
+  flex: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 2px 0 4px;
+  padding: 7px 16px 9px;
+}
+/* r89: KHUNG KHẮC hai nét quanh khối đỗ đầu (danh hiệu + tên), vừa khối — thay đường chỉ kép r88 */
+.cinema .cin-nm__head::before,
+.cinema .cin-nm__head::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--fill-soft);
+  opacity: .6;
+  pointer-events: none;
+  box-shadow: calc(var(--lx) * 1px) calc(var(--ly) * 1px) 0 var(--cut-dark), inset calc(var(--lx) * -1px) calc(var(--ly) * -1px) 0 var(--cut-lite);
+}
+.cinema .cin-nm__head::after { inset: 3px; opacity: .45; }
+.cinema .cin-nm__ht,
+.cinema .cin-nm__hb {
+  display: block;
+  margin-bottom: 4px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  font-size: var(--rt);
+  font-weight: 500;
+  color: var(--fill-soft);
+  text-shadow: var(--incise);
+  white-space: nowrap; /* r81: một dòng — dài hơn ô thì names.js thu nhỏ chữ cho vừa */
+}
+.cinema .cin-nm__hb { font-family: "Be Vietnam Pro", system-ui, sans-serif; font-style: normal; font-size: var(--bt); font-weight: 600; letter-spacing: .18em; text-transform: uppercase; white-space: nowrap; }
+.cinema .cin-nm__hn {
+  display: block;
+  max-width: 100%;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: var(--hn);
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: .005em;
+  text-shadow: var(--incise);
+  white-space: nowrap; /* một dòng — tên dài thì names.js thu nhỏ chữ cho vừa */
+}
+/* r90: vùng tên = Ô TÊN GIÁP cố định (chỉ tên giáp ngắn, chữ hoa nhỏ giãn — không chỉ khắc) + vùng cuộn: MỖI LÚC MỘT GIÁP, danh sách
+   giáp vào từ đáy, cuộn lên ra hết rồi mới đổi giáp (mờ chéo tên giáp khi vùng trống) — lịch = keyframes của names.js (--cyc) */
+.cinema .cin-nm__rollw {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+}
+.cinema .cin-nm__gh {
+  position: relative;
+  flex: none;
+  /* r91: cách khung khắc người đỗ đầu ~0,8 dòng tên (--ghgap — names.js; 10 px = lề dưới khung + lề trên hàng cuộn) */
+  margin-top: calc(var(--ghgap, 16px) - 10px);
+  height: calc(var(--gh-fs, var(--gh, 12px)) * 1.2);
+  margin-bottom: 4px;
+}
+/* r91: tên giáp lớn hơn (chữ hoa ≈ 0,55 × cỡ tên), chỉ khắc ngắn hai bên — bằng nhau, giữa chiều cao chữ hoa (--ghdy), cùng màu chữ */
+.cinema .cin-nm__ghl {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .55em;
+  font-size: var(--gh-fs, var(--gh, 12px));
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--fill-soft);
+  text-shadow: var(--incise);
+}
+.cinema .cin-nm__ght { margin-right: -.16em; } /* bù khoảng giãn sau chữ cuối — chữ giữa đúng hai chỉ */
+.cinema .cin-nm__ghl::before,
+.cinema .cin-nm__ghl::after {
+  content: '';
+  flex: none;
+  width: var(--ghr, 2em);
+  height: 1px;
+  background: currentColor;
+  opacity: .75;
+  transform: translateY(var(--ghdy, 0px));
+  box-shadow: calc(var(--lx) * 1px) calc(var(--ly) * 1px) 0 var(--cut-dark), calc(var(--lx) * -1px) calc(var(--ly) * -1px) 0 var(--cut-lite);
+}
+/* vùng cuộn: cắt trong vùng, mép trên / dưới mờ dần như chữ chìm vào đá (đỉnh 9 % — ROLL_TOP_FADE của names.js) */
+.cinema .cin-nm__roll {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(transparent, #000 9%, #000 88%, transparent);
+  mask-image: linear-gradient(transparent, #000 9%, #000 88%, transparent);
+}
+.cinema .cin-nm__seq { position: absolute; inset: 0; }
+.cinema .cin-nm__grp { position: absolute; left: 0; right: 0; top: 0; list-style: none; margin: 0; padding: 0; will-change: transform; transform: translate3d(0, 200vh, 0); }
+.cinema .cin-nm__grp[data-g="0"] { transform: none; } /* chưa có lịch: giáp đầu ở đầu vùng */
+.cinema .cin-nm.is-roll .cin-nm__grp,
+.cinema .cin-nm.is-roll .cin-nm__it,
+.cinema .cin-nm.is-roll .cin-nm__ghl {
+  animation-duration: var(--cyc, 60s);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+}
+.cinema .cin-nm.is-roll.is-run .cin-nm__grp,
+.cinema .cin-nm.is-roll.is-run .cin-nm__it,
+.cinema .cin-nm.is-roll.is-run .cin-nm__ghl { animation-play-state: running; }
+.cinema .cin-nm__it {
+  display: block;
+  height: var(--row);
+  line-height: var(--row);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cinema .cin-nm__it--tam { height: var(--tamrow); line-height: 1.22; padding: 2px 0 0; }
+.cinema .cin-nm__rn {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: var(--rn);
+  font-weight: 600;
+  letter-spacing: .01em;
+  text-shadow: var(--incise);
+}
+.cinema .cin-nm__it--tam .cin-nm__rn { display: block; font-size: var(--tn); font-weight: 700; }
+.cinema .cin-nm__rt {
+  display: block;
+  margin-bottom: 2px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-style: italic;
+  font-size: var(--rt);
+  font-weight: 500;
+  color: var(--fill-soft);
+  text-shadow: var(--incise);
+}
+.cinema .cin-nm__flag {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: var(--fl);
+  line-height: 1.3;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--fill-soft);
+  opacity: .7;
+  text-shadow: var(--incise);
+}
+.cinema .cin-nm__flag--pending { top: 45%; bottom: auto; font-weight: 500; letter-spacing: .24em; opacity: .62; }
+/* giảm chuyển động: names.js chỉ đặt hoạt ảnh ĐỘ ĐỤC (đổi giáp bằng mờ chéo), danh sách đứng yên */
+

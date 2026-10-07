@@ -1,0 +1,534 @@
+/* ------------------------------------------------------------------
+   Bảng cài đặt dùng chung cho cả 3 view (core/settings-panel.js).
+   Trung tính và im lặng: MỌI màu/chữ/bo góc lấy từ biến CSS mà view đặt
+   trên phần tử chứa (host), có giá trị dự phòng hợp lý:
+
+     --sp-bg      nền bảng                (mặc định #fff)
+     --sp-fg      màu chữ chính           (mặc định #16181a)
+     --sp-muted   chữ phụ                 (mặc định #6b7075)
+     --sp-accent  màu tín hiệu            (mặc định #b8432a)
+     --sp-border  màu viền                (mặc định từ --sp-fg)
+     --sp-radius  bo góc                  (mặc định 10px)
+     --sp-font    font chữ                (mặc định kế thừa)
+     --sp-shadow  bóng đổ của bảng        (mặc định bóng mềm)
+     --sp-tint    nền chìm (tuỳ chọn)     (mặc định pha từ --sp-fg)
+
+   Bố cục: đầu bảng · dải TAB (cuộn ngang được khi chật) · nội dung (cuộn dọc) ·
+   chân bảng (nút Đặt lại, luôn hiện).
+
+   MỌI selector đều bắt đầu bằng .sp. Vùng chạm ≥ 40px, núm trượt ≥ 22px:
+   bảng còn được bấm bằng CỬ CHỈ TAY (elementFromPoint → click) nên không
+   dùng bất kỳ affordance nào chỉ xuất hiện khi hover.
+------------------------------------------------------------------ */
+
+.sp {
+  --_fg: var(--sp-fg, #16181a);
+  --_bg: var(--sp-bg, #ffffff);
+  --_muted: var(--sp-muted, #6b7075);
+  --_accent: var(--sp-accent, #b8432a);
+  --_line: var(--sp-border, color-mix(in srgb, var(--_fg) 18%, transparent));
+  --_tint: var(--sp-tint, color-mix(in srgb, var(--_fg) 8%, transparent));
+  --_tint2: color-mix(in srgb, var(--_fg) 15%, transparent);
+  --_r: var(--sp-radius, 10px);
+
+  box-sizing: border-box;
+  font-family: var(--sp-font, inherit);
+  color: var(--_fg);
+  accent-color: var(--_accent);
+  -webkit-tap-highlight-color: transparent;
+}
+.sp *, .sp *::before, .sp *::after { box-sizing: border-box; }
+.sp :focus-visible { outline: 2px solid var(--_accent); outline-offset: 2px; }
+.sp [hidden] { display: none !important; }
+
+/* ---------- vỏ bảng ---------- */
+.sp.sp-panel {
+  width: min(320px, calc(100vw - 24px));
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--_bg);
+  border: 1px solid var(--_line);
+  border-radius: var(--_r);
+  box-shadow: var(--sp-shadow, 0 18px 48px rgba(0, 0, 0, .22));
+  font-size: 14px;
+  line-height: 1.4;
+  overflow: hidden;
+}
+/* Điện ảnh có 6 tab: rộng thêm để cả dải tab vừa trên desktop; màn hẹp thì dải tự cuộn (mép mờ). */
+.sp.sp-panel[data-tabs="5"] { width: min(376px, calc(100vw - 24px)); }
+.sp.sp-panel[data-tabs="6"] { width: min(436px, calc(100vw - 24px)); }
+
+.sp .sp-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 10px 4px 16px;
+  flex: 0 0 auto;
+}
+.sp .sp-title { font-size: 14px; font-weight: 600; letter-spacing: .01em; }
+.sp .sp-x {
+  width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border-radius: calc(var(--_r) - 3px);
+  color: var(--_muted);
+  flex: 0 0 auto;
+}
+.sp .sp-x:hover, .sp .sp-x:focus-visible { color: var(--_fg); background: var(--_tint); }
+.sp .sp-x svg { width: 16px; height: 16px; }
+
+/* ---------- dải tab ---------- */
+.sp .sp-tabbar {
+  border-bottom: 1px solid var(--_line);
+  flex: 0 0 auto;
+}
+.sp .sp-tabs {
+  position: relative;          /* mốc offsetLeft để JS kéo tab đang chọn vào tầm nhìn */
+  display: flex;
+  padding: 0 4px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  --_fade: 30px;
+}
+.sp .sp-tabs::-webkit-scrollbar { display: none; }
+.sp .sp-tabs[data-fade="end"] {
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - var(--_fade)), transparent);
+  mask-image: linear-gradient(to right, #000 calc(100% - var(--_fade)), transparent);
+}
+.sp .sp-tabs[data-fade="start"] {
+  -webkit-mask-image: linear-gradient(to left, #000 calc(100% - var(--_fade)), transparent);
+  mask-image: linear-gradient(to left, #000 calc(100% - var(--_fade)), transparent);
+}
+.sp .sp-tabs[data-fade="both"] {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 var(--_fade), #000 calc(100% - var(--_fade)), transparent);
+  mask-image: linear-gradient(to right, transparent, #000 var(--_fade), #000 calc(100% - var(--_fade)), transparent);
+}
+.sp .sp-tab {
+  flex: 1 0 auto;              /* 3 tab: chia đều bề ngang; 5 tab: giữ cỡ chữ, dải cuộn */
+  min-width: 44px;
+  min-height: 42px;
+  padding: 0 6px;
+  color: var(--_muted);
+  font-size: 13px;
+  font-weight: 500;            /* KHÔNG đậm lên khi chọn → bề ngang tab không nhảy */
+  white-space: nowrap;
+  box-shadow: inset 0 -2px 0 transparent;
+}
+.sp .sp-tab:hover { color: var(--_fg); }
+.sp .sp-tab[aria-selected="true"] {
+  color: var(--_fg);
+  box-shadow: inset 0 -2px 0 var(--_accent);
+}
+.sp .sp-tab:focus-visible { outline-offset: -3px; }
+
+.sp .sp-body {
+  padding: 0 16px 12px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+/* ---------- nhóm ---------- */
+.sp .sp-sec { padding: 14px 0 4px; border-bottom: 1px solid var(--_line); }
+.sp .sp-sec:last-child { border-bottom: 0; }
+.sp .sp-h {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--_muted);
+  margin-bottom: 10px;
+}
+
+/* ---------- nút phân đoạn (nền / bóng đổ) ---------- */
+.sp .sp-seg {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.sp .sp-opt {
+  flex: 1 1 auto;
+  min-width: 68px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 0 10px;
+  border: 1px solid var(--_line);
+  border-radius: calc(var(--_r) - 3px);
+  background: transparent;
+  color: var(--_muted);
+  font-size: 13px;
+}
+.sp .sp-opt[aria-checked="true"] {
+  color: var(--_fg);
+  border-color: var(--_accent);
+  background: var(--_tint);
+  font-weight: 600;
+}
+.sp .sp-sw {
+  width: 16px; height: 16px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: var(--c, #888);
+  border: 1px solid var(--_line);
+}
+
+/* ---------- ô màu (Bục trưng bày) ---------- */
+.sp .sp-colors {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+  gap: 6px;
+}
+.sp .sp-color {
+  min-width: 44px;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 6px 2px;
+  border: 1px solid transparent;
+  border-radius: calc(var(--_r) - 3px);
+  color: var(--_muted);
+  font-size: 11px;
+  line-height: 1.15;
+  text-align: center;
+}
+.sp .sp-color[aria-checked="true"] {
+  border-color: var(--_accent);
+  background: var(--_tint);
+  color: var(--_fg);
+  font-weight: 600;
+}
+.sp .sp-chip {
+  width: 24px; height: 24px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: var(--c, #888);
+  border: 1px solid var(--_line);
+}
+.sp .sp-chip--any {
+  background: conic-gradient(#ff7a7a, #ffd36b, #8ee89a, #7cc4ff, #c29bff, #ff7a7a);
+}
+
+/* Bản gọn (nhóm đèn): chỉ chấm màu, ô 40×40 — tên nằm trong title/aria. */
+.sp .sp-colors--compact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.sp .sp-colors--compact .sp-color {
+  min-width: 40px;
+  min-height: 40px;
+  width: 40px;
+  padding: 0;
+  border-radius: 50%;
+}
+.sp .sp-colors--compact .sp-chip { width: 22px; height: 22px; }
+
+/* ---------- nhóm đèn (tab Bục) ---------- */
+.sp .sp-light {
+  padding: 6px 10px 8px;
+  margin-bottom: 8px;
+  border: 1px solid var(--_line);
+  border-radius: calc(var(--_r) - 2px);
+}
+.sp .sp-light .sp-row { padding-bottom: 0; }
+.sp .sp-light .sp-colors { padding-left: 40px; }   /* thẳng hàng với đầu thanh trượt (sau nút −) */
+.sp .sp-light.is-dark .sp-colors { opacity: .5; }
+
+/* ---------- khối phụ thuộc công tắc (Bục tắt → mờ + không bấm được) ---------- */
+.sp .sp-dep.is-off { opacity: .38; }
+.sp .sp-dep.is-off .sp-dep.is-off { opacity: 1; }   /* khối lồng nhau (Đèn rọi): không mờ chồng hai lần */
+.sp .sp-dep.is-off * { cursor: default; }
+
+/* ---------- hàng thanh trượt ---------- */
+.sp .sp-row { padding: 2px 0 6px; }
+.sp .sp-rowhead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 20px;
+}
+.sp .sp-name { font-size: 13px; }
+.sp .sp-seg + .sp-rowhead { margin-top: 10px; } /* nhãn nhóm nút ngay sau một nhóm nút khác (Bục → Chữ khắc) */
+/* nhãn hai đầu thanh trượt (Đá ↔ Kính đen): thẳng hàng rãnh trượt (sau nút −, trước nút +) */
+.sp .sp-ends {
+  display: flex;
+  justify-content: space-between;
+  margin: -4px 0 6px;
+  padding: 0 44px;
+  font-size: 11px;
+  color: var(--_muted);
+}
+.sp .sp-val {
+  font-size: 12px;
+  color: var(--_muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.sp .sp-ctl { display: flex; align-items: center; gap: 4px; }
+
+.sp .sp-step {
+  width: 40px; height: 40px;
+  flex: 0 0 auto;
+  display: grid; place-items: center;
+  border-radius: calc(var(--_r) - 3px);
+  color: var(--_muted);
+  font-size: 17px;
+  line-height: 1;
+}
+.sp .sp-step:hover, .sp .sp-step:focus-visible { color: var(--_fg); background: var(--_tint); }
+
+.sp .sp-range {
+  -webkit-appearance: none;
+  appearance: none;
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 0;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.sp .sp-range::-webkit-slider-runnable-track {
+  height: 6px; border-radius: 3px; background: var(--_tint2);
+}
+.sp .sp-range::-moz-range-track {
+  height: 6px; border-radius: 3px; background: var(--_tint2);
+}
+.sp .sp-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px; height: 22px;
+  margin-top: -8px;
+  border-radius: 50%;
+  background: var(--_accent);
+  border: 2px solid var(--_bg);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .35);
+}
+.sp .sp-range::-moz-range-thumb {
+  width: 22px; height: 22px;
+  border: 2px solid var(--_bg);
+  border-radius: 50%;
+  background: var(--_accent);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .35);
+}
+
+/* ---------- công tắc ---------- */
+.sp .sp-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 44px;
+}
+.sp .sp-switch {
+  width: 58px; height: 44px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+}
+.sp .sp-track {
+  width: 50px; height: 28px;
+  border-radius: 14px;
+  background: var(--_tint2);
+  border: 1px solid var(--_line);
+  display: block;
+  position: relative;
+}
+.sp .sp-knob {
+  position: absolute;
+  top: 2px; left: 2px;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background: var(--_bg);
+  border: 1px solid var(--_line);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+}
+.sp .sp-switch[aria-checked="true"] .sp-track { background: var(--_accent); border-color: var(--_accent); }
+.sp .sp-switch[aria-checked="true"] .sp-knob { left: 26px; border-color: transparent; }
+
+/* ---------- dòng trạng thái + nút chữ ---------- */
+.sp .sp-sub { padding: 8px 0 6px; }
+.sp .sp-sub > .sp-name { display: block; margin-bottom: 8px; }
+.sp .sp-desc {
+  margin: 8px 0 2px;
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--_muted);
+}
+.sp .sp-status {
+  margin: 2px 0 10px;
+  font-size: 12px;
+  color: var(--_muted);
+  min-height: 17px;
+}
+.sp .sp-status[data-tone="error"] { color: var(--_accent); }
+.sp .sp-btn {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--_line);
+  border-radius: calc(var(--_r) - 3px);
+  background: transparent;
+  color: var(--_fg);
+  font-size: 13px;
+}
+.sp .sp-btn:hover, .sp .sp-btn:focus-visible { background: var(--_tint); }
+/* Nút hành động có bước xác nhận (vd. "Xoá độ bóng đã xoa" — Điện ảnh). */
+.sp .sp-confirm { display: grid; gap: 8px; margin-top: 10px; }
+.sp .sp-confirm__q { display: grid; gap: 8px; }
+.sp .sp-confirm__q[hidden], .sp .sp-confirm__done[hidden], .sp .sp-confirm .sp-btn[hidden] { display: none; }
+.sp .sp-confirm__row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.sp .sp-btn--danger { border-color: rgba(230, 120, 100, .55); color: #f0b8a8; }
+.sp .sp-btn--danger:hover, .sp .sp-btn--danger:focus-visible { background: rgba(230, 120, 100, .14); }
+.sp .sp-foot {
+  padding: 10px 16px 12px;
+  border-top: 1px solid var(--_line);
+  flex: 0 0 auto;
+}
+
+/* ---------- nút mở bảng (createSettingsButton) ---------- */
+.sp.sp-fab {
+  width: 44px; height: 44px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--_line);
+  border-radius: var(--_r);
+  background: var(--_bg);
+  color: var(--_fg);
+}
+.sp.sp-fab:hover, .sp.sp-fab:focus-visible { background: var(--_tint); }
+.sp.sp-fab svg { width: 20px; height: 20px; display: block; }
+
+.sp .sp-sr {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sp .sp-opt, .sp .sp-btn, .sp .sp-x, .sp .sp-step, .sp .sp-track, .sp .sp-knob {
+    transition: background-color .16s ease, color .16s ease, border-color .16s ease, left .16s ease;
+  }
+  .sp .sp-dep, .sp .sp-light .sp-colors { transition: opacity .18s ease; }
+}
+
+/* ---------- r33 · danh sách thả xuống (Cử chỉ → Camera): nút một dòng + listbox tự vẽ mở ngay bên dưới (đẩy nội dung,
+   không phủ nổi — vùng cuộn của bảng không cắt), hàng ≥ 44 px cho tay (data-magnet), dấu chọn màu nhấn ---------- */
+.sp .sp-dd { position: relative; }
+.sp .sp-dd__btn {
+  width: 100%;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px 0 12px;
+  border: 1px solid var(--_line);
+  border-radius: calc(var(--_r) - 3px);
+  background: transparent;
+  color: var(--_fg);
+  font: inherit;
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color .2s ease, background-color .2s ease;
+}
+.sp .sp-dd__btn:hover, .sp .sp-dd__btn[data-hi-captured], .sp .sp-dd[data-open] .sp-dd__btn { border-color: var(--_accent); background: var(--_tint); }
+.sp .sp-dd__btn[data-missing="1"] .sp-dd__val { opacity: .6; }
+.sp .sp-dd__val { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sp .sp-dd__tag { flex: 0 0 auto; font-size: 12px; color: var(--_muted); white-space: nowrap; }
+.sp .sp-dd__tag:empty { display: none; }
+.sp .sp-dd__chev { flex: 0 0 auto; color: var(--_muted); transition: rotate .2s ease; }
+.sp .sp-dd[data-open] .sp-dd__chev { rotate: 180deg; color: var(--_accent); }
+.sp .sp-dd__list {
+  margin-top: 6px;
+  padding: 4px;
+  display: grid;
+  gap: 2px;
+  border: 1px solid var(--_line);
+  border-radius: calc(var(--_r) - 3px);
+  background: var(--_tint);
+  max-height: 264px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.sp .sp-dd__list[hidden] { display: none; }
+.sp .sp-dd__opt {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px 0 8px;
+  border: 0;
+  border-radius: calc(var(--_r) - 5px);
+  background: transparent;
+  color: var(--_muted);
+  font: inherit;
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+}
+.sp .sp-dd__opt:hover, .sp .sp-dd__opt:focus-visible, .sp .sp-dd__opt[data-hi-captured] { background: var(--_tint2); color: var(--_fg); outline: none; }
+.sp .sp-dd__opt[aria-selected="true"] { color: var(--_fg); font-weight: 600; }
+.sp .sp-dd__opt[data-missing="1"] { opacity: .6; }
+.sp .sp-dd__tick { flex: 0 0 auto; color: var(--_accent); visibility: hidden; }
+.sp .sp-dd__opt[aria-selected="true"] .sp-dd__tick { visibility: visible; }
+/* gợi ý gấp gọn ("Dùng iPhone làm camera") */
+.sp .sp-disc { margin-top: 2px; }
+.sp .sp-disc > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 32px;
+  font-size: 12px;
+  color: var(--_muted);
+  cursor: pointer;
+  list-style: none;
+}
+.sp .sp-disc > summary::-webkit-details-marker { display: none; }
+.sp .sp-disc > summary::before {
+  content: '?';
+  width: 16px;
+  height: 16px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--_line);
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 600;
+}
+.sp .sp-disc > summary:hover, .sp .sp-disc > summary[data-hi-captured], .sp .sp-disc[open] > summary { color: var(--_fg); }
+.sp .sp-disc > .sp-desc { margin-top: 2px; }
+
+/* ---------- r84: nhóm "Chuyển cảnh toàn văn" — tiêu đề nhỏ từng phần, nút xem thử, gợi ý kẹp ---------- */
+.sp .sp-subh {
+  margin: 14px 0 6px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--_line);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .02em;
+  color: var(--_fg);
+}
+.sp .sp-pv { display: grid; gap: 8px; margin: 2px 0 6px; }
+.sp .sp-pv__row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.sp .sp-btn--main { border-color: rgba(217, 179, 108, .55); color: #e9cf98; font-weight: 600; }
+.sp .sp-btn--main:hover, .sp .sp-btn--main:focus-visible { background: rgba(217, 179, 108, .12); }
+.sp .sp-warn { color: #e9b98a; }
+.sp .sp-warn[hidden] { display: none; }
+.sp .sp-info { margin-top: 2px; }

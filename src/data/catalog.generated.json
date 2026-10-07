@@ -1,0 +1,1244 @@
+{
+ "bia-1442": {
+  "nienHieu": "Đại Bảo 3",
+  "vua": "Lê Thái Tông",
+  "dot": 1,
+  "dung": 1484,
+  "soDo": 33,
+  "dauKhoa": "Trạng nguyên Nguyễn Trực",
+  "soanVan": "Thân Nhân Trung",
+  "mota": "Mùa xuân năm Nhâm Tuất, niên hiệu Đại Bảo thứ 3 (1442), triều đình mở khoa thi Hội: 450 sĩ tử dự thi, qua bốn trường chọn được 33 người.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Đại Bảo trong tiêu đề; văn bia gọi \"Thái Tông Văn hoàng đế\"",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1448": {
+  "nienHieu": "Thái Hòa 6",
+  "vua": "Lê Nhân Tông",
+  "dot": 1,
+  "dung": 1484,
+  "soDo": 27,
+  "dauKhoa": "Trạng nguyên Nguyễn Nghiêu Tư",
+  "soanVan": "Đỗ Nhuận",
+  "mota": "Mùa thu năm Mậu Thìn, niên hiệu Thái Hòa thứ 6 (1448), hơn 750 sĩ tử dự thi Hội, chọn được 27 người — khoa duy nhất thời Thái Hòa có Điện thí.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Thái Hòa trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1463": {
+  "nienHieu": "Quang Thuận 4",
+  "vua": "Lê Thánh Tông",
+  "dot": 1,
+  "dung": 1484,
+  "soDo": 44,
+  "dauKhoa": "Trạng nguyên Lương Thế Vinh",
+  "soanVan": "Đào Cử",
+  "mota": "Năm Quý Mùi, niên hiệu Quang Thuận thứ 4 (1463) — khoa thi thứ nhất trong buổi Trung hưng của vua Lê Thánh Tông — 1.400 sĩ tử dự thi Hội, chọn được 44 người.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Quang Thuận trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1466": {
+  "nienHieu": "Quang Thuận 7",
+  "vua": "Lê Thánh Tông",
+  "dot": 1,
+  "dung": 1484,
+  "soDo": 27,
+  "dauKhoa": "Dương Châu",
+  "soanVan": "Đàm Văn Lễ",
+  "mota": "Năm Bính Tuất, niên hiệu Quang Thuận thứ 7 (1466), hơn 1.100 sĩ tử dự thi Hội, chọn được 27 người; đây cũng là khoa mở đầu quy chế ba năm một khoa thi.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Quang Thuận trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1475": {
+  "nienHieu": "Hồng Đức 6",
+  "vua": "Lê Thánh Tông",
+  "dot": 1,
+  "dung": 1484,
+  "soDo": 43,
+  "dauKhoa": "Trạng nguyên Vũ Tuấn Chiêu",
+  "soanVan": "Lê Ngạn Tuấn",
+  "mota": "Năm Ất Mùi, niên hiệu Hồng Đức thứ 6 (1475), trên ba nghìn sĩ tử dự thi Hội, qua bốn trường chọn được 43 người — khoa thứ năm từ Trung hưng, nổi tiếng chọn nhiều nhân tài.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hồng Đức trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1478": {
+  "nienHieu": "Hồng Đức 9",
+  "vua": "Lê Thánh Tông",
+  "dot": 1,
+  "dung": 1484,
+  "soDo": 62,
+  "dauKhoa": "Lê Quảng Chí",
+  "soanVan": "Nguyễn Đôn Phục",
+  "mota": "Năm Mậu Tuất, niên hiệu Hồng Đức thứ 9 (1478), Bộ Lễ thi Hội cử nhân trong nước, chọn được 62 người trúng cách.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hồng Đức trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1481": {
+  "nienHieu": "Hồng Đức 12",
+  "vua": "Lê Thánh Tông",
+  "dot": 1,
+  "dung": 1484,
+  "soDo": 40,
+  "dauKhoa": "Trạng nguyên Phạm Đôn Lễ",
+  "soanVan": "Nguyễn Xung Xác",
+  "mota": "Năm Tân Sửu, niên hiệu Hồng Đức thứ 12 (1481), hơn 2.000 sĩ tử dự thi Hội, triều đình chọn được 40 người.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hồng Đức trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1487": {
+  "nienHieu": "Hồng Đức 18",
+  "vua": "Lê Thánh Tông",
+  "dot": 1,
+  "dung": 1487,
+  "soDo": 60,
+  "dauKhoa": "Trạng nguyên Trần Sùng Dĩnh",
+  "soanVan": "Thân Nhân Trung",
+  "mota": "Năm Đinh Mùi, niên hiệu Hồng Đức thứ 18 (1487), Bộ Lễ thi Hội các sĩ nhân trong nước, chọn được 60 người ưu tú.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hồng Đức trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)",
+   "dynasty": "cần đối chiếu — nguồn ghi \"Nhà Lê (Hậu Lê)\" (không rõ giai đoạn), suy Lê sơ từ năm thi 1487 theo mốc 1428–1527 của src/data/dynasties.js"
+  }
+ },
+ "bia-1496": {
+  "nienHieu": "Hồng Đức 27",
+  "vua": "Lê Thánh Tông",
+  "dot": 1,
+  "dung": 1496,
+  "soDo": 30,
+  "dauKhoa": "Trạng nguyên Nghiêm Viện",
+  "soanVan": "Lưu Hưng Hiếu",
+  "mota": "Mùa xuân năm Bính Thìn, niên hiệu Hồng Đức thứ 27 (1496) — năm vua Lê Thánh Tông ở ngôi đã 37 năm — sĩ tử trúng cách 43 người, vua đích thân xét chọn còn 30 người.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hồng Đức trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1502": {
+  "nienHieu": "Cảnh Thống 5",
+  "vua": "Lê Hiến Tông",
+  "dot": 1,
+  "dung": 1502,
+  "soDo": 61,
+  "dauKhoa": "Trạng nguyên Lê Ích Mộc",
+  "soanVan": "Đàm Văn Lễ",
+  "mota": "Mùa xuân năm Nhâm Tuất, niên hiệu Cảnh Thống thứ 5 (1502), 5.000 sĩ tử dự thi Hội, qua bốn trường chọn được 61 người.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Thống trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1511": {
+  "nienHieu": "Hồng Thuận 3",
+  "vua": "Lê Tương Dực",
+  "dot": 1,
+  "dung": 1513,
+  "soDo": 47,
+  "dauKhoa": "Trạng nguyên Hoàng Nghĩa Phú",
+  "soanVan": "Lê Tung",
+  "mota": "Mùa xuân năm Tân Mùi, niên hiệu Hồng Thuận thứ 3 (1511) — khoa đầu đời Trung hưng dưới vua Lê Tương Dực — triều đình thi Hội, chọn được 47 người.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hồng Thuận trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)",
+   "dynasty": "cần đối chiếu — nguồn ghi \"Nhà Lê (Lê Tương Dực)\" (không rõ giai đoạn), suy Lê sơ từ năm thi 1511 theo mốc 1428–1527 của src/data/dynasties.js"
+  }
+ },
+ "bia-1514": {
+  "nienHieu": "Hồng Thuận 6",
+  "vua": "Lê Tương Dực",
+  "dot": 1,
+  "dung": 1521,
+  "soDo": 43,
+  "dauKhoa": "Trạng nguyên Nguyễn Đức Lượng",
+  "soanVan": "Vũ Duệ",
+  "canChiTitle": "Quý Mùi",
+  "mota": "Năm Giáp Tuất, niên hiệu Hồng Thuận thứ 6 (1514), 5.700 sĩ tử dự thi, qua bốn trường chọn được 43 người.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hồng Thuận trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1518": {
+  "nienHieu": "Quang Thiệu 3",
+  "vua": "Lê Chiêu Tông",
+  "dot": 1,
+  "dung": 1536,
+  "soDo": 17,
+  "dauKhoa": "Trạng nguyên Ngô Miễn Thiệu",
+  "soanVan": "Nguyễn Trí Thái",
+  "mota": "Năm Mậu Dần, niên hiệu Quang Thiệu thứ 3 (1518) — đáng lẽ tổ chức năm trước nhưng lùi vì trong nước có biến loạn — triều đình chọn được 17 người.",
+  "dynasty": "Lê sơ",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Quang Thiệu trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)",
+   "dynasty": "cần đối chiếu — nguồn ghi \"Nhà Lê\" (không rõ giai đoạn), suy Lê sơ từ năm thi 1518 theo mốc 1428–1527 của src/data/dynasties.js"
+  }
+ },
+ "bia-1529": {
+  "nienHieu": "Minh Đức 3",
+  "vua": "Mạc Thái Tổ (Mạc Đăng Dung)",
+  "dot": 1,
+  "dung": 1529,
+  "soDo": 27,
+  "dauKhoa": "Trạng nguyên Đỗ Tổng",
+  "soanVan": "Nguyễn Thì Ung, Nguyễn Cư Nhân",
+  "mota": "Năm Kỷ Sửu, niên hiệu Minh Đức thứ 3 (1529), Hoàng thượng nhà Mạc lên ngôi đã 3 năm, mở khoa thi lớn: 4.000 sĩ tử dự thi Hội, chọn được 27 người.",
+  "dynasty": "Mạc",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Minh Đức trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1554": {
+  "nienHieu": "Thuận Bình 6",
+  "vua": "Lê Trung Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 13,
+  "dauKhoa": "Đinh Bạt Tụy",
+  "soanVan": "Nguyễn Đăng Cảo",
+  "mota": "Năm Giáp Dần, niên hiệu Thuận Bình thứ 6 (1554), vua Lê Trung Tông mở Chế khoa đầu tiên thời Trung hưng, ra đề văn sách, chọn được 13 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Thuận Bình trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1565": {
+  "nienHieu": "Chính Trị 8",
+  "vua": "Lê Anh Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 10,
+  "dauKhoa": "Lê Khiêm",
+  "soanVan": "Nguyễn Đăng Cảo",
+  "mota": "Bia khoa thi Chế khoa Ất Sửu, niên hiệu Chính Trị thứ 8 (1565), lấy đỗ 10 người, gồm 4 người đỗ Đệ nhất giáp và 6 người đỗ Đệ nhị giáp, đứng đầu là Lê Khiêm, Bùi Khắc Nhất.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Chính Trị trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1577": {
+  "nienHieu": "Gia Thái 5",
+  "vua": "Lê Thế Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 5,
+  "dauKhoa": "Lê Trạc Tú",
+  "soanVan": "Nguyễn Đăng Cảo",
+  "mota": "Năm Đinh Sửu, niên hiệu Gia Thái thứ 5 (1577), vua Lê Thế Tông tiếp tục lệ đặt Chế khoa như hai khoa trước đó, chọn được 5 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Gia Thái trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1580": {
+  "nienHieu": "Quang Hưng 3",
+  "vua": "Lê Thế Tông",
+  "dot": null,
+  "dung": 1658,
+  "soDo": 6,
+  "dauKhoa": "Nguyễn Văn Giai",
+  "soanVan": "Khương Thế Hiền",
+  "mota": "Năm Canh Thìn, niên hiệu Quang Hưng thứ 3 (1580), giữa lúc đất nước còn nhiều việc, triều đình vẫn mở khoa thi Tiến sĩ đầu tiên tại ấp Thang Mộc, chọn được 6 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Quang Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1583": {
+  "nienHieu": "Quang Hưng 6",
+  "vua": "Lê Thế Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 4,
+  "dauKhoa": "Nguyễn Nhân Thiệm",
+  "soanVan": "Khương Thế Hiền",
+  "mota": "Năm Quý Mùi, niên hiệu Quang Hưng thứ 6 (1583), giữa lúc còn lo việc quân dẹp trừ ngụy Mạc, triều đình vẫn mở khoa thi Hội tại ấp Thang Mộc, chọn được 4 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Quang Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1589": {
+  "nienHieu": "Hưng Trị 2",
+  "vua": null,
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 4,
+  "dauKhoa": "Lê Nhữ Bật",
+  "soanVan": "Khương Thế Hiền",
+  "mota": "Năm Kỷ Sửu, niên hiệu Hưng Trị thứ 2 (1589), vua Lê Thế Tông mở khoa thi Hội tại ấp Thang Mộc, chọn được 4 người xuất sắc.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1592": {
+  "nienHieu": "Quang Hưng 15",
+  "vua": "Lê Thế Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 3,
+  "dauKhoa": "Trịnh Cảnh Thụy",
+  "soanVan": "Nguyễn Văn Lễ",
+  "mota": "Năm Nhâm Thìn, niên hiệu Quang Hưng thứ 15 (1592) — khoa thi Tiến sĩ thứ 4 đời Trung hưng — triều đình chọn được 3 người: Trịnh Cảnh Thụy và Ngô Trí Hòa đỗ Đệ nhị giáp, Ngô Trí Tri đỗ Đệ tam giáp.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Quang Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1595": {
+  "nienHieu": "Quang Hưng 18",
+  "vua": "Lê Thế Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 6,
+  "dauKhoa": "Nguyễn Thực",
+  "soanVan": "Nguyễn Văn Lễ",
+  "mota": "Năm Ất Mùi, niên hiệu Quang Hưng thứ 18 (1595) — khoa thứ 5 đời Trung hưng, sau khi dẹp xong ngụy Mạc — trên 3.000 sĩ tử dự thi Hội, chọn được 6 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Quang Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1598": {
+  "nienHieu": "Quang Hưng 21",
+  "vua": "Lê Thế Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 5,
+  "dauKhoa": "Nguyễn Thứ",
+  "soanVan": "Trịnh Cao Đệ",
+  "mota": "Năm Mậu Tuất, niên hiệu Quang Hưng thứ 21 (1598) — khoa thi thứ hai thời Trung hưng — triều đình thi Hội, chọn được 5 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Quang Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1602": {
+  "nienHieu": "Hoằng Định 3",
+  "vua": "Lê Kính Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 10,
+  "dauKhoa": "Đình nguyên Nguyễn Đăng",
+  "soanVan": "Khương Thế Hiền",
+  "mota": "Năm Nhâm Dần, niên hiệu Hoằng Định thứ 3 (1602), theo lệ ba năm mở một khoa, triều đình thi Hội, chọn được 10 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hoằng Định trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1604": {
+  "nienHieu": "Hoằng Định 5",
+  "vua": "Lê Kính Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 7,
+  "dauKhoa": "Hoàng giáp Nguyễn Thế Tiêu",
+  "soanVan": "Nguyễn Văn Lễ",
+  "mota": "Năm Giáp Thìn, niên hiệu Hoằng Định thứ 5 (1604), trên 5.000 sĩ tử dự thi Hội, chọn được 7 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hoằng Định trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1607": {
+  "nienHieu": "Hoằng Định 8",
+  "vua": "Lê Kính Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 5,
+  "dauKhoa": "Đình nguyên Lưu Đình Chất",
+  "soanVan": "Nguyễn Đăng Minh",
+  "mota": "Năm Đinh Mùi, niên hiệu Hoằng Định thứ 8 (1607), dù đang gấp việc dụng binh, triều đình vẫn lấy việc thi chọn sĩ tử làm đầu, chọn được 5 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hoằng Định trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1610": {
+  "nienHieu": "Hoằng Định 12",
+  "vua": "Lê Kính Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 7,
+  "dauKhoa": "Hoàng giáp Nguyễn Văn Khuê",
+  "soanVan": "Nguyễn Đăng Minh",
+  "mota": "Năm Canh Tuất, niên hiệu Hoằng Định thứ 12 (1610) — dù theo sử sách phải là năm thứ 11 — triều đình mở khoa thi Hội, chọn được 7 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hoằng Định trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1613": {
+  "nienHieu": "Hoằng Định 14",
+  "vua": "Lê Kính Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 7,
+  "dauKhoa": "Nguyễn Tuấn",
+  "soanVan": "Nguyễn Đăng Minh",
+  "mota": "Năm Quý Sửu, niên hiệu Hoằng Định thứ 14 (1613), hơn 1.000 sĩ tử dự thi Hội, chọn được 7 người, đều đỗ Đệ tam giáp đồng Tiến sĩ xuất thân, đứng đầu là Nguyễn Tuấn, Bùi Tất Thắng, Nguyễn Kinh Tế.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hoằng Định trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1616": {
+  "nienHieu": "Hoằng Định 17",
+  "vua": "Lê Kính Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 4,
+  "dauKhoa": "Lê Trí Dụng",
+  "soanVan": "Lê Đình Lại",
+  "mota": "Năm Bính Thìn, niên hiệu Hoằng Định thứ 17 (1616), dưới triều Kính Tông Huệ hoàng đế, triều đình mở khoa thi Hội, chỉ chọn được 4 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hoằng Định trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1619": {
+  "nienHieu": "Hoằng Định 20",
+  "vua": "Lê Kính Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 7,
+  "dauKhoa": "Nguyễn Lại",
+  "soanVan": "Lê Đình Lại",
+  "mota": "Năm Hoằng Định thứ 20 (1619), đời vua Lê Kính Tông, triều đình mở khoa thi Hội; sĩ tử đông đến vài nghìn người, chỉ chọn được 7 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Hoằng Định trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1623": {
+  "nienHieu": "Vĩnh Tộ 5",
+  "vua": "Lê Thần Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 7,
+  "dauKhoa": "Nguyễn Phi Kiến",
+  "soanVan": "Lê Đình Lại",
+  "mota": "Mùa hạ năm Quý Hợi, niên hiệu Vĩnh Tộ thứ 5 (1623), triều đình mở khoa thi Tiến sĩ; hơn 3.000 sĩ tử dự thi, chọn được 7 người, Phùng Thế Trung đỗ đầu.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Tộ trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1628": {
+  "nienHieu": "Vĩnh Tộ 10",
+  "vua": "Lê Thần Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 18,
+  "dauKhoa": "Thám hoa Giang Văn Minh",
+  "soanVan": "Trịnh Cao Đệ",
+  "mota": "Mùa xuân năm Mậu Thìn, niên hiệu Vĩnh Tộ thứ 10 (1628), mở khoa thi Hội, chọn được 18 người; văn bia coi đây là khoa thi thứ nhất đời Trung hưng được dựng bia.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Tộ trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1631": {
+  "nienHieu": "Đức Long 3",
+  "vua": "Lê Thần Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 5,
+  "dauKhoa": "Thám hoa Nguyễn Thọ Quyến",
+  "soanVan": "Trịnh Cao Đệ",
+  "mota": "Năm Tân Mùi, niên hiệu Đức Long thứ 3 (1631) — khoa thứ hai từ buổi Trung hưng — triều đình triệu sĩ tử các phủ huyện, chọn được 5 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Đức Long trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1637": {
+  "nienHieu": "Dương Hòa 3",
+  "vua": "Lê Thần Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 20,
+  "dauKhoa": "Trạng nguyên Nguyễn Xuân Chính",
+  "soanVan": "Trịnh Cao Đệ",
+  "mota": "Năm Đinh Sửu, niên hiệu Dương Hòa thứ 3 (1637), triều đình mở khoa thi Hội; sĩ tử đông đến mấy nghìn người, chọn được 20 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Dương Hòa trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1640": {
+  "nienHieu": "Dương Hòa 6",
+  "vua": "Lê Thần Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 22,
+  "dauKhoa": "Phí Văn Thuật",
+  "soanVan": "Nguyễn Văn Lễ",
+  "mota": "Mùa xuân năm Canh Thìn, niên hiệu Dương Hòa thứ 6 (1640), triều đình mở khoa thi Hội; sĩ tử bốn phương đông tới trên 6.000 người, chọn được 22 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Dương Hòa trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1643": {
+  "nienHieu": "Phúc Thái 1",
+  "vua": "Lê Chân Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 9,
+  "dauKhoa": "Nguyễn Khắc Thiệu",
+  "soanVan": "Nguyễn Đình Chính",
+  "mota": "Đầu xuân năm Quý Mùi, niên hiệu Phúc Thái năm đầu (1643) — khoa đầu tiên đời Chân Tông Thuần hoàng đế — mở khoa thi lớn; hơn 2.000 sĩ tử dự thi, chỉ 9 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Phúc Thái trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1646": {
+  "nienHieu": "Phúc Thái 4",
+  "vua": "Lê Chân Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 17,
+  "dauKhoa": "Thám hoa Nguyễn Đăng Cảo",
+  "soanVan": null,
+  "mota": "Năm Bính Tuất, niên hiệu Phúc Thái thứ 4 (1646), triều đình mở khoa thi Hội, chọn được 17 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Phúc Thái trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1650": {
+  "nienHieu": "Khánh Đức 2",
+  "vua": "Lê Thần Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 8,
+  "dauKhoa": "Thám hoa Khương Thế Hiền",
+  "soanVan": "Nguyễn Đình Chính",
+  "mota": "Mùa đông năm Canh Dần, niên hiệu Khánh Đức thứ 2 (1650) — khoa đầu tiên từ khi vua Lê Thần Tông lên ngôi lần hai — triều đình mở khoa thi Hội, chọn được 8 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Khánh Đức trong tiêu đề (lần trị vì thứ hai)",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1652": {
+  "nienHieu": "Khánh Đức 4",
+  "vua": "Lê Thần Tông",
+  "dot": 2,
+  "dung": 1653,
+  "soDo": 9,
+  "dauKhoa": "Phùng Viết Tu",
+  "soanVan": "Nguyễn Đình Chính",
+  "mota": "Mùa xuân năm Nhâm Thìn, niên hiệu Khánh Đức thứ 4 (1652), triều đình mở khoa thi Hội; hơn 2.000 sĩ tử dự thi, chọn được 9 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Khánh Đức trong tiêu đề (lần trị vì thứ hai)",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1656": {
+  "nienHieu": "Thịnh Đức 4",
+  "vua": "Lê Thần Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 6,
+  "dauKhoa": "Nguyễn Đình Trụ",
+  "soanVan": "Bùi Sĩ Tiêm",
+  "mota": "Cuối xuân năm Bính Thân, niên hiệu Thịnh Đức thứ 4 (1656) — khoa thứ 3 của vua Lê Thần Tông — sĩ tử dự thi không dưới ba ngàn người, chỉ 6 người trúng tuyển.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Thịnh Đức trong tiêu đề (lần trị vì thứ hai)",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1659": {
+  "nienHieu": "Vĩnh Thọ 2",
+  "vua": "Lê Thần Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 20,
+  "dauKhoa": "Trạng nguyên Nguyễn Quốc Trinh",
+  "soanVan": "Nguyễn Quý Ân",
+  "mota": "Mùa xuân năm Kỷ Hợi, niên hiệu Vĩnh Thọ thứ 2 (1659), mở khoa thi Hội, chọn được 20 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Thọ trong tiêu đề (lần trị vì thứ hai)",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1661": {
+  "nienHieu": "Vĩnh Thọ 4",
+  "vua": "Lê Thần Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 13,
+  "dauKhoa": "Trạng nguyên Đặng Công Chất",
+  "soanVan": "Dương Bật Trạc",
+  "mota": "Mùa xuân năm Tân Sửu, niên hiệu Vĩnh Thọ thứ 4 (1661), triều đình mở khoa thi Hội; gần 3.000 sĩ tử dự thi, chọn được 13 người xuất sắc.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Thọ trong tiêu đề (lần trị vì thứ hai)",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1664": {
+  "nienHieu": "Cảnh Trị 2",
+  "vua": "Lê Huyền Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 13,
+  "dauKhoa": "Nguyễn Viết Thứ",
+  "soanVan": "Nguyễn Nham",
+  "mota": "Năm Giáp Thìn, niên hiệu Cảnh Trị thứ 2 (1664), dưới triều Huyền Tông Mục hoàng đế, triều đình mở khoa thi Hội, chọn được 13 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Trị trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1667": {
+  "nienHieu": "Cảnh Trị 5",
+  "vua": "Lê Huyền Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 3,
+  "dauKhoa": "Đình nguyên Nguyễn Quán Nho",
+  "soanVan": "Nguyễn Kiều",
+  "mota": "Tháng 2 mùa xuân năm Đinh Mùi, niên hiệu Cảnh Trị thứ 5 (1667), triều đình mở khoa thi Hội; qua tuyển chọn kỹ lưỡng chỉ lấy được 3 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Trị trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1670": {
+  "nienHieu": "Cảnh Trị 8",
+  "vua": "Lê Huyền Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 31,
+  "dauKhoa": "Lưu Danh Công",
+  "soanVan": "Bùi Sĩ Tiêm",
+  "mota": "Mùa đông năm Canh Tuất, niên hiệu Cảnh Trị thứ 8 (1670) — khoa thứ 3 đời Huyền Tông Mục hoàng đế — trên hai ngàn sĩ tử dự thi, chọn được 31 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Trị trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1673": {
+  "nienHieu": "Dương Đức 2",
+  "vua": "Lê Gia Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 5,
+  "dauKhoa": "Bùi Quang Vận",
+  "soanVan": "Nguyễn Quý Ân",
+  "mota": "Mùa đông năm Quý Sửu, niên hiệu Dương Đức thứ 2 (1673), đời Gia Tông Mỹ hoàng đế, triều đình mở khoa thi Hội; hơn 3.000 sĩ tử dự thi, chỉ chọn được 5 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Dương Đức trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1676": {
+  "nienHieu": "Vĩnh Trị 1",
+  "vua": "Lê Hy Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 20,
+  "dauKhoa": "Nguyễn Quý Đức",
+  "soanVan": "Dương Bật Trạc",
+  "mota": "Tháng 3 năm Bính Thìn, niên hiệu Vĩnh Trị năm đầu (1676) — khoa đầu tiên đời Hy Tông Chương hoàng đế — sĩ tử dự thi ngót 3.000 người, chọn được 20 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Trị trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1680": {
+  "nienHieu": "Vĩnh Trị 5",
+  "vua": "Lê Hy Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 19,
+  "dauKhoa": "Phạm Công Thiện",
+  "soanVan": "Nguyễn Nham",
+  "mota": "Năm Canh Thân, niên hiệu Vĩnh Trị thứ 5 (1680), triều đình mở khoa thi Hội; hơn 2.000 sĩ tử dự thi, qua bốn trường chọn được 19 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Trị trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1683": {
+  "nienHieu": "Chính Hòa 4",
+  "vua": "Lê Hy Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 18,
+  "dauKhoa": "Trạng nguyên Nguyễn Đăng Đạo",
+  "soanVan": "Nguyễn Kiều",
+  "mota": "Mùa đông năm Quý Hợi, niên hiệu Chính Hòa thứ 4 (1683), mở khoa thi Hội; 3.000 sĩ tử dự thi, chọn được 18 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Chính Hòa trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1685": {
+  "nienHieu": "Chính Hòa 6",
+  "vua": "Lê Hy Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 13,
+  "dauKhoa": "Thám hoa Vũ Thạnh",
+  "soanVan": "Bùi Sỹ Tiêm",
+  "mota": "Tháng chạp năm Ất Sửu, niên hiệu Chính Hòa (1685), triều đình mở khoa đại tỉ; 2.800 sĩ nhân dự tuyển, chỉ 13 người được ghi vào bảng mực nhạt.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Chính Hòa trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1688": {
+  "nienHieu": "Chính Hòa 9",
+  "vua": "Lê Hy Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 7,
+  "dauKhoa": "Nguyễn Đình Hoàn",
+  "soanVan": "Nguyễn Quý Ân",
+  "mota": "Tháng 11 năm Mậu Thìn, niên hiệu Chính Hòa thứ 9 (1688), vì mùa đông quá lạnh, trường thi được dựng tại bãi giữa sông Nhị Hà cho sĩ tử thuận tiện.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Chính Hòa trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1691": {
+  "nienHieu": "Chính Hòa 12",
+  "vua": "Lê Hy Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 11,
+  "dauKhoa": "Ngô Vi Thực",
+  "soanVan": "Dương Bật Trạc",
+  "mota": "Tháng 3 mùa xuân năm Tân Mùi, niên hiệu Chính Hòa thứ 12 (1691), triều đình mở khoa thi Hội; 3.000 sĩ tử dự thi, chọn được 11 người xuất sắc.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Chính Hòa trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1694": {
+  "nienHieu": "Chính Hòa 15",
+  "vua": "Lê Hy Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 5,
+  "dauKhoa": "Ngô Công Trạc",
+  "soanVan": "Nguyễn Nham",
+  "mota": "Mùa xuân năm Giáp Tuất, niên hiệu Chính Hòa thứ 15 (1694), chúa Trịnh xuống chiếu bắt sĩ tử bỏ lối học thuộc chép bài theo nhau, phải theo thể văn đời Hồng Đức.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Chính Hòa trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1697": {
+  "nienHieu": "Chính Hòa 18",
+  "vua": "Lê Hy Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 10,
+  "dauKhoa": "Nguyễn Quyền",
+  "soanVan": "Nguyễn Kiều",
+  "mota": "Mùa đông năm Đinh Sửu, niên hiệu Chính Hòa thứ 18 (1697), triều đình mở khoa thi Hội; 3.000 sĩ tử dự thi, qua bốn trường chọn được 10 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Chính Hòa trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1700": {
+  "nienHieu": "Chính Hòa 21",
+  "vua": "Lê Hy Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 19,
+  "dauKhoa": "Nguyễn Đình Ức",
+  "soanVan": "Bùi Sĩ Tiêm",
+  "mota": "Mùa xuân năm Canh Thìn, niên hiệu Chính Hòa thứ 21 (1700), triều đình mở khoa đại tỉ; trên 2.000 sĩ tử dự thi, chọn được 19 người xuất sắc, đứng đầu là Nguyễn Hiệu (Hội nguyên).",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Chính Hòa trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1703": {
+  "nienHieu": "Chính Hòa 24",
+  "vua": "Lê Hy Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 6,
+  "dauKhoa": "Nguyễn Quang Luân",
+  "soanVan": "Nguyễn Quý Ân",
+  "mota": "Mùa xuân năm Quý Mùi, niên hiệu Chính Hòa thứ 24 (1703), vua Hy Tông Chương hoàng đế mở khoa thi Hội cho sĩ tử trong nước: 3000 người dự thi, chỉ chọn được 6 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Chính Hòa trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1706": {
+  "nienHieu": "Vĩnh Thịnh 2",
+  "vua": "Lê Dụ Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 5,
+  "dauKhoa": "Phạm Quang Dung",
+  "soanVan": "Dương Bật Trạc",
+  "mota": "Mùa xuân tháng 3 năm Bính Tuất, niên hiệu Vĩnh Thịnh thứ 2 (1706), triều đình mở khoa thi Hội đầu triều: ngót 3.000 sĩ tử ứng thí, chỉ chọn được năm người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Thịnh trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1710": {
+  "nienHieu": "Vĩnh Thịnh 6",
+  "vua": "Lê Dụ Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 21,
+  "dauKhoa": "Thám hoa Phạm Khiêm Ích",
+  "soanVan": "Nguyễn Nham",
+  "mota": "Mùa xuân năm Canh Dần, niên hiệu Vĩnh Thịnh thứ 6 (1710), triều đình mở khoa thi Hội, chọn được 21 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Thịnh trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1712": {
+  "nienHieu": "Vĩnh Thịnh 8",
+  "vua": "Lê Dụ Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 17,
+  "dauKhoa": "Nguyễn Duy Đôn",
+  "soanVan": "Nguyễn Kiều",
+  "mota": "Mùa xuân tháng 3 năm Nhâm Thìn, niên hiệu Vĩnh Thịnh thứ 8 (1712), triều đình mở khoa đại tỉ: hơn 2.000 sĩ tử dự thi, chọn được 17 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Thịnh trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1715": {
+  "nienHieu": "Vĩnh Thịnh 11",
+  "vua": "Lê Dụ Tông",
+  "dot": 3,
+  "dung": 1717,
+  "soDo": 20,
+  "dauKhoa": "Bùi Sĩ Tiêm",
+  "soanVan": "Bùi Sĩ Tiêm",
+  "mota": "Đầu xuân năm Ất Mùi, niên hiệu Vĩnh Thịnh thứ 11 (1715), triều đình mở khoa thi Hội: hơn 2.500 sĩ tử dự thi, qua bốn trường chọn được 20 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Thịnh trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1718": {
+  "nienHieu": "Vĩnh Thịnh 14",
+  "vua": "Lê Dụ Tông",
+  "dot": 3,
+  "dung": 1721,
+  "soDo": 17,
+  "dauKhoa": "Vũ Công Tể",
+  "soanVan": "Vũ Công Tể",
+  "mota": "Mùa xuân năm Mậu Tuất, niên hiệu Vĩnh Thịnh thứ 14 (1718), triều đình mở khoa thi Hội: hơn 3.000 sĩ tử dự thi, chọn được 17 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Thịnh trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1721": {
+  "nienHieu": "Bảo Thái 2",
+  "vua": "Lê Dụ Tông",
+  "dot": 3,
+  "dung": 1724,
+  "soDo": 25,
+  "dauKhoa": "Ngô Sách Hân",
+  "soanVan": "Đoàn Bá Dung",
+  "mota": "Tháng 10 năm Tân Sửu, niên hiệu Bảo Thái thứ 2 (1721), triều đình mở khoa thi Hội: gần 3.000 sĩ tử dự thi, chọn được 25 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Bảo Thái trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1724": {
+  "nienHieu": "Bảo Thái 5",
+  "vua": "Lê Dụ Tông",
+  "dot": 3,
+  "dung": 1726,
+  "soDo": 18,
+  "dauKhoa": "Bảng nhãn Hà Tông Huân",
+  "soanVan": "Đỗ Lệnh Danh",
+  "mota": "Mùa xuân năm Giáp Thìn, niên hiệu Bảo Thái thứ 5 (1724), triều đình mở khoa thi Hội: gần 3.000 sĩ tử dự thi, chọn được 18 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Bảo Thái trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1727": {
+  "nienHieu": "Bảo Thái 8",
+  "vua": "Lê Dụ Tông",
+  "dot": 3,
+  "dung": 1733,
+  "soDo": 10,
+  "dauKhoa": "Thám hoa Nguyễn Thế Lập",
+  "soanVan": "Nguyễn Duy Đôn",
+  "mota": "Mùa xuân tháng 3 năm Đinh Mùi, niên hiệu Bảo Thái thứ 8 (1727), vua Dụ Tông Hòa hoàng đế mở khoa thi Hội: 3.000 sĩ tử dự thi, chọn được 10 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Bảo Thái trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1731": {
+  "nienHieu": "Vĩnh Khánh 3",
+  "vua": "Lê Duy Phường",
+  "dot": 3,
+  "dung": 1732,
+  "soDo": 12,
+  "dauKhoa": "Thám hoa Đỗ Huy Kỳ",
+  "soanVan": "Phạm Khiêm Ích",
+  "mota": "Mùa đông tháng 10 năm Tân Hợi, niên hiệu Vĩnh Khánh thứ 3 (1731), triều đình mở khoa thi Hội, qua bốn trường chọn được 12 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Khánh trong tiêu đề (vua sau bị phế, sử gọi Hôn Đức công)",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1733": {
+  "nienHieu": "Long Đức 2",
+  "vua": "Lê Thuần Tông",
+  "dot": 3,
+  "dung": 1734,
+  "soDo": 18,
+  "dauKhoa": "Bảng nhãn Nhữ Trọng Đài",
+  "soanVan": "Nguyễn Quán Giai",
+  "mota": "Mùa xuân tháng 3 năm Quý Sửu, niên hiệu Long Đức thứ 2 (1733), triều đình mở khoa thi Hội: gần 3.000 sĩ tử dự thi, chọn được 18 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Long Đức trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1736": {
+  "nienHieu": "Vĩnh Hựu 2",
+  "vua": "Lê Ý Tông",
+  "dot": 3,
+  "dung": 1738,
+  "soDo": 15,
+  "dauKhoa": "Trạng nguyên Trịnh Huệ",
+  "soanVan": "Nguyễn Đình Thái",
+  "mota": "Mùa xuân tháng 3 năm Bính Thìn, niên hiệu Vĩnh Hựu thứ 2 (1736), triều đình mở khoa thi Hội, qua bốn trường chọn được 15 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Hựu trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)",
+   "dynasty": "cần đối chiếu — nguồn ghi \"Hoàng Lê\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1736 theo mốc 1533–1789 của src/data/dynasties.js"
+  }
+ },
+ "bia-1739": {
+  "nienHieu": "Vĩnh Hựu 5",
+  "vua": "Lê Ý Tông",
+  "dot": 3,
+  "dung": 1744,
+  "soDo": 8,
+  "dauKhoa": "Vũ Diệm",
+  "soanVan": "Bạch Phấn Ưng",
+  "mota": "Mùa xuân tháng 3 năm Kỷ Mùi, niên hiệu Vĩnh Hựu thứ 5 (1739), triều đình mở khoa thi Hội: 3.000 sĩ tử dự thi, chọn được 8 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Vĩnh Hựu trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1743": {
+  "nienHieu": "Cảnh Hưng 4",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1744,
+  "soDo": 7,
+  "dauKhoa": "Thám hoa Phan Kính",
+  "soanVan": "Bạch Phấn Ưng",
+  "mota": "Mùa đông tháng 10 năm Quý Hợi, niên hiệu Cảnh Hưng thứ 4 (1743), vua Lê Hiển Tông đích thân ngự giám khoa thi Hội đầu tiên: hơn 2.000 sĩ tử dự thi, chọn được 7 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1746": {
+  "nienHieu": "Cảnh Hưng 7",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1747,
+  "soDo": 4,
+  "dauKhoa": "Đoàn Thụ",
+  "soanVan": "Dương Công Chú",
+  "mota": "Mùa xuân năm Bính Dần, niên hiệu Cảnh Hưng thứ 7 (1746), triều đình mở khoa thi Hội cho các Cống sĩ: không dưới 2.000 người dự thi, chọn được 4 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1748": {
+  "nienHieu": "Cảnh Hưng 9",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1748,
+  "soDo": 13,
+  "dauKhoa": "Thám hoa Nguyễn Huy Oánh",
+  "soanVan": "Dương Công Chú",
+  "mota": "Mùa xuân tháng 3 năm Mậu Thìn, niên hiệu Cảnh Hưng thứ 9 (1748), triều đình mở khoa thi Hội: 3.000 sĩ tử dự thi, chọn được 13 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1752": {
+  "nienHieu": "Cảnh Hưng 13",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1753,
+  "soDo": 6,
+  "dauKhoa": "Bảng nhãn Lê Quý Đôn",
+  "soanVan": "Nhữ Đình Toản",
+  "mota": "Mùa đông năm Nhâm Thân, niên hiệu Cảnh Hưng thứ 13 (1752), triều đình mở khoa thi Hội cho các Cống sĩ, qua bốn trường chọn được 6 người.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1754": {
+  "nienHieu": "Cảnh Hưng 15",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1756,
+  "soDo": 8,
+  "dauKhoa": "Nguyễn Tông Trình",
+  "soanVan": "Lê Quý Đôn",
+  "mota": "Mùa xuân tháng 3 năm Giáp Tuất, niên hiệu Cảnh Hưng thứ 15 (1754), triều đình mở khoa thi Hội cho các Cống sĩ, qua bốn trường chọn được 8 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)",
+   "dynasty": "cần đối chiếu — nguồn ghi \"Hậu Lê\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1754 theo mốc 1533–1789 của src/data/dynasties.js"
+  }
+ },
+ "bia-1757": {
+  "nienHieu": "Cảnh Hưng 18",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1757,
+  "soDo": 6,
+  "dauKhoa": "Bùi Đình Dự",
+  "soanVan": "Nhữ Đình Toản",
+  "mota": "Mùa xuân năm Đinh Sửu, niên hiệu Cảnh Hưng thứ 18 (1757), triều đình mở khoa thi Hội cho các Cống sĩ, chọn được 6 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1760": {
+  "nienHieu": "Cảnh Hưng 21",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1760,
+  "soDo": 5,
+  "dauKhoa": "Ngô Trần Thực",
+  "soanVan": "Nguyễn Nghiễm",
+  "mota": "Mùa xuân tháng 2 năm Canh Thìn, niên hiệu Cảnh Hưng thứ 21 (1760), triều đình mở khoa thi Hội cho các Cống sĩ, qua bốn trường chọn được 5 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1763": {
+  "nienHieu": "Cảnh Hưng 24",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1763,
+  "soDo": 5,
+  "dauKhoa": "Vũ Cơ",
+  "soanVan": "Lê Quý Đôn",
+  "mota": "Mùa xuân năm Quý Mùi, niên hiệu Cảnh Hưng thứ 24 (1763) — khoa thi Hội thứ bảy kể từ khi Hoàng thượng lên ngôi — triều đình chọn được 5 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "bia-1766": {
+  "nienHieu": "Cảnh Hưng 27",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1766,
+  "soDo": 11,
+  "dauKhoa": "Hoàng giáp Ngô Thì Sĩ",
+  "soanVan": "Nguyễn Nghiễm",
+  "mota": "Mùa hạ tháng 4 năm Bính Tuất, niên hiệu Cảnh Hưng thứ 27 (1766), triều đình mở khoa thi Hội, qua bốn trường chọn được 11 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)",
+   "dynasty": "cần đối chiếu — nguồn ghi \"Triều Lê\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1766 theo mốc 1533–1789 của src/data/dynasties.js"
+  }
+ },
+ "bia-1769": {
+  "nienHieu": "Cảnh Hưng 30",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1769,
+  "soDo": 9,
+  "dauKhoa": "Đình nguyên Bùi Huy Bích",
+  "soanVan": "Lê Quý Đôn",
+  "mota": "Năm Kỷ Sửu, niên hiệu Cảnh Hưng thứ 30 (1769), Đại nguyên súy Tĩnh vương Trịnh Sâm hạ lệnh mở khoa thi Hội theo lệ xưa, qua bốn trường chọn được 9 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)",
+   "dynasty": "cần đối chiếu — nguồn ghi \"Nhà Lê (Hoàng Lê)\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1769 theo mốc 1533–1789 của src/data/dynasties.js"
+  }
+ },
+ "bia-1772": {
+  "nienHieu": "Cảnh Hưng 33",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1772,
+  "soDo": 13,
+  "dauKhoa": "Hồ Sĩ Đống",
+  "soanVan": "Phan Trọng Phiên",
+  "mota": "Mùa đông năm Nhâm Thìn, niên hiệu Cảnh Hưng thứ 33 (1772), triều đình mở khoa thi Hội, chọn được 13 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)",
+   "dynasty": "cần đối chiếu — nguồn ghi \"Nhà Hậu Lê\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1772 theo mốc 1533–1789 của src/data/dynasties.js"
+  }
+ },
+ "bia-1775": {
+  "nienHieu": "Cảnh Hưng 36",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1776,
+  "soDo": 18,
+  "dauKhoa": "Ngô Thế Trị",
+  "soanVan": "Nguyễn Hoản",
+  "mota": "Tháng đầu đông năm Ất Mùi, niên hiệu Cảnh Hưng thứ 36 (1775), dưới triều vua Lê Hiển Tông, triều đình mở khoa thi Hội, qua bốn trường chọn được 18 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)",
+   "dynasty": "cần đối chiếu — nguồn ghi \"Nhà Lê\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1775 theo mốc 1533–1789 của src/data/dynasties.js"
+  }
+ },
+ "bia-1778": {
+  "nienHieu": "Cảnh Hưng 39",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1780,
+  "soDo": 4,
+  "dauKhoa": "Nguyễn Duân",
+  "soanVan": "Nguyễn Hoản",
+  "mota": "Mùa xuân năm Mậu Tuất, niên hiệu Cảnh Hưng thứ 39 (1778), triều đình mở khoa thi Hội cho các cống sĩ, qua bốn trường chọn được 4 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)",
+   "dynasty": "cần đối chiếu — nguồn ghi \"Nhà Lê\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1778 theo mốc 1533–1789 của src/data/dynasties.js"
+  }
+ },
+ "bia-1779": {
+  "nienHieu": "Cảnh Hưng 40",
+  "vua": "Lê Hiển Tông",
+  "dot": 3,
+  "dung": 1780,
+  "soDo": 15,
+  "dauKhoa": "Lê Huy Trâm",
+  "soanVan": "Phan Trọng Phiên",
+  "mota": "Mùa đông năm Kỷ Hợi, niên hiệu Cảnh Hưng thứ 40 (1779), triều đình đặc biệt mở khoa thi Hội tại lầu Ngũ Long, chọn được 15 người trúng cách.",
+  "dynasty": "Lê trung hưng",
+  "$verify": {
+   "vua": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề",
+   "mota": "AI soạn, cần đối chiếu — câu đầu của lời giới thiệu (tools/stele-intros.json)"
+  }
+ },
+ "$generated": "tools/extract-stele-info.mjs — trường danh mục cho src/data/index.js, rút từ data/82-van-bia-tien-si.json; không sửa tay",
+ "$verify": "vua: suy từ niên hiệu (ERA_KING, cần đối chiếu) · mota: câu đầu lời giới thiệu AI soạn (cần đối chiếu) · dynasty: chuẩn hóa theo dynasties.js (mục mơ hồ suy từ năm, cần đối chiếu) · còn lại lấy thẳng từ dữ liệu"
+}

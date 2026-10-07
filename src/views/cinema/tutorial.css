@@ -1,0 +1,539 @@
+/* r32 — hướng dẫn cử chỉ tay (tutorial.js). Ngôn ngữ Điện ảnh: nền tối, nét vàng mảnh, quầng sáng mềm khi rê, dấu tick
+   gọn; mọi chuyển động chậm, một nhịp (không nháy — WCAG 2.3.1). Trên HUD (z 5–11), dưới màn mở đầu (z 40).
+   r66: sân khấu ở ~40 % bề cao (--tut-cy), khối chữ bên dưới: số bước · chồng dòng (3 dòng) · dòng phụ · chấm bước. Bước 1:
+   khung tròn nét đứt + khung xương tay (canvas theo tay). Bước 4: khối để nắm kéo sang bên. */
+.cinema .cin-tut {
+  --tut-gold: 217, 179, 108;
+  --tut-ring: clamp(104px, 9.5vw, 150px);
+  /* r66b: khung tròn bước 1 rộng hơn (~+50 %, người dùng: "cho vòng tròn dash rộng hơn để tay có chỗ di chuyển") — kẹp theo
+     bề cao màn hình để khối chữ bên dưới vẫn vừa */
+  --tut-frame: clamp(300px, min(31vw, 50vh), 480px);
+  --tut-cy: 40%;
+  --tut-ease: cubic-bezier(.2, .7, .2, 1);
+  /* r66b: cỡ chữ dòng việc / dòng phụ + cao một dòng (px — dùng chung cho vị trí các dòng và dòng phụ) */
+  --tut-fs: clamp(22px, 2.15vw, 36px);
+  --tut-sub-fs: clamp(14px, 1.15vw, 19px);
+  --ln-h: calc(var(--tut-fs) * 1.5);
+  --sub-h: calc(var(--tut-sub-fs) * 1.6);
+  /* r66b: khối chữ hai cột cố định — hình động tác bên trái (cao bằng chồng 3 dòng), cột chữ căn trái bên phải */
+  --tut-num-fs: clamp(12px, .95vw, 15px);
+  --head-h: calc(var(--tut-num-fs) * 2.2);
+  /* chồng 3 mục MỘT dòng: dòng hiện tại (1,3) + dòng phụ + dòng mờ 1 (1,3 × 0,8) + dòng mờ 2 (1,3 × 0,66) + khe — ô hình động tác
+     cao đúng ngần này (mục dài xuống dòng thì tràn xuống dưới, ô hình không đổi) */
+  --stack-h: calc(var(--tut-fs) * 3.62 + var(--sub-h));
+  --demo-w: calc(var(--stack-h) * 1.2);
+  --col-w: calc(var(--tut-fs) * 17.5);
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s ease;
+  color: rgba(236, 236, 236, .9);
+  touch-action: none;
+}
+.cinema .cin-tut[hidden] { display: none; }
+.cinema .cin-tut[data-on="1"] { opacity: 1; pointer-events: auto; }
+.cinema .cin-tut[data-leaving="1"] { opacity: 0; pointer-events: none; }
+.cinema .cin-tut__veil {
+  position: absolute;
+  inset: 0;
+  /* gần kín: bia / HUD phía sau chỉ còn như một bóng rất mờ, không tranh với vòng tròn */
+  background: radial-gradient(120% 90% at 50% 40%, rgba(10, 10, 12, .955), rgba(4, 4, 6, .988));
+}
+.cinema .cin-tut__stage {
+  position: absolute;
+  left: 50%;
+  top: var(--tut-cy);
+  translate: -50% -50%;
+  width: min(760px, 80vw);
+  height: calc(var(--tut-ring) * 2.2);
+  display: grid;
+  place-items: center;
+  perspective: 900px;
+}
+.cinema .cin-tut__step {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(90px, 16vw, 260px);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity .5s ease, transform .6s var(--tut-ease), visibility 0s linear .5s;
+}
+.cinema .cin-tut[data-step="2"] .cin-tut__step[data-s="2"],
+.cinema .cin-tut[data-step="3"] .cin-tut__step[data-s="3"],
+.cinema .cin-tut[data-step="4"] .cin-tut__step[data-s="4"] { opacity: 1; visibility: visible; transform: none; transition: opacity .5s ease .15s, transform .6s var(--tut-ease) .15s, visibility 0s; }
+
+/* ---- vòng tròn */
+.cinema .cin-tut__ring {
+  position: relative;
+  width: var(--tut-ring);
+  height: var(--tut-ring);
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(var(--tut-gold), .06), rgba(var(--tut-gold), 0));
+  box-shadow: inset 0 0 0 1.5px rgba(var(--tut-gold), .5);
+  cursor: pointer;
+  outline: none;
+  transition: box-shadow .45s ease, background .45s ease, scale .5s var(--tut-ease);
+}
+.cinema .cin-tut__halo {
+  position: absolute;
+  inset: -14px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(var(--tut-gold), .28), rgba(var(--tut-gold), 0));
+  opacity: 0;
+  transition: opacity .45s ease;
+  pointer-events: none;
+}
+/* r49 — đích chỉ hiện khi việc trước đã xong: mờ + nở nhẹ (transform — scale riêng cho rê / chạm) */
+.cinema .cin-tut__ring[data-show="0"] { opacity: 0; transform: scale(.62); visibility: hidden; pointer-events: none; transition: opacity .3s ease, transform .4s var(--tut-ease), visibility 0s linear .4s; }
+.cinema .cin-tut__ring[data-show="1"] { opacity: 1; transform: none; visibility: visible; transition: opacity .35s ease, transform .5s var(--tut-ease), visibility 0s, box-shadow .45s ease, background .45s ease, scale .5s var(--tut-ease); }
+/* bước 1: vòng đặt theo con trỏ (tutorial.js placeRing — left / top là TÂM vòng) */
+.cinema .cin-tut__free { position: absolute; inset: 0; pointer-events: none; }
+.cinema .cin-tut__free .cin-tut__ring { position: absolute; translate: -50% -50%; pointer-events: auto; }
+.cinema .cin-tut:not([data-step="1"]) .cin-tut__free .cin-tut__ring { opacity: 0; visibility: hidden; }
+.cinema .cin-tut__ring[data-hover="1"] {
+  box-shadow: inset 0 0 0 2px rgb(var(--tut-gold)), 0 0 26px rgba(var(--tut-gold), .32);
+  background: radial-gradient(closest-side, rgba(var(--tut-gold), .16), rgba(var(--tut-gold), .02));
+  scale: 1.06;
+}
+.cinema .cin-tut__ring[data-hover="1"] .cin-tut__halo { opacity: 1; }
+.cinema .cin-tut__ring:focus-visible { box-shadow: inset 0 0 0 2px rgb(var(--tut-gold)), 0 0 0 4px rgba(var(--tut-gold), .25); }
+.cinema .cin-tut__tick {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 44%;
+  height: 44%;
+  translate: -50% -50%;
+  fill: none;
+  stroke: rgb(var(--tut-gold));
+  stroke-width: 2.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 32;
+  stroke-dashoffset: 32;
+  transition: stroke-dashoffset .5s var(--tut-ease);
+}
+.cinema .cin-tut__ring[data-sel="1"] { box-shadow: inset 0 0 0 2px rgb(var(--tut-gold)), 0 0 22px rgba(var(--tut-gold), .28); background: radial-gradient(closest-side, rgba(var(--tut-gold), .2), rgba(var(--tut-gold), .04)); }
+.cinema .cin-tut__ring[data-sel="1"] .cin-tut__tick { stroke-dashoffset: 0; }
+
+/* ---- khối: nhìn thẳng = hình vuông; kéo xoay → khối lập phương */
+.cinema .cin-tut__cubewrap {
+  --k: 0;
+  --c: calc(var(--tut-ring) * .92);
+  position: relative;
+  width: calc(var(--c) * 1.9);
+  height: calc(var(--c) * 1.9);
+  display: grid;
+  place-items: center;
+  cursor: grab;
+  perspective: 900px;
+}
+.cinema .cin-tut__cube[data-drag="1"] { cursor: grabbing; }
+.cinema .cin-tut__cube {
+  position: relative;
+  width: var(--c);
+  height: var(--c);
+  transform-style: preserve-3d;
+  transition: filter .4s ease;
+}
+.cinema .cin-tut__face {
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 0 1.5px rgba(var(--tut-gold), calc(.5 + .4 * var(--k)));
+  background: rgba(var(--tut-gold), calc(.03 + .04 * var(--k)));
+  /* chỉ các mặt đang hướng về người xem: nhìn thẳng = đúng MỘT hình vuông (không thấy mặt sau / mặt bên như đường hầm) */
+  backface-visibility: hidden;
+}
+.cinema .cin-tut__face--front { transform: translateZ(calc(var(--c) / 2)); }
+.cinema .cin-tut__face--back { transform: rotateY(180deg) translateZ(calc(var(--c) / 2)); }
+.cinema .cin-tut__face--right { transform: rotateY(90deg) translateZ(calc(var(--c) / 2)); }
+.cinema .cin-tut__face--left { transform: rotateY(-90deg) translateZ(calc(var(--c) / 2)); }
+.cinema .cin-tut__face--top { transform: rotateX(90deg) translateZ(calc(var(--c) / 2)); }
+.cinema .cin-tut__face--bottom { transform: rotateX(-90deg) translateZ(calc(var(--c) / 2)); }
+/* mặt trước: một viên thoi vàng nhỏ ở giữa (cùng dấu của mũi tên Chỉ vàng) — thấy được mặt nào đang quay đi */
+.cinema .cin-tut__face--front::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  translate: -50% -50%;
+  rotate: 45deg;
+  background: rgb(var(--tut-gold));
+  box-shadow: 0 0 10px rgba(var(--tut-gold), .5);
+}
+.cinema .cin-tut__cube[data-hover="1"] .cin-tut__face { box-shadow: inset 0 0 0 2px rgb(var(--tut-gold)), 0 0 18px rgba(var(--tut-gold), .18); }
+
+
+/* ---- r66 · bước 1: khung tròn nét đứt (đưa tay vào khung) + khung xương sống của tay khách */
+.cinema .cin-tut__frame {
+  position: absolute;
+  left: 50%;
+  top: var(--tut-cy);
+  width: var(--tut-frame);
+  height: var(--tut-frame);
+  translate: -50% -50%;
+  pointer-events: none;
+  opacity: 0;
+  scale: .88;
+  transition: opacity .45s ease, scale .55s var(--tut-ease);
+}
+.cinema .cin-tut[data-frame="1"] .cin-tut__frame { opacity: 1; scale: 1; }
+.cinema .cin-tut__frame svg { display: block; width: 100%; height: 100%; max-width: none; overflow: visible; animation: tut-frame-spin 90s linear infinite; }
+.cinema .cin-tut__frame circle {
+  fill: rgba(var(--tut-gold), .035);
+  stroke: rgba(var(--tut-gold), .5);
+  stroke-width: .55;
+  stroke-dasharray: 1.5 1.3;
+  stroke-linecap: round;
+  transition: stroke .4s ease, fill .4s ease;
+}
+/* r69g: khung là ĐÍCH — tay cỡ vừa: nét sáng hơn; cỡ vừa + ở giữa khung: sáng hẳn, quầng nhẹ (xa / gần quá: như thường) */
+.cinema .cin-tut[data-fit="good"] .cin-tut__frame circle { stroke: rgba(var(--tut-gold), .72); }
+.cinema .cin-tut[data-fit="in"] .cin-tut__frame circle { stroke: rgba(var(--tut-gold), .95); fill: rgba(var(--tut-gold), .07); }
+.cinema .cin-tut[data-fit="in"] .cin-tut__frame { filter: drop-shadow(0 0 14px rgba(var(--tut-gold), .28)); }
+/* xoè 5 ngón: nét đậm hơn (đang chờ dáng tay) · nhịp POP: khung sáng vàng + một vòng sóng nở ra */
+.cinema .cin-tut[data-phase="open"] .cin-tut__frame circle { stroke: rgba(var(--tut-gold), .78); }
+.cinema .cin-tut__frame[data-pop="1"] circle { stroke: rgb(var(--tut-gold)); fill: rgba(var(--tut-gold), .09); }
+.cinema .cin-tut__frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1.5px rgba(var(--tut-gold), .75);
+  opacity: 0;
+  pointer-events: none;
+}
+.cinema .cin-tut__frame[data-pop="1"]::after { animation: tut-wave .9s var(--tut-ease) forwards; }
+@keyframes tut-frame-spin { to { rotate: 360deg; } }
+.cinema .cin-tut__skel {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .2s ease;
+  will-change: transform;
+}
+.cinema .cin-tut__skel[data-on="1"] { opacity: 1; }
+
+/* ---- r66 · bước 4: khối để nắm tay kéo sang bên (mũi tên mờ hai bên, bên cần kéo sáng + nhích) */
+.cinema .cin-tut__track {
+  display: flex;
+  align-items: center;
+  gap: clamp(36px, 6vw, 96px);
+  padding: 24px 48px;
+  cursor: grab;
+  touch-action: none;
+}
+.cinema .cin-tut__fwrap {
+  --k: .6;
+  --c: calc(var(--tut-ring) * .92);
+  position: relative;
+  width: calc(var(--c) * 1.9);
+  height: calc(var(--c) * 1.9);
+  display: grid;
+  place-items: center;
+  perspective: 900px;
+}
+.cinema .cin-tut__fwrap[data-held="1"] { cursor: grabbing; }
+/* r66b: KHUNG CẢNH (nơi đặt perspective) mang dịch ngang + độ mờ lúc trượt — khối bên trong chỉ quay, không mang opacity
+   (opacity trên phần tử preserve-3d làm trình duyệt dẹt khối thành một mặt phẳng) — tutorial.js setF */
+.cinema .cin-tut__fwrap { will-change: transform, opacity; }
+/* r66b: lăng trụ tam giác / ngũ giác (tutorial.js prismFaces) — mặt bên như mặt khối vuông, mặt đáy là đa giác SVG nét vàng */
+.cinema .cin-tut__pside { inset: auto; }
+.cinema .cin-tut__pcap { position: absolute; display: block; backface-visibility: hidden; pointer-events: none; }
+.cinema .cin-tut__pcap svg { display: block; width: 100%; height: 100%; max-width: none; overflow: visible; }
+.cinema .cin-tut__pcap polygon {
+  fill: rgba(var(--tut-gold), calc(.03 + .04 * var(--k)));
+  stroke: rgba(var(--tut-gold), calc(.5 + .4 * var(--k)));
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+  transition: stroke .3s ease, fill .3s ease;
+}
+.cinema .cin-tut__pcap rect { fill: rgb(var(--tut-gold)); filter: drop-shadow(0 0 5px rgba(var(--tut-gold), .5)); }
+.cinema .cin-tut__fcube[data-hover="1"] .cin-tut__pcap polygon,
+.cinema .cin-tut__fwrap[data-held="1"] .cin-tut__pcap polygon,
+.cinema .cin-tut[data-ok="1"] .cin-tut__pcap polygon { stroke: rgb(var(--tut-gold)); stroke-width: 2; fill: rgba(var(--tut-gold), .09); }
+.cinema .cin-tut__fcube[data-hover="1"] .cin-tut__face,
+.cinema .cin-tut__fwrap[data-held="1"] .cin-tut__face { box-shadow: inset 0 0 0 2px rgb(var(--tut-gold)), 0 0 22px rgba(var(--tut-gold), .24); background: rgba(var(--tut-gold), .09); }
+.cinema .cin-tut__chev {
+  width: 20px;
+  height: 20px;
+  border-left: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  color: rgba(var(--tut-gold), .28);
+  transition: color .4s ease;
+}
+.cinema .cin-tut__chev[data-d="l"] { rotate: 45deg; }
+.cinema .cin-tut__chev[data-d="r"] { rotate: -135deg; }
+.cinema .cin-tut[data-phase="L"] .cin-tut__chev[data-d="l"] { color: rgb(var(--tut-gold)); animation: tut-nudge-l 1.6s ease-in-out infinite; }
+.cinema .cin-tut[data-phase="R"] .cin-tut__chev[data-d="r"] { color: rgb(var(--tut-gold)); animation: tut-nudge-r 1.6s ease-in-out infinite; }
+@keyframes tut-nudge-l { 0%, 100% { translate: 0 0; } 50% { translate: -8px 0; } }
+@keyframes tut-nudge-r { 0%, 100% { translate: 0 0; } 50% { translate: 8px 0; } }
+
+/* ---- khối chữ (r66b): hai cột CỐ ĐỊNH, cả khối ở giữa màn hình — trái: hình động tác (cao bằng chồng 3 dòng, không xê dịch
+   khi đổi dòng); phải: cột chữ CĂN TRÁI (người dùng: "text hướng dẫn đang căn center >> user khó đọc, mắt phải chuyển và vị trí
+   bàn tay animate cũng bị thay đổi thò thụt") — hàng đầu "Bước n / 4" + chấm bước, rồi dòng hiện tại, dòng phụ, hai dòng mờ.
+   Mép trái của chữ không đổi giữa các dòng; "Bỏ qua" vẫn ở góc phải dưới, ngoài khối. */
+.cinema .cin-tut__text {
+  position: absolute;
+  left: 50%;
+  top: calc(var(--tut-cy) + max(var(--tut-ring) * 1.12, var(--tut-frame) / 2) + 18px);
+  translate: -50% 0;
+  display: grid;
+  grid-template-columns: var(--demo-w) var(--col-w);
+  column-gap: calc(var(--tut-fs) * 1.2);
+  align-items: start;
+  text-align: left;
+  font-family: var(--display-vi);
+  color: rgba(236, 236, 236, .94);
+  pointer-events: none;
+}
+.cinema .cin-tut__demoslot { position: relative; width: var(--demo-w); height: var(--stack-h); margin-top: var(--head-h); }
+.cinema .cin-tut__col { width: var(--col-w); }
+.cinema .cin-tut__head { display: flex; align-items: center; gap: 16px; height: var(--head-h); }
+.cinema .cin-tut__num {
+  margin: 0;
+  font-size: var(--tut-num-fs);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: rgba(var(--tut-gold), .78);
+}
+.cinema .cin-tut__num:empty { display: none; }
+/* r66 → r66b: chồng dòng — dòng hiện tại ở TRÊN (ngay dưới số bước), dòng phụ ngay dưới nó; xong việc: dòng cũ mờ đi, nhỏ lại
+   (về phía mép trái — chữ không xê dịch ngang), ĐI XUỐNG dưới dòng phụ (tick ở lề phải cột, thẳng hàng); dòng mới vào từ trên,
+   nhoè → nét (không có dòng của việc sắp tới chờ sẵn). Mỗi mục có thể nhiều dòng — vị trí dọc do tutorial.js layout() tính.
+   Thấy 3 dòng (1 + 2 mờ bên dưới). Dòng sửa thay tại chỗ (mờ chéo). Lùi việc: dòng hiện tại lui lên rồi tắt, dòng trước đi
+   lên về chỗ. */
+.cinema .cin-tut__stackwrap {
+  position: relative;
+  width: 100%;
+  height: var(--stack-h);
+}
+.cinema .cin-tut__stack {
+  position: absolute;
+  inset: 0;
+  font-size: var(--tut-fs); /* đọc được từ khoảng cách đứng trước kiosk */
+  letter-spacing: .01em;
+  line-height: 1.3;
+}
+.cinema .cin-tut__ln {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding-right: 1.7em; /* cột dấu tick bên phải */
+  transform: translateY(var(--y, 0px)); /* r66b: vị trí dọc tính theo chiều cao thật của từng mục — tutorial.js layout() */
+  transition: transform .55s var(--tut-ease), opacity .5s ease, filter .5s ease, color .4s ease;
+}
+/* chữ xuống dòng trong cột (không cắt, không "…"), căn trái; mục đã xong thu nhỏ về mép trái */
+.cinema .cin-tut__lt {
+  display: block;
+  white-space: normal;
+  line-height: 1.3;
+  transform: scale(var(--s, 1));
+  transform-origin: 0 0;
+  transition: transform .55s var(--tut-ease);
+}
+.cinema .cin-tut__ln[data-pos="in"] { opacity: 0; filter: blur(6px); transition: none; }
+.cinema .cin-tut__ln[data-pos="0"] { opacity: 1; filter: none; }
+.cinema .cin-tut__ln[data-pos="1"] { opacity: .42; filter: none; }
+.cinema .cin-tut__ln[data-pos="2"] { opacity: .18; filter: none; }
+.cinema .cin-tut__ln[data-pos="3"] { opacity: 0; filter: blur(3px); }
+.cinema .cin-tut__ln[data-pos="swap"] { opacity: 0; transition: none; }
+.cinema .cin-tut__ln[data-pos="x"] { opacity: 0; transition: opacity .2s ease; }
+.cinema .cin-tut__ln[data-pos="back"] { opacity: 0; filter: blur(4px); transition: transform .4s ease, opacity .35s ease, filter .4s ease; }
+.cinema .cin-tut__ln[data-pos="0"]:not([data-hint="1"]) { transition: transform .55s var(--tut-ease), opacity .45s ease .08s, filter .55s ease .05s, color .4s ease; }
+/* dấu tick của mục đã xong: LỀ PHẢI của cột chữ — mọi tick thẳng một cột (người dùng: "có dấu tích ở lề bên phải (thẳng hàng
+   với nhau)"), ngang dòng đầu của mục */
+.cinema .cin-tut__lnok {
+  position: absolute;
+  right: .3em;
+  top: calc(var(--s, 1) * .65em);
+  width: .72em;
+  height: .72em;
+  translate: 0 -50%;
+  fill: none;
+  stroke: rgb(var(--tut-gold));
+  stroke-width: 3.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0;
+  transition: opacity .4s ease, top .55s var(--tut-ease);
+}
+.cinema .cin-tut__ln[data-done="1"] .cin-tut__lnok { opacity: 1; }
+/* hình động tác (khung xương thật — tutorial-demo.js) của dòng hiện tại: MỘT ô cố định bên trái, đổi hình thì mờ chéo */
+.cinema .cin-tut__demo { position: absolute; inset: 0; display: block; width: 100%; height: 100%; opacity: 0; transition: opacity .3s ease; }
+.cinema .cin-tut__demo[data-on="1"] { opacity: 1; }
+/* dòng sửa (làm sai / chưa đủ, "Giữ yên", "khung hình") — màu hổ phách ấm, thay chỗ dòng việc một lúc */
+.cinema .cin-tut__ln[data-hint="1"] { color: rgb(255, 205, 138); }
+/* nhịp mừng của một việc — dòng vừa xong sáng vàng · xong bước */
+.cinema .cin-tut[data-beat="1"] .cin-tut__ln[data-pos="0"],
+.cinema .cin-tut[data-ok="1"] .cin-tut__ln[data-pos="0"] { color: rgb(var(--tut-gold)); }
+.cinema .cin-tut__sub {
+  position: absolute;
+  left: 0;
+  right: 1.7em;
+  top: calc(var(--tut-fs) * 1.36); /* (tutorial.js layout() đặt ngay dưới dòng hiện tại — kể cả khi nó xuống dòng) */
+  margin: 0;
+  line-height: 1.35;
+  min-height: var(--sub-h);
+  padding-top: calc((var(--sub-h) - var(--tut-sub-fs) * 1.35) / 2);
+  box-sizing: border-box;
+  font-size: var(--tut-sub-fs);
+  font-style: italic;
+  color: rgba(236, 236, 236, .6);
+  opacity: 0;
+  transition: opacity .25s ease, top .45s var(--tut-ease);
+}
+.cinema .cin-tut__sub[data-on="1"] { opacity: 1; }
+.cinema .cin-tut__dots {
+  display: flex;
+  gap: 12px;
+}
+.cinema .cin-tut__dots > i[hidden] { display: none; }
+.cinema .cin-tut__dots > i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px rgba(var(--tut-gold), .55);
+  transition: background .4s ease, box-shadow .4s ease;
+}
+.cinema .cin-tut__dots > i[data-state="now"] { box-shadow: inset 0 0 0 1.5px rgb(var(--tut-gold)), 0 0 8px rgba(var(--tut-gold), .45); }
+.cinema .cin-tut__dots > i[data-state="done"] { background: rgb(var(--tut-gold)); box-shadow: 0 0 8px rgba(var(--tut-gold), .4); }
+.cinema .cin-tut__skip {
+  position: absolute;
+  right: max(28px, 4vw);
+  bottom: max(28px, 5vh);
+  width: 78px;
+  height: 78px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  box-shadow: inset 0 0 0 1px rgba(236, 236, 236, .28);
+  color: rgba(236, 236, 236, .62);
+  font: inherit;
+  font-size: 12px;
+  letter-spacing: .06em;
+  cursor: pointer;
+  outline: none;
+  transition: box-shadow .35s ease, color .35s ease, scale .4s var(--tut-ease);
+}
+.cinema .cin-tut__skip[data-hover="1"], .cinema .cin-tut__skip:focus-visible { box-shadow: inset 0 0 0 1.5px rgba(var(--tut-gold), .85); color: rgb(var(--tut-gold)); scale: 1.06; }
+/* r33b: ngón cái đang chạm ngón trỏ (hoặc chuột đang nhấn) — lún xuống, sáng hơn; thả ra mới chọn */
+.cinema .cin-tut__ring[data-press="1"] {
+  scale: .93;
+  box-shadow: inset 0 0 0 2.5px rgb(var(--tut-gold)), 0 0 30px rgba(var(--tut-gold), .4);
+  background: radial-gradient(closest-side, rgba(var(--tut-gold), .28), rgba(var(--tut-gold), .05));
+  transition-duration: .12s;
+}
+.cinema .cin-tut__skip[data-press="1"] { scale: .93; color: rgb(var(--tut-gold)); box-shadow: inset 0 0 0 2px rgb(var(--tut-gold)); transition-duration: .12s; }
+/* r32b — vẫy tay để bỏ qua: vòng vàng quanh nút đầy dần theo tiến độ cú vẫy (lớp cử chỉ: hand:wave), rút dần khi thôi vẫy */
+.cinema .cin-tut__skip { --wave: 0; }
+.cinema .cin-tut__skip > span { position: relative; }
+.cinema .cin-tut__skipring {
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  width: 92px; /* nút 78 px + 2 × 7 */
+  height: 92px;
+  max-width: none; /* (reset chung: svg { max-width: 100% } → bị ép về bề ngang nút) */
+  rotate: -90deg;
+  overflow: visible;
+  pointer-events: none;
+}
+.cinema .cin-tut__skipring circle {
+  fill: none;
+  stroke: rgb(var(--tut-gold));
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-dasharray: 100;
+  stroke-dashoffset: calc(100 - var(--wave) * 100);
+  opacity: calc(min(1, var(--wave) * 6));
+  filter: drop-shadow(0 0 4px rgba(var(--tut-gold), .5));
+  transition: stroke-dashoffset .12s linear, opacity .2s ease;
+}
+.cinema .cin-tut__skip[data-wave="1"] { color: rgb(var(--tut-gold)); box-shadow: inset 0 0 0 1px rgba(var(--tut-gold), .5); }
+.cinema .cin-tut__wavehint {
+  position: absolute;
+  right: calc(max(28px, 4vw) + 39px - 90px); /* giữa canh theo tâm nút (78 px) */
+  bottom: calc(max(28px, 5vh) + 78px + 16px);
+  width: 180px;
+  white-space: nowrap;
+  margin: 0;
+  text-align: center;
+  font-family: var(--display-vi);
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1.3;
+  color: rgba(236, 236, 236, .5);
+  transition: color .3s ease;
+  pointer-events: none;
+}
+.cinema .cin-tut:has(.cin-tut__skip[data-wave="1"]) .cin-tut__wavehint { color: rgba(var(--tut-gold), .95); }
+/* r32b — một lượt xoay đã được tính (thả tay sau khi xoay đủ): khối sáng một nhịp */
+.cinema .cin-tut__cube[data-pulse="1"] .cin-tut__face { animation: tut-pulse .7s ease; }
+@keyframes tut-pulse { 30% { box-shadow: inset 0 0 0 2px rgb(var(--tut-gold)), 0 0 22px rgba(var(--tut-gold), .35); } }
+
+/* ---- nhịp mừng mỗi bước: đối tượng sáng vàng + một vòng sóng nở ra */
+.cinema .cin-tut[data-ok="1"] .cin-tut__ring { box-shadow: inset 0 0 0 2px rgb(var(--tut-gold)), 0 0 34px rgba(var(--tut-gold), .42); }
+.cinema .cin-tut[data-ok="1"] .cin-tut__ring::after,
+.cinema .cin-tut[data-ok="1"] .cin-tut__cubewrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: var(--tut-ring);
+  height: var(--tut-ring);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1.5px rgba(var(--tut-gold), .7);
+  animation: tut-wave 1s var(--tut-ease) forwards;
+  pointer-events: none;
+}
+.cinema .cin-tut[data-ok="1"] .cin-tut__face { box-shadow: inset 0 0 0 2px rgb(var(--tut-gold)), 0 0 20px rgba(var(--tut-gold), .25); }
+@keyframes tut-wave { from { opacity: .9; scale: 1; } to { opacity: 0; scale: 1.7; } }
+
+/* ---- con trỏ riêng (khi con trỏ tay của lớp cử chỉ đang ẩn) */
+.cinema .cin-tut__cursor {
+  position: fixed;
+  left: -18px;
+  top: -18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  /* r67g: như vòng con trỏ tay của lớp cử chỉ ở chỗ không phải bia / bục — xám, viền mảnh; nhón → vàng, 1,5 px, nền đặc */
+  box-shadow: inset 0 0 0 1px rgba(206, 206, 206, .8), 0 0 0 1px rgba(0, 0, 0, .3), 0 0 16px rgba(206, 206, 206, .08);
+  background: rgba(206, 206, 206, .08);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .2s ease, box-shadow .15s linear, background-color .15s linear, scale .06s linear;
+  z-index: 2;
+}
+.cinema .cin-tut__cursor[data-pinch="1"] { box-shadow: inset 0 0 0 1.5px rgb(255, 180, 84), 0 0 0 1px rgba(0, 0, 0, .3), 0 0 16px rgba(255, 180, 84, .5); background: rgba(255, 180, 84, .8); scale: .6; }
+.cinema .cin-tut__cursor[data-on="1"] { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .cinema .cin-tut, .cinema .cin-tut__step, .cinema .cin-tut__ring, .cinema .cin-tut__tick, .cinema .cin-tut__skip, .cinema .cin-tut__frame { transition-duration: .01s !important; }
+  /* r66: chồng dòng chỉ mờ chéo — không trượt, không nhoè (vị trí đổi tức thì, độ mờ chuyển dần) */
+  .cinema .cin-tut__ln, .cinema .cin-tut__ln[data-pos] { transition: opacity .3s ease !important; filter: none !important; }
+  .cinema .cin-tut__lt, .cinema .cin-tut__lnok, .cinema .cin-tut__sub { transition: opacity .3s ease !important; }
+  .cinema .cin-tut__ln[data-pos="in"], .cinema .cin-tut__ln[data-pos="swap"] { transition: none !important; }
+  .cinema .cin-tut__frame svg, .cinema .cin-tut__chev { animation: none !important; }
+  .cinema .cin-tut__frame[data-pop="1"]::after { animation: none; }
+  .cinema .cin-tut__ring[data-show] { transition-duration: .01s !important; }
+  .cinema .cin-tut[data-ok="1"] .cin-tut__ring::after, .cinema .cin-tut[data-ok="1"] .cin-tut__cubewrap::after { animation: none; opacity: 0; }
+}

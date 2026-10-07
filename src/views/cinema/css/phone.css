@@ -1,0 +1,67 @@
+/* cinema.css › phone — Màn hẹp (điện thoại dọc) + giảm chuyển động chung.
+   (C: tách nguyên văn từ cinema.css — thứ tự @import trong cinema.css giữ nguyên cascade.) */
+/* ---------- Màn hẹp (điện thoại dọc) ---------- */
+@media (max-width: 760px) {
+  .cinema .cin-bottom { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  /* r22: một cột — hai phần tử phải về cột 1 (trước đây giữ grid-column 2 / 3 → dòng thời gian rơi vào cột ngầm rộng 0) */
+  .cinema .cin-prog { order: -1; width: 100%; grid-column: 1; }
+  .cinema .cin-panel {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    max-height: 75vh;
+    max-height: 75svh;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 0;
+    transform-origin: bottom center;
+    transform: translateY(100%);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .cinema[data-panel="on"] .cin-panel { transform: translateY(0); }
+  .cinema .cin-panel__head {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) 44px;
+    align-items: center;
+    flex: none;
+    padding: 8px 10px 0;
+  }
+  .cinema .cin-panel__grip {
+    grid-column: 2;
+    justify-self: center;
+    width: 42px;
+    height: 4px;
+    border-radius: 4px;
+    background: rgba(236, 236, 236, .28);
+  }
+  .cinema .cin-panel__x { grid-column: 3; }
+  .cinema .cin-panel__in { padding-top: 14px; }
+  /* Tấm trượt đã có nút đóng riêng → cất FAB đi, khỏi đè lên phần mô tả. */
+  .cinema[data-panel="on"] .cin-fab {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity .2s ease, visibility 0s linear .2s;
+  }
+  .cinema .cin-panel__year { font-size: 34px; }
+}
+
+/* ---------- Giảm chuyển động ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .cinema .cin-grain { animation: none; }
+  .cinema .cin-load[data-mode="wait"] > i { animation: none; width: 100%; transform: scaleX(.4); }
+  .cinema .cin-boot__track > i { transition: none; }
+  /* Bảng chi tiết chỉ mờ dần, bỏ hẳn phần nở ra và xoay biểu tượng. */
+  .cinema .cin-panel,
+  .cinema[data-panel="on"] .cin-panel { transform: translateY(-50%); }
+  .cinema .cin-fab > span { transform: none; }
+}
+@media (prefers-reduced-motion: reduce) and (max-width: 760px) {
+  .cinema .cin-panel,
+  .cinema[data-panel="on"] .cin-panel { transform: none; }
+}
+
+/* Sân khấu nhận focus bằng chuột để phím mũi tên luôn tới nơi — không cần viền focus */
+.cinema .cin-stage:focus { outline: none; }
+.cinema .cin-stage:focus-visible { outline: none; }

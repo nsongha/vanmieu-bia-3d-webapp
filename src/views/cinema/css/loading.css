@@ -1,0 +1,83 @@
+/* cinema.css › loading — Vạch tải + màn mở đầu (r16).
+   (C: tách nguyên văn từ cinema.css — thứ tự @import trong cinema.css giữ nguyên cascade.) */
+/* ---------- Vạch tải ---------- */
+.cinema .cin-load {
+  position: absolute;
+  left: 0; right: 0;
+  top: var(--bar);
+  height: 2px;
+  z-index: 6;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+.cinema .cin-load[data-mode="on"],
+.cinema .cin-load[data-mode="wait"] { opacity: 1; }
+.cinema .cin-load > i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(217, 179, 108, .2), var(--gold));
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: transform .3s ease;
+}
+.cinema .cin-load[data-mode="wait"] > i {
+  width: 32%;
+  transform: none;
+  transition: none;
+  animation: cin-slide 1.2s cubic-bezier(.45, 0, .55, 1) infinite;
+}
+@keyframes cin-slide {
+  from { transform: translateX(-110%); }
+  to   { transform: translateX(320%); }
+}
+
+/* ---------- Mở màn (r16): tải + chuẩn bị bia đầu, hai bia kề, proxy, font, shader — một vạch vàng mảnh ---------- */
+.cinema .cin-boot {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  display: none;
+  place-content: center;
+  justify-items: center;
+  gap: 18px;
+  background: var(--bg);
+  opacity: 1;
+  transition: opacity .7s cubic-bezier(.45, 0, .55, 1);
+}
+.cinema .cin-boot[data-state="on"],
+.cinema .cin-boot[data-state="done"] { display: grid; }
+.cinema .cin-boot[data-state="done"] { opacity: 0; pointer-events: none; }
+.cinema .cin-boot[data-state="gone"] { display: none; }
+/* Lúc dựng thử bố cục thông tin (primeInfo): màn tối trong suốt 1,5 % — đủ để bộ ghép lớp của trình duyệt vẽ thật các
+   lớp bên dưới (kính mờ backdrop-filter, blur: biên dịch shader của nó ngay lúc này, không phải ở lần hover đầu); mắt
+   không thấy gì (chữ vàng dưới đó còn ~3/255). Màn tối đặc thì trình duyệt bỏ qua hẳn lớp bị che. */
+.cinema .cin-boot[data-prime="1"] { background: color-mix(in srgb, var(--bg) 99.9%, transparent); }
+.cinema .cin-boot__k {
+  margin: 0;
+  font: 500 11px/1 var(--sans);
+  letter-spacing: .32em;
+  text-transform: uppercase;
+  color: var(--dim);
+  /* chữ hoa giãn: bù khoảng giãn cuối để nhãn căn giữa đúng */
+  padding-left: .32em;
+}
+.cinema .cin-boot__track {
+  width: min(240px, 52vw);
+  height: 1px;
+  background: rgba(217, 179, 108, .16);
+  overflow: hidden;
+}
+.cinema .cin-boot__track > i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(217, 179, 108, .45), var(--gold));
+  box-shadow: 0 0 6px rgba(217, 179, 108, .35);
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: transform .35s cubic-bezier(.22, .61, .36, 1);
+}
+/* Lúc mở màn: HUD chưa hiện, không thao tác được sân khấu. */
+.cinema[data-boot="on"] .cin-hud,
+.cinema[data-boot="on"] .cin-load { visibility: hidden; }

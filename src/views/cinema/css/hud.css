@@ -1,0 +1,76 @@
+/* cinema.css › hud — HUD: khung, hàng trên (chế độ xem), hàng dưới (chỗ của dòng thời gian), ẩn mũi tên + dòng thời gian khi xoa (r34).
+   (C: tách nguyên văn từ cinema.css — thứ tự @import trong cinema.css giữ nguyên cascade.) */
+/* ---------- HUD ---------- */
+.cinema .cin-hud {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  padding:
+    calc(var(--bar) + env(safe-area-inset-top, 0px) + clamp(14px, 2.4vh, 26px))
+    calc(var(--gut) + env(safe-area-inset-right, 0px))
+    calc(var(--bar) + env(safe-area-inset-bottom, 0px) + clamp(14px, 2.4vh, 26px))
+    calc(var(--gut) + env(safe-area-inset-left, 0px));
+  pointer-events: none;
+  transition: opacity .38s ease, visibility 0s;
+}
+.cinema[data-hud="off"] .cin-hud {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease, visibility 0s linear .5s;
+}
+.cinema .cin-hud a,
+.cinema .cin-hud button { pointer-events: auto; }
+
+/* ---------- Hàng trên ---------- */
+.cinema .cin-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 22px;
+}
+.cinema .cin-brand { display: flex; flex-direction: column; gap: 7px; }
+.cinema .cin-back,
+.cinema .cin-site {
+  font-size: clamp(10px, .95vw, 12px);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  line-height: 1;
+}
+.cinema .cin-back { color: var(--dim); transition: color .25s ease; }
+.cinema:not([data-input="hand"]) .cin-back:hover { color: var(--fg); }
+.cinema .cin-site { color: var(--faint); }
+
+.cinema .cin-tr { display: flex; align-items: flex-start; justify-content: flex-end; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+/* (r46: ba nút chế độ Trưng bày · Điện ảnh · Nghiên cứu đã thay bằng nút "Hướng dẫn" — css/guide.css) */
+
+/* ---------- Hàng dưới: dòng thời gian ở giữa (r26: bỏ cụm đếm + nút ‹ › ▶ bên phải — đổi bia bằng hai mũi tên / phím,
+   trình chiếu ở bảng cài đặt hoặc phím Space; lưới ba cột giữ dòng thời gian đúng giữa như cũ) ---------- */
+.cinema .cin-bottom {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: end;
+  gap: clamp(14px, 2vw, 36px);
+}
+.cinema .cin-prog { grid-column: 2; }
+
+/* r34 — chế độ xoa đầu rùa (và lúc camera còn bay về sau khi thoát): hai mũi tên + dòng thời gian (cả nhãn, thẻ của nó) mờ
+   hẳn và không nhận chuột / tay — host[data-rubhud] (hud.js setRubHidden): '1' = mờ ra 250 ms rồi ẩn · 'back' = mờ vào
+   400 ms. Nút × + chú thích của chế độ xoa ở lớp .cin-rub, không bị ảnh hưởng. ([data-handnav] luôn có trên .cin-nav —
+   chỉ để thắng quy tắc HUD tự ẩn cùng độ ưu tiên.) */
+.cinema[data-rubhud="1"] .cin-nav[data-handnav],
+.cinema[data-rubhud="1"] .cin-bottom {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .25s ease, visibility 0s linear .25s;
+}
+.cinema[data-rubhud="1"] .cin-nav *,
+.cinema[data-rubhud="1"] .cin-bottom * { pointer-events: none !important; }
+.cinema[data-rubhud="back"]:not([data-hud="off"]) .cin-nav[data-handnav],
+.cinema[data-rubhud="back"] .cin-bottom { transition: opacity .4s ease, visibility 0s; }
+

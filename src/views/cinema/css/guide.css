@@ -1,0 +1,40 @@
+/* cinema.css › guide — r46: nút "Hướng dẫn" ở hàng trên (thay ba nút chế độ). r62: bỏ vòng đếm "nắm tay giữ 3 s để mở
+   hướng dẫn" (guide.js đã xoá) — chỉ còn nút. */
+
+/* ---------- Nút "Hướng dẫn": viên nang kính cùng họ bánh răng (cao bằng, kính mờ, viền mảnh), quyển sách + nhãn ---------- */
+.cinema .cin-guide {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  height: 44px;
+  padding: 0 17px 0 12px;
+  border-radius: 999px;
+  color: var(--fg);
+  background: var(--glass);
+  border: 1px solid var(--hair);
+  -webkit-backdrop-filter: blur(12px) saturate(120%);
+  backdrop-filter: blur(12px) saturate(120%);
+  pointer-events: auto;
+  cursor: pointer;
+  font: inherit;
+  transition: background-color .25s ease, border-color .25s ease, color .25s ease;
+}
+.cinema:not([data-input="hand"]) .cin-guide:hover { background: var(--glass-hi); border-color: rgba(236, 236, 236, .28); }
+.cinema .cin-guide:focus-visible { outline: 1px solid rgba(217, 179, 108, .7); outline-offset: 3px; }
+.cinema .cin-guide__ico { position: relative; display: block; width: 22px; height: 22px; flex: none; }
+.cinema .cin-book { width: 100%; height: 100%; display: block; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; }
+.cinema .cin-guide__txt {
+  font-size: clamp(10px, .95vw, 12px);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  line-height: 1;
+  white-space: nowrap;
+}
+body.gesture-on .cinema .cin-guide { height: 56px; padding: 0 21px 0 15px; gap: 11px; }
+body.gesture-on .cinema .cin-guide__ico { width: 26px; height: 26px; }
+body.gesture-on .cinema .cin-guide__txt { font-size: 12px; }
+/* chỉ có cảm ứng (điện thoại, máy tính bảng): hướng dẫn là cử chỉ TAY — không có ở đó → ẩn nút */
+@media (hover: none) and (pointer: coarse) {
+  .cinema .cin-guide { display: none; }
+}

@@ -1,0 +1,459 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 81 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/81/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1779",
+ "year": 1779,
+ "canChi": "Kỷ Hợi",
+ "title": "Bia Tiến sĩ khoa Kỷ Hợi niên hiệu Cảnh Hưng thứ 40 (1779)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Lê Trung Hưng",
+ "era": "Cảnh Hưng",
+ "eraYear": 40,
+ "king": {
+  "name": "Lê Hiển Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 15,
+ "passedRaw": "15",
+ "erected": 1780,
+ "contributors": {
+  "author": "Phan Trọng Phiên",
+  "calligrapher": "Không ghi",
+  "editor": "Không ghi",
+  "engraver": "Không ghi"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 2
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 13
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Lê Huy Trâm",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Bối Khê huyện Thanh Oai phủ Ứng Thiên trấn Sơn Nam",
+   "honors": []
+  },
+  {
+   "name": "Phạm Nguyễn Du",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Đặng Điền huyện Chân Phúc phủ Đức Quang Nghệ An",
+   "honors": []
+  },
+  {
+   "name": "Phạm Quý Thích",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Phường Báo Thiên huyện Thọ Xương phủ Phụng Thiên (nguyên quán xã Hoa Đường huyện Đường An phủ Thượng Hồng)",
+   "honors": []
+  },
+  {
+   "name": "Hoàng Quốc Trân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Nam Chân huyện Nam Chân phủ Thiên Trường trấn Sơn Nam",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Huy Quân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Thanh Khê huyện Văn Giang phủ Thuận An trấn Kinh Bắc",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Hàn",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Phú Thị huyện Gia Lâm phủ Thuận An trấn Kinh Bắc",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Đình Thiều",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Phù Cảo huyện Đông Ngàn phủ Từ Sơn trấn Kinh Bắc",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Đình Thạc",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Đông Ngạc huyện Từ Liêm phủ Quốc Oai trấn Sơn Tây",
+   "honors": []
+  },
+  {
+   "name": "Lê Đăng Cử",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã La Khê huyện Từ Liêm phủ Quốc Oai trấn Sơn Tây",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Kiêm",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Tây Đam huyện Từ Liêm phủ Quốc Oai trấn Sơn Tây",
+   "honors": []
+  },
+  {
+   "name": "Vũ Di Lượng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Yên Thái huyện Quảng Đức phủ Phụng Thiên",
+   "honors": []
+  },
+  {
+   "name": "Trần Huy Liễn",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân [Khoa trưởng]",
+   "hometown": "Xã Phú Thị huyện Gia Lâm phủ Thuận An trấn Kinh Bắc",
+   "honors": [
+    "Khoa trưởng"
+   ]
+  },
+  {
+   "name": "Ngô Tiêm",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Cát Đằng huyện Vọng Doanh phủ Nghĩa Hưng trấn Sơn Nam",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Đường",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân [Thế khoa]",
+   "hometown": "Xã Trung Cần huyện Thanh Chương phủ Đức Quang trấn Nghệ An",
+   "honors": [
+    "Thế khoa"
+   ]
+  },
+  {
+   "name": "Phan Huy Ôn",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Thu Hoạch huyện Thiên Lộc phủ Đức Quang trấn Nghệ An",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa đông năm Kỷ Hợi, niên hiệu Cảnh Hưng thứ 40 (1779), triều đình đặc biệt mở khoa thi Hội tại lầu Ngũ Long, chọn được 15 người trúng cách.",
+   "Vương thượng Trịnh Sâm đích thân ra đề văn sách, ban Lê Huy Trâm và Phạm Nguyễn Du đỗ Đệ nhị giáp Tiến sĩ xuất thân, 13 người còn lại — trong đó có Phạm Quý Thích — đỗ Đệ tam giáp đồng Tiến sĩ xuất thân.",
+   "Phạm Nguyễn Du đỗ đầu các kỳ thi Tứ trọng và các bài thi do vua ra đề.",
+   "Bia dựng năm 1780; Phan Trọng Phiên gọi đây là việc “đặc cách lựa chọn nhân tài, xưa nay chưa từng có tiền lệ”."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Hội đặc biệt được tổ chức cho các Cống sĩ tại lầu Ngũ Long vào mùa đông năm Kỷ Hợi (1779).",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Mùa đông năm ấy, đặc biệt mở khoa thi Hội cho các Cống sĩ trong nước tại lầu Ngũ Long."
+   }
+  },
+  {
+   "text": "Vương thượng (Trịnh Sâm) đích thân ra đề thi văn sách tại phủ đường.",
+   "kind": "gloss",
+   "terms": [
+    {
+     "term": "Vương thượng",
+     "def": "Trịnh Sâm"
+    }
+   ],
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Vương thượng"
+   }
+  },
+  {
+   "text": "Khoa thi này được đánh giá là đặc cách lựa chọn nhân tài, xưa nay chưa từng có tiền lệ.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Thần là (Phan Trọng) Phiên cúi đầu cầm bút, ngước trông Hoàng thượng, Vương thượng cùng chung một đức, thịnh tâm rộng mở, đặc cách lựa chọn nhân tài, xưa nay chưa từng có tiền lệ."
+   }
+  },
+  {
+   "text": "Phạm Nguyễn Du là người đỗ đầu các kỳ thi Tứ trọng và các bài thi do vua ra bài.",
+   "kind": "note"
+  },
+  {
+   "text": "Ghi nhận các trường hợp gia đình có truyền thống hiếu học như Nguyễn Đường (chú cháu đồng triều) và Phan Huy Ôn (cha con anh em đồng triều).",
+   "kind": "note"
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Phan Trọng Phiên",
+   "dates": "1737-?",
+   "description": "Đỗ Tiến sĩ khoa Đinh Sửu (1757). Ông giữ nhiều chức vụ quan trọng như Nhập thị hành Tham tụng, Hộ bộ Tả Thị lang, Tri Quốc tử giám, tước Tứ Xuyên hầu. Ông là người vâng sắc soạn văn bia cho khoa thi này.",
+   "hometown": "Xã Thụy Khuê huyện Yên Lãng (nay thuộc Hà Nội)",
+   "roles": [
+    "Tri Cống cử",
+    "Duyệt quyển",
+    "Soạn văn bia"
+   ]
+  },
+  {
+   "name": "Lê Huy Trâm",
+   "dates": "1742-?",
+   "description": "Đỗ Tiến sĩ năm 38 tuổi. Thời Lê làm quan Hàn lâm viện Thị độc, thời Nguyễn làm Học sĩ và Đốc đồng xứ Kinh Bắc.",
+   "hometown": "Xã Bối Khê huyện Thanh Oai (nay thuộc xã Tam Hưng huyện Thanh Oai tỉnh Hà Tây)",
+   "roles": [
+    "Tiến sĩ xuất thân",
+    "Hàn lâm viện Thị độc",
+    "Học sĩ"
+   ]
+  },
+  {
+   "name": "Phạm Nguyễn Du",
+   "dates": "1740-1786",
+   "description": "Tên khác là Phạm Vĩ Khiêm, hiệu Thạch Động. Ông đỗ đầu nhiều kỳ thi, giữ chức Hàn lâm viện Hiệu thảo kiêm Quốc sử Toản tu. Thời Tây Sơn ông đi ở ẩn.",
+   "hometown": "Xã Đặng Điền huyện Chân Phúc (nay thuộc xã Nghi Thạch huyện Nghi Lộc tỉnh Nghệ An)",
+   "roles": [
+    "Tiến sĩ xuất thân",
+    "Hàn lâm viện Hiệu thảo",
+    "Quốc sử Toản tu"
+   ]
+  },
+  {
+   "name": "Phạm Quý Thích",
+   "dates": "1759-1825",
+   "description": "Hiệu Lập Trai, đỗ Tiến sĩ năm 20 tuổi. Ông làm quan qua hai triều Lê và Nguyễn, giữ chức Đông các Hiệu thư thời Lê và Thị trung học sĩ thời Nguyễn.",
+   "hometown": "Xã Hoa Đường huyện Đường An (nay thuộc xã Thúc Kháng huyện Bình Giang tỉnh Hải Dương)",
+   "roles": [
+    "Đồng Tiến sĩ xuất thân",
+    "Đông các Hiệu thư",
+    "Thị trung học sĩ"
+   ]
+  },
+  {
+   "name": "Phan Huy Ôn",
+   "dates": "1755-1786",
+   "description": "Hiệu Chỉ Am, là em trai của Phan Huy Ích. Ông giữ chức Thiêm sai Tri Công phiên, Đốc đồng Sơn Tây, tước Mỹ Xuyên bá.",
+   "hometown": "Xã Thu Hoạch huyện Thiên Lộc (nay thuộc xã Thạch Châu huyện Thạch Hà tỉnh Hà Tĩnh)",
+   "roles": [
+    "Đồng Tiến sĩ xuất thân",
+    "Thiêm sai Tri Công phiên",
+    "Đốc đồng Sơn Tây"
+   ]
+  }
+ ],
+ "content": {
+  "title": null,
+  "paragraphs": [
+   "Năm Kỷ Hợi, Hoàng đế ở ngôi chẵn 40 năm, long thể an khang vui mạnh, hằng chính đạo thường. Thực nhờ [Đại nguyên súy Thống quốc chính Thượng sư Tĩnh vương] sửa sang trị giáo, đào tạo nhân tài. Mùa đông năm ấy, đặc biệt mở khoa thi Hội cho các Cống sĩ trong nước tại lầu Ngũ Long. Sai Quốc cữu Phó Thủ hiệu Hậu uy cơ Phó cai quan Đề đốc Viêm Quận công Nguyễn Trọng Viêm làm Đề điệu, Nhập thị hành Tham tụng Hình bộ Tả Thị lang Thự Lại bộ Hữu Thị lang kiêm Quốc tử giám Tư nghiệp Tứ Xuyên hầu Phan Trọng Phiên làm Tri Cống cử, Thiêm sai Phủ liêu Tri Công phiên Hàn lâm viện Thị giảng Nguyễn Duy Hoành, Thiêm sai Phủ liêu Tri Hộ phiên Hàn lâm viện Hiệu lý Dương Trọng Khiêm làm Giám thí. Lấy trúng cách tứ trường là bọn Phạm Nguyễn Du 15 người. Mùa xuân năm Canh Tý vào Điện thí. Ngày hôm sau, Vương thượng ngự tới phủ đường đích thân ra đề thi văn sách. Sai nhập thị hành Tham tụng Binh bộ Tả Thị lang Thự Lại bộ Tả Thị lang kiêm Quốc tử giám Tế tửu Liên Khê hầu Vũ Miên giữ quyển, bề tôi là Phiên duyệt quyển. Ban cho bọn Lê Huy Trâm, Phạm Nguyễn Du đều đỗ Tiến sĩ xuất thân, đồng Tiến sĩ xuất thân có thứ bậc khác nhau. Lại sai Bộ Công khắc đá đề tên dựng tại nhà Thái học, sai từ thần soạn văn bia. Thần là (Phan Trọng) Phiên cúi đầu cầm bút, ngước trông Hoàng thượng, Vương thượng cùng chung một đức, thịnh tâm rộng mở, đặc cách lựa chọn nhân tài, xưa nay chưa từng có tiền lệ. Những người trúng tuyển khoa này cũng xứng đáng được khen là đắc nhân. Kính cẩn cúi đầu rập đầu ghi chép sự việc để nêu rõ thịnh sự thánh triều chọn lựa được nhiều nhân tài, lưu truyền đến vô cùng. Thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Bia dựng ngày tốt tháng giữa đông năm Canh Tý niên hiệu Cảnh Hưng thứ 41 (1780).",
+   "Đinh Sửu khoa đồng Tiến sĩ xuất thân Thiếu tuấn Đặc tiến Kim tử Vinh lộc đại phu Nhập thị Kinh diên Tri Quốc tử giám, Tri Đông các Tri Hàn lâm viện phụng quản Thị hậu nghiêm hậu đội Hộ bộ Tả Thị lang Tứ Xuyên hầu Phan Trọng Phiên vâng sắc soạn."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 2,
+    "names": [
+     {
+      "name": "LÊ HUY TRÂM",
+      "from": "xã Bối Khê huyện Thanh Oai phủ Ứng Thiên trấn Sơn Nam, Nho sinh trúng thức, đỗ năm 38 tuổi"
+     },
+     {
+      "name": "PHẠM NGUYỄN DU",
+      "from": "xã Đặng Điền huyện Chân Phúc phủ Đức Quang Nghệ An, Đầu xứ, Văn chức, đỗ kỳ thi Tứ trọng, các bài thi do vua ra bài đều đỗ đầu, được vào hầu giảng hàng ngày, từng được bổ chức Huyện Tự viên lang, Thiêm phó tiến triều, Cai đạo, Thiêm sai Tri Hình phiên, Hàn lâm viện Hiệu thảo, kiêm Quốc sử Toản tu, thi đỗ năm 40 tuổi. Trường hai, trường bốn và ứng chế đều đỗ đầu"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 13,
+    "names": [
+     {
+      "name": "PHẠM QUÝ THÍCH",
+      "from": "phường Báo Thiên huyện Thọ Xương phủ Phụng Thiên, nguyên quán xã Hoa Đường huyện Đường An phủ Thượng Hồng, Thiếu tuấn, đỗ thứ 2, Bộ Lễ, đỗ năm 20 tuổi"
+     },
+     {
+      "name": "HOÀNG QUỐC TRÂN",
+      "from": "xã Nam Chân huyện Nam Chân phủ Thiên Trường trấn Sơn Nam, Giám sinh, thi ở Bộ Lễ và thi Chế đều đỗ thứ 3, đỗ năm 29 tuổi"
+     },
+     {
+      "name": "NGUYỄN HUY QUÂN",
+      "from": "xã Thanh Khê huyện Văn Giang phủ Thuận An trấn Kinh Bắc, Giám sinh, đỗ năm 26 tuổi"
+     },
+     {
+      "name": "NGUYỄN HÀN",
+      "from": "xã Phú Thị huyện Gia Lâm phủ Thuận An trấn Kinh Bắc, Huấn đạo, đỗ năm 33 tuổi"
+     },
+     {
+      "name": "NGUYỄN ĐÌNH THIỀU",
+      "from": "xã Phù Cảo huyện Đông Ngàn phủ Từ Sơn trấn Kinh Bắc, Nho sinh trúng thức, đỗ năm 33 tuổi"
+     },
+     {
+      "name": "NGUYỄN ĐÌNH THẠC",
+      "from": "xã Đông Ngạc huyện Từ Liêm phủ Quốc Oai trấn Sơn Tây, Nho sinh trúng thức, Đầu xứ, đỗ năm 26 tuổi"
+     },
+     {
+      "name": "LÊ ĐĂNG CỬ",
+      "from": "xã La Khê huyện Từ Liêm phủ Quốc Oai trấn Sơn Tây, Giám sinh, đỗ năm 40 tuổi"
+     },
+     {
+      "name": "NGUYỄN KIÊM",
+      "from": "xã Tây Đam huyện Từ Liêm phủ Quốc Oai trấn Sơn Tây, Giám sinh, đỗ năm 29 tuổi, sau đổi tên Huy Đảng"
+     },
+     {
+      "name": "VŨ DI LƯỢNG",
+      "from": "xã Yên Thái huyện Quảng Đức phủ Phụng Thiên, Huấn đạo, đỗ năm 34 tuổi, thi Hội đỗ thứ 3"
+     },
+     {
+      "name": "TRẦN HUY LIỄN",
+      "from": "xã Phú Thị huyện Gia Lâm phủ Thuận An trấn Kinh Bắc, Huấn đạo, đỗ năm 45 tuổi, Khoa trưởng"
+     },
+     {
+      "name": "NGÔ TIÊM",
+      "from": "xã Cát Đằng huyện Vọng Doanh phủ Nghĩa Hưng trấn Sơn Nam, Sinh đồ, đỗ năm 31 tuổi"
+     },
+     {
+      "name": "NGUYỄN ĐƯỜNG",
+      "from": "xã Trung Cần huyện Thanh Chương phủ Đức Quang trấn Nghệ An, đỗ Tứ trọng, Huấn đạo, Ứng chế đỗ thứ 2, Thế khoa, chú cháu đồng triều, thi đỗ năm 34 tuổi"
+     },
+     {
+      "name": "PHAN HUY ÔN",
+      "from": "xã Thu Hoạch huyện Thiên Lộc phủ Đức Quang trấn Nghệ An, Nho sinh trúng thức, Đầu xứ, cha con anh em đồng triều, thi đỗ năm 26 tuổi"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Phan Trọng Phiên"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Phan Trọng Phiên",
+   "others": [
+    {
+     "id": "bia-1772",
+     "year": 1772
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1780,
+  "raw": "1780",
+  "gap": 1,
+  "batch": {
+   "count": 2,
+   "entries": [
+    {
+     "id": "bia-1778",
+     "year": 1778
+    },
+    {
+     "id": "bia-1779",
+     "year": 1779
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Phan Trọng Phiên",
+   "dates": "1737-?",
+   "description": "Đỗ Tiến sĩ khoa Đinh Sửu (1757). Ông giữ nhiều chức vụ quan trọng như Nhập thị hành Tham tụng, Hộ bộ Tả Thị lang, Tri Quốc tử giám, tước Tứ Xuyên hầu. Ông là người vâng sắc soạn văn bia cho khoa thi này.",
+   "isLaureate": false,
+   "links": [
+    {
+     "id": "bia-1757",
+     "year": 1757,
+     "$verify": "cần đối chiếu"
+    }
+   ]
+  },
+  {
+   "name": "Lê Huy Trâm",
+   "dates": "1742-?",
+   "description": "Đỗ Tiến sĩ năm 38 tuổi. Thời Lê làm quan Hàn lâm viện Thị độc, thời Nguyễn làm Học sĩ và Đốc đồng xứ Kinh Bắc.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phạm Nguyễn Du",
+   "dates": "1740-1786",
+   "description": "Tên khác là Phạm Vĩ Khiêm, hiệu Thạch Động. Ông đỗ đầu nhiều kỳ thi, giữ chức Hàn lâm viện Hiệu thảo kiêm Quốc sử Toản tu. Thời Tây Sơn ông đi ở ẩn.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phạm Quý Thích",
+   "dates": "1759-1825",
+   "description": "Hiệu Lập Trai, đỗ Tiến sĩ năm 20 tuổi. Ông làm quan qua hai triều Lê và Nguyễn, giữ chức Đông các Hiệu thư thời Lê và Thị trung học sĩ thời Nguyễn.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phan Huy Ôn",
+   "dates": "1755-1786",
+   "description": "Hiệu Chỉ Am, là em trai của Phan Huy Ích. Ông giữ chức Thiêm sai Tri Công phiên, Đốc đồng Sơn Tây, tước Mỹ Xuyên bá.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Phan Trọng Phiên",
+  "dates": "1737-?",
+  "description": "Đỗ Tiến sĩ khoa Đinh Sửu (1757). Ông giữ nhiều chức vụ quan trọng như Nhập thị hành Tham tụng, Hộ bộ Tả Thị lang, Tri Quốc tử giám, tước Tứ Xuyên hầu. Ông là người vâng sắc soạn văn bia cho khoa thi này.",
+  "hometown": "Xã Thụy Khuê huyện Yên Lãng (nay thuộc Hà Nội)",
+  "roles": [
+   "Tri Cống cử",
+   "Duyệt quyển",
+   "Soạn văn bia"
+  ],
+  "links": [
+   {
+    "id": "bia-1757",
+    "year": 1757,
+    "$verify": "cần đối chiếu"
+   }
+  ]
+ }
+}

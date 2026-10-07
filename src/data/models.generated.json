@@ -1,0 +1,122 @@
+{
+  "bia-1661": {
+    "file": "models/bia-1661.glb",
+    "bytes": 1403060,
+    "sourceBytes": 12053280,
+    "triangles": 106682,
+    "vertices": 81053,
+    "size": {
+      "x": 0.660580575466156,
+      "y": 1,
+      "z": 0.8896112442016602
+    }
+  },
+  "bia-1442": {
+    "file": "models/bia-1442.glb",
+    "bytes": 1486824,
+    "sourceBytes": 9301852,
+    "triangles": 71418,
+    "vertices": 37642,
+    "size": {
+      "x": 0.5935916900634766,
+      "y": 1,
+      "z": 0.9237849712371826
+    }
+  },
+  "bia-1487": {
+    "file": "models/bia-1487.glb",
+    "bytes": 2471440,
+    "sourceBytes": 29130124,
+    "triangles": 266966,
+    "vertices": 168337,
+    "size": {
+      "x": 0.6029302477836609,
+      "y": 1,
+      "z": 1.0445730686187744
+    }
+  },
+  "bia-1514": {
+    "file": "models/bia-1514.glb",
+    "bytes": 3070860,
+    "sourceBytes": 34643772,
+    "triangles": 323861,
+    "vertices": 206657,
+    "size": {
+      "x": 0.5479863882064819,
+      "y": 1,
+      "z": 0.9122705459594727
+    }
+  },
+  "bia-1554": {
+    "file": "models/bia-1554.glb",
+    "bytes": 2564360,
+    "sourceBytes": 27287956,
+    "triangles": 244298,
+    "vertices": 171682,
+    "size": {
+      "x": 0.635241687297821,
+      "y": 1,
+      "z": 0.9331654906272888
+    }
+  },
+  "bia-1604": {
+    "file": "models/bia-1604.glb",
+    "bytes": 2172728,
+    "sourceBytes": 22557632,
+    "triangles": 208207,
+    "vertices": 134400,
+    "size": {
+      "x": 0.6614257097244263,
+      "y": 1,
+      "z": 0.890931248664856
+    }
+  },
+  "bia-1680": {
+    "file": "models/bia-1680.glb",
+    "bytes": 2807284,
+    "sourceBytes": 30596608,
+    "triangles": 281250,
+    "vertices": 182500,
+    "size": {
+      "x": 0.5976206660270691,
+      "y": 1,
+      "z": 0.8930759429931641
+    }
+  },
+  "bia-1779": {
+    "file": "models/bia-1779.glb",
+    "bytes": 3435376,
+    "sourceBytes": 37594536,
+    "triangles": 338004,
+    "vertices": 235584,
+    "size": {
+      "x": 0.5617443919181824,
+      "y": 1,
+      "z": 0.874577522277832
+    }
+  },
+  "bia-1727": {
+    "file": "models/bia-1727.glb",
+    "bytes": 3257688,
+    "sourceBytes": 71425740,
+    "triangles": 347846,
+    "vertices": 226052,
+    "size": {
+      "x": 0.6397528052330017,
+      "y": 1,
+      "z": 0.8946294784545898
+    }
+  },
+  "bia-1463": {
+    "file": "models/bia-1463.glb",
+    "bytes": 3615848,
+    "sourceBytes": 96504652,
+    "triangles": 345220,
+    "vertices": 263744,
+    "size": {
+      "x": 0.6131126284599304,
+      "y": 1,
+      "z": 0.9260280132293701
+    }
+  }
+}

@@ -1,0 +1,427 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 77 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/77/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1769",
+ "year": 1769,
+ "canChi": "Kỷ Sửu",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA KỶ SỬU NIÊN HIỆU CẢNH HƯNG NĂM THỨ 30 (1769)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Nhà Lê (Hoàng Lê)",
+ "dynastyVerify": "cần đối chiếu — nguồn ghi \"Nhà Lê (Hoàng Lê)\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1769 theo mốc 1533–1789 của src/data/dynasties.js",
+ "era": "Cảnh Hưng",
+ "eraYear": 30,
+ "king": {
+  "name": "Lê Hiển Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 9,
+ "passedRaw": "9",
+ "erected": 1769,
+ "contributors": {
+  "author": "Lê Quý Đôn",
+  "editor": "Nguyễn Nghiễm",
+  "engraver": ""
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 1
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 8
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Bùi Huy Bích",
+   "tier": 2,
+   "title": "Đình nguyên",
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân (Đình nguyên)",
+   "hometown": "xã Định Công, huyện Thanh Trì (nay thuộc phường Định Công, quận Hoàng Mai, Hà Nội); trú quán xã Thịnh Liệt",
+   "honors": []
+  },
+  {
+   "name": "Phạm Công Chí",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Khương Đình, huyện Thanh Trì (nay thuộc phường Khương Đình, quận Thanh Xuân, Hà Nội)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Đình Giản",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Vĩnh Trị, huyện Hoằng Hóa (nay thuộc xã Hoằng Quang, huyện Hoằng Hóa, tỉnh Thanh Hóa)",
+   "honors": []
+  },
+  {
+   "name": "Lý Trần Thản",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Lê Xá, huyện Duy Tiên (nay thuộc xã Châu Sơn, huyện Duy Tiên, tỉnh Hà Nam)",
+   "honors": []
+  },
+  {
+   "name": "Lý Trần Dự",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Vân Canh, huyện Từ Liêm (nay thuộc xã Vân Canh, huyện Hoài Đức, Hà Nội)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Huy Trạc",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Đan Nhiễm, huyện Văn Giang (nay thuộc huyện Văn Giang, tỉnh Hưng Yên)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Đình Tố",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Bình Dân, huyện Đông Yên (nay thuộc xã Tân Dân, huyện Khoái Châu, tỉnh Hưng Yên)",
+   "honors": []
+  },
+  {
+   "name": "Ngô Duy Viên",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân [Hội nguyên]",
+   "hometown": "xã La Khê, huyện Từ Liêm (nay thuộc phường La Khê, quận Hà Đông, Hà Nội)",
+   "honors": [
+    "Hội nguyên"
+   ]
+  },
+  {
+   "name": "Nguyễn Trọng Đương",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Trung Cần, huyện Thanh Chương (nay thuộc xã Nam Thanh, huyện Nam Đàn, tỉnh Nghệ An)",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Năm Kỷ Sửu, niên hiệu Cảnh Hưng thứ 30 (1769), Đại nguyên súy Tĩnh vương Trịnh Sâm hạ lệnh mở khoa thi Hội theo lệ xưa, qua bốn trường chọn được 9 người trúng cách.",
+   "Vào Điện thí, triều đình ban Bùi Huy Bích đỗ đầu (Đình nguyên) hạng Đệ nhị giáp Tiến sĩ xuất thân, Phạm Công Chí đứng đầu 8 người đỗ Đệ tam giáp đồng Tiến sĩ xuất thân, trong đó Ngô Duy Viên đỗ đầu kỳ thi Hội (Hội nguyên).",
+   "Bia được dựng tháng 10 cùng năm, do Lê Quý Đôn soạn bài ký, Nguyễn Nghiễm nhuận sắc."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi được tổ chức vào năm Kỷ Sửu, niên hiệu Cảnh Hưng thứ 30 (1769) đời vua Lê Hiển Tông.",
+   "kind": "gloss",
+   "terms": [
+    {
+     "term": "niên hiệu Cảnh Hưng thứ 30",
+     "def": "1769"
+    }
+   ],
+   "anchor": {
+    "section": "colo",
+    "para": 0,
+    "match": "niên hiệu Cảnh Hưng thứ 30"
+   }
+  },
+  {
+   "text": "Đại nguyên súy Tĩnh vương Trịnh Sâm là người hạ lệnh mở khoa thi Hội theo lệ xưa.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư Tĩnh vương mọi lúc mọi nơi nêu cao thánh đức, theo lệ xưa mở khoa thi Hội."
+   }
+  },
+  {
+   "text": "Hội đồng tổ chức thi gồm: Nghiêm Quận công Trịnh Miên (Đề điệu), Bái Xuyên hầu Trần Huy Bật (Tri Cống cử), Trần Tiến (Giám thí).",
+   "kind": "gloss",
+   "label": "Hội đồng tổ chức thi gồm",
+   "labelKind": "inline",
+   "terms": [
+    {
+     "term": "Nghiêm Quận công Trịnh Miên",
+     "def": "Đề điệu"
+    },
+    {
+     "term": "Bái Xuyên hầu Trần Huy Bật",
+     "def": "Tri Cống cử"
+    },
+    {
+     "term": "Trần Tiến",
+     "def": "Giám thí"
+    }
+   ],
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Nghiêm Quận công Trịnh Miên"
+   }
+  },
+  {
+   "text": "Kỳ thi Hội lấy đỗ 9 người trúng cách, sau đó vào thi Điện để phân định thứ bậc cao thấp.",
+   "kind": "note"
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Bùi Huy Bích",
+   "dates": "1744-1802",
+   "description": "Đỗ Đình nguyên khoa thi này. Ông giữ các chức quan Đốc đồng Nghệ An, Hành tham tụng, Tả Thị lang Bộ Hộ, sau thăng đến Đồng bình chương sự kiêm Tham tụng, tước Kế Liệt hầu. Ông còn là một nhà văn, nhà thơ lớn.",
+   "hometown": "xã Định Công, huyện Thanh Trì, Hà Nội",
+   "roles": [
+    "Đốc đồng Nghệ An",
+    "Hành tham tụng",
+    "Tả Thị lang Bộ Hộ",
+    "Đồng bình chương sự",
+    "Tham tụng"
+   ]
+  },
+  {
+   "name": "Lê Quý Đôn",
+   "dates": "1726-1784",
+   "description": "Nhà bác học, sử gia, tri thức lớn thời Lê trung hưng. Ông đỗ Bảng nhãn khoa Nhâm Thân (1752). Trong khoa thi 1769, ông giữ chức Hàn lâm viện Thừa chỉ Quốc tử giám Tư nghiệp và là người soạn văn bia.",
+   "hometown": "xã Diên Hà, huyện Diên Hà (nay thuộc Thái Bình)",
+   "roles": [
+    "Hàn lâm viện Thừa chỉ",
+    "Quốc tử giám Tư nghiệp",
+    "Dĩnh Thành bá",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Nguyễn Nghiễm",
+   "dates": "1708-1775",
+   "description": "Đại thần triều Lê, cha của đại thi hào Nguyễn Du. Ông đỗ Tiến sĩ khoa Tân Hợi (1731). Trong khoa thi này, ông giữ chức Công bộ Thượng thư Tri Quốc tử giám và là người nhuận sắc văn bia.",
+   "hometown": "xã Tiên Điền, huyện Nghi Xuân (nay thuộc Hà Tĩnh)",
+   "roles": [
+    "Công bộ Thượng thư",
+    "Tri Quốc tử giám",
+    "Thái tử Thái phó",
+    "Xuân Quận công",
+    "Người nhuận sắc văn bia"
+   ]
+  },
+  {
+   "name": "Nguyễn Trọng Đương",
+   "dates": "1724-1786",
+   "description": "Giữ các chức Hàn lâm Hiệu lý, Đốc trấn Lạng Sơn, từng đi sứ nhà Thanh. Ông tử trận khi quân Tây Sơn vây đánh thành Phú Xuân năm 1786.",
+   "hometown": "xã Trung Cần, huyện Thanh Chương, Nghệ An",
+   "roles": [
+    "Hàn lâm Hiệu lý",
+    "Đốc trấn Lạng Sơn",
+    "Sứ giả sang nhà Thanh"
+   ]
+  },
+  {
+   "name": "Nguyễn Huy Trạc",
+   "dates": "1733-1788",
+   "description": "Giữ chức Tham tri chính sự. Khi nhà Tây Sơn ra Bắc, ông trung thành với nhà Lê, không chịu khuất phục và đã uống thuốc độc tự tử.",
+   "hometown": "xã Đan Nhiễm, huyện Văn Giang, Hưng Yên",
+   "roles": [
+    "Tham tri chính sự"
+   ]
+  },
+  {
+   "name": "Ngô Duy Viên",
+   "dates": "1744-?",
+   "description": "Đỗ Hội nguyên khoa thi này. Ông giữ các chức Đô Cấp sự trung, Nhập bồi tụng, Hữu Thị lang Bộ Lễ, tước Cảo Phong bá.",
+   "hometown": "xã La Khê, huyện Từ Liêm, Hà Nội",
+   "roles": [
+    "Đô Cấp sự trung",
+    "Nhập bồi tụng",
+    "Hữu Thị lang Bộ Lễ"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA KỶ SỬU NIÊN HIỆU CẢNH HƯNG NĂM THỨ 30 (1769)",
+  "paragraphs": [
+   "Năm Kỷ Sửu niên hiệu Cảnh Hưng, Hoàng thượng lên ngôi năm thứ 30, đức lớn vĩnh hằng đã định, thánh đạo sáng ngời. Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư Tĩnh vương mọi lúc mọi nơi nêu cao thánh đức, theo lệ xưa mở khoa thi Hội. Sai Phó Đô tướng Tả hoà quân doanh Thự phủ sự Đô đốc phủ Đô đốc đồng tri Nghiêm Quận công Trịnh Miên làm Đề điệu, Nhập thị Kinh diên Bồi tụng Binh bộ Thượng thư Bái Xuyên hầu Trần Huy Bật làm Tri Cống cử, Thự Ngự sử đài Phó Đô Ngự sử Hàn lâm viện Thị độc Trần Tiến làm Giám thí. Qua trường bốn lấy trúng cách bọn Ngô Duy Viên 9 người. Qua tháng sau Điện thí, lấy bọn Bùi Huy Bích đỗ xuất thân có thứ bậc khác nhau. Lại sai khắc đá đề danh để lưu truyền mãi mãi."
+  ],
+  "colophon": [
+   "Bia dựng tháng 10 tiết giữa đông niên hiệu Cảnh Hưng thứ 30 (1769) Hoàng Lê. Tiến sĩ cập đệ khoa Nhâm Thân, Hàn lâm viện Thừa chỉ Quốc tử giám Tư nghiệp Dĩnh Thành bá Lê Quý Đôn vâng sắc soạn. Tiến sĩ khoa Tân Hợi, Nhập thị Bồi tụng Công bộ Thượng thư Tri Quốc tử giám Trung thư giám Thái tử Thái phó Xuân Quận công Nguyễn Nghiễm vâng sắc nhuận."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 1,
+    "names": [
+     {
+      "name": "BÙI HUY BÍCH",
+      "from": "xã Định Công huyện Thanh Trì, trú quán xã Thịnh Liệt, Nho sinh trúng thức"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 8,
+    "names": [
+     {
+      "name": "PHẠM CÔNG CHÍ",
+      "from": "xã Khương Đình huyện Thanh Trì. Thị nội văn chức"
+     },
+     {
+      "name": "NGUYỄN ĐÌNH GIẢN",
+      "from": "xã Vĩnh Trị huyện Hoằng Hóa, Giám sinh"
+     },
+     {
+      "name": "LÝ TRẦN THẢN",
+      "from": "xã Lê Xá, huyện Duy Tiên, Nhật giảng, Thiêm tri Hộ phiên Chiếu khám"
+     },
+     {
+      "name": "LÝ TRẦN DỰ",
+      "from": "xã Vân Canh huyện Từ Liêm, Nho sinh trúng thức, nguyên họ Đặng"
+     },
+     {
+      "name": "NGUYỄN HUY TRẠC",
+      "from": "xã Đan Nhiễm huyện Văn Giang, Giám sinh"
+     },
+     {
+      "name": "NGUYỄN ĐÌNH TỐ",
+      "from": "xã Bình Dân huyện Đông Yên, Huấn đạo"
+     },
+     {
+      "name": "NGÔ DUY VIÊN",
+      "from": "xã La Khê huyện Từ Liêm, Giám sinh"
+     },
+     {
+      "name": "NGUYỄN TRỌNG ĐƯƠNG",
+      "from": "xã Trung Cần huyện Thanh Chương, Thiêm tri Hình phiên, Tri phủ"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Lê Quý Đôn"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Nghiễm"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Lê Quý Đôn",
+   "others": [
+    {
+     "id": "bia-1754",
+     "year": 1754
+    },
+    {
+     "id": "bia-1763",
+     "year": 1763
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1769,
+  "raw": "1769",
+  "gap": 0,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1769",
+     "year": 1769
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Bùi Huy Bích",
+   "dates": "1744-1802",
+   "description": "Đỗ Đình nguyên khoa thi này. Ông giữ các chức quan Đốc đồng Nghệ An, Hành tham tụng, Tả Thị lang Bộ Hộ, sau thăng đến Đồng bình chương sự kiêm Tham tụng, tước Kế Liệt hầu. Ông còn là một nhà văn, nhà thơ lớn.",
+   "isLaureate": true
+  },
+  {
+   "name": "Lê Quý Đôn",
+   "dates": "1726-1784",
+   "description": "Nhà bác học, sử gia, tri thức lớn thời Lê trung hưng. Ông đỗ Bảng nhãn khoa Nhâm Thân (1752). Trong khoa thi 1769, ông giữ chức Hàn lâm viện Thừa chỉ Quốc tử giám Tư nghiệp và là người soạn văn bia.",
+   "isLaureate": false,
+   "links": [
+    {
+     "id": "bia-1752",
+     "year": 1752,
+     "$verify": "cần đối chiếu"
+    }
+   ]
+  },
+  {
+   "name": "Nguyễn Nghiễm",
+   "dates": "1708-1775",
+   "description": "Đại thần triều Lê, cha của đại thi hào Nguyễn Du. Ông đỗ Tiến sĩ khoa Tân Hợi (1731). Trong khoa thi này, ông giữ chức Công bộ Thượng thư Tri Quốc tử giám và là người nhuận sắc văn bia.",
+   "isLaureate": false,
+   "links": [
+    {
+     "id": "bia-1731",
+     "year": 1731,
+     "$verify": "cần đối chiếu"
+    }
+   ]
+  },
+  {
+   "name": "Nguyễn Trọng Đương",
+   "dates": "1724-1786",
+   "description": "Giữ các chức Hàn lâm Hiệu lý, Đốc trấn Lạng Sơn, từng đi sứ nhà Thanh. Ông tử trận khi quân Tây Sơn vây đánh thành Phú Xuân năm 1786.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Huy Trạc",
+   "dates": "1733-1788",
+   "description": "Giữ chức Tham tri chính sự. Khi nhà Tây Sơn ra Bắc, ông trung thành với nhà Lê, không chịu khuất phục và đã uống thuốc độc tự tử.",
+   "isLaureate": true
+  },
+  {
+   "name": "Ngô Duy Viên",
+   "dates": "1744-?",
+   "description": "Đỗ Hội nguyên khoa thi này. Ông giữ các chức Đô Cấp sự trung, Nhập bồi tụng, Hữu Thị lang Bộ Lễ, tước Cảo Phong bá.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Lê Quý Đôn",
+  "dates": "1726-1784",
+  "description": "Nhà bác học, sử gia, tri thức lớn thời Lê trung hưng. Ông đỗ Bảng nhãn khoa Nhâm Thân (1752). Trong khoa thi 1769, ông giữ chức Hàn lâm viện Thừa chỉ Quốc tử giám Tư nghiệp và là người soạn văn bia.",
+  "hometown": "xã Diên Hà, huyện Diên Hà (nay thuộc Thái Bình)",
+  "roles": [
+   "Hàn lâm viện Thừa chỉ",
+   "Quốc tử giám Tư nghiệp",
+   "Dĩnh Thành bá",
+   "Người soạn văn bia"
+  ],
+  "links": [
+   {
+    "id": "bia-1752",
+    "year": 1752,
+    "$verify": "cần đối chiếu"
+   }
+  ]
+ }
+}

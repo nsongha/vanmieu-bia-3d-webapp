@@ -1,0 +1,448 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 67 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/67/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1739",
+ "year": 1739,
+ "canChi": "Kỷ Mùi",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA KỶ MÙI NIÊN HIỆU VĨNH HỰU NĂM THỨ 5 (1739)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Nhà Lê (Lê Trung hưng)",
+ "era": "Vĩnh Hựu",
+ "eraYear": 5,
+ "king": {
+  "name": "Lê Ý Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Vĩnh Hựu trong tiêu đề"
+ },
+ "candidates": 3000,
+ "candidatesRaw": "3.000 người",
+ "passed": 8,
+ "passedRaw": "8",
+ "erected": 1744,
+ "contributors": {
+  "author": "Bạch Phấn Ưng",
+  "calligrapher": "Phạm Đăng Trù",
+  "editor": "Nguyễn Công Thái",
+  "engraver": "Lê Nguyễn Diệu"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 1
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 7
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Vũ Diệm",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "xã Thổ Vượng huyện Thiên Lộc",
+   "honors": []
+  },
+  {
+   "name": "Vũ Trần Thiệu",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "phường Thái Cực huyện Thọ Xương (nguyên quán xã Đan Luân huyện Đường An)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Lâm Thái",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Thổ Hào huyện Thanh Chương",
+   "honors": []
+  },
+  {
+   "name": "Trương Đình Tuyên",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "phường Công Bộ huyện Quảng Đức",
+   "honors": []
+  },
+  {
+   "name": "Bùi Trọng Huyến",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Tiên Mộc huyện Nông Cống",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Huy Thục",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Kim Bài huyện Thanh Oai",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Luân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "phường Báo Thiên huyện Thọ Xương (nguyên quán xã Hoa Đường huyện Đường An)",
+   "honors": []
+  },
+  {
+   "name": "Phạm Đình Trọng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Khinh Dao huyện Giáp Sơn",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa xuân tháng 3 năm Kỷ Mùi, niên hiệu Vĩnh Hựu thứ 5 (1739), triều đình mở khoa thi Hội: 3.000 sĩ tử dự thi, chọn được 8 người.",
+   "Vào Điện thí, triều đình ban Vũ Diệm đỗ Đệ nhị giáp Tiến sĩ xuất thân, Vũ Trần Thiệu đứng đầu 7 người đỗ Đệ tam giáp đồng Tiến sĩ xuất thân.",
+   "Việc khắc bia bị hoãn vì nhiều việc, đến năm 1744 mới dựng, giao Bạch Phấn Ưng soạn bài ký.",
+   "Bài ký viết: “Sĩ phu dùng nó làm bậc thang để bước lên đường huân nghiệp, nước nhà dùng nó làm công cụ tô điểm cho cuộc thái bình”."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi được tổ chức vào mùa xuân tháng 3 năm Kỷ Mùi (1739) dưới thời vua Lê Ý Tông và chúa Trịnh Giang.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Mùa xuân tháng 3 năm Kỷ Mùi thi Hội cho các cống sĩ trong nước."
+   }
+  },
+  {
+   "text": "Số lượng thí sinh dự thi rất đông, lên đến 3.000 người, nhưng chỉ chọn được 8 người trúng tuyển.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Lúc bấy giờ, số người dự thi có đến 3.000 người."
+   }
+  },
+  {
+   "text": "Triều đình ban ơn điển dồi dào: cho vào chầu, ban áo xanh đai thơm, ban yến Quỳnh hoa bạc để tỏ lòng ưu đãi hiền tài.",
+   "kind": "note",
+   "label": "Triều đình ban ơn điển dồi dào",
+   "labelKind": "title",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Sau khi loa truyền liền cho vào chầu, thay bỏ áo thường dân, ban cho áo xanh đai thơm để được vinh hoa, cho yến Quỳnh hoa bạc để tỏ ưu đãi, ơn điển dồi dào, lễ nghi long trọng."
+   }
+  },
+  {
+   "text": "Văn bia nhấn mạnh tầm quan trọng của khoa Tiến sĩ: là bậc thang để sĩ phu bước lên đường huân nghiệp và là công cụ để nước nhà tô điểm cuộc thái bình.",
+   "kind": "note",
+   "label": "Văn bia nhấn mạnh tầm quan trọng của khoa Tiến sĩ",
+   "labelKind": "title",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Sĩ phu dùng nó làm bậc thang để bước lên đường huân nghiệp, nước nhà dùng nó làm công cụ tô điểm cho cuộc thái bình."
+   }
+  },
+  {
+   "text": "Việc dựng bia tại nhà Thái học nhằm lưu danh thơm muôn đời và làm gương sáng cho mai sau, có quan hệ lớn đến danh giáo.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Thế thì tấm bia này vốn là để lưu tiếng thơm tới muôn đời mà đặc biệt còn là để làm gương sáng cho mai sau, có quan hệ rất lớn đến danh giáo, há phải chỉ phô trương cho hào nhoáng mà thôi đâu!"
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Vũ Diệm",
+   "dates": "1705-?",
+   "description": "Người xã Thổ Vượng, huyện Thiên Lộc. Ông làm quan đến chức Hàn lâm Thị thư, sau khi mất được tặng chức Tự khanh, tước bá.",
+   "hometown": "xã Thổ Vượng huyện Thiên Lộc (nay thuộc xã Vương Lộc huyện Can Lộc tỉnh Hà Tĩnh)",
+   "roles": [
+    "Đệ nhị giáp Tiến sĩ xuất thân",
+    "Tri phủ",
+    "Hàn lâm Thị thư",
+    "Tự khanh"
+   ]
+  },
+  {
+   "name": "Vũ Trần Thiệu",
+   "dates": "1716-?",
+   "description": "Nguyên tên là Vũ Trần Tự. Ông làm quan đến chức Tả Thị lang Bộ Hộ, tước bá, từng hai lần đi sứ sang nhà Thanh. Sau khi mất được tặng chức Thượng thư.",
+   "hometown": "phường Thái Cực huyện Thọ Xương (nay thuộc phường Hàng Đào quận Hoàn Kiếm Hà Nội)",
+   "roles": [
+    "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "Tả Thị lang Bộ Hộ",
+    "Sứ giả",
+    "Thượng thư"
+   ]
+  },
+  {
+   "name": "Phạm Đình Trọng",
+   "dates": "1714-1754",
+   "description": "Một danh tướng và đại thần thời Lê Trung hưng. Ông giữ nhiều chức vụ quan trọng như Phó Đô Ngự sử, Bồi tụng, Thượng thư Bộ Binh, tước Hải Quận công. Ông có công lớn trong việc đánh dẹp cuộc khởi nghĩa Nguyễn Hữu Cầu. Sau khi mất được tặng tước Đại vương, phong phúc thần.",
+   "hometown": "xã Khinh Dao huyện Giáp Sơn (nay thuộc xã An Dương huyện An Hải Tp. Hải Phòng)",
+   "roles": [
+    "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "Thượng thư Bộ Binh",
+    "Hải Quận công",
+    "Trấn thủ Nghệ An"
+   ]
+  },
+  {
+   "name": "Bạch Phấn Ưng",
+   "dates": "Không rõ",
+   "description": "Giữ chức Trung hiến đại phu Hàn lâm viện Thừa chỉ, là người vâng sắc soạn bài ký cho văn bia này.",
+   "hometown": "Không rõ",
+   "roles": [
+    "Hàn lâm viện Thừa chỉ",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Nguyễn Công Thái",
+   "dates": "Không rõ",
+   "description": "Đại thần giữ chức Tham tụng, Thượng thư Bộ Lễ kiêm Đông các Hiệu thư, tước Kiều Quận công. Ông là người nhuận sắc cho văn bia.",
+   "hometown": "Không rõ",
+   "roles": [
+    "Tham tụng",
+    "Thượng thư Bộ Lễ",
+    "Kiều Quận công",
+    "Người nhuận sắc văn bia"
+   ]
+  },
+  {
+   "name": "Bùi Trọng Huyến",
+   "dates": "1713-?",
+   "description": "Làm quan đến chức Thừa chỉ, Đông các Đại học sĩ, Tri Hình phiên, tước Huyễn Lĩnh bá.",
+   "hometown": "xã Tiên Mộc huyện Nông Cống (nay thuộc huyện Nông Cống tỉnh Thanh Hóa)",
+   "roles": [
+    "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "Đông các Đại học sĩ",
+    "Tri Hình phiên"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA KỶ MÙI NIÊN HIỆU VĨNH HỰU NĂM THỨ 5 (1739)",
+  "paragraphs": [
+   "Tiến sĩ đăng khoa được ban thứ bậc, khắc đá đề danh là để làm rạng rỡ điều tai nghe mắt thấy, lưu truyền tới đời sau, đó là thịnh điển tôn Nho của bản triều. Kính nghĩ: Thái thượng hoàng đế bệ hạ coi trọng phép cũ, làm mẫu mực cho thánh đạo. Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư Uy vương cùng chung một đức, chấn hưng trăm việc, sửa trường học trên sông Phán Thủy để tác thành nhân tài, mở cửa thành nước Ngu để đón tuấn sĩ. Mùa xuân tháng 3 năm Kỷ Mùi thi Hội cho các cống sĩ trong nước. Đặc sai Đô hiệu điểm ty Hữu Hiệu điểm Phó tướng Phúc Quận công Trịnh Trang làm Đề điệu, Công bộ Thượng thư Thụ Hương bá Trịnh Bá Tướng làm Tri Cống cử, Công bộ Tả Thị lang Gia Lạc bá Dương Lệ, Lại bộ Hữu Thị lang Nguyễn Vĩ làm Giám thí, cùng bách ty trong ngoài chia giữ các việc. Lúc bấy giờ, số người dự thi có đến 3.000 người. Viện quan tâu chọn được hạng xuất sắc là bọn Nguyễn Lâm Thái 8 người. Ngày tháng 5 vào Điện thí. Quan Độc quyển dâng quyển để Hoàng thượng ngự lãm. Ban cho Vũ Diệm đỗ Đệ nhị giáp Tiến sĩ xuất thân, bọn Vũ Trần Thiệu 7 người đỗ Đệ tam giáp đồng Tiến sĩ xuất thân. Sau khi loa truyền liền cho vào chầu, thay bỏ áo thường dân, ban cho áo xanh đai thơm để được vinh hoa, cho yến Quỳnh hoa bạc để tỏ ưu đãi, ơn điển dồi dào, lễ nghi long trọng. Sau lại sai khắc bia để ghi sự việc, nhưng gặp lúc nhiều việc nên chưa kịp vâng mệnh biểu dương. Làm theo đúng quy chế cũ có lẽ còn đợi đến ngày nay vậy. Đến nay, Hoàng thượng bệ hạ kế thừa ý chí tiên vương, mở rộng mưu lược lớn. Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư Uy vương giúp nên công đức của thánh hoàng, đổi mới chính sự từ buổi đầu, bên ngoài võ công đã định, bên trong văn giáo mở mang. Bèn chiếu theo điển cũ cho khắc đá dựng bia, sai thần làm bài ký. Thần trộm nghĩ triều đình chọn người, chỉ có khoa Tiến sĩ là được nhiều nhất. Sĩ phu dùng nó làm bậc thang để bước lên đường huân nghiệp, nước nhà dùng nó làm công cụ tô điểm cho cuộc thái bình. Trong đó có những bậc tài hoa nổi tiếng, người hiền tuấn xếp hàng, đem đức vọng tài trí gánh vác công việc, lấy chính trực trung hậu mà đứng trong triều. Có người dự bàn mưu mô ở chốn miếu đường nhằm khuyếch trương văn trị, người thì sau lúc binh đao đến tận chiến trường khám định võ công, mưu xa bàn rộng, rạng rỡ sử sách, công tích lớn lao chiếu sáng vũ trụ, chọn người được nhiều nhất nhờ ở khoa Tiến sĩ. Cho nên từ thời Hồng Đức đã đặc biệt coi trọng khoa thi Tiến sĩ, cho rằng nếu chỉ nêu tên bảng vàng, đem treo ở cửa nhà Thái học, tuy có thể thỏa mãn nghe nhìn nhưng không đủ để lưu truyền mãi mãi; ghi vào sổ sách cất giữ ở triều đường dẫu tiện tra cứu mà vẫn chưa đủ để nêu rõ thanh danh. Vì thế (Thánh Tông Thuần hoàng đế) mới sai khắc đá dựng bia ở nhà Thái học, khiến cho khoa danh tên tuổi lưu tiếng thơm tới ngàn đời. Lối phô trương khích lệ như thế, từ xưa chưa có, thánh đế đời trước sáng tạo ra mới mẻ mà thánh hoàng thời nay nối gót làm theo, thực là thịnh tâm chuộng hiền đãi sĩ, quy chế tốt đẹp trọng đạo sùng Nho vậy. Thế thì những người đỗ khoa này há chỉ biết may mắn được ghi tên trên bia này thôi ư? Ắt là phải trau dồi tiết hạnh, lập nên công tích, tên họ được thêu lên cờ lệnh, khắc vào chuông đỉnh, khiến cho công danh sự nghiệp cùng tấm bia này lưu truyền mãi mãi, thế mới đền đáp được tấm lòng chuộng văn của thánh thượng muốn nêu cao việc chọn lựa được nhiều người tài bằng phép thi đại khoa, ngõ hầu không thẹn với khoa danh vậy. Thảng hoặc ai đó ngọc xước khó mài, vết nhơ khôn giấu thì đã có công luận, há chẳng đáng sợ lắm sao? Thế thì tấm bia này vốn là để lưu tiếng thơm tới muôn đời mà đặc biệt còn là để làm gương sáng cho mai sau, có quan hệ rất lớn đến danh giáo, há phải chỉ phô trương cho hào nhoáng mà thôi đâu! Thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Trung hiến đại phu Hàn lâm viện Thừa chỉ Bạch Phấn Ưng vâng sắc soạn. Đặc tiến Kim tử Vinh lộc đại phu Suy trung Dực vận công thần Tham tụng, Thượng thư Bộ Lễ kiêm Đông các Hiệu thư Kiều Quận công Nguyễn Công Thái vâng sắc nhuận. Bia dựng ngày mồng 4 tháng 10 niên hiệu Cảnh Hưng thứ 5 (1744) Hoàng Việt.",
+   "Mậu lâm tá lang Trung thư giám Điển thư Câu kê Lại phiên Phạm Đăng Trù vâng sắc viết chữ (chân). Sinh đồ xã An Hoạch huyện Đông Sơn là Lê Nguyễn Diệu vâng khắc chữ."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": null,
+    "names": [
+     {
+      "name": "VŨ DIỆM",
+      "from": "xã Thổ Vượng huyện Thiên Lộc, Tri phủ"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 7,
+    "names": [
+     {
+      "name": "VŨ TRẦN THIỆU",
+      "from": "phường Thái Cực huyện Thọ Xương, nguyên quán xã Đan Luân huyện Đường An, Nho sinh trúng thức, nguyên tên là Vũ Trần Tự"
+     },
+     {
+      "name": "NGUYỄN LÂM THÁI",
+      "from": "xã Thổ Hào huyện Thanh Chương, Huấn đạo"
+     },
+     {
+      "name": "TRƯƠNG ĐÌNH TUYÊN",
+      "from": "phường Công Bộ huyện Quảng Đức, Giám sinh"
+     },
+     {
+      "name": "BÙI TRỌNG HUYẾN",
+      "from": "xã Tiên Mộc huyện Nông Cống, Giám sinh"
+     },
+     {
+      "name": "NGUYỄN HUY THỤC",
+      "from": "xã Kim Bài huyện Thanh Oai, Giám sinh"
+     },
+     {
+      "name": "NGUYỄN LUÂN",
+      "from": "phường Báo Thiên huyện Thọ Xương, nguyên quán xã Hoa Đường huyện Đường An, Tả mạc"
+     },
+     {
+      "name": "PHẠM ĐÌNH TRỌNG",
+      "from": "xã Khinh Dao huyện Giáp Sơn, Giám sinh"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Bạch Phấn Ưng"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Công Thái"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Phạm Đăng Trù"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Lê Nguyễn Diệu"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Bạch Phấn Ưng",
+   "others": [
+    {
+     "id": "bia-1743",
+     "year": 1743
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Công Thái",
+   "others": [
+    {
+     "id": "bia-1724",
+     "year": 1724
+    },
+    {
+     "id": "bia-1743",
+     "year": 1743
+    },
+    {
+     "id": "bia-1746",
+     "year": 1746
+    },
+    {
+     "id": "bia-1748",
+     "year": 1748
+    },
+    {
+     "id": "bia-1752",
+     "year": 1752
+    },
+    {
+     "id": "bia-1754",
+     "year": 1754
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Phạm Đăng Trù",
+   "others": [
+    {
+     "id": "bia-1712",
+     "year": 1712
+    },
+    {
+     "id": "bia-1724",
+     "year": 1724
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": {
+  "candidates": 3000,
+  "passed": 8,
+  "ratio": 0.0026666666666666666,
+  "oneIn": 375,
+  "phrase": "cứ khoảng 375 người dự thi có 1 người đỗ"
+ },
+ "erection": {
+  "year": 1744,
+  "raw": "1744",
+  "gap": 5,
+  "batch": {
+   "count": 2,
+   "entries": [
+    {
+     "id": "bia-1739",
+     "year": 1739
+    },
+    {
+     "id": "bia-1743",
+     "year": 1743
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Vũ Diệm",
+   "dates": "1705-?",
+   "description": "Người xã Thổ Vượng, huyện Thiên Lộc. Ông làm quan đến chức Hàn lâm Thị thư, sau khi mất được tặng chức Tự khanh, tước bá.",
+   "isLaureate": true
+  },
+  {
+   "name": "Vũ Trần Thiệu",
+   "dates": "1716-?",
+   "description": "Nguyên tên là Vũ Trần Tự. Ông làm quan đến chức Tả Thị lang Bộ Hộ, tước bá, từng hai lần đi sứ sang nhà Thanh. Sau khi mất được tặng chức Thượng thư.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phạm Đình Trọng",
+   "dates": "1714-1754",
+   "description": "Một danh tướng và đại thần thời Lê Trung hưng. Ông giữ nhiều chức vụ quan trọng như Phó Đô Ngự sử, Bồi tụng, Thượng thư Bộ Binh, tước Hải Quận công. Ông có công lớn trong việc đánh dẹp cuộc khởi nghĩa Nguyễn Hữu Cầu. Sau khi mất được tặng tước Đại vương, phong phúc thần.",
+   "isLaureate": true
+  },
+  {
+   "name": "Bạch Phấn Ưng",
+   "dates": "Không rõ",
+   "description": "Giữ chức Trung hiến đại phu Hàn lâm viện Thừa chỉ, là người vâng sắc soạn bài ký cho văn bia này.",
+   "isLaureate": false
+  },
+  {
+   "name": "Nguyễn Công Thái",
+   "dates": "Không rõ",
+   "description": "Đại thần giữ chức Tham tụng, Thượng thư Bộ Lễ kiêm Đông các Hiệu thư, tước Kiều Quận công. Ông là người nhuận sắc cho văn bia.",
+   "isLaureate": false
+  },
+  {
+   "name": "Bùi Trọng Huyến",
+   "dates": "1713-?",
+   "description": "Làm quan đến chức Thừa chỉ, Đông các Đại học sĩ, Tri Hình phiên, tước Huyễn Lĩnh bá.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Bạch Phấn Ưng",
+  "dates": "Không rõ",
+  "description": "Giữ chức Trung hiến đại phu Hàn lâm viện Thừa chỉ, là người vâng sắc soạn bài ký cho văn bia này.",
+  "hometown": "Không rõ",
+  "roles": [
+   "Hàn lâm viện Thừa chỉ",
+   "Người soạn văn bia"
+  ]
+ }
+}

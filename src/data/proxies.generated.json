@@ -1,0 +1,92 @@
+{
+  "bia-1442": {
+    "file": "models/proxy/bia-1442.glb",
+    "bytes": 31576,
+    "triangles": 6000,
+    "vertices": 3002,
+    "sourceBytes": 1486824,
+    "sourceTriangles": 71418,
+    "bboxDelta": 0.0004
+  },
+  "bia-1463": {
+    "file": "models/proxy/bia-1463.glb",
+    "bytes": 30984,
+    "triangles": 6000,
+    "vertices": 3002,
+    "sourceBytes": 3615848,
+    "sourceTriangles": 345220,
+    "bboxDelta": 0.0004
+  },
+  "bia-1487": {
+    "file": "models/proxy/bia-1487.glb",
+    "bytes": 30556,
+    "triangles": 5998,
+    "vertices": 3001,
+    "sourceBytes": 2471440,
+    "sourceTriangles": 266966,
+    "bboxDelta": 0.0005
+  },
+  "bia-1514": {
+    "file": "models/proxy/bia-1514.glb",
+    "bytes": 31088,
+    "triangles": 6000,
+    "vertices": 3002,
+    "sourceBytes": 3070860,
+    "sourceTriangles": 323861,
+    "bboxDelta": 0.0005
+  },
+  "bia-1554": {
+    "file": "models/proxy/bia-1554.glb",
+    "bytes": 30632,
+    "triangles": 6000,
+    "vertices": 3002,
+    "sourceBytes": 2564360,
+    "sourceTriangles": 244298,
+    "bboxDelta": 0.0011
+  },
+  "bia-1604": {
+    "file": "models/proxy/bia-1604.glb",
+    "bytes": 30308,
+    "triangles": 6000,
+    "vertices": 3002,
+    "sourceBytes": 2172728,
+    "sourceTriangles": 208207,
+    "bboxDelta": 0.0003
+  },
+  "bia-1661": {
+    "file": "models/proxy/bia-1661.glb",
+    "bytes": 30840,
+    "triangles": 6000,
+    "vertices": 3002,
+    "sourceBytes": 1403060,
+    "sourceTriangles": 106682,
+    "bboxDelta": 0.0003
+  },
+  "bia-1680": {
+    "file": "models/proxy/bia-1680.glb",
+    "bytes": 30596,
+    "triangles": 6000,
+    "vertices": 3002,
+    "sourceBytes": 2807284,
+    "sourceTriangles": 281250,
+    "bboxDelta": 0.0009
+  },
+  "bia-1727": {
+    "file": "models/proxy/bia-1727.glb",
+    "bytes": 30340,
+    "triangles": 6000,
+    "vertices": 3002,
+    "sourceBytes": 3257688,
+    "sourceTriangles": 347846,
+    "bboxDelta": 0.0005
+  },
+  "bia-1779": {
+    "file": "models/proxy/bia-1779.glb",
+    "bytes": 30904,
+    "triangles": 5998,
+    "vertices": 3001,
+    "sourceBytes": 3435376,
+    "sourceTriangles": 338004,
+    "bboxDelta": 0.0005
+  }
+}

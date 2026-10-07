@@ -1,0 +1,503 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 13 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/13/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1518",
+ "year": 1518,
+ "canChi": "Mậu Dần",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA MẬU DẦN NIÊN HIỆU QUANG THIỆU NĂM THỨ 3 (1518)",
+ "dynasty": "Lê sơ",
+ "dynastyId": "le-so",
+ "dynastyRaw": "Nhà Lê",
+ "dynastyVerify": "cần đối chiếu — nguồn ghi \"Nhà Lê\" (không rõ giai đoạn), suy Lê sơ từ năm thi 1518 theo mốc 1428–1527 của src/data/dynasties.js",
+ "era": "Quang Thiệu",
+ "eraYear": 3,
+ "king": {
+  "name": "Lê Chiêu Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Quang Thiệu trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 17,
+ "passedRaw": "17",
+ "erected": 1536,
+ "contributors": {
+  "author": "Nguyễn Trí Thái",
+  "calligrapher": "Vũ (họ Vũ)",
+  "editor": "Không ghi",
+  "engraver": "Nguyễn (họ Nguyễn)"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 3
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 6
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 8
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Ngô Miễn Thiệu",
+   "tier": 1,
+   "title": "Trạng nguyên",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ (Trạng nguyên)",
+   "hometown": "xã Tam Sơn huyện Đông Ngàn (nay là xã Tam Sơn huyện Từ Sơn tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Mẫn Đốc",
+   "tier": 1,
+   "title": "Bảng nhãn",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ (Bảng nhãn)",
+   "hometown": "xã Xuân Lũng huyện Sơn Vi (nay là xã Xuân Lũng huyện Lâm Thao tỉnh Phú Thọ)",
+   "honors": []
+  },
+  {
+   "name": "Lưu Khải Chuyên",
+   "tier": 1,
+   "title": "Thám hoa",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ (Thám hoa)",
+   "hometown": "xã An Đê huyện Đường An (nay thuộc huyện Cẩm Giàng tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Lại Kim Bảng",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "xã Kim Lan huyện Cẩm Giàng (nay thuộc xã Kim Giang huyện Cẩm Giàng tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Đặng Ất",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "xã Phúc Hải huyện Ngự Thiên (nay thuộc xã Phạm Lễ huyện Hưng Hà tỉnh Thái Bình)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Chấn Chi",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "xã Thổ Hoàng huyện Thiên Thi (nay thuộc thị trấn huyện Ân Thi tỉnh Hưng Yên)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Hồng Tiệm",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "xã Đồng Xá huyện Thanh Lâm (nay thuộc huyện Nam Sách tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Nghiêm Văn Hậu",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "xã Hà Lỗ huyện Đông Ngàn (nay thuộc xã Liên Hà huyện Đông Anh Tp. Hà Nội)",
+   "honors": []
+  },
+  {
+   "name": "Lê Vô Địch",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "xã Thiên Biểu huyện Yên Lãng (nay là thuộc xã Kim Chung huyện Đông Anh Tp. Hà Nội)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Độ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Phù Vệ huyện Đường Hào (nay thuộc huyện Ân Thi tỉnh Hưng Yên)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Cư Nhân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Ông Lâu huyện Lương Tài (nay thuộc xã Phú Lương huyện Lương Tài tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Củng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Hoàng Đôi huyện Văn Giang (nay thuộc huyện Văn Giang tỉnh Hưng Yên)",
+   "honors": []
+  },
+  {
+   "name": "Đỗ Dương",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Quang Bị huyện Gia Lộc (nay thuộc xã Phạm Trấn huyện Gia Lộc tỉnh Hải Dương)",
+   "honors": []
+  },
+  {
+   "name": "Vương Hoành",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Ngô Đạo huyện Tân Phúc (nay thuộc xã Tân Hưng huyện Sóc Sơn Tp. Hà Nội)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Hòa Trung",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Tam Sơn huyện Đông Ngàn (nay là xã Tam Sơn huyện Từ Sơn tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Ngọ Doãn Trù",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Bắc Lý huyện Yên Việt (nay thuộc xã Bắc Lý huyện Hiệp Hòa tỉnh Bắc Giang)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Tảo",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Tam Sơn huyện Đông Ngàn (nay là xã Tam Sơn huyện Từ Sơn tỉnh Bắc Ninh)",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Năm Mậu Dần, niên hiệu Quang Thiệu thứ 3 (1518) — đáng lẽ tổ chức năm trước nhưng lùi vì trong nước có biến loạn — triều đình chọn được 17 người.",
+   "Bảng vàng ban Ngô Miễn Thiệu đỗ Trạng nguyên, Nguyễn Mẫn Đốc đỗ Bảng nhãn, Lưu Khải Chuyên đỗ Thám hoa.",
+   "Mãi đến ngày mồng 5 tháng giêng niên hiệu Đại Chính thứ 7 (1536) — dù khoa thuộc triều Lê — bia mới được dựng dưới triều Mạc, do Nguyễn Trí Thái vâng sắc soạn bài ký.",
+   "Bài ký răn: “Danh là khách của thực, thực là chủ của danh.”"
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Mậu Dần (1518) đáng lẽ tổ chức năm 1517 (Đinh Sửu) nhưng do trong nước có biến loạn nên bị lùi lại một năm.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 2,
+    "match": "Riêng về năm Mậu Dần niên hiệu Quang Thiệu thứ 3 (1518) có khoa thi là vì năm thứ 2 Đinh Sửu (1517) là năm đáng phải mở thi Hội, nhưng bấy giờ trong nước có biến nên đến năm Mậu Dần mới cử hành được."
+   }
+  },
+  {
+   "text": "Quy định thi cử thời Lê: 3 năm một khoa, thi Hương vào các năm Tý, Ngọ, Mão, Dậu; thi Hội vào các năm Thìn, Tuất, Sửu, Mùi.",
+   "kind": "note",
+   "label": "Quy định thi cử thời Lê",
+   "labelKind": "title",
+   "anchor": {
+    "section": "body",
+    "para": 2,
+    "match": "Cũng theo Hội điển của nhà Minh lấy các năm Tý, Ngọ, Mão, Dậu mở khoa thi Hương, lấy các năm Thìn, Tuất, Sửu, Mùi mở khoa thi Hội."
+   }
+  },
+  {
+   "text": "Bia được dựng vào năm 1536 dưới triều nhà Mạc (niên hiệu Đại Chính), dù khoa thi thuộc triều Lê.",
+   "kind": "note"
+  },
+  {
+   "text": "Quan điểm về danh và thực: Danh là khách của thực, thực là chủ của danh, có danh có thực thì thực còn mà danh vì thế được coi trọng.",
+   "kind": "note",
+   "label": "Quan điểm về danh và thực",
+   "labelKind": "title",
+   "anchor": {
+    "section": "body",
+    "para": 3,
+    "match": "Vì danh là khách của thực, thực là chủ của danh, có danh có thực thì thực còn mà danh vì thế được coi trọng; có danh không có thực, thì thực chẳng còn mà danh cũng vì thế mà bị coi khinh."
+   }
+  },
+  {
+   "text": "Vua sai hữu ti kiểm tra các bia Tiến sĩ triều trước, khoa nào bia vỡ hỏng thì dựng lại, khoa nào chưa có thì dựng thêm.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 1,
+    "match": "Đặc sai hữu ti kiểm tra các bia đề danh Tiến sĩ các khoa của triều trước hễ khoa nào đã có bia mà bị vỡ hỏng thì cho dựng lại bia khác, khoa nào chưa có bia mà đáng ghi thì dựng thêm."
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Nguyễn Trí Thái",
+   "dates": "Không ghi",
+   "description": "Đặc tiến Kim tử Vinh lộc đại phu, Thượng thư Bộ Lễ kiêm Đông các Đại học sĩ, tước Đạo Xuyên bá, là người vâng sắc soạn bài ký văn bia.",
+   "hometown": "Không ghi",
+   "roles": [
+    "Thượng thư Bộ Lễ",
+    "Đông các Đại học sĩ",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Ngô Miễn Thiệu",
+   "dates": "1499-?",
+   "description": "Đỗ Trạng nguyên khoa 1518, làm quan đến Thượng thư Bộ Lại thời Lê và Thượng thư Bộ Lễ thời Mạc, tước Trình Khê hầu.",
+   "hometown": "xã Tam Sơn huyện Đông Ngàn (nay là xã Tam Sơn huyện Từ Sơn tỉnh Bắc Ninh)",
+   "roles": [
+    "Thượng thư Bộ Lại",
+    "Thượng thư Bộ Lễ",
+    "Đô Ngự sử"
+   ]
+  },
+  {
+   "name": "Nguyễn Mẫn Đốc",
+   "dates": "1492-?",
+   "description": "Đỗ Bảng nhãn khoa 1518, Thượng thư, tuẫn tiết theo vua Lê Chiêu Tông khi nhà Mạc cướp ngôi, được phong phúc thần.",
+   "hometown": "xã Xuân Lũng huyện Sơn Vi (nay là xã Xuân Lũng huyện Lâm Thao tỉnh Phú Thọ)",
+   "roles": [
+    "Thượng thư",
+    "Phúc thần"
+   ]
+  },
+  {
+   "name": "Lại Kim Bảng",
+   "dates": "Không ghi",
+   "description": "Đỗ Tiến sĩ xuất thân, Đô Ngự sử, tuẫn tiết để giữ lòng trung với nhà Lê khi Mạc Đăng Dung cướp ngôi, được truy tặng chức Tả Thị lang Bộ Lễ, tước Quận công.",
+   "hometown": "xã Kim Lan huyện Cẩm Giàng (nay thuộc xã Kim Giang huyện Cẩm Giàng tỉnh Hải Dương)",
+   "roles": [
+    "Đô Ngự sử",
+    "Tả Thị lang Bộ Lễ",
+    "Quận công"
+   ]
+  },
+  {
+   "name": "Nguyễn Độ",
+   "dates": "1493-?",
+   "description": "Đỗ đồng Tiến sĩ xuất thân, làm quan nhà Mạc đến chức Thượng thư, tước bá.",
+   "hometown": "xã Phù Vệ huyện Đường Hào (nay thuộc huyện Ân Thi tỉnh Hưng Yên)",
+   "roles": [
+    "Thượng thư",
+    "Bá"
+   ]
+  },
+  {
+   "name": "Nguyễn Cư Nhân",
+   "dates": "Không ghi",
+   "description": "Đỗ đồng Tiến sĩ xuất thân, làm quan nhà Mạc đến chức Thượng thư, Chưởng Hàn lâm viện sự, tước Đạm Hà bá.",
+   "hometown": "xã Ông Lâu huyện Lương Tài (nay thuộc xã Phú Lương huyện Lương Tài tỉnh Bắc Ninh)",
+   "roles": [
+    "Thượng thư",
+    "Chưởng Hàn lâm viện sự",
+    "Đạm Hà bá"
+   ]
+  },
+  {
+   "name": "Nguyễn Tảo",
+   "dates": "Không ghi",
+   "description": "Đỗ đồng Tiến sĩ xuất thân, làm quan nhà Mạc trải qua chức Thượng thư Lục bộ, rồi Thừa chính sứ Hải Dương.",
+   "hometown": "xã Tam Sơn huyện Đông Ngàn (nay là xã Tam Sơn huyện Từ Sơn tỉnh Bắc Ninh)",
+   "roles": [
+    "Thượng thư Lục bộ",
+    "Thừa chính sứ Hải Dương"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA MẬU DẦN NIÊN HIỆU QUANG THIỆU NĂM THỨ 3 (1518)",
+  "paragraphs": [
+   "Đặt khoa thi chọn kẻ sĩ là quy chế đã lập thành của các bậc đế vương mưu đồ nền trí trị, trọng dụng người hiền không hạn chế là đạo trung dung xưa nay không thay đổi. Thần thường nhân câu nói đó mà suy rộng ra: đảm nhiệm quốc chính của nhà Hạ đều là các quan cũ của nhà Ngu, chọn vào vương đình của nhà Thương đều là liêu thuộc của nhà Hạ, phụ tế ở kinh đô nhà Chu lại là sĩ phu của nhà Ân, kẻ đứng hàng tể phụ triều Tống cũng là cựu thần của nhà Hậu Chu. Có lẽ vì phép chọn học trò bắt đầu từ thời Ngu, Chu, thịnh hành ở đời Triệu Tống, còn đạo trung dung trọng dùng người hiền không hạn chế cách nào thì xưa đã có mà cũng thấy cả ở ngày nay chăng?",
+   "Kính nghĩ thánh triều quang minh mở vận, thánh thánh nối truyền. Thánh thiên tử sùng Nho trọng đạo, sửa sang trường học để nuôi dưỡng nhân tài. Chế độ đổi mới, quy mô rộng lớn lâu dài. Đặc sai hữu ti kiểm tra các bia đề danh Tiến sĩ các khoa của triều trước hễ khoa nào đã có bia mà bị vỡ hỏng thì cho dựng lại bia khác, khoa nào chưa có bia mà đáng ghi thì dựng thêm. Lại sai từ thần chia nhau soạn các bài ký. Làm như thế là để coi trọng những điều mà nền tư văn đáng trọng, làm cho đủ những việc mà đời trước chưa làm, ý nghĩa thật rất to lớn.",
+   "Thần tham dự triều chính, việc đáng phải cầm bút. Thần kính xét: Triều trước khai khoa năm Nhâm Tuất niên hiệu Đại Bảo thứ 3 (1442), sau đó hoặc 6 năm, hoặc 5 năm mở một khoa, chưa thành định lệ. Từ khoa Quý Mùi niên hiệu Quang Thuận thứ 4 (1463) trở đi mới định 3 năm mở một khoa. Cũng theo Hội điển của nhà Minh lấy các năm Tý, Ngọ, Mão, Dậu mở khoa thi Hương, lấy các năm Thìn, Tuất, Sửu, Mùi mở khoa thi Hội. Riêng về năm Mậu Dần niên hiệu Quang Thiệu thứ 3 (1518) có khoa thi là vì năm thứ 2 Đinh Sửu (1517) là năm đáng phải mở thi Hội, nhưng bấy giờ trong nước có biến nên đến năm Mậu Dần mới cử hành được.",
+   "Bảng này chọn được kẻ sĩ 17 người: Đệ nhất giáp là bọn Ngô Miễn Thiệu 3 người được ban Tiến sĩ cập đệ, Đệ nhị giáp 6 người là bọn Lại Kim Bảng được ban Tiến sĩ xuất thân, Đệ tam giáp 8 người là bọn Nguyễn Độ được ban đồng Tiến sĩ xuất thân. Những người này hiện đang giữ các chức quan, dần dần còn được dùng vào việc lớn, hoặc tham dự việc lễ, nhạc, binh, hình, hoặc giữ các ti chuyên trách việc kỷ cương tai mắt của triều đình, có người kiêm chức ở quán các giúp việc cất nhắc thuyên chuyển, hoặc giữ các chức đô đài, gián nghị, có người tham gia chính sự lớn ở một địa phương, có người giữ chức hiến ti ở ngoại đài. Những người đỗ Tiến sĩ khoa này, từ sau khi được đề tên ở bảng vàng đến nay đã hai chục năm mới được đề danh vào bia đá. Nhờ ơn vua được tô điểm vẻ vang, được khích lệ long trọng như vậy, phải nên báo đáp thế nào? Ắt phải cùng nhau gắng sức, giữ lòng tận trung, lau cạo thật sáng, trau dồi tiết hạnh để cho khí khái lỗi lạc, tiếng tăm vang lừng, làm viên ngọc vẹn toàn, làm nén vàng mười, làm viên đan sa rất mực quý báu, làm vẻ vang vương độ, giữ vững cơ đồ hoàng gia, đặt thiên hạ vào chốn yên vững như Thái Sơn bàn thạch. Được như thế thì tấm đá này, những tên tuổi này khác nào muôn cân nặng, càng lâu càng không mòn vậy. Nếu không được như thế thì ngoài ngọc trong đá, danh và thực không xứng nhau, người đời sau sẽ chỉ vào tấm đá này mà chê trách. Vì sao vậy? Vì danh là khách của thực, thực là chủ của danh, có danh có thực thì thực còn mà danh vì thế được coi trọng; có danh không có thực, thì thực chẳng còn mà danh cũng vì thế mà bị coi khinh. Thần xin lấy mấy điều ấy khuyên răn những người được đề tên và cũng để tự răn mình. Còn quan tước tên họ các quan Đề điệu, Độc quyển, Giám thí thì kê ở mặt sau bia. Thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Đặc tiến Kim tử Vinh lộc đại phu Thượng thư Bộ Lễ kiêm Đông các Đại học sĩ Đạo Xuyên bá Trụ quốc Nguyễn Trí Thái vâng sắc soạn.",
+   "Thông chương đại phu Trung thư giám Chính tự Tư chính khanh họ Vũ vâng sắc viết chữ (chân).",
+   "Thông chương đại phu kim quang môn đãi chiếu tư chính khanh họ Nguyễn vâng sắc viết chữ triện.",
+   "Bia dựng ngày 5 tháng giêng niên hiệu Đại Chính thứ 7 (1536)."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhất giáp Tiến sĩ cập đệ",
+    "count": 3,
+    "names": [
+     {
+      "name": "NGÔ MIỄN THIỆU",
+      "from": "xã Tam Sơn huyện Đông Ngàn"
+     },
+     {
+      "name": "NGUYỄN MẪN ĐỐC",
+      "from": "xã Xuân Lũng huyện Sơn Vi"
+     },
+     {
+      "name": "LƯU KHẢI CHUYÊN",
+      "from": "xã An Đê huyện Đường An"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 6,
+    "names": [
+     {
+      "name": "LẠI KIM BẢNG",
+      "from": "xã Kim Lan huyện Cẩm Giàng"
+     },
+     {
+      "name": "ĐẶNG ẤT",
+      "from": "xã Phúc Hải huyện Ngự Thiên"
+     },
+     {
+      "name": "NGUYỄN CHẤN CHI",
+      "from": "xã Thổ Hoàng huyện Thiên Thi"
+     },
+     {
+      "name": "NGUYỄN HỒNG TIỆM",
+      "from": "xã Đồng Xá huyện Thanh Lâm"
+     },
+     {
+      "name": "NGHIÊM VĂN HẬU",
+      "from": "xã Hà Lỗ huyện Đông Ngàn"
+     },
+     {
+      "name": "LÊ VÔ ĐỊCH",
+      "from": "xã Thiên Biểu huyện Yên Lãng"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 8,
+    "names": [
+     {
+      "name": "NGUYỄN ĐỘ",
+      "from": "xã Phù Vệ huyện Đường Hào"
+     },
+     {
+      "name": "NGUYỄN CƯ NHÂN",
+      "from": "xã Ông Lâu huyện Lương Tài"
+     },
+     {
+      "name": "NGUYỄN CỦNG",
+      "from": "xã Hoàng Đôi huyện Văn Giang"
+     },
+     {
+      "name": "ĐỖ DƯƠNG",
+      "from": "xã Quang Bị huyện Gia Lộc"
+     },
+     {
+      "name": "VƯƠNG HOÀNH",
+      "from": "xã Ngô Đạo huyện Tân Phúc"
+     },
+     {
+      "name": "NGUYỄN HÒA TRUNG",
+      "from": "xã Tam Sơn huyện Đông Ngàn"
+     },
+     {
+      "name": "NGỌ DOÃN TRÙ",
+      "from": "xã Bắc Lý huyện Yên Việt"
+     },
+     {
+      "name": "NGUYỄN TẢO",
+      "from": "xã Tam Sơn huyện Đông Ngàn"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Trí Thái"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Vũ (họ Vũ)"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Nguyễn (họ Nguyễn)"
+  }
+ ],
+ "crossRefs": [],
+ "passRate": null,
+ "erection": {
+  "year": 1536,
+  "raw": "1536",
+  "gap": 18,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1518",
+     "year": 1518
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Nguyễn Trí Thái",
+   "dates": "Không ghi",
+   "description": "Đặc tiến Kim tử Vinh lộc đại phu, Thượng thư Bộ Lễ kiêm Đông các Đại học sĩ, tước Đạo Xuyên bá, là người vâng sắc soạn bài ký văn bia.",
+   "isLaureate": false
+  },
+  {
+   "name": "Ngô Miễn Thiệu",
+   "dates": "1499-?",
+   "description": "Đỗ Trạng nguyên khoa 1518, làm quan đến Thượng thư Bộ Lại thời Lê và Thượng thư Bộ Lễ thời Mạc, tước Trình Khê hầu.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Mẫn Đốc",
+   "dates": "1492-?",
+   "description": "Đỗ Bảng nhãn khoa 1518, Thượng thư, tuẫn tiết theo vua Lê Chiêu Tông khi nhà Mạc cướp ngôi, được phong phúc thần.",
+   "isLaureate": true
+  },
+  {
+   "name": "Lại Kim Bảng",
+   "dates": "Không ghi",
+   "description": "Đỗ Tiến sĩ xuất thân, Đô Ngự sử, tuẫn tiết để giữ lòng trung với nhà Lê khi Mạc Đăng Dung cướp ngôi, được truy tặng chức Tả Thị lang Bộ Lễ, tước Quận công.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Độ",
+   "dates": "1493-?",
+   "description": "Đỗ đồng Tiến sĩ xuất thân, làm quan nhà Mạc đến chức Thượng thư, tước bá.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Cư Nhân",
+   "dates": "Không ghi",
+   "description": "Đỗ đồng Tiến sĩ xuất thân, làm quan nhà Mạc đến chức Thượng thư, Chưởng Hàn lâm viện sự, tước Đạm Hà bá.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Tảo",
+   "dates": "Không ghi",
+   "description": "Đỗ đồng Tiến sĩ xuất thân, làm quan nhà Mạc trải qua chức Thượng thư Lục bộ, rồi Thừa chính sứ Hải Dương.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nguyễn Trí Thái",
+  "dates": "Không ghi",
+  "description": "Đặc tiến Kim tử Vinh lộc đại phu, Thượng thư Bộ Lễ kiêm Đông các Đại học sĩ, tước Đạo Xuyên bá, là người vâng sắc soạn bài ký văn bia.",
+  "hometown": "Không ghi",
+  "roles": [
+   "Thượng thư Bộ Lễ",
+   "Đông các Đại học sĩ",
+   "Người soạn văn bia"
+  ]
+ }
+}

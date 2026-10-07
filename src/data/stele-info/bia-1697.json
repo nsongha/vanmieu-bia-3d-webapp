@@ -1,0 +1,609 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 53 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/53/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1697",
+ "year": 1697,
+ "canChi": "Đinh Sửu",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA ĐINH SỬU NIÊN HIỆU CHÍNH HÒA NĂM THỨ 18 (1697)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Lê Trung hưng",
+ "era": "Chính Hòa",
+ "eraYear": 18,
+ "king": {
+  "name": "Lê Hy Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Chính Hòa trong tiêu đề"
+ },
+ "candidates": 3000,
+ "candidatesRaw": "3.000",
+ "passed": 10,
+ "passedRaw": "10",
+ "erected": 1717,
+ "contributors": {
+  "author": "Nguyễn Kiều",
+  "calligrapher": "Ngô Bảo",
+  "editor": "Nguyễn Quý Đức",
+  "engraver": "Ngô Bảo"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 2
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 8
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Nguyễn Quyền",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "xã Cổ Linh huyện Gia Lâm",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Trù",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "phường Đông Tác huyện Thọ Xương",
+   "honors": []
+  },
+  {
+   "name": "Phạm Quang Huân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Hoàng Xá huyện Đông Quan",
+   "honors": []
+  },
+  {
+   "name": "Tô Thế Huy",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "thôn Bằng Đắng huyện Bạch Hạc",
+   "honors": []
+  },
+  {
+   "name": "Đào Hoàng Thực",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Thượng Trì huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Vĩ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Thạch Thán huyện Yên Sơn",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Xuân Đài",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Nguyệt Áng huyện Thanh Trì",
+   "honors": []
+  },
+  {
+   "name": "Đỗ Viết Hồ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Xuân Phố huyện Lôi Dương",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Công Cơ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Minh Cảo huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Bùi Đăng Đạt",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Bân Xá huyện Thiên Lộc",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa đông năm Đinh Sửu, niên hiệu Chính Hòa thứ 18 (1697), triều đình mở khoa thi Hội; 3.000 sĩ tử dự thi, qua bốn trường chọn được 10 người.",
+   "Vào thi Đình tháng chạp, vua ban Nguyễn Quyền và Nguyễn Trù đỗ Đệ nhị giáp Tiến sĩ xuất thân, 8 người còn lại đỗ đồng Tiến sĩ xuất thân.",
+   "Bia dựng ngày 2 tháng 3 năm 1717, do Nguyễn Kiều soạn, Nguyễn Quý Đức nhuận sắc.",
+   "Bài ký viết việc khắc bia là để “mài rèn danh tiết cho sĩ tử, bồi đắp nguyên khí của nước nhà”."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Hội được tổ chức ba năm một lần để chọn bậc hiền tài dựng nền thịnh trị.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Lúc bấy giờ nhờ có Chiêu Tổ Khang vương đem tài năng của bậc thánh, gánh trách nhiệm trọng đại của thiên hạ, một lòng tôn phù, thực thi nhiều phương kế để giữ nền thịnh trị, mở khoa thi lớn chọn hiền tài, ba năm một lần thi Hội."
+   }
+  },
+  {
+   "text": "Vua Hy Tông Chương hoàng đế và Chúa Chiêu Tổ Khang vương (Trịnh Căn) thực thi phương kế giữ nền thịnh trị, mở khoa thi lớn.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Lúc bấy giờ nhờ có Chiêu Tổ Khang vương đem tài năng của bậc thánh, gánh trách nhiệm trọng đại của thiên hạ, một lòng tôn phù, thực thi nhiều phương kế để giữ nền thịnh trị, mở khoa thi lớn chọn hiền tài, ba năm một lần thi Hội."
+   }
+  },
+  {
+   "text": "Việc khắc bia đề danh nhằm biểu dương sĩ tử, mài rèn danh tiết và bồi đắp nguyên khí quốc gia.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Thế thì bia đá này dựng lên thật có ý sâu sắc, sẽ làm cho rõ ràng xấu tốt, nêu cao sừng sững trước tai mắt mọi người, mài rèn danh tiết cho sĩ tử, bồi đắp nguyên khí của nước nhà, có quan hệ đến thế đạo, há phải nhỏ đâu!"
+   }
+  },
+  {
+   "text": "Chúa An vương (Trịnh Cương) sai truy dựng các bia Tiến sĩ từ năm Bính Thân (1656) về sau để tránh thiếu sót.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Khi đến thăm nhà Thái học, Vương thượng bèn sai truy dựng các bia Tiến sĩ từ năm Bính Thân về sau để cho khỏi thiếu sót."
+   }
+  },
+  {
+   "text": "Bia đá dựng lên để người đời sau soi xét, nếu danh thực trái nhau sẽ bị công luận khinh bỉ.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Còn nếu danh thực trái nhau, trước sau sai lệch, lo bon chen ganh ghét, theo thói dua nịnh, lòng chứa những chuyện tham lam nhũng nhiễu, ngậm miệng như bị đóng hàm, làm cho danh tiết bị nhơ bẩn, danh giáo bị ô nhục thì người đời sau tới xem, ắt sẽ chỉ vào tên mà khinh bỉ đức hạnh, công luận nghiêm buốt khó trốn, há chẳng xấu hổ lắm sao?"
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Nguyễn Kiều",
+   "dates": "Không rõ",
+   "description": "Giữ chức Cẩn sự Tá lang Hàn lâm viện Hiệu thảo, là người vâng sắc soạn bài ký cho văn bia này.",
+   "hometown": "Không rõ",
+   "roles": [
+    "Hàn lâm viện Hiệu thảo",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Nguyễn Quý Đức",
+   "dates": "1648-1720",
+   "description": "Đại thần triều Lê Trung hưng, giữ chức Tham tụng, Thượng thư Bộ Lại kiêm Đông các Đại học sĩ, tước Liêm Quận công. Ông là người nhuận sắc cho văn bia.",
+   "hometown": "xã Thiên Mỗ, huyện Từ Liêm (nay thuộc Đại Mỗ, Nam Từ Liêm, Hà Nội)",
+   "roles": [
+    "Tham tụng",
+    "Thượng thư Bộ Lại",
+    "Đông các Đại học sĩ",
+    "Người nhuận sắc văn bia"
+   ]
+  },
+  {
+   "name": "Nguyễn Công Cơ",
+   "dates": "1676-1733",
+   "description": "Tự Nghĩa Trai, giữ chức Thượng thư Bộ Binh kiêm Tham tụng, Đông các Đại học sĩ, tước Cảo Quận công. Ông từng đi sứ nhà Thanh và được tặng hàm Thái phó.",
+   "hometown": "xã Minh Cảo huyện Từ Liêm (nay thuộc Xuân Đỉnh, Bắc Từ Liêm, Hà Nội)",
+   "roles": [
+    "Thượng thư Bộ Binh",
+    "Tham tụng",
+    "Đông các Đại học sĩ",
+    "Sứ thần"
+   ]
+  },
+  {
+   "name": "Đào Hoàng Thực",
+   "dates": "1670-?",
+   "description": "Giữ chức Thượng thư Bộ Hình, sau làm Tham tụng, Thượng thư Bộ Binh, được ban hiệu Quốc lão. Ông được Chúa Trịnh tin dùng và ví như các vị Tể tướng đời Đường.",
+   "hometown": "xã Thượng Trì huyện Từ Liêm (nay thuộc Liên Hồng, Đan Phượng, Hà Nội)",
+   "roles": [
+    "Thượng thư Bộ Hình",
+    "Tham tụng",
+    "Thượng thư Bộ Binh",
+    "Quốc lão"
+   ]
+  },
+  {
+   "name": "Tô Thế Huy",
+   "dates": "1666-?",
+   "description": "Làm quan đến chức Tả Thị lang, tước Cảo Quận công, từng đi sứ sang nhà Thanh, sau được tặng chức Thượng thư Bộ Công.",
+   "hometown": "thôn Bằng Đắng huyện Bạch Hạc (nay thuộc Bình Dương, Vĩnh Tường, Vĩnh Phúc)",
+   "roles": [
+    "Tả Thị lang",
+    "Sứ thần",
+    "Thượng thư Bộ Công"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA ĐINH SỬU NIÊN HIỆU CHÍNH HÒA NĂM THỨ 18 (1697)",
+  "paragraphs": [
+   "Trời mến hoàng gia, trung hưng nền trí trị, thần truyền thánh nối, khoa cử thịnh hành. Kính nghĩ: Hy Tông Chương hoàng đế nắm cơ đồ sẵn có, khôi phục quy mô trị bình. Lúc bấy giờ nhờ có Chiêu Tổ Khang vương đem tài năng của bậc thánh, gánh trách nhiệm trọng đại của thiên hạ, một lòng tôn phù, thực thi nhiều phương kế để giữ nền thịnh trị, mở khoa thi lớn chọn hiền tài, ba năm một lần thi Hội. Mùa đông năm Đinh Sửu niên hiệu Chính Hòa thứ 18, bủa lưới cầu hiền, mở trường thi tài kén kẻ sĩ. Bấy giờ các cống sĩ các nơi dồn về như mây hợp, số ứng thí tới 3.000 người. Qua trường bốn, chọn được hạng ưu tú 10 người. Tháng chạp vào thi Đình, Hoàng thượng đích thân ra bài hỏi về môn học tâm tính của con người. Hôm sau, quan Độc quyển nâng quyển lên đọc, Hoàng thượng xem xét, định thứ tự cao thấp. Ban cho bọn Nguyễn Quyền, Nguyễn Trù đỗ Tiến sĩ xuất thân, bọn Phạm Quang Huân 8 người đỗ đồng Tiến sĩ xuất thân. Bộ Lễ rước bảng vàng treo ngoài cửa nhà Thái học. Ơn vinh ban cấp theo như phép cũ. Chỉ còn việc khắc bia đề tên thì lúc bấy giờ chưa kịp cử hành. Ý đợi ngày sửa sang làm sáng tỏ nếp cũ, vẻ vang người xưa, tất phải đợi đến ngày nay vậy. Kính nghĩ: Hoàng thượng bệ hạ kế thừa ngôi cao vô hạn, khôi phục khuôn phép lâu dài. Thực nhờ [Đại nguyên súy Thống quốc chính Thượng sư An vương] mở mang mưu lớn, giáo hóa chuyển dời. Phàm các điển chương chế độ đều chấn chỉnh khuếch trương, làm cho sáng sủa và lớn lao hơn trước. Khi đến thăm nhà Thái học, Vương thượng bèn sai truy dựng các bia Tiến sĩ từ năm Bính Thân về sau để cho khỏi thiếu sót. Lại sai các từ thần chia nhau soạn bài ký để truyền cho đời sau. Thần giữ chức biên chép, không dám viện cớ vụng về nông cạn chối từ, cung kính cúi đầu rập đầu dâng lời rằng: Đặt khoa mục cầu tìm hiền tài là cốt để dựng nền thịnh trị, yết khoa danh lưu truyền mãi mãi là để tỏ lòng tôn trọng nền văn. Việc sùng Nho trọng đạo bởi lòng tốt của đấng minh vương, mà vật đủ văn đầy lại là nếp tốt của đời thịnh trị, há phải chỉ để khoe khoang mà thôi đâu. Kìa như quán Đăng Doanh trang hoàng lòe loẹt, đình Hàm Tượng tranh vẽ treo cao, đẹp thì đẹp thật nhưng chỉ có thể trang sức một thời, vẻ vang đời ấy mà thôi. Muốn tìm ra một việc mà từ xưa chưa có để lưu truyền danh thơm tới muôn đời, thì chưa có việc nào tốt đẹp như việc khắc đá đề danh của quốc triều ta. Kính nghĩ: Thánh Tông Thuần hoàng đế, trong khoảng niên hiệu Hồng Đức, bắt đầu mở mang chế độ, chấn hưng Nho phong, đủ để khuyến khích nhân tài, duy trì giáo hóa, để lại cơ đồ đáng cho đời sau kế thừa. Các đời kế nối, tuân giữ chế độ thành pháp. Bia đá dựng lên, nhân văn càng thêm rực rỡ. Từ khi Trung hưng còn nhiều việc phải làm, nếp cũ chưa kịp chỉnh đốn. Đến đời Thần Tông Uyên hoàng đế, trong khoảng niên hiệu Thịnh Đức, phục hồi quy tắc chế độ, cổ vũ sĩ khí, làm rạng tỏ công đức của người xưa, mở đường tốt đẹp cho con cháu. Nhưng từ đó lệ cũ lại chưa được thi hành, lần lữa đến nay đã hơn 5 kỷ. Đến nay, Hoàng thượng vẻ vang kế thừa nghiệp lớn, mong muốn mở rộng mưu lược của đời xưa, coi là con đường tốt đẹp để trị nước, lấy tác thành nhân tài làm việc gấp. Bia đá lại dựng, trường học sửa sang, trên để dõi lòng sùng thượng của tổ tông, dưới để dấy chí hăng say của sĩ tử. Chế độ thái bình thịnh vượng lắm thay! Kẻ sĩ may mắn sinh ra ở đời này, mừng gặp thời sáng, đội ơn tiên triều vẻ vang cất nhắc ngợi khen, nay lại được biểu dương nồng hậu, vậy phải nghĩ đền đáp thế nào? Ắt phải nguyện làm sao cho danh xứng với thực, nghĩ việc trước lo đến việc sau, giữ lòng trung ái, mài rèn đức hạnh liêm sỉ cho bản thân được như Cao, Tiết; vua mình được như Nghiêu, Thuấn. Nếu được như thế thì bia đá này, tên tuổi này càng lâu càng vẻ vang, càng xa càng nức tiếng vậy. Còn nếu danh thực trái nhau, trước sau sai lệch, lo bon chen ganh ghét, theo thói dua nịnh, lòng chứa những chuyện tham lam nhũng nhiễu, ngậm miệng như bị đóng hàm, làm cho danh tiết bị nhơ bẩn, danh giáo bị ô nhục thì người đời sau tới xem, ắt sẽ chỉ vào tên mà khinh bỉ đức hạnh, công luận nghiêm buốt khó trốn, há chẳng xấu hổ lắm sao? Thế thì bia đá này dựng lên thật có ý sâu sắc, sẽ làm cho rõ ràng xấu tốt, nêu cao sừng sững trước tai mắt mọi người, mài rèn danh tiết cho sĩ tử, bồi đắp nguyên khí của nước nhà, có quan hệ đến thế đạo, há phải nhỏ đâu! Thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Cẩn sự Tá lang Hàn lâm viện Hiệu thảo Nguyễn Kiều vâng sắc soạn. Tá lý công thần Đặc tiến Kim tử Vinh lộc đại phu Tham tụng, Thượng thư Bộ Lại kiêm Đông các Đại học sĩ Thiếu phó Liêm Quận công Nguyễn Quý Đức vâng sắc nhuận. Bia dựng ngày 2 tháng 3 niên hiệu Thịnh Đức thứ 13 (1717) Hoàng Việt.",
+   "Thị nội Thư tả Thủy binh phiên Tướng sĩ lang Phó sở sứ người xã Phú Thị huyện Gia Lâm là Ngô Bảo vâng viết chữ (chân kiêm chữ triện)."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 2,
+    "names": [
+     {
+      "name": "NGUYỄN QUYỀN",
+      "from": "xã Cổ Linh huyện Gia Lâm"
+     },
+     {
+      "name": "NGUYỄN TRÙ",
+      "from": "phường Đông Tác huyện Thọ Xương"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 8,
+    "names": [
+     {
+      "name": "PHẠM QUANG HUÂN",
+      "from": "xã Hoàng Xá huyện Đông Quan"
+     },
+     {
+      "name": "TÔ THẾ HUY",
+      "from": "thôn Bằng Đắng huyện Bạch Hạc"
+     },
+     {
+      "name": "ĐÀO HOÀNG THỰC",
+      "from": "xã Thượng Trì huyện Từ Liêm"
+     },
+     {
+      "name": "NGUYỄN VĨ",
+      "from": "xã Thạch Thán huyện Yên Sơn"
+     },
+     {
+      "name": "NGUYỄN XUÂN ĐÀI",
+      "from": "xã Nguyệt Áng huyện Thanh Trì"
+     },
+     {
+      "name": "ĐỖ VIẾT HỒ",
+      "from": "xã Xuân Phố huyện Lôi Dương"
+     },
+     {
+      "name": "NGUYỄN CÔNG CƠ",
+      "from": "xã Minh Cảo huyện Từ Liêm"
+     },
+     {
+      "name": "BÙI ĐĂNG ĐẠT",
+      "from": "xã Bân Xá huyện Thiên Lộc"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Kiều"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Quý Đức"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Ngô Bảo"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Ngô Bảo"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Kiều",
+   "others": [
+    {
+     "id": "bia-1667",
+     "year": 1667
+    },
+    {
+     "id": "bia-1683",
+     "year": 1683
+    },
+    {
+     "id": "bia-1712",
+     "year": 1712
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Quý Đức",
+   "others": [
+    {
+     "id": "bia-1656",
+     "year": 1656
+    },
+    {
+     "id": "bia-1659",
+     "year": 1659
+    },
+    {
+     "id": "bia-1661",
+     "year": 1661
+    },
+    {
+     "id": "bia-1664",
+     "year": 1664
+    },
+    {
+     "id": "bia-1667",
+     "year": 1667
+    },
+    {
+     "id": "bia-1670",
+     "year": 1670
+    },
+    {
+     "id": "bia-1673",
+     "year": 1673
+    },
+    {
+     "id": "bia-1676",
+     "year": 1676
+    },
+    {
+     "id": "bia-1680",
+     "year": 1680
+    },
+    {
+     "id": "bia-1683",
+     "year": 1683
+    },
+    {
+     "id": "bia-1685",
+     "year": 1685
+    },
+    {
+     "id": "bia-1688",
+     "year": 1688
+    },
+    {
+     "id": "bia-1691",
+     "year": 1691
+    },
+    {
+     "id": "bia-1694",
+     "year": 1694
+    },
+    {
+     "id": "bia-1700",
+     "year": 1700
+    },
+    {
+     "id": "bia-1703",
+     "year": 1703
+    },
+    {
+     "id": "bia-1706",
+     "year": 1706
+    },
+    {
+     "id": "bia-1710",
+     "year": 1710
+    },
+    {
+     "id": "bia-1712",
+     "year": 1712
+    },
+    {
+     "id": "bia-1715",
+     "year": 1715
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Ngô Bảo",
+   "others": [
+    {
+     "id": "bia-1670",
+     "year": 1670
+    },
+    {
+     "id": "bia-1676",
+     "year": 1676
+    },
+    {
+     "id": "bia-1683",
+     "year": 1683
+    },
+    {
+     "id": "bia-1715",
+     "year": 1715
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Ngô Bảo",
+   "others": [
+    {
+     "id": "bia-1670",
+     "year": 1670
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": {
+  "candidates": 3000,
+  "passed": 10,
+  "ratio": 0.0033333333333333335,
+  "oneIn": 300,
+  "phrase": "cứ khoảng 300 người dự thi có 1 người đỗ"
+ },
+ "erection": {
+  "year": 1717,
+  "raw": "1717",
+  "gap": 20,
+  "batch": {
+   "count": 21,
+   "entries": [
+    {
+     "id": "bia-1656",
+     "year": 1656
+    },
+    {
+     "id": "bia-1659",
+     "year": 1659
+    },
+    {
+     "id": "bia-1661",
+     "year": 1661
+    },
+    {
+     "id": "bia-1664",
+     "year": 1664
+    },
+    {
+     "id": "bia-1667",
+     "year": 1667
+    },
+    {
+     "id": "bia-1670",
+     "year": 1670
+    },
+    {
+     "id": "bia-1673",
+     "year": 1673
+    },
+    {
+     "id": "bia-1676",
+     "year": 1676
+    },
+    {
+     "id": "bia-1680",
+     "year": 1680
+    },
+    {
+     "id": "bia-1683",
+     "year": 1683
+    },
+    {
+     "id": "bia-1685",
+     "year": 1685
+    },
+    {
+     "id": "bia-1688",
+     "year": 1688
+    },
+    {
+     "id": "bia-1691",
+     "year": 1691
+    },
+    {
+     "id": "bia-1694",
+     "year": 1694
+    },
+    {
+     "id": "bia-1697",
+     "year": 1697
+    },
+    {
+     "id": "bia-1700",
+     "year": 1700
+    },
+    {
+     "id": "bia-1703",
+     "year": 1703
+    },
+    {
+     "id": "bia-1706",
+     "year": 1706
+    },
+    {
+     "id": "bia-1710",
+     "year": 1710
+    },
+    {
+     "id": "bia-1712",
+     "year": 1712
+    },
+    {
+     "id": "bia-1715",
+     "year": 1715
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Nguyễn Kiều",
+   "dates": "Không rõ",
+   "description": "Giữ chức Cẩn sự Tá lang Hàn lâm viện Hiệu thảo, là người vâng sắc soạn bài ký cho văn bia này.",
+   "isLaureate": false
+  },
+  {
+   "name": "Nguyễn Quý Đức",
+   "dates": "1648-1720",
+   "description": "Đại thần triều Lê Trung hưng, giữ chức Tham tụng, Thượng thư Bộ Lại kiêm Đông các Đại học sĩ, tước Liêm Quận công. Ông là người nhuận sắc cho văn bia.",
+   "isLaureate": false
+  },
+  {
+   "name": "Nguyễn Công Cơ",
+   "dates": "1676-1733",
+   "description": "Tự Nghĩa Trai, giữ chức Thượng thư Bộ Binh kiêm Tham tụng, Đông các Đại học sĩ, tước Cảo Quận công. Ông từng đi sứ nhà Thanh và được tặng hàm Thái phó.",
+   "isLaureate": true
+  },
+  {
+   "name": "Đào Hoàng Thực",
+   "dates": "1670-?",
+   "description": "Giữ chức Thượng thư Bộ Hình, sau làm Tham tụng, Thượng thư Bộ Binh, được ban hiệu Quốc lão. Ông được Chúa Trịnh tin dùng và ví như các vị Tể tướng đời Đường.",
+   "isLaureate": true
+  },
+  {
+   "name": "Tô Thế Huy",
+   "dates": "1666-?",
+   "description": "Làm quan đến chức Tả Thị lang, tước Cảo Quận công, từng đi sứ sang nhà Thanh, sau được tặng chức Thượng thư Bộ Công.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nguyễn Kiều",
+  "dates": "Không rõ",
+  "description": "Giữ chức Cẩn sự Tá lang Hàn lâm viện Hiệu thảo, là người vâng sắc soạn bài ký cho văn bia này.",
+  "hometown": "Không rõ",
+  "roles": [
+   "Hàn lâm viện Hiệu thảo",
+   "Người soạn văn bia"
+  ]
+ }
+}

@@ -1,0 +1,103 @@
+/* cinema.css › base — Nền của view: token màu / chữ (.cinema), sân khấu 3D, lớp hiệu ứng phim (vignette, hạt, viền).
+   (C: tách nguyên văn từ cinema.css — thứ tự @import trong cinema.css giữ nguyên cascade.) */
+/* ============================================================
+   Chế độ "Điện ảnh" — nền gần như đen, một hiện vật mỗi lúc.
+   Mọi selector đều nằm dưới .cinema hoặc body[data-view="cinema"].
+   ============================================================ */
+
+body[data-view="cinema"] {
+  background: var(--cin-bg, #07070a);
+  color: #ececec;
+  overscroll-behavior: none;
+}
+
+.cinema {
+  --bg: #07070a;
+  --fg: #ececec;
+  --dim: rgba(236, 236, 236, .55);
+  --faint: rgba(236, 236, 236, .3);
+  --hair: rgba(236, 236, 236, .14);
+  --gold: #d9b36c;
+  --glass: rgba(255, 255, 255, .055);
+  --glass-hi: rgba(255, 255, 255, .11);
+  --bar: 0px;
+  --gut: clamp(16px, 3vw, 44px);
+  --sans: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  --display: 'Bodoni Moda', 'Playfair Display', Didot, Georgia, serif;
+  /* Bodoni Moda KHÔNG có bộ chữ tiếng Việt (Google Fonts chỉ có latin/latin-ext) → chữ có dấu
+     sẽ lẫn font dự phòng. Mọi dòng chữ tiếng Việt dùng --display-vi; Bodoni chỉ cho chữ số. */
+  --display-vi: 'Playfair Display', Georgia, serif;
+
+  /* Khoác màu của view lên bảng cài đặt dùng chung (core/settings-panel.css) */
+  --sp-bg: rgba(20, 20, 24, .82);
+  --sp-fg: var(--fg);
+  --sp-muted: var(--dim);
+  --sp-accent: var(--gold);
+  --sp-border: var(--hair);
+  --sp-tint: rgba(255, 255, 255, .07);
+  --sp-radius: 14px;
+  --sp-font: var(--sans);
+  --sp-shadow: 0 26px 68px rgba(0, 0, 0, .6);
+
+  /* Nhịp chuyển cảnh, view đặt lại theo thời lượng hiệu ứng đang chọn */
+
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--sans);
+  opacity: 0;
+  transition: opacity .6s ease;
+}
+.cinema[data-ready="1"] { opacity: 1; }
+
+.cinema :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+/* ---------- Sân khấu 3D ---------- */
+.cinema .cin-stage { position: absolute; inset: 0; z-index: 0; }
+.cinema .cin-stage canvas { cursor: grab; }
+.cinema[data-drag="1"] .cin-stage canvas { cursor: grabbing; }
+/* Trỏ vào tấm bia hoặc vòng "i" → con trỏ báo bấm được. */
+.cinema[data-hot="1"] .cin-stage canvas { cursor: pointer; }
+
+/* ---------- Lớp hiệu ứng (vignette, hạt phim, viền phim) ---------- */
+.cinema .cin-fx { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+
+.cinema .cin-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(118% 88% at 50% 44%, rgba(0, 0, 0, 0) 34%, rgba(0, 0, 0, .4) 72%, rgba(0, 0, 0, .74) 100%);
+}
+
+.cinema[data-grain="off"] .cin-grain { display: none; }
+.cinema .cin-grain {
+  position: absolute;
+  inset: -80px;
+  background-image: var(--cin-grain);
+  background-repeat: repeat;
+  opacity: .055;
+  mix-blend-mode: overlay;
+  animation: cin-grain .8s steps(1) infinite;
+  will-change: transform;
+}
+@keyframes cin-grain {
+  0%    { transform: translate3d(0, 0, 0); }
+  12.5% { transform: translate3d(-15px, 9px, 0); }
+  25%   { transform: translate3d(11px, -19px, 0); }
+  37.5% { transform: translate3d(-23px, -7px, 0); }
+  50%   { transform: translate3d(17px, 15px, 0); }
+  62.5% { transform: translate3d(-9px, 21px, 0); }
+  75%   { transform: translate3d(23px, -13px, 0); }
+  87.5% { transform: translate3d(-19px, -21px, 0); }
+  100%  { transform: translate3d(0, 0, 0); }
+}
+
+.cinema .cin-bar { display: none; position: absolute; left: 0; right: 0; height: var(--bar); background: #030304; z-index: 3; }
+@media (min-aspect-ratio: 37/20) {
+  .cinema { --bar: clamp(14px, 3.4vh, 42px); }
+  .cinema .cin-bar { display: block; }
+  .cinema .cin-bar--t { top: 0; border-bottom: 1px solid rgba(255, 255, 255, .05); }
+  .cinema .cin-bar--b { bottom: 0; border-top: 1px solid rgba(255, 255, 255, .05); }
+}

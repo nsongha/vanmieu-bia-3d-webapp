@@ -1,0 +1,408 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 64 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/64/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1731",
+ "year": 1731,
+ "canChi": "Tân Hợi",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA TÂN HỢI NIÊN HIỆU VĨNH KHÁNH NĂM THỨ 3 (1731)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Nhà Lê (Lê Trung Hưng)",
+ "era": "Vĩnh Khánh",
+ "eraYear": 3,
+ "king": {
+  "name": "Lê Duy Phường",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Vĩnh Khánh trong tiêu đề (vua sau bị phế, sử gọi Hôn Đức công)"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 12,
+ "passedRaw": "12",
+ "erected": 1732,
+ "contributors": {
+  "author": "Phạm Khiêm Ích",
+  "calligrapher": "Không ghi",
+  "editor": "Không ghi",
+  "engraver": "Không ghi"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 1
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 3
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 8
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Đỗ Huy Kỳ",
+   "tier": 1,
+   "title": "Thám hoa",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ Đệ tam danh (Thám hoa) [Đình Nguyên]",
+   "hometown": "xã Thử Cốc huyện Thụy Nguyên",
+   "honors": [
+    "Đình nguyên"
+   ]
+  },
+  {
+   "name": "Trần Danh Ninh",
+   "tier": 2,
+   "title": "Hoàng giáp",
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp)",
+   "hometown": "xã Bảo Triện huyện Gia Định",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Nghiễm",
+   "tier": 2,
+   "title": "Hoàng giáp",
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp)",
+   "hometown": "xã Tiên Điền huyện Nghi Xuân",
+   "honors": []
+  },
+  {
+   "name": "Quản Đình Du",
+   "tier": 2,
+   "title": "Hoàng giáp",
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp)",
+   "hometown": "xã Hoa Cầu huyện Văn Giang",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Bá Lân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân [Hội Nguyên]",
+   "hometown": "xã Cổ Đô huyện Tiên Phong",
+   "honors": [
+    "Hội nguyên"
+   ]
+  },
+  {
+   "name": "Nguyễn Thì Lượng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Phùng Xá huyện Thạch Thất",
+   "honors": []
+  },
+  {
+   "name": "Mai Thế Chuẩn",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Thạch Tuyền huyện Nga Sơn",
+   "honors": []
+  },
+  {
+   "name": "Mai Danh Tông",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Cao Lãm huyện Sơn Minh",
+   "honors": []
+  },
+  {
+   "name": "Trần Danh Lâm",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Bảo Triện huyện Gia Định",
+   "honors": []
+  },
+  {
+   "name": "Phạm Nguyên Ninh",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Đông Ngạc huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Trần Lê Lân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Tam Lộng huyện Lôi Dương",
+   "honors": []
+  },
+  {
+   "name": "Dương Công Thụ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Lạc Đạo huyện Gia Lâm",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa đông tháng 10 năm Tân Hợi, niên hiệu Vĩnh Khánh thứ 3 (1731), triều đình mở khoa thi Hội, qua bốn trường chọn được 12 người trúng cách.",
+   "Vào Điện thí, triều đình ban Đỗ Huy Kỳ đỗ Tiến sĩ cập đệ Đệ tam danh (Thám hoa), Trần Danh Ninh, Nguyễn Nghiễm và Quản Đình Du đỗ Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp).",
+   "Nguyễn Bá Lân, đỗ Đệ tam giáp đồng Tiến sĩ xuất thân, là người đứng đầu kỳ thi Hội (Hội nguyên) khoa này.",
+   "Bia được dựng năm sau, 1732, do Phạm Khiêm Ích — Tiến sĩ cập đệ khoa Canh Dần — soạn bài ký."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi được tổ chức vào năm Tân Hợi (1731) dưới triều vua Lê Duy Phường (niên hiệu Vĩnh Khánh).",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Mùa đông tháng 10 năm Tân Hợi, chuẩn lời tâu của Bộ Lễ xin mở khoa thi Hội."
+   }
+  },
+  {
+   "text": "Uy vương Trịnh Giang là người nắm quyền chính và quyết định việc tổ chức thi cử.",
+   "kind": "note"
+  },
+  {
+   "text": "Hội đồng giám khảo gồm: Trịnh Bật (Đề điệu), Nguyễn Hiệu (Tri Cống cử), Phạm Đình Kính và Ngô Đình Thạc (Giám thí).",
+   "kind": "note",
+   "label": "Hội đồng giám khảo gồm",
+   "labelKind": "inline",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Đặc sai Phó tướng Đề đốc Phương Quận công Trịnh Bật làm Đề điệu, Bồi tụng Lễ bộ Thượng thư Tri Hàn lâm viện sự Thiếu bảo Nông Quận công Nguyễn Hiệu làm Tri Cống cử, Bồi tụng Lễ bộ Tả Thị lang Lại Trạch hầu Phạm Đình Kính, Công bộ Hữu Thị lang Huy Luân bá Ngô Đình Thạc làm Giám thí."
+   }
+  },
+  {
+   "text": "Gia Bình là tên gọi cổ của tháng Chạp (tháng 12 âm lịch), bắt nguồn từ cách gọi của đời nhà Ân.",
+   "kind": "note"
+  },
+  {
+   "text": "Khoa thi lấy đỗ 12 người, trong đó Nguyễn Bá Lân đỗ đầu kỳ thi Hội (Hội nguyên).",
+   "kind": "note"
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Phạm Khiêm Ích",
+   "dates": "Không rõ",
+   "description": "Người soạn văn bia, đỗ Tiến sĩ cập đệ khoa Canh Dần. Ông giữ các chức vụ Tham tụng, Thượng thư Bộ Lại kiêm Đông các Đại học sĩ, tước Thuật Quận công.",
+   "hometown": "Không ghi",
+   "roles": [
+    "Tham tụng",
+    "Thượng thư Bộ Lại",
+    "Đông các Đại học sĩ",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Đỗ Huy Kỳ",
+   "dates": "1695-1748",
+   "description": "Đỗ Thám hoa, làm quan đến chức Thừa chính sứ, tước bá. Ông từng được cử làm Chánh sứ sang nhà Thanh nhưng mất trên đường đi, sau được truy tặng Hữu Thị lang Bộ Lễ.",
+   "hometown": "xã Thử Cốc huyện Thụy Nguyên (nay thuộc xã Thiệu Tâm, huyện Đông Sơn, tỉnh Thanh Hóa)",
+   "roles": [
+    "Tham nghị",
+    "Thừa chính sứ",
+    "Chánh sứ"
+   ]
+  },
+  {
+   "name": "Nguyễn Nghiễm",
+   "dates": "1708-1775",
+   "description": "Thân phụ của đại thi hào Nguyễn Du. Ông là nhà chính trị, nhà văn, nhà sử học lỗi lạc, giữ chức Thượng thư nhiều bộ, thăng đến Đại tư đồ, tước Xuân Quận công.",
+   "hometown": "xã Tiên Điền huyện Nghi Xuân (nay thuộc tỉnh Hà Tĩnh)",
+   "roles": [
+    "Tế tửu Quốc tử giám",
+    "Thượng thư Bộ Công",
+    "Thượng thư Bộ Hộ",
+    "Đại tư đồ"
+   ]
+  },
+  {
+   "name": "Nguyễn Bá Lân",
+   "dates": "1701-1786",
+   "description": "Đỗ Hội nguyên, làm quan đến chức Thượng thư Bộ Công, sau khi mất được tặng hàm Thái tể, tước Quận công.",
+   "hometown": "xã Cổ Đô huyện Tiên Phong (nay thuộc huyện Ba Vì, Hà Nội)",
+   "roles": [
+    "Huấn đạo",
+    "Bồi tụng",
+    "Thượng thư Bộ Công"
+   ]
+  },
+  {
+   "name": "Trần Danh Ninh",
+   "dates": "1703-1766",
+   "description": "Con của Trần Phụ Dực, anh của Trần Danh Lâm. Ông giữ chức Thượng thư Bộ Lễ, Nhập thị Bồi tụng, sau khi mất được truy tặng hàm Thái bảo.",
+   "hometown": "xã Bảo Triện huyện Gia Định (nay thuộc xã Đại Lai, huyện Gia Bình, tỉnh Bắc Ninh)",
+   "roles": [
+    "Thượng thư Bộ Lễ",
+    "Nhập thị Bồi tụng"
+   ]
+  },
+  {
+   "name": "Trần Danh Lâm",
+   "dates": "1705-1777",
+   "description": "Em trai Trần Danh Ninh, cha của Trần Danh Án. Ông giữ chức Thượng thư Bộ Công, Bồi tụng, sau khi mất được tặng hàm Thái bảo.",
+   "hometown": "xã Bảo Triện huyện Gia Định (nay thuộc xã Đại Lai, huyện Gia Bình, tỉnh Bắc Ninh)",
+   "roles": [
+    "Thượng thư Bộ Công",
+    "Bồi tụng",
+    "Đô Ngự sử"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA TÂN HỢI NIÊN HIỆU VĨNH KHÁNH NĂM THỨ 3 (1731)",
+  "paragraphs": [
+   "Mừng nay cơ đồ to lớn tựa sao Cơ trường thọ, văn trị ngời chiếu như ánh sáng sao Khuê. Kính vâng Hoàng thượng nắm quẻ Càn, đổi mới vận mệnh. Thực nhờ [Đại nguyên súy Thống quốc chính Thượng sư Uy vương] tạo tác muôn việc, cân nhắc lựa chọn nhân tài. Mùa đông tháng 10 năm Tân Hợi, chuẩn lời tâu của Bộ Lễ xin mở khoa thi Hội. Đặc sai Phó tướng Đề đốc Phương Quận công Trịnh Bật làm Đề điệu, Bồi tụng Lễ bộ Thượng thư Tri Hàn lâm viện sự Thiếu bảo Nông Quận công Nguyễn Hiệu làm Tri Cống cử, Bồi tụng Lễ bộ Tả Thị lang Lại Trạch hầu Phạm Đình Kính, Công bộ Hữu Thị lang Huy Luân bá Ngô Đình Thạc làm Giám thí. Qua bốn trường, lấy trúng cách bọn Nguyễn Bá Lân 12 người. Qua tháng sau Điện thí, ban cho bọn Đỗ Huy Kỳ đỗ Cập đệ, Xuất thân có thứ bậc khác nhau. Lại sai khắc đá đề danh để lưu truyền mãi mãi."
+  ],
+  "colophon": [
+   "Bia dựng tiết Gia Bình (tức tháng Chạp) niên hiệu Long Đức thứ 1 (1732) Hoàng Lê. Tiến sĩ cập đệ khoa Canh Dần, Tham tụng Thượng thư Bộ Lại kiêm Đông các Đại học sỹ Thiếu bảo Thuật Quận công Phạm Khiêm Ích vâng sắc soạn."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhất giáp Tiến sĩ cập đệ Đệ tam danh",
+    "count": null,
+    "names": [
+     {
+      "name": "ĐỖ HUY KỲ",
+      "from": "xã Thử Cốc huyện Thụy Nguyên, Tham nghị"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 3,
+    "names": [
+     {
+      "name": "TRẦN DANH NINH",
+      "from": "xã Bảo Triện huyện Gia Định, Nho sinh trúng thức"
+     },
+     {
+      "name": "NGUYỄN NGHIỄM",
+      "from": "xã Tiên Điền huyện Nghi Xuân, Giám sinh"
+     },
+     {
+      "name": "QUẢN ĐÌNH DU",
+      "from": "xã Hoa Cầu huyện Văn Giang, Giám sinh"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 8,
+    "names": [
+     {
+      "name": "NGUYỄN BÁ LÂN",
+      "from": "xã Cổ Đô huyện Tiên Phong, Huấn Đạo"
+     },
+     {
+      "name": "NGUYỄN THÌ LƯỢNG",
+      "from": "xã Phùng Xá huyện Thạch Thất, Giám sinh"
+     },
+     {
+      "name": "MAI THẾ CHUẨN",
+      "from": "xã Thạch Tuyền huyện Nga Sơn, Sinh đồ"
+     },
+     {
+      "name": "MAI DANH TÔNG",
+      "from": "xã Cao Lãm huyện Sơn Minh, Tri huyện"
+     },
+     {
+      "name": "TRẦN DANH LÂM",
+      "from": "xã Bảo Triện huyện Gia Định, Nho sinh trúng thức"
+     },
+     {
+      "name": "PHẠM NGUYÊN NINH",
+      "from": "xã Đông Ngạc huyện Từ Liêm, Tư vụ"
+     },
+     {
+      "name": "TRẦN LÊ LÂN",
+      "from": "xã Tam Lộng huyện Lôi Dương, Tri huyện"
+     },
+     {
+      "name": "DƯƠNG CÔNG THỤ",
+      "from": "xã Lạc Đạo huyện Gia Lâm, Tri huyện"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Phạm Khiêm Ích"
+  }
+ ],
+ "crossRefs": [],
+ "passRate": null,
+ "erection": {
+  "year": 1732,
+  "raw": "1732",
+  "gap": 1,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1731",
+     "year": 1731
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Phạm Khiêm Ích",
+   "dates": "Không rõ",
+   "description": "Người soạn văn bia, đỗ Tiến sĩ cập đệ khoa Canh Dần. Ông giữ các chức vụ Tham tụng, Thượng thư Bộ Lại kiêm Đông các Đại học sĩ, tước Thuật Quận công.",
+   "isLaureate": false
+  },
+  {
+   "name": "Đỗ Huy Kỳ",
+   "dates": "1695-1748",
+   "description": "Đỗ Thám hoa, làm quan đến chức Thừa chính sứ, tước bá. Ông từng được cử làm Chánh sứ sang nhà Thanh nhưng mất trên đường đi, sau được truy tặng Hữu Thị lang Bộ Lễ.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Nghiễm",
+   "dates": "1708-1775",
+   "description": "Thân phụ của đại thi hào Nguyễn Du. Ông là nhà chính trị, nhà văn, nhà sử học lỗi lạc, giữ chức Thượng thư nhiều bộ, thăng đến Đại tư đồ, tước Xuân Quận công.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Bá Lân",
+   "dates": "1701-1786",
+   "description": "Đỗ Hội nguyên, làm quan đến chức Thượng thư Bộ Công, sau khi mất được tặng hàm Thái tể, tước Quận công.",
+   "isLaureate": true
+  },
+  {
+   "name": "Trần Danh Ninh",
+   "dates": "1703-1766",
+   "description": "Con của Trần Phụ Dực, anh của Trần Danh Lâm. Ông giữ chức Thượng thư Bộ Lễ, Nhập thị Bồi tụng, sau khi mất được truy tặng hàm Thái bảo.",
+   "isLaureate": true
+  },
+  {
+   "name": "Trần Danh Lâm",
+   "dates": "1705-1777",
+   "description": "Em trai Trần Danh Ninh, cha của Trần Danh Án. Ông giữ chức Thượng thư Bộ Công, Bồi tụng, sau khi mất được tặng hàm Thái bảo.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Phạm Khiêm Ích",
+  "dates": "Không rõ",
+  "description": "Người soạn văn bia, đỗ Tiến sĩ cập đệ khoa Canh Dần. Ông giữ các chức vụ Tham tụng, Thượng thư Bộ Lại kiêm Đông các Đại học sĩ, tước Thuật Quận công.",
+  "hometown": "Không ghi",
+  "roles": [
+   "Tham tụng",
+   "Thượng thư Bộ Lại",
+   "Đông các Đại học sĩ",
+   "Người soạn văn bia"
+  ]
+ }
+}

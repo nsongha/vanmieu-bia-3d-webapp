@@ -1,0 +1,97 @@
+{
+  "$comment": "Sinh bởi tools/measure-pedestal.mjs — KHÔNG sửa tay. Bán kính dấu chân (đơn vị thế giới, bia cao 1) quanh trục lắc; phân vị 0.995 theo 180 múi góc. stage.js lấy max để dựng MỘT cỡ bục chung.",
+  "method": {
+    "sectors": 180,
+    "quantile": 0.995,
+    "minInSector": 24,
+    "footFrac": 0.03
+  },
+  "max": {
+    "swept": 0.5233,
+    "sweptBy": "bia-1487",
+    "base": 0.5064,
+    "baseBy": "bia-1487"
+  },
+  "steles": {
+    "bia-1442": {
+      "swept": 0.4619,
+      "sweptMax": 0.4619,
+      "sweptAzimuth": -179,
+      "base": 0.4618,
+      "baseMax": 0.4618,
+      "vertices": 37642
+    },
+    "bia-1463": {
+      "swept": 0.4633,
+      "sweptMax": 0.4634,
+      "sweptAzimuth": -177,
+      "base": 0.4592,
+      "baseMax": 0.4593,
+      "vertices": 263744
+    },
+    "bia-1487": {
+      "swept": 0.5233,
+      "sweptMax": 0.5235,
+      "sweptAzimuth": -175,
+      "base": 0.5064,
+      "baseMax": 0.5064,
+      "vertices": 765902
+    },
+    "bia-1514": {
+      "swept": 0.4573,
+      "sweptMax": 0.4577,
+      "sweptAzimuth": 175,
+      "base": 0.4458,
+      "baseMax": 0.4458,
+      "vertices": 911091
+    },
+    "bia-1554": {
+      "swept": 0.4705,
+      "sweptMax": 0.4707,
+      "sweptAzimuth": -163,
+      "base": 0.4684,
+      "baseMax": 0.4687,
+      "vertices": 667008
+    },
+    "bia-1604": {
+      "swept": 0.4469,
+      "sweptMax": 0.4469,
+      "sweptAzimuth": 173,
+      "base": 0.4469,
+      "baseMax": 0.4469,
+      "vertices": 581052
+    },
+    "bia-1661": {
+      "swept": 0.4456,
+      "sweptMax": 0.4458,
+      "sweptAzimuth": 3,
+      "base": 0.4309,
+      "baseMax": 0.4309,
+      "vertices": 296908
+    },
+    "bia-1680": {
+      "swept": 0.4477,
+      "sweptMax": 0.4478,
+      "sweptAzimuth": -5,
+      "base": 0.4409,
+      "baseMax": 0.4409,
+      "vertices": 804192
+    },
+    "bia-1727": {
+      "swept": 0.4884,
+      "sweptMax": 0.4887,
+      "sweptAzimuth": 27,
+      "base": 0.4886,
+      "baseMax": 0.4887,
+      "vertices": 953574
+    },
+    "bia-1779": {
+      "swept": 0.439,
+      "sweptMax": 0.4391,
+      "sweptAzimuth": 23,
+      "base": 0.4391,
+      "baseMax": 0.4391,
+      "vertices": 942410
+    }
+  }
+}

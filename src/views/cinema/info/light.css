@@ -1,0 +1,268 @@
+/* ============================================================
+   Kiểu hiện thông tin "Chữ ánh sáng" (info/light.js)
+   Không khung, không nền: chữ làm bằng ánh sáng, trồi ra từ TRONG lòng đá.
+   Mọi phần tử nằm trong lớp CSS3D (.cin-css3d), gắn lên mặt phẳng bia; kích thước là px CSS
+   ở khung mặc định (light.js nhân thêm hệ số thiết kế cho các cỡ màn hình khác).
+   Tiền tố .cil- (cinema · info · light).
+
+   Mỗi phần tử CSS3D (.cil--r, .cil--l, .cil-leadbox) có bề ngang/cao TƯỜNG MINH do JS đặt, chứa
+   trọn nội dung của nó — không dựa vào nội dung tràn khỏi hộp.
+   Hiệu năng: JS chỉ ghi transform/opacity. Quầng sáng là bản sao chữ có text-shadow TĨNH
+   (.cil-g); mặt nạ "trong đá" là gradient TĨNH trên hộp .cil-clip, chỉ gắn khi đang trượt.
+   ============================================================ */
+
+.cinema .cil {
+  position: absolute;
+  pointer-events: none;
+  --cil-gap: 56px; /* JS đặt lại theo bố cục (đủ 56 / gọn 40): mép phiến bia → mép cột */
+  --cil-pad: 20px; /* = PAD trong light.js: chỗ cho quầng sáng trong hộp (blur 16px) */
+  --cil-warm: 255, 230, 190;
+  --cil-ink: #f6ecdc;
+  --cil-gold: rgba(217, 179, 108, .94);
+}
+
+/* ---------- Hộp mặt nạ = cả hộp cột; mép phía đá ĐÚNG mép phiến bia ----------
+   Chỉ khi có dòng đang trượt (.is-masked): trong suốt tại mép đá, mềm 16px → phần chữ còn nằm
+   "trong đá" bị giấu. Gradient tĩnh, không phụ thuộc khung hình hay góc nhìn; gỡ khi vào chỗ. */
+.cinema .cil-clip { position: absolute; inset: 0; }
+.cinema .cil--r .cil-clip.is-masked {
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 16px);
+  mask-image: linear-gradient(90deg, transparent 0, #000 16px);
+}
+.cinema .cil--l .cil-clip.is-masked {
+  -webkit-mask-image: linear-gradient(270deg, transparent 0, #000 16px);
+  mask-image: linear-gradient(270deg, transparent 0, #000 16px);
+}
+
+.cinema .cil-stack {
+  position: absolute;
+  top: var(--cil-pad);
+  display: flex;
+  flex-direction: column;
+}
+/* Cột ôm sát nội dung (tối đa COL_R / COL_L); JS đo rồi đặt hộp đúng bằng cột + khe + đệm. */
+.cinema .cil--r .cil-stack { left: var(--cil-gap); width: max-content; max-width: 352px; align-items: flex-start; }
+.cinema .cil--l .cil-stack { right: var(--cil-gap); width: max-content; max-width: 300px; align-items: flex-end; text-align: right; }
+
+/* Đầu cột trái: số năm khoa thi — nét chữ số cao đúng 43px như khối đầu cột phải (vạch kẻ hai
+   bên cùng một hàng). Chữ số Bodoni Moda 700 dáng thẳng hàng (lining). */
+.cinema .cil-year {
+  font: 700 var(--cil-year-fs, 61px)/1 'Bodoni Moda', 'Playfair Display', Didot, 'Times New Roman', serif;
+  letter-spacing: .015em;
+  margin-right: -.015em;
+  font-variant-numeric: lining-nums;
+  color: var(--cil-ink);
+  text-box: trim-both cap alphabetic;
+  white-space: nowrap;
+}
+
+/* ---------- Một "dòng sáng" ----------
+   .cil-ln = phần tử trong luồng (JS đổi translate + opacity)
+   .cil-g  = bản sao phát sáng: chữ trong suốt + text-shadow tĩnh; JS chỉ đổi opacity/translate
+   .cil-x  = chữ thật, nằm trên quầng sáng */
+.cinema .cil-ln { position: relative; max-width: 100%; }
+.cinema .cil-x { position: relative; }
+.cinema .cil-g {
+  position: absolute;
+  inset: 0;
+  opacity: .26; /* = GLOW_REST */
+  pointer-events: none;
+  user-select: none;
+  text-shadow: 0 0 16px rgba(255, 228, 186, .9), 0 0 5px rgba(255, 236, 208, .55);
+}
+.cinema .cil-g,
+.cinema .cil-g * { color: transparent !important; }
+.cinema .cil-g .cil-rule { background: transparent; box-shadow: 0 0 10px 1px rgba(255, 226, 180, .8); }
+/* Chỉ tách lớp trong lúc có hoạt ảnh (đổi transform/opacity khỏi phải vẽ lại chữ); xong thì gộp
+   lại cho chữ sắc. */
+.cinema .cil.is-anim .cil-ln,
+.cinema .cil.is-anim .cil-g { will-change: transform, opacity; }
+
+/* ---------- Cột phải: khoa thi ---------- */
+.cinema .cil-over {
+  font: 500 12px/1 var(--sans); /* ≥ 11px ở mọi hệ số của bố cục đủ (k ≥ 11/12) */
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--cil-gold);
+  text-box: trim-both cap alphabetic;
+  white-space: nowrap;
+}
+.cinema .cil-title-ln { margin-top: 13px; }
+.cinema .cil-title {
+  font: 400 30px/1 'Playfair Display', 'Bodoni Moda', Georgia, serif;
+  letter-spacing: .004em;
+  color: var(--cil-ink);
+  text-box: trim-both cap alphabetic;
+  white-space: nowrap;
+  font-kerning: normal;
+  font-variant-numeric: lining-nums; /* năm thẳng hàng chữ hoa, cùng kiểu với chữ số năm bên trái */
+}
+.cinema .cil-title em { font-style: italic; color: rgba(246, 236, 220, .8); }
+.cinema .cil-title .cil-dot { color: var(--cil-gold); padding: 0 .14em; }
+
+.cinema .cil-rule-ln { margin-top: 14px; }
+.cinema .cil-rule { display: block; width: 28px; height: 1px; background: rgba(217, 179, 108, .62); }
+
+.cinema .cil-row-ln { margin-top: 7px; }
+.cinema .cil-row-ln.is-first { margin-top: 14px; }
+.cinema .cil-row { display: flex; align-items: baseline; white-space: nowrap; }
+.cinema .cil-k {
+  flex: 0 0 112px;
+  font: 500 12px/1 var(--sans);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--cil-gold);
+  text-box: trim-both cap alphabetic;
+}
+.cinema .cil-v {
+  font: 400 15px/1.4 var(--sans);
+  color: var(--cil-ink);
+  letter-spacing: .005em;
+}
+
+/* Lời dẫn: bản mờ (filter TĨNH) + bản sắc chồng lên nhau; "lấy nét" = JS đổi opacity hai bản.
+   Chừa sẵn cho bài dài ~600 ký tự: tối đa 8 dòng, dư thì tan mềm ở đáy. */
+.cinema .cil-desc-w {
+  position: relative;
+  margin-top: 20px;
+  max-width: 42ch;
+  font: 400 14px/1.62 var(--sans);
+}
+.cinema .cil-desc-w.is-pending { font-size: 11px; letter-spacing: .24em; text-transform: uppercase; opacity: .75; }
+.cinema .cil-desc-w.is-pending .cil-desc--blur { font-size: 13px; letter-spacing: .24em; }
+.cinema .cil-desc {
+  margin: 0;
+  max-height: calc(14px * 1.62 * 8);
+  overflow: hidden;
+  color: rgba(236, 228, 214, .72);
+  text-wrap: pretty;
+  opacity: 0;
+}
+.cinema .cil-desc--blur {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  filter: blur(6px);
+  color: rgba(246, 236, 220, .85);
+  pointer-events: none;
+}
+.cinema .cil-desc-w.is-clamped .cil-desc {
+  -webkit-mask-image: linear-gradient(180deg, #000 calc(100% - 3.2em), transparent);
+  mask-image: linear-gradient(180deg, #000 calc(100% - 3.2em), transparent);
+}
+.cinema .cil.is-anim .cil-desc { will-change: opacity; }
+
+/* ---------- Cột trái: chú giải bộ phận ---------- */
+.cinema .cil-co-ln { margin-top: 24px; }
+/* Chú giải đầu tiên: đỉnh chữ hoa của nhãn thẳng hàng với nhãn "NIÊN HIỆU" bên phải. */
+.cinema .cil-rule-ln + .cil-co-ln { margin-top: 22px; }
+.cinema .cil-co__k {
+  font: 600 12px/1 var(--sans);
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--cil-gold);
+  text-box: trim-both cap alphabetic;
+  margin-bottom: 10px;
+  margin-right: -.18em; /* bù khoảng chữ thừa sau ký tự cuối → mép phải thẳng với dòng mô tả */
+  white-space: nowrap;
+  transition: color .2s ease;
+}
+.cinema .cil-co__t {
+  font: 400 13px/1.5 var(--sans);
+  color: rgba(236, 228, 214, .6);
+  text-wrap: balance;
+  transition: color .2s ease;
+}
+.cinema .cil-co-ln.is-hot .cil-co__k { color: #f3d196; }
+.cinema .cil-co-ln.is-hot .cil-co__t { color: rgba(246, 238, 224, .94); }
+.cinema .cil-co-ln.is-hot .cil-g { opacity: .62 !important; }
+.cinema .cil-co-ln .cil-g { transition: opacity .2s ease; }
+/* Một chú giải đang được rê → các chú giải còn lại lùi xuống một nấc. */
+.cinema .cil--l.has-hot .cil-co-ln:not(.is-hot) .cil-co__t { color: rgba(236, 228, 214, .42); }
+.cinema .cil--l.has-hot .cil-co-ln:not(.is-hot) .cil-co__k { color: rgba(217, 179, 108, .62); }
+
+/* ---------- Đường dẫn chú giải ----------
+   Phần tử CSS3D riêng (.cil-leadbox) với hộp tường minh phủ từ mép cột trái tới quá mép phải
+   phiến bia; SVG cùng cỡ, viewBox theo toạ độ của cột trái. Nét 1px ấm, vẽ ra bằng
+   stroke-dashoffset; bên dưới là nét viền tối rất mảnh (.cil-case) để đọc được trên mặt đá sáng. */
+.cinema .cil-leads {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  max-width: none; /* base.css: svg { max-width: 100% } */
+  overflow: visible;
+  pointer-events: none;
+}
+.cinema .cil-lead { transition: opacity .2s ease; }
+.cinema .cil-lead .cil-case {
+  fill: none;
+  stroke: rgb(12, 9, 6);
+  stroke-opacity: .36;
+  stroke-width: 2.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.cinema .cil-lead .cil-line {
+  fill: none;
+  stroke: rgb(255, 233, 204);
+  stroke-opacity: .72;
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: stroke-opacity .2s ease;
+}
+.cinema .cil-lead .cil-ring,
+.cinema .cil-lead .cil-ringc,
+.cinema .cil-lead .cil-pulse,
+.cinema .cil-lead .cil-pip { transform-box: fill-box; transform-origin: center; }
+/* Nhịp toả của vòng neo khi rê vào chú giải (chỉ lúc .is-hot). */
+.cinema .cil-lead .cil-pulse { fill: none; stroke: rgb(255, 236, 210); stroke-width: 1; visibility: hidden; }
+.cinema .cil-lead.is-hot .cil-pulse { visibility: visible; animation: cil-pulse 1.8s cubic-bezier(.2, .6, .35, 1) infinite; }
+@keyframes cil-pulse {
+  from { transform: scale(1); stroke-opacity: .55; }
+  to { transform: scale(2.4); stroke-opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cinema .cil-lead.is-hot .cil-pulse { animation: none; visibility: hidden; }
+}
+.cinema .cil-lead .cil-ringc { stroke-width: 2.8; }
+.cinema .cil-lead .cil-ring {
+  fill: none;
+  stroke: rgb(255, 236, 210);
+  stroke-opacity: .8;
+  stroke-width: 1;
+  transition: stroke-opacity .2s ease;
+}
+.cinema .cil-lead .cil-pip { fill: #fff3dd; }
+.cinema .cil-lead.is-hot .cil-line,
+.cinema .cil-lead.is-hot .cil-ring { stroke-opacity: 1; }
+.cinema .cil-leadbox.has-hot .cil-lead:not(.is-hot) { opacity: .45; }
+
+/* ---------- Các bậc bố cục khi thiếu chỗ (xem LEVELS trong light.js) ----------
+   .is-compact   gọn: cột trái chỉ nhãn + đường dẫn; cột phải bỏ năm khỏi tiêu đề (đã là đầu cột
+                 trái), nhãn xếp trên giá trị. Nhãn chữ hoa 14px (≥ 11px ở k ≥ 11/14).
+   .is-nodesc    bỏ lời dẫn (mota).
+   .is-narrow    chỉ còn cột phải: cột hẹp hơn, giá trị xuống dòng.
+   .is-title-only  chỉ còn dòng tiêu đề. */
+.cinema .cil--l.is-compact .cil-co__t { display: none; }
+.cinema .cil--l.is-compact .cil-co__k { margin-bottom: 0; font-size: 14px; letter-spacing: .14em; margin-right: -.14em; }
+.cinema .cil--l.is-compact .cil-co-ln { margin-top: 20px; }
+.cinema .cil--l.is-compact .cil-rule-ln + .cil-co-ln { margin-top: 20px; }
+.cinema .cil--r.is-compact .cil-stack { max-width: 220px; }
+.cinema .cil--r.is-compact .cil-over { font-size: 14px; letter-spacing: .14em; }
+.cinema .cil--r.is-compact .cil-title-ln { margin-top: 12px; }
+.cinema .cil--r.is-compact .cil-title { font-size: 24px; white-space: normal; }
+.cinema .cil--r.is-compact:not(.is-narrow) .cil-title__y { display: none; }
+.cinema .cil--r.is-compact .cil-row { flex-direction: column; align-items: flex-start; white-space: normal; }
+.cinema .cil--r.is-compact .cil-k { flex: none; margin-bottom: 7px; font-size: 14px; letter-spacing: .14em; }
+.cinema .cil--r.is-compact .cil-row-ln { margin-top: 12px; }
+.cinema .cil--r.is-compact .cil-row-ln.is-first { margin-top: 16px; }
+.cinema .cil--r.is-compact .cil-desc-w { max-width: 100%; margin-top: 18px; }
+.cinema .cil--r.is-compact .cil-desc { max-height: calc(14px * 1.62 * 4); }
+.cinema .cil--r.is-nodesc .cil-desc-w { display: none; }
+.cinema .cil--r.is-narrow .cil-stack { max-width: 180px; }
+.cinema .cil--r.is-title-only .cil-ln:not(.cil-title-ln),
+.cinema .cil--r.is-title-only .cil-desc-w { display: none; }
+.cinema .cil--r.is-title-only .cil-title-ln { margin-top: 0; }

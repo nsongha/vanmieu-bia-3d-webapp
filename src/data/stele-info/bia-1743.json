@@ -1,0 +1,389 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 68 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/68/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1743",
+ "year": 1743,
+ "canChi": "Quý Hợi",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA QUÝ HỢI NIÊN HIỆU CẢNH HƯNG NĂM THỨ 4 (1743)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Nhà Lê (Lê Trung Hưng)",
+ "era": "Cảnh Hưng",
+ "eraYear": 4,
+ "king": {
+  "name": "Lê Hiển Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "hơn 2.000",
+ "passed": 7,
+ "passedRaw": "7",
+ "erected": 1744,
+ "contributors": {
+  "author": "Bạch Phấn Ưng",
+  "editor": "Nguyễn Công Thái",
+  "engraver": "Lê Nguyễn Diệu (khắc chữ), Lê Hữu Tán (viết chữ triện - giả định theo vai trò viết chữ tại Lạc khoản)"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 1
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 1
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 5
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Phan Kính",
+   "tier": 1,
+   "title": "Thám hoa",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ Đệ tam danh (Thám hoa)",
+   "hometown": "xã Lai Thạch huyện La Sơn",
+   "honors": []
+  },
+  {
+   "name": "Trần Văn Trứ",
+   "tier": 2,
+   "title": "Hoàng giáp",
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp)",
+   "hometown": "xã Từ Ô huyện Thanh Miện",
+   "honors": []
+  },
+  {
+   "name": "Lê Hoàng Vĩ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Đan Sĩ huyện Thanh Oai",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Hoản",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Lan Khê huyện Nông Cống",
+   "honors": []
+  },
+  {
+   "name": "Phạm Sĩ Thuyên",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Trung Lập huyện Đường Hào",
+   "honors": []
+  },
+  {
+   "name": "Lê Doãn Giản",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Đại Mão huyện Siêu Loại",
+   "honors": []
+  },
+  {
+   "name": "Lê Doãn Giai",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Ỷ Bích huyện Thuần Lộc",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa đông tháng 10 năm Quý Hợi, niên hiệu Cảnh Hưng thứ 4 (1743), vua Lê Hiển Tông đích thân ngự giám khoa thi Hội đầu tiên: hơn 2.000 sĩ tử dự thi, chọn được 7 người.",
+   "Tháng 12 vào Điện thí, Hoàng thượng ra đề văn sách, ban Phan Kính đỗ Tiến sĩ cập đệ Đệ tam danh (Thám hoa), Trần Văn Trứ đỗ Đệ nhị giáp Tiến sĩ xuất thân, Lê Hoàng Vĩ đứng đầu 5 người đỗ đồng Tiến sĩ xuất thân.",
+   "Năm sau, 1744, bia được dựng, giao Bạch Phấn Ưng soạn bài ký.",
+   "Bài ký ví người đỗ đạt “Làm kỳ lân có đức nhân, làm phượng hoàng có màu sắc”."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Quý Hợi (1743) là khoa thi đầu tiên mà vua Lê Hiển Tông (Cảnh Hưng) đích thân ngự giám và ra đề thi văn sách.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Tháng 12 vào Điện thí, Hoàng thượng đích thân ra đề thi văn sách, hỏi những việc lớn trong phép kinh luân thiên hạ."
+   }
+  },
+  {
+   "text": "Số lượng sĩ tử dự thi rất đông, lên đến hơn 2.000 người, nhưng chỉ có 7 người trúng tuyển.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Bấy giờ, kẻ sĩ tới kinh dự thi không dưới hơn 2.000 người."
+   }
+  },
+  {
+   "text": "Mục đích của việc dựng bia là để bồi đắp nền móng Nho phong, trau dồi khí tiết kẻ sĩ và lưu danh những người tài tuấn cho muôn đời sau.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Thế thì tấm bia vừa là để bồi đắp nền móng Nho phong, vừa là để trau dồi khởi phát khí tiết kẻ sĩ, quan hệ đến thanh danh giáo hoá há phải nhỏ đâu!"
+   }
+  },
+  {
+   "text": "Văn bia nhấn mạnh vai trò của khoa cử là con đường để kén chọn nhân tài làm khí dụng cho quốc gia.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Duy những bậc tài năng lớn thường xuất thân từ con đường đó để làm khí dụng cho quốc gia, cho nên trải các đời thánh đế minh quân, không đời nào không lo coi trọng khoa cử."
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Phan Kính",
+   "dates": "1715-1761",
+   "description": "Đỗ Thám hoa, giữ các chức quan Hàn lâm viện Đãi chế, Đông các Đại học sĩ, Kinh lược sứ. Ông nổi tiếng tài năng, sau khi mất được tặng chức Hữu Thị lang Bộ Hình.",
+   "hometown": "xã Lai Thạch huyện La Sơn (nay thuộc xã Song Lộc, huyện Can Lộc, tỉnh Hà Tĩnh)",
+   "roles": [
+    "Hàn lâm viện Đãi chế",
+    "Đông các Đại học sĩ",
+    "Kinh lược sứ",
+    "Tham mưu Nhung vụ đạo Hưng Hóa"
+   ]
+  },
+  {
+   "name": "Nguyễn Hoản",
+   "dates": "1713-1792",
+   "description": "Con của Nguyễn Hiệu, giữ chức Nhập thị Tham tụng, Thượng thư Bộ Lại, Tri Quốc tử giám. Ông được thăng hàm Thái phó, tước Viện Quận công và được tôn làm Quốc lão.",
+   "hometown": "xã Lan Khê huyện Nông Cống (nay thuộc xã Nông Trường, huyện Triệu Sơn, tỉnh Thanh Hóa)",
+   "roles": [
+    "Nhập thị Tham tụng",
+    "Thượng thư Bộ Lại",
+    "Tri Quốc tử giám",
+    "Quốc sử tổng tài",
+    "Thái phó"
+   ]
+  },
+  {
+   "name": "Lê Doãn Giản",
+   "dates": "1715-1774",
+   "description": "Giữ chức Hữu Thị lang Bộ Công, Tả Thị lang Bộ Hình, hành Sơn Nam Thừa chính sứ.",
+   "hometown": "xã Đại Mão huyện Siêu Loại (nay thuộc xã Hoài Thượng, huyện Thuận Thành, tỉnh Bắc Ninh)",
+   "roles": [
+    "Hữu Thị lang Bộ Công",
+    "Tả Thị lang Bộ Hình",
+    "Sơn Nam Thừa chính sứ"
+   ]
+  },
+  {
+   "name": "Nguyễn Công Thái",
+   "dates": "Không rõ",
+   "description": "Đại thần giữ chức Tham tụng, Thượng thư Bộ Lễ kiêm Đông các Hiệu thư, tước Kiều Quận công. Ông là người nhuận sắc cho văn bia này.",
+   "hometown": "Không rõ",
+   "roles": [
+    "Tham tụng",
+    "Thượng thư Bộ Lễ",
+    "Đông các Hiệu thư",
+    "Người nhuận sắc văn bia"
+   ]
+  },
+  {
+   "name": "Bạch Phấn Ưng",
+   "dates": "Không rõ",
+   "description": "Giữ chức Trung hiến đại phu Hàn lâm viện Thừa chỉ, là người soạn bài ký cho văn bia khoa thi 1743.",
+   "hometown": "Không rõ",
+   "roles": [
+    "Hàn lâm viện Thừa chỉ",
+    "Người soạn văn bia"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA QUÝ HỢI NIÊN HIỆU CẢNH HƯNG NĂM THỨ 4 (1743)",
+  "paragraphs": [
+   "Nền thánh học lấy việc thân hiền làm gấp tất phải mở ra con đường bằng phẳng của khoa mục, bậc vương giả chuộng điều thiện vô cùng tất phải cử hành điển lễ biểu dương. Qui chế dựng bia Tiến sĩ có lẽ là vì lý do đó chăng? Kính nghĩ: Hoàng thượng bệ hạ thiên tư vượt trên thế tục, đang giữa vận hội lớn, tác thành nhân tài, chỉnh đốn thế sự. Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư Thượng phụ Minh vương cùng chung một đức, sửa sang bốn phương, chăm lo cất nhắc trọng dụng nhân tài, trù nghĩ kế sách giữ yên thiên hạ. Năm Quý Hợi mùa đông tháng 10 thi Hội cho các Cống sĩ trong nước. Đặc sai Suy trung Dực vận công thần Tả hòa quân doanh Đô đốc phủ Tả Đô đốc Phó Đô tướng Đại tư đồ Thư Trung công Trịnh Trụ làm Đề điệu, Tham tụng Hộ bộ Thượng thư Nhập thị Kinh diên Tri Quốc tử giám Thái tử Thái bảo trí sĩ phục dụng phụng thị ngũ lão Triệu Quận công Nguyễn Huy Nhuận làm Tri Cống cử, Ngự sử đài Phó Đô Ngự sử Dao Lĩnh bá Phạm Đình Trọng, Sơn Tây đẳng xứ Tán trị Thừa Chính sứ ty Thừa Chính sứ Lê Hoàn Viện làm Giám thí, cùng các quan hữu ty chia giữ các việc. Bấy giờ, kẻ sĩ tới kinh dự thi không dưới hơn 2.000 người. Qua trường bốn, chọn hạng xuất sắc được bọn Nguyễn Hoản 7 người. Tháng 12 vào Điện thí, Hoàng thượng đích thân ra đề thi văn sách, hỏi những việc lớn trong phép kinh luân thiên hạ. Ngày hôm sau, quan Độc quyển dâng quyển, Hoàng thượng đích thân ngự lãm, định thứ tự cao thấp. Ban cho Phan Kính đỗ Đệ nhất giáp Tiến sĩ cập đệ Đệ tam danh, Trần Văn Trứ đỗ Đệ nhị giáp Tiến sĩ xuất thân, bọn Lê Hoàng Vĩ 5 người đỗ đồng Tiến sĩ xuất thân. Loa truyền người đỗ, bảng vàng nêu tên, ban cho áo mũ triều phục, yến Quỳnh hoa bạc, ơn huệ dồi dào. Lại sai quan bộ Công dựng đá đề danh tại trường Quốc tử giám, sai thần soạn bài ký. Thần trộm nghĩ triều đình chọn người chẳng phải một cách, nhưng chỉ khoa Tiến sĩ thì từ xưa vẫn có tiếng là được người. Thánh hoàng tiên triều dùng các bậc hiền tài đó để giao đảm đương công việc ở buổi mới thuận trời mở vận. Liệt thánh bản triều cũng dùng họ để tô điểm kế thừa thể chế. Công tích kinh luân lớn lao còn lưu ở đỉnh vạc, kế lớn mưu hay còn rực rỡ sáng ngời. Người đời gọi là bảng Long hổ, coi là khoa tướng võ tướng văn, thật chẳng ngoa vậy. Duy những bậc tài năng lớn thường xuất thân từ con đường đó để làm khí dụng cho quốc gia, cho nên trải các đời thánh đế minh quân, không đời nào không lo coi trọng khoa cử. Nhưng tìm một triều đại có thịnh tâm nêu cao việc thiện, gây dựng tiếng tăm bằng thịnh điển sùng Nho, lưu tiếng thơm cho những người tài tuấn đến vô cùng thì khuôn phép đã đặt từ thời văn trị hưng thịnh đầu đời Hồng Đức, mà tô điểm thêm vận hội nhân tài như cá vượt sóng thì là đời thánh thượng hiện nay. Đó là hiệu quả của việc quốc gia thu dùng nhân tài đã đạt đến mức tốt đẹp không gì sánh được, vượt trăm vua, hơn cả ngàn xưa vậy. Nghĩ rằng đông đảo kẻ sĩ sinh ra trong vương quốc này lẽ nào chẳng cảm ơn sâu nặng, lo nghĩ cách báo đền cho xứng đáng sao! Hơn nữa khoa này là khoa đầu tiên thánh thượng ngự giám. Hội tao phùng, duyên cảm ứng, há phải chuyện tình cờ. Cho nên càng phải lau chùi sạch quang bụi bặm, trau dồi tiết hạnh, lấy đạo đức giúp bậc nhân chúa, đem thi thư làm lợi cho dân, làm ngọc phác vàng ròng, khiến ai biết đến tên đều tin là vật báu của vương quốc. Làm kỳ lân có đức nhân, làm phượng hoàng có màu sắc khiến người nghe tiếng đều mừng là điềm lành của đời thịnh. Công danh tên tuổi chẳng những thấy trên bia này mà còn lâu dài trong tre lụa, sáng rực trong sử sách mới không thẹn với khoa danh, không phụ triều đình sùng trọng hết mức vậy. Không được thế thì tức là ngọc đá khác nhau, vết nhơ khó giấu, dưới tấm bia cao là chỗ muôn mắt nhìn vào, nhiều tay chỉ trỏ, há chẳng đáng sợ hay sao? Thế thì tấm bia vừa là để bồi đắp nền móng Nho phong, vừa là để trau dồi khởi phát khí tiết kẻ sĩ, quan hệ đến thanh danh giáo hoá há phải nhỏ đâu! Thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Trung hiến đại phu Hàn lâm viện Thừa chỉ Bạch Phấn Ưng vâng sắc soạn.",
+   "Đặc tiến Kim tử Vinh lộc đại phu Suy trung Dực vận công thần Tham tụng, Thượng thư Bộ Lễ kiêm Đông các Hiệu thư Kiều Quận công Nguyễn Công Thái vâng sắc nhuận.",
+   "Bia dựng ngày 12 tháng 10 niên hiệu Cảnh Hưng thứ 5 (1744) Hoàng Việt.",
+   "Tiến công Thứ lang Lễ bộ Tư vụ sảnh Tư vụ Lê Hữu Tán vâng viết chữ.",
+   "Sinh đồ người xã An Hoạch, huyện Đông Sơn là Lê Nguyễn Diệu vâng khắc chữ."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhất giáp Tiến sĩ cập đệ Đệ tam danh",
+    "count": null,
+    "names": [
+     {
+      "name": "PHAN KÍNH",
+      "from": "xã Lai Thạch huyện La Sơn, Giám sinh"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": null,
+    "names": [
+     {
+      "name": "TRẦN VĂN TRỨ",
+      "from": "xã Từ Ô huyện Thanh Miện, Nho sinh trúng thức"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 5,
+    "names": [
+     {
+      "name": "LÊ HOÀNG VĨ",
+      "from": "xã Đan Sĩ huyện Thanh Oai, Giám sinh"
+     },
+     {
+      "name": "NGUYỄN HOẢN",
+      "from": "xã Lan Khê huyện Nông Cống, Tri phủ"
+     },
+     {
+      "name": "PHẠM SĨ THUYÊN",
+      "from": "xã Trung Lập huyện Đường Hào, Tri huyện"
+     },
+     {
+      "name": "LÊ DOÃN GIẢN",
+      "from": "xã Đại Mão huyện Siêu Loại, Nho sinh"
+     },
+     {
+      "name": "LÊ DOÃN GIAI",
+      "from": "xã Ỷ Bích huyện Thuần Lộc, Giám sinh"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Bạch Phấn Ưng"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Công Thái"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Lê Nguyễn Diệu (khắc chữ), Lê Hữu Tán (viết chữ triện - giả định theo vai trò viết chữ tại Lạc khoản)"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Bạch Phấn Ưng",
+   "others": [
+    {
+     "id": "bia-1739",
+     "year": 1739
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Công Thái",
+   "others": [
+    {
+     "id": "bia-1724",
+     "year": 1724
+    },
+    {
+     "id": "bia-1739",
+     "year": 1739
+    },
+    {
+     "id": "bia-1746",
+     "year": 1746
+    },
+    {
+     "id": "bia-1748",
+     "year": 1748
+    },
+    {
+     "id": "bia-1752",
+     "year": 1752
+    },
+    {
+     "id": "bia-1754",
+     "year": 1754
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1744,
+  "raw": "1744",
+  "gap": 1,
+  "batch": {
+   "count": 2,
+   "entries": [
+    {
+     "id": "bia-1739",
+     "year": 1739
+    },
+    {
+     "id": "bia-1743",
+     "year": 1743
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Phan Kính",
+   "dates": "1715-1761",
+   "description": "Đỗ Thám hoa, giữ các chức quan Hàn lâm viện Đãi chế, Đông các Đại học sĩ, Kinh lược sứ. Ông nổi tiếng tài năng, sau khi mất được tặng chức Hữu Thị lang Bộ Hình.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Hoản",
+   "dates": "1713-1792",
+   "description": "Con của Nguyễn Hiệu, giữ chức Nhập thị Tham tụng, Thượng thư Bộ Lại, Tri Quốc tử giám. Ông được thăng hàm Thái phó, tước Viện Quận công và được tôn làm Quốc lão.",
+   "isLaureate": true
+  },
+  {
+   "name": "Lê Doãn Giản",
+   "dates": "1715-1774",
+   "description": "Giữ chức Hữu Thị lang Bộ Công, Tả Thị lang Bộ Hình, hành Sơn Nam Thừa chính sứ.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Công Thái",
+   "dates": "Không rõ",
+   "description": "Đại thần giữ chức Tham tụng, Thượng thư Bộ Lễ kiêm Đông các Hiệu thư, tước Kiều Quận công. Ông là người nhuận sắc cho văn bia này.",
+   "isLaureate": false
+  },
+  {
+   "name": "Bạch Phấn Ưng",
+   "dates": "Không rõ",
+   "description": "Giữ chức Trung hiến đại phu Hàn lâm viện Thừa chỉ, là người soạn bài ký cho văn bia khoa thi 1743.",
+   "isLaureate": false
+  }
+ ],
+ "authorBio": {
+  "name": "Bạch Phấn Ưng",
+  "dates": "Không rõ",
+  "description": "Giữ chức Trung hiến đại phu Hàn lâm viện Thừa chỉ, là người soạn bài ký cho văn bia khoa thi 1743.",
+  "hometown": "Không rõ",
+  "roles": [
+   "Hàn lâm viện Thừa chỉ",
+   "Người soạn văn bia"
+  ]
+ }
+}

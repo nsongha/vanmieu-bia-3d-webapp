@@ -1,0 +1,391 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 63 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/63/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1727",
+ "year": 1727,
+ "canChi": "Đinh Mùi",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA ĐINH MÙI NIÊN HIỆU BẢO THÁI NĂM THỨ 8 (1727)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Lê Trung Hưng",
+ "era": "Bảo Thái",
+ "eraYear": 8,
+ "king": {
+  "name": "Lê Dụ Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Bảo Thái trong tiêu đề"
+ },
+ "candidates": 3000,
+ "candidatesRaw": "3.000",
+ "passed": 10,
+ "passedRaw": "10",
+ "erected": 1733,
+ "contributors": {
+  "author": "Nguyễn Duy Đôn",
+  "calligrapher": "Nguyễn Đắc Thụy",
+  "editor": "Phạm Khiêm Ích",
+  "engraver": "Phạm Thọ Ích"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 1
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 0
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 9
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Nguyễn Thế Lập",
+   "tier": 1,
+   "title": "Thám hoa",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ Đệ tam danh (Thám hoa)",
+   "hometown": "xã Bồng Lai huyện Quế Dương",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Đức Vĩ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Phật Tích huyện Tiên Du",
+   "honors": []
+  },
+  {
+   "name": "Phạm Công Thế",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Hoàng Xá huyện Đông Quan",
+   "honors": []
+  },
+  {
+   "name": "Lê Hoàn Hạo",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Bát Tràng huyện Gia Lâm",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Quốc Ích",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Vịnh Cầu huyện Đông Ngàn",
+   "honors": []
+  },
+  {
+   "name": "Quản Dĩnh",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Hoa Cầu huyện Văn Giang",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Đình Bá",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Bình Dân huyện Đông Yên",
+   "honors": []
+  },
+  {
+   "name": "Đặng Công Diễn",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Phù Đổng huyện Tiên Du",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Sĩ Lâm",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Hoàng Xá huyện Cẩm Giàng",
+   "honors": []
+  },
+  {
+   "name": "Vũ Khâm Thận",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Ngọc Lặc huyện Tứ Kỳ",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa xuân tháng 3 năm Đinh Mùi, niên hiệu Bảo Thái thứ 8 (1727), vua Dụ Tông Hòa hoàng đế mở khoa thi Hội: 3.000 sĩ tử dự thi, chọn được 10 người.",
+   "Vào Điện thí, triều đình ban Nguyễn Thế Lập đỗ Tiến sĩ cập đệ Đệ tam danh (Thám hoa), Nguyễn Đức Vĩ đứng đầu 9 người đỗ đồng Tiến sĩ xuất thân.",
+   "Năm 1733, dưới thời chúa Uy vương, bia được dựng ở nhà Quốc học, giao Nguyễn Duy Đôn soạn bài ký.",
+   "Bài ký viết việc khắc bia là để “khích lệ những người làm quan đang tại chức, nâng cao sĩ khí ở đời thịnh sáng”."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Hội tổ chức vào tháng 3 năm Đinh Mùi (1727) thu hút tới 3.000 sĩ tử dự thi.",
+   "kind": "note"
+  },
+  {
+   "text": "Kỳ thi Điện diễn ra vào ngày 26 tháng 5 cùng năm để định thứ bậc cao thấp.",
+   "kind": "note"
+  },
+  {
+   "text": "Văn bia nhấn mạnh việc khắc đá đề danh là để khích lệ sĩ khí, giúp người làm quan tự phấn khích dồi mài danh tiết.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Bọn thần biết việc dựng đá đề danh Tiến sĩ là để khích lệ những người làm quan đang tại chức, nâng cao sĩ khí ở đời thịnh sáng, điều đó có quan hệ đến phong tục giáo hóa rất lớn, há chỉ để phô trương vẻ đẹp bề ngoài mà thôi đâu."
+   }
+  },
+  {
+   "text": "Các tiến sĩ được ban yến Quỳnh hoa, mũ áo cân đai và rước bảng vàng tại cửa nhà Thái học.",
+   "kind": "note"
+  },
+  {
+   "text": "Bia được dựng vào năm Long Đức thứ 2 (1733) dưới thời chúa Uy vương Trịnh Giang.",
+   "kind": "note",
+   "anchor": {
+    "section": "colo",
+    "para": 1,
+    "match": "Bia dựng ngày 26 tháng 8 niên hiệu Long Đức thứ 2 (1733) Hoàng Việt."
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Nguyễn Duy Đôn",
+   "dates": "1679-?",
+   "description": "Người xã Cao Lãm, huyện Sơn Minh. Đỗ Đình nguyên, Hoàng giáp khoa Nhâm Thìn (1712). Ông giữ chức Trung trinh đại phu Hàn lâm viện Thừa chỉ và Tả Thị lang Bộ Binh, là người soạn bài ký cho văn bia này.",
+   "hometown": "xã Cao Lãm huyện Sơn Minh",
+   "roles": [
+    "Soạn bài ký",
+    "Tả Thị lang Bộ Binh"
+   ]
+  },
+  {
+   "name": "Phạm Khiêm Ích",
+   "dates": "Không rõ",
+   "description": "Giữ chức Tham tụng, Thượng thư Bộ Binh kiêm Đông các Đại học sỹ, tước Thuật Quận công. Ông là người nhuận sắc cho bài văn bia.",
+   "hometown": "Không rõ",
+   "roles": [
+    "Nhuận sắc bài ký",
+    "Tham tụng",
+    "Thượng thư Bộ Binh"
+   ]
+  },
+  {
+   "name": "Nguyễn Thế Lập",
+   "dates": "1702-?",
+   "description": "Đỗ Thám hoa khoa Đinh Mùi. Làm quan đến chức Hàn lâm Thừa chỉ, từng được cử đi sứ sang nhà Thanh và được truy tặng chức Tả Thị lang Bộ Công, tước hầu.",
+   "hometown": "xã Bồng Lai huyện Quế Dương",
+   "roles": [
+    "Thám hoa",
+    "Hàn lâm Thừa chỉ",
+    "Sứ giả"
+   ]
+  },
+  {
+   "name": "Nguyễn Đức Vĩ",
+   "dates": "1700-1775",
+   "description": "Giữ nhiều chức vụ quan trọng như Thượng thư Bộ Công, Bộ Binh, Tế tửu Quốc tử giám. Ông được phong hàm Thái bảo và tước Kế Thiện hầu.",
+   "hometown": "xã Phật Tích huyện Tiên Du",
+   "roles": [
+    "Thượng thư Bộ Công",
+    "Thượng thư Bộ Binh",
+    "Tế tửu Quốc tử giám"
+   ]
+  },
+  {
+   "name": "Vũ Khâm Thận",
+   "dates": "1703-?",
+   "description": "Sau đổi tên là Vũ Khâm Lân. Giữ chức Tham tụng, Bồi tụng, Đô Ngự sử, tước Quận công. Ông từng đi sứ nhà Thanh và được tặng hàm Thượng thư sau khi mất.",
+   "hometown": "xã Ngọc Lặc huyện Tứ Kỳ",
+   "roles": [
+    "Tham tụng",
+    "Đô Ngự sử",
+    "Sứ giả"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA ĐINH MÙI NIÊN HIỆU BẢO THÁI NĂM THỨ 8 (1727)",
+  "paragraphs": [
+   "Khắc đá đề danh người đỗ khoa thi Tiến sĩ là quy chế tốt đẹp tác thành nhân tài của thánh triều ta. Kính nghĩ: Dụ Tông Hòa hoàng đế kế thừa ngôi báu, nắm thời vận đủ đầy. Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư An vương hết sức mưu tính việc trị nước, lưu tâm tuyển chọn người hiền. Mùa xuân tháng 3 năm Đinh Mùi, thi Hội cho các cống sĩ trong nước. Sai Đô đốc đồng Tri Phó tướng Bảo Quận công Trịnh Khôi làm Đề điệu, Bồi tụng Lại bộ Tả Thị lang Lỵ Quận công Trương Công Giai quyền Tri Cống cử, Bồi tụng Binh bộ Hữu Thị lang Lại Trạch hầu Phạm Đình Kính, Hình bộ Hữu Thị lang Tín Trạch bá Nguyễn Trung Quán làm Giám thí, cùng các viên Khảo thí, Tuần xước và các ty trong ngoài chia giữ các việc. Khi ấy số sĩ tử dự thi đông tới 3.000 người, chọn được hạng xuất sắc là bọn Đặng Công Diễn 10 người. Tháng 5 mùa hạ ngày 26, gọi vào Điện thí. Ban cho Nguyễn Thế Lập đỗ Tiến sĩ cập đệ Đệ tam danh, bọn Nguyễn Đức Vĩ 9 người đỗ đồng Tiến sĩ xuất thân. Ngày 30, quan Hồng lô xướng tên, Bộ Lễ rước bảng vàng ra treo ngoài cửa nhà Thái học. Lại ban cho mũ áo cân đai, yến Quỳnh hoa bạc. Ơn vinh theo thứ bậc, nhất nhất đều theo lệ xưa, xếp đặt nắm giữ các chức, tùy tài sử dụng. Việc dưỡng dục khen thưởng nhân tài thật đã hết mức. Đến nay, Hoàng thượng bệ hạ vẻ vang kế thừa mệnh lớn, nối giữ hồng đồ. Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư Uy vương nắm giữ quyền lớn, chỉnh đốn điều hòa mọi việc, mở mang chế độ văn minh, theo điển lệ tốt đẹp, xuống chỉ khắc đá đề danh dựng ở nhà Quốc học, sai bọn thần viết bài ký ghi lại sự việc. Bọn thần trộm nghĩ: Đề họ tên lên cờ lệnh, khắc vào chuông đỉnh, ghi vào sách đồng chữ đỏ là cách các bậc đế vương xưa đãi ngộ bề tôi. Chẳng phải cách ấy chưa hết mức, nhưng đó chỉ là đối với những bậc có chiến công mà thôi. Còn đối với việc tuyển chọn nhân tài, rộng tìm người có văn học mà yết bảng ghi tên khắc vào bia đá để rạng rỡ muôn đời thì chưa từng thấy. Kính nghĩ: Quốc triều khai mở vận hội, thánh đế thánh vương nối truyền, sắp đặt quy củ, sùng chuộng Nho học, chấn hưng nhân văn. Phàm những người đăng khoa đều cho dựng bia lớn để truyền bá vẻ sáng sao Khuê sao Tảo, nêu rõ họ tên để rạng rỡ đến đời sau. Việc vun đắp nuôi dưỡng sĩ phong, khen thưởng khích lệ kẻ hiền tuấn có thể nói hơn các vua trước, vượt cả ngàn xưa vậy. Kẻ sĩ sinh ở đời này, thấm nhuần thánh giáo, ngước gội ơn vua giữ chức công khanh trong triều, liếc mắt nhìn bia đá này, ai chẳng tự phấn khích dồi mài danh tiết, dựng công xây nghiệp, nghĩ cách đền ơn sủng ái. Những người đội tráp đến cửa thánh hiền, ngẩng đầu nhìn tấm bia này chẳng ai không biết kế thừa tinh hoa trong sáng, trau dồi học vấn, ngậm ngọc nhả hoa để thỏa nguyện được gần vua giúp nước. Bọn thần biết việc dựng đá đề danh Tiến sĩ là để khích lệ những người làm quan đang tại chức, nâng cao sĩ khí ở đời thịnh sáng, điều đó có quan hệ đến phong tục giáo hóa rất lớn, há chỉ để phô trương vẻ đẹp bề ngoài mà thôi đâu. Thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Trung trinh đại phu Hàn lâm viện Thừa chỉ Tri Thị nội thư tả Lễ phiên Nguyễn Duy Đôn vâng sắc soạn. Đặc tiến Kim tử Vinh lộc đại phu Tham tụng, Thượng thư Bộ Binh kiêm Đông các Đại học sỹ tri Hàn lâm viện sự Thiếu bảo Thuật Quận công Phạm Khiêm Ích vâng sắc nhuận.",
+   "Bia dựng ngày 26 tháng 8 niên hiệu Long Đức thứ 2 (1733) Hoàng Việt.",
+   "Trung thư giám Hoa văn học sinh người xã Xuân Đỗ huyện Gia Lâm là Nguyễn Đắc Thụy vâng mệnh viết chữ chân. Phạm Thọ Ích người làng Kiêu Kỵ huyện Gia Lâm vâng khắc chữ."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhất giáp Tiến sĩ cập đệ Đệ tam danh",
+    "count": null,
+    "names": [
+     {
+      "name": "NGUYỄN THẾ LẬP",
+      "from": "xã Bồng Lai huyện Quế Dương, Giám sinh"
+     },
+     {
+      "name": "NGUYỄN ĐỨC VĨ",
+      "from": "xã Phật Tích huyện Tiên Du, Nho sinh trúng thức"
+     },
+     {
+      "name": "PHẠM CÔNG THẾ",
+      "from": "xã Hoàng Xá huyện Đông Quan, Giám sinh"
+     },
+     {
+      "name": "LÊ HOÀN HẠO",
+      "from": "xã Bát Tràng huyện Gia Lâm, Sinh đồ"
+     },
+     {
+      "name": "NGUYỄN QUỐC ÍCH",
+      "from": "xã Vịnh Cầu huyện Đông Ngàn, Viên ngoại lang"
+     },
+     {
+      "name": "QUẢN DĨNH",
+      "from": "xã Hoa Cầu huyện Văn Giang. Huấn đạo"
+     },
+     {
+      "name": "NGUYỄN ĐÌNH BÁ",
+      "from": "xã Bình Dân huyện Đông Yên, Giám sinh"
+     },
+     {
+      "name": "ĐẶNG CÔNG DIỄN",
+      "from": "xã Phù Đổng huyện Tiên Du, Tri huyện"
+     },
+     {
+      "name": "NGUYỄN SĨ LÂM",
+      "from": "xã Hoàng Xá huyện Cẩm Giàng, Sinh đồ"
+     },
+     {
+      "name": "VŨ KHÂM THẬN",
+      "from": "xã Ngọc Lặc huyện Tứ Kỳ, Giám sinh"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Duy Đôn"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Phạm Khiêm Ích"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Nguyễn Đắc Thụy"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Phạm Thọ Ích"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Nhuận sắc",
+   "name": "Phạm Khiêm Ích",
+   "others": [
+    {
+     "id": "bia-1733",
+     "year": 1733
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": {
+  "candidates": 3000,
+  "passed": 10,
+  "ratio": 0.0033333333333333335,
+  "oneIn": 300,
+  "phrase": "cứ khoảng 300 người dự thi có 1 người đỗ"
+ },
+ "erection": {
+  "year": 1733,
+  "raw": "1733",
+  "gap": 6,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1727",
+     "year": 1727
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Nguyễn Duy Đôn",
+   "dates": "1679-?",
+   "description": "Người xã Cao Lãm, huyện Sơn Minh. Đỗ Đình nguyên, Hoàng giáp khoa Nhâm Thìn (1712). Ông giữ chức Trung trinh đại phu Hàn lâm viện Thừa chỉ và Tả Thị lang Bộ Binh, là người soạn bài ký cho văn bia này.",
+   "isLaureate": false,
+   "links": [
+    {
+     "id": "bia-1712",
+     "year": 1712,
+     "$verify": "cần đối chiếu"
+    }
+   ]
+  },
+  {
+   "name": "Phạm Khiêm Ích",
+   "dates": "Không rõ",
+   "description": "Giữ chức Tham tụng, Thượng thư Bộ Binh kiêm Đông các Đại học sỹ, tước Thuật Quận công. Ông là người nhuận sắc cho bài văn bia.",
+   "isLaureate": false
+  },
+  {
+   "name": "Nguyễn Thế Lập",
+   "dates": "1702-?",
+   "description": "Đỗ Thám hoa khoa Đinh Mùi. Làm quan đến chức Hàn lâm Thừa chỉ, từng được cử đi sứ sang nhà Thanh và được truy tặng chức Tả Thị lang Bộ Công, tước hầu.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Đức Vĩ",
+   "dates": "1700-1775",
+   "description": "Giữ nhiều chức vụ quan trọng như Thượng thư Bộ Công, Bộ Binh, Tế tửu Quốc tử giám. Ông được phong hàm Thái bảo và tước Kế Thiện hầu.",
+   "isLaureate": true
+  },
+  {
+   "name": "Vũ Khâm Thận",
+   "dates": "1703-?",
+   "description": "Sau đổi tên là Vũ Khâm Lân. Giữ chức Tham tụng, Bồi tụng, Đô Ngự sử, tước Quận công. Ông từng đi sứ nhà Thanh và được tặng hàm Thượng thư sau khi mất.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nguyễn Duy Đôn",
+  "dates": "1679-?",
+  "description": "Người xã Cao Lãm, huyện Sơn Minh. Đỗ Đình nguyên, Hoàng giáp khoa Nhâm Thìn (1712). Ông giữ chức Trung trinh đại phu Hàn lâm viện Thừa chỉ và Tả Thị lang Bộ Binh, là người soạn bài ký cho văn bia này.",
+  "hometown": "xã Cao Lãm huyện Sơn Minh",
+  "roles": [
+   "Soạn bài ký",
+   "Tả Thị lang Bộ Binh"
+  ],
+  "links": [
+   {
+    "id": "bia-1712",
+    "year": 1712,
+    "$verify": "cần đối chiếu"
+   }
+  ]
+ }
+}

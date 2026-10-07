@@ -1,0 +1,4 @@
+{
+ "$doc": "Sửa tay phép khớp bản dập (tools/fit-rubbings.mjs đọc khi khớp lại): theo bia — mode ('chữ' | 'đường' | 'khung': chỉ chạy một ứng viên), start ('mép': xuất phát từ mép phiến thay mốc đo), noRefine (chỉ khớp mốc, không tinh chỉnh), dx / dy (dời cả trục, đơn vị bia — bia cao ≈ 1), x / y (dời từng mốc: [khung ngoài trái, viền trong trái, viền trong phải, khung ngoài phải] / [đáy viền trong, đáy dải tiêu đề, đỉnh dải tiêu đề, đỉnh vòm]), note. r83: duyệt cả 82 bia (scratchpad r83shots) — chưa bia nào cần sửa tay.",
+ "steles": {}
+}

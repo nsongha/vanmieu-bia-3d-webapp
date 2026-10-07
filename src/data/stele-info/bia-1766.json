@@ -1,0 +1,362 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 76 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/76/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1766",
+ "year": 1766,
+ "canChi": "Bính Tuất",
+ "title": "Văn bia đề danh Tiến sĩ khoa Bính Tuất niên hiệu Cảnh Hưng năm thứ 27 (1766)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Triều Lê",
+ "dynastyVerify": "cần đối chiếu — nguồn ghi \"Triều Lê\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1766 theo mốc 1533–1789 của src/data/dynasties.js",
+ "era": "Cảnh Hưng",
+ "eraYear": 27,
+ "king": {
+  "name": "Lê Hiển Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 11,
+ "passedRaw": "11",
+ "erected": 1766,
+ "contributors": {
+  "author": "Nguyễn Nghiễm",
+  "calligrapher": "",
+  "editor": "",
+  "engraver": ""
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 1
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 10
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Ngô Thì Sĩ",
+   "tier": 2,
+   "title": "Hoàng giáp",
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp)",
+   "hometown": "xã Tả Thanh Oai huyện Thanh Oai",
+   "honors": []
+  },
+  {
+   "name": "Lý Trần Quán",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Vân Canh huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Đặng Dụng Chu",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Động Phí huyện Sơn Minh",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Duy Trung",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã La Khê huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Uông Sĩ Điển",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Vũ Nghị huyện Thanh Lan",
+   "honors": []
+  },
+  {
+   "name": "Trương Đăng Quỹ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Thanh Nê huyện Chân Định",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Quýnh",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Phật Tích huyện Tiên Du",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Bá Dương",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân [Thiếu tuấn]",
+   "hometown": "xã Nguyễn Xá huyện Thần Khê",
+   "honors": [
+    "Thiếu tuấn"
+   ]
+  },
+  {
+   "name": "Ngô Phúc Lâm",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Trảo Nha huyện Thạch Hà",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Trọng Hoành",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Viên Ngoại huyện Chương Đức",
+   "honors": []
+  },
+  {
+   "name": "Phạm Đồng Viện",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân [Khoa trưởng]",
+   "hometown": "xã La Đôi huyện Thanh Lâm",
+   "honors": [
+    "Khoa trưởng"
+   ]
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa hạ tháng 4 năm Bính Tuất, niên hiệu Cảnh Hưng thứ 27 (1766), triều đình mở khoa thi Hội, qua bốn trường chọn được 11 người trúng cách.",
+   "Vào Điện thí tháng 6, triều đình ban Ngô Thì Sĩ đỗ Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp), Lý Trần Quán đứng đầu 10 người đỗ Đệ tam giáp đồng Tiến sĩ xuất thân.",
+   "Nhiều người trong số đó phải đổi họ tên để kiêng húy, như Uông Sĩ Điển vốn họ Giang, đổi sang họ Uông để tránh tên chúa Trịnh Giang.",
+   "Bia được dựng ngay năm ấy, do Nguyễn Nghiễm — Hoàng giáp khoa Tân Hợi — soạn bài ký."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Hội được tổ chức vào mùa hạ tháng tư năm Bính Tuất (1766) cho các Cống sĩ trong nước.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Năm Bính Tuất, mùa hạ tháng tư, thi Hội cho các Cống sĩ trong nước."
+   }
+  },
+  {
+   "text": "Kỳ thi Điện diễn ra vào tháng sáu để phân định thứ bậc Tiến sĩ.",
+   "kind": "note"
+  },
+  {
+   "text": "Thuật ngữ 'Thiếu tuấn' dùng để chỉ những người trẻ tuổi thi đỗ (từ 20 tuổi trở xuống).",
+   "kind": "note"
+  },
+  {
+   "text": "Thuật ngữ 'Khoa trưởng' dùng để chỉ người nhiều tuổi nhất trong số những người đỗ cùng khoa.",
+   "kind": "note"
+  },
+  {
+   "text": "Nhiều thí sinh phải đổi họ hoặc tên do kiêng húy, như Uông Sĩ Điển nguyên họ Giang phải đổi sang họ Uông để tránh húy chúa Trịnh Giang.",
+   "kind": "note"
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Ngô Thì Sĩ",
+   "dates": "1725-1780",
+   "description": "Hiệu là Ngọ Phong Tiên sinh, là nhà thơ, nhà văn, nhà sử học tài năng. Ông giữ nhiều chức vụ quan trọng như Đốc trấn Lạng Sơn, Thiêm đô Ngự sử và để lại nhiều công trình lịch sử, văn học giá trị.",
+   "hometown": "xã Tả Thanh Oai, huyện Thanh Oai, tỉnh Hà Đông (nay thuộc huyện Thanh Trì, Hà Nội)",
+   "roles": [
+    "Đốc đồng",
+    "Cấp sự trung",
+    "Hiến sát sứ",
+    "Tham chính",
+    "Hàn lâm viện Hiệu lý"
+   ]
+  },
+  {
+   "name": "Lý Trần Quán",
+   "dates": "1735-1786",
+   "description": "Giữ chức Đông các Đại học sĩ, Quốc tử giám Tư nghiệp. Ông nổi tiếng với hành động tự chôn sống mình để giữ tiết nghĩa khi chúa Trịnh Khải bị bắt, sau được truy tặng hàm Thượng thư, tước Quận công.",
+   "hometown": "xã Vân Canh, huyện Từ Liêm (nay thuộc huyện Hoài Đức, Hà Nội)",
+   "roles": [
+    "Đông các Đại học sĩ",
+    "Quốc tử giám Tư nghiệp",
+    "Hiệp trấn Sơn Tây"
+   ]
+  },
+  {
+   "name": "Nguyễn Nghiễm",
+   "dates": "1708-1776",
+   "description": "Đỗ Hoàng giáp khoa Tân Hợi (1751), giữ chức Công bộ Thượng thư, Thái tử Thái bảo, tước Xuân Nhạc hầu. Ông là người vâng sắc soạn bài ký cho văn bia này.",
+   "hometown": "Tiên Điền, Nghi Xuân, Hà Tĩnh",
+   "roles": [
+    "Công bộ Thượng thư",
+    "Thái tử Thái bảo",
+    "Tham chính"
+   ]
+  },
+  {
+   "name": "Uông Sĩ Điển",
+   "dates": "1737-?",
+   "description": "Nguyên họ Giang, sau đổi sang họ Uông để kiêng húy chúa Trịnh Giang. Ông giữ chức Hữu Thị lang Bộ Lễ, Ngự sử đài Thiêm đô Ngự sử.",
+   "hometown": "xã Vũ Nghị, huyện Thanh Lan (nay thuộc huyện Thái Thụy, Thái Bình)",
+   "roles": [
+    "Hữu Thị lang Bộ Lễ",
+    "Thiêm đô Ngự sử",
+    "Đốc thị đạo Thuận Quảng"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA BÍNH TUẤT NIÊN HIỆU CẢNH HƯNG NĂM THỨ 27 (1766)",
+  "paragraphs": [
+   "Mừng nay hoàng đồ bền vững nam phương, quẻ Thái mở ra văn vận. Kính nghĩ: Hoàng thượng nắm tượng quẻ Càn, thân lĩnh mệnh Tốn. Đại nguyên súy Thống quốc chính Thượng sư Thượng phụ Minh vương thánh thần phò tá, văn võ kinh luân. Chuyên uỷ cho Khâm sai Tiết chế các xứ thuỷ bộ chư quân kiêm Chưởng chính cơ Thái uý Tĩnh quốc công đứng đầu trăm quan, tạo tác muôn việc. Năm Bính Tuất, mùa hạ tháng tư, thi Hội cho các Cống sĩ trong nước. Đặc sai Thái uý Phương Nghĩa hầu Trịnh Phương làm Đề điệu, Nhập thị Bồi tụng Hình bộ Thượng thư Bái Xuyên hầu Trần Huy Bật làm Tri Cống cử, Bồi tụng Lại bộ Hữu Thị lang Du Nhạc hầu Trần Lâm, Trí sĩ khởi phục Hộ bộ Hữu Thị lang Diễn Phái bá Lê Trọng Thứ làm Giám thí. Tháng năm, qua trường bốn lấy trúng cách bọn Ngô Thì Sĩ 11 người. Qua tháng sau vào Điện thí, ban cho bọn Ngô Thì Sĩ đỗ Tiến sĩ, đồng Tiến sĩ có thứ bậc khác nhau. Lại sai khắc tên trên đá để lưu truyền bất hủ."
+  ],
+  "colophon": [
+   "Triều Lê, niên hiệu Cảnh Hưng thứ 27 (1766). Chính Tiến sĩ (tức Hoàng giáp) khoa Tân Hợi, Nhập thị Tham chính Công bộ Thượng thư Thái tử Thái bảo Xuân Nhạc hầu Nguyễn Nghiễm vâng sắc soạn."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 1,
+    "names": [
+     {
+      "name": "NGÔ THÌ SĨ",
+      "from": "xã Tả Thanh Oai huyện Thanh Oai, Đốc đồng, Cấp sự trung"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 10,
+    "names": [
+     {
+      "name": "LÝ TRẦN QUÁN",
+      "from": "xã Vân Canh huyện Từ Liêm, Huấn đạo, nguyên họ Đặng"
+     },
+     {
+      "name": "ĐẶNG DỤNG CHU",
+      "from": "xã Động Phí huyện Sơn Minh, Giám sinh"
+     },
+     {
+      "name": "NGUYỄN DUY TRUNG",
+      "from": "xã La Khê huyện Từ Liêm, Thiêm tri Tự thừa, nguyên tên là Duy Nghi"
+     },
+     {
+      "name": "UÔNG SĨ ĐIỂN",
+      "from": "xã Vũ Nghị huyện Thanh Lan, Thiêm tri, Huấn đạo, nguyên họ Giang, sau đổi tên là Lãng"
+     },
+     {
+      "name": "TRƯƠNG ĐĂNG QUỸ",
+      "from": "xã Thanh Nê huyện Chân Định, Giáo thụ"
+     },
+     {
+      "name": "NGUYỄN QUÝNH",
+      "from": "xã Phật Tích huyện Tiên Du"
+     },
+     {
+      "name": "NGUYỄN BÁ DƯƠNG",
+      "from": "xã Nguyễn Xá huyện Thần Khê, đỗ năm 18 tuổi, Thiếu tuấn"
+     },
+     {
+      "name": "NGÔ PHÚC LÂM",
+      "from": "xã Trảo Nha huyện Thạch Hà, Huấn đạo"
+     },
+     {
+      "name": "NGUYỄN TRỌNG HOÀNH",
+      "from": "xã Viên Ngoại huyện Chương Đức, Giám sinh"
+     },
+     {
+      "name": "PHẠM ĐỒNG VIỆN",
+      "from": "xã La Đôi huyện Thanh Lâm, Huấn đạo, Khoa trưởng"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Nghiễm"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Nghiễm",
+   "others": [
+    {
+     "id": "bia-1760",
+     "year": 1760
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1766,
+  "raw": "1766",
+  "gap": 0,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1766",
+     "year": 1766
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Ngô Thì Sĩ",
+   "dates": "1725-1780",
+   "description": "Hiệu là Ngọ Phong Tiên sinh, là nhà thơ, nhà văn, nhà sử học tài năng. Ông giữ nhiều chức vụ quan trọng như Đốc trấn Lạng Sơn, Thiêm đô Ngự sử và để lại nhiều công trình lịch sử, văn học giá trị.",
+   "isLaureate": true
+  },
+  {
+   "name": "Lý Trần Quán",
+   "dates": "1735-1786",
+   "description": "Giữ chức Đông các Đại học sĩ, Quốc tử giám Tư nghiệp. Ông nổi tiếng với hành động tự chôn sống mình để giữ tiết nghĩa khi chúa Trịnh Khải bị bắt, sau được truy tặng hàm Thượng thư, tước Quận công.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Nghiễm",
+   "dates": "1708-1776",
+   "description": "Đỗ Hoàng giáp khoa Tân Hợi (1751), giữ chức Công bộ Thượng thư, Thái tử Thái bảo, tước Xuân Nhạc hầu. Ông là người vâng sắc soạn bài ký cho văn bia này.",
+   "isLaureate": false
+  },
+  {
+   "name": "Uông Sĩ Điển",
+   "dates": "1737-?",
+   "description": "Nguyên họ Giang, sau đổi sang họ Uông để kiêng húy chúa Trịnh Giang. Ông giữ chức Hữu Thị lang Bộ Lễ, Ngự sử đài Thiêm đô Ngự sử.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nguyễn Nghiễm",
+  "dates": "1708-1776",
+  "description": "Đỗ Hoàng giáp khoa Tân Hợi (1751), giữ chức Công bộ Thượng thư, Thái tử Thái bảo, tước Xuân Nhạc hầu. Ông là người vâng sắc soạn bài ký cho văn bia này.",
+  "hometown": "Tiên Điền, Nghi Xuân, Hà Tĩnh",
+  "roles": [
+   "Công bộ Thượng thư",
+   "Thái tử Thái bảo",
+   "Tham chính"
+  ]
+ }
+}

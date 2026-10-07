@@ -1,0 +1,493 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 79 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/79/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1775",
+ "year": 1775,
+ "canChi": "Ất Mùi",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA ẤT MÙI NIÊN HIỆU CẢNH HƯNG NĂM THỨ 36 (1775)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Nhà Lê",
+ "dynastyVerify": "cần đối chiếu — nguồn ghi \"Nhà Lê\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1775 theo mốc 1533–1789 của src/data/dynasties.js",
+ "era": "Cảnh Hưng",
+ "eraYear": 36,
+ "king": {
+  "name": "Lê Hiển Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 18,
+ "passedRaw": "18",
+ "erected": 1776,
+ "contributors": {
+  "author": "Nguyễn Hoản",
+  "calligrapher": "",
+  "editor": "",
+  "engraver": ""
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 0
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 18
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Ngô Thế Trị",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Hội Phụ huyện Đông Ngàn",
+   "honors": []
+  },
+  {
+   "name": "Lê Hữu Dung",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Liêu Xá huyện Đường Hào",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Huy Vượng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Minh Cảo huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Đỗ Huy Cư",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Đồng Hương huyện Đông Sơn",
+   "honors": []
+  },
+  {
+   "name": "Ngô Thì Nhậm",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Tả Thanh Oai huyện Thanh Oai",
+   "honors": []
+  },
+  {
+   "name": "Lưu Định",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Nguyệt Áng huyện Thanh Trì",
+   "honors": []
+  },
+  {
+   "name": "Phan Huy Ích",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân [Hội Nguyên]",
+   "hometown": "xã Thu Hoạch huyện Thiên Lộc",
+   "honors": [
+    "Hội nguyên"
+   ]
+  },
+  {
+   "name": "Nguyễn Thế Lịch",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Yên Lũng huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Phạm Đình Dư",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Kim Đôi huyện Vũ Giàng",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Quốc Ngạn",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "phường Bái Ân huyện Quảng Đức",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Nha",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Tả Thanh Oai huyện Thanh Oai",
+   "honors": []
+  },
+  {
+   "name": "Lê Duy Đản",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Hương La huyện Yên Phong",
+   "honors": []
+  },
+  {
+   "name": "Ngô Duy Trừng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã La Khê huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Trần Thiều Sưởng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Khoái Lạc huyện Yên Định",
+   "honors": []
+  },
+  {
+   "name": "Lê Trọng Điển",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Nhân Mục Môn huyện Thanh Trì",
+   "honors": []
+  },
+  {
+   "name": "Hoàng Bình Chính",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Thổ Hoàng huyện Thiên Thi",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Thế Bình",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Cát Ngạn huyện Thanh Chương",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Quý Hiển",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "xã Thạch Thán huyện Yên Sơn",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Tháng đầu đông năm Ất Mùi, niên hiệu Cảnh Hưng thứ 36 (1775), dưới triều vua Lê Hiển Tông, triều đình mở khoa thi Hội, qua bốn trường chọn được 18 người trúng cách.",
+   "Vào Điện thí tháng sau, cả 18 người đều đỗ Đệ tam giáp đồng Tiến sĩ xuất thân, đứng đầu là Ngô Thế Trị.",
+   "Trong số đó có Phan Huy Ích, người đỗ đầu kỳ thi Hội (Hội nguyên), cùng Ngô Thì Nhậm, Lê Hữu Dung và Nguyễn Huy Vượng.",
+   "Bia được dựng tháng 11 niên hiệu Cảnh Hưng thứ 37 (1776), do Nguyễn Hoản soạn bài ký."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Hội được tổ chức vào tháng đầu đông năm Ất Mùi (1775) dưới triều vua Lê Hiển Tông.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Tháng đầu đông năm Ất Mùi mở khoa thi Hội."
+   }
+  },
+  {
+   "text": "Tĩnh vương Trịnh Sâm là người giữ mối giềng trị giáo và chủ trương cầu tìm nhân tài.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Thực nhờ [Đại nguyên súy Thống quốc chính Thượng sư Tĩnh vương] giữ mối giềng trị giáo, cầu tìm nhân tài."
+   }
+  },
+  {
+   "text": "Hội đồng giám khảo gồm: Quế Quận công Trịnh Bồng (Đề điệu), Vũ Trần Thiệu (Tri Cống cử), Lê Doãn Giản (Giám thí).",
+   "kind": "gloss",
+   "label": "Hội đồng giám khảo gồm",
+   "labelKind": "inline",
+   "terms": [
+    {
+     "term": "Quế Quận công Trịnh Bồng",
+     "def": "Đề điệu"
+    },
+    {
+     "term": "Vũ Trần Thiệu",
+     "def": "Tri Cống cử"
+    },
+    {
+     "term": "Lê Doãn Giản",
+     "def": "Giám thí"
+    }
+   ],
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Quế Quận công Trịnh Bồng"
+   }
+  },
+  {
+   "text": "Phan Huy Ích đỗ trúng cách (Hội nguyên) trong số 18 người vượt qua kỳ thi Hội.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Qua trường bốn lấy trúng cách bọn Phan Huy Ích 18 người."
+   }
+  },
+  {
+   "text": "Bia được dựng vào tháng 11 năm Cảnh Hưng thứ 37 (1776).",
+   "kind": "note",
+   "anchor": {
+    "section": "colo",
+    "para": 0,
+    "match": "Bia dựng ngày đầu tháng tiết trọng đông (tháng 11) niên hiệu Cảnh Hưng thứ 37 (1776) Hoàng Lê."
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Ngô Thì Nhậm",
+   "dates": "1746-1803",
+   "description": "Danh sĩ nổi tiếng, giữ nhiều chức quan quan trọng thời Lê và là trọng thần triều Tây Sơn. Ông có đóng góp lớn trong việc soạn thảo văn bản ngoại giao với nhà Thanh và được vua Quang Trung tin dùng.",
+   "hometown": "xã Tả Thanh Oai huyện Thanh Oai",
+   "roles": [
+    "Hiến sát phó sứ",
+    "Giám sát Ngự sử",
+    "Thượng thư Bộ Binh",
+    "Tình Phái hầu",
+    "Chánh sứ"
+   ]
+  },
+  {
+   "name": "Phan Huy Ích",
+   "dates": "1751-1822",
+   "description": "Đỗ đầu kỳ thi Hội (Hội nguyên). Ông là đại thần trải qua hai triều đại Lê và Tây Sơn, giữ chức Thượng thư Bộ Lễ và từng đi sứ nhà Thanh.",
+   "hometown": "xã Thu Hoạch huyện Thiên Lộc",
+   "roles": [
+    "Hàn lâm viện Thừa chỉ",
+    "Thượng thư Bộ Lễ",
+    "Chánh sứ"
+   ]
+  },
+  {
+   "name": "Nguyễn Thế Lịch",
+   "dates": "1750-1829",
+   "description": "Còn có tên là Nguyễn Gia Phan. Ông giữ chức Thượng thư Bộ Lại triều Tây Sơn, sau này được vua Gia Long mời ra dạy học cho các hoàng tử.",
+   "hometown": "xã Yên Lũng huyện Từ Liêm",
+   "roles": [
+    "Thượng thư Bộ Lại",
+    "Thị trung Hiệp biện Học sĩ",
+    "Đồng Tham tri chính sự"
+   ]
+  },
+  {
+   "name": "Nguyễn Hoản",
+   "dates": "Không rõ",
+   "description": "Đại thần triều Lê, giữ nhiều chức vụ cao cấp như Tham tụng, Lại bộ Thượng thư, Tri Quốc tử giám. Ông là người soạn bài ký cho văn bia này.",
+   "hometown": "Không rõ",
+   "roles": [
+    "Tham tụng",
+    "Lại bộ Thượng thư",
+    "Tri Quốc tử giám",
+    "Viện Quận công"
+   ]
+  },
+  {
+   "name": "Ngô Thế Trị",
+   "dates": "1733-?",
+   "description": "Làm quan đến chức Hàn lâm viện Đãi chế và từng được cử làm Phó sứ sang nhà Thanh.",
+   "hometown": "xã Hội Phụ huyện Đông Ngàn",
+   "roles": [
+    "Tri huyện",
+    "Hàn lâm viện Đãi chế",
+    "Phó sứ"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA ẤT MÙI NIÊN HIỆU CẢNH HƯNG NĂM THỨ 36 (1775)",
+  "paragraphs": [
+   "Nay cơ đồ châu ngọc vững yên, sao Khuê soi văn vận. Kính vâng: Hoàng thượng bệ hạ thể mệnh càn nguyên, đức hằng đã định. Thực nhờ [Đại nguyên súy Thống quốc chính Thượng sư Tĩnh vương] giữ mối giềng trị giáo, cầu tìm nhân tài. Tháng đầu đông năm Ất Mùi mở khoa thi Hội. Sai Phó tướng Đô đốc Thiêm sự Quế Quận công Trịnh Bồng làm Đề điệu, Hộ bộ Hữu Thị lang hành Lại bộ Tả Thị lang Thái Đình bá Vũ Trần Thiệu làm Tri Cống cử, Công bộ Hữu Thị lang Lê Doãn Giản làm Giám thí. Qua trường bốn lấy trúng cách bọn Phan Huy Ích 18 người. Sang tháng sau Điện thí, ban cho bọn Ngô Thế Trị đỗ đồng Tiến sĩ xuất thân. Lại sai khắc đá đề danh để lưu truyền bất hủ."
+  ],
+  "colophon": [
+   "Bia dựng ngày đầu tháng tiết trọng đông (tháng 11) niên hiệu Cảnh Hưng thứ 37 (1776) Hoàng Lê. Đặc tiến Kim tử Vinh lộc đại phu Hữu Tư giảng Nhập thị Tham tụng Lại bộ Thượng thư Tri Hàn lâm Tri Đông các Tri Trung thư giám Tri Quốc tử giám Thái phó quốc lão tham dự triều chính, trí sĩ, khởi phục, phụng thị ngũ lão, Viện Quận công Nguyễn Hoản vâng sắc soạn."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 18,
+    "names": [
+     {
+      "name": "NGÔ THẾ TRỊ",
+      "from": "xã Hội Phụ huyện Đông Ngàn, Tri huyện, Ứng chế hợp cách"
+     },
+     {
+      "name": "LÊ HỮU DUNG",
+      "from": "xã Liêu Xá huyện Đường Hào, Tự thừa"
+     },
+     {
+      "name": "NGUYỄN HUY VƯỢNG",
+      "from": "xã Minh Cảo huyện Từ Liêm, Nho sinh trúng thức"
+     },
+     {
+      "name": "ĐỖ HUY CƯ",
+      "from": "xã Đồng Hương huyện Đông Sơn, Huấn đạo"
+     },
+     {
+      "name": "NGÔ THÌ NHẬM",
+      "from": "xã Tả Thanh Oai huyện Thanh Oai, Thiêm tri, Hiến phó"
+     },
+     {
+      "name": "LƯU ĐỊNH",
+      "from": "xã Nguyệt Áng huyện Thanh Trì, Sinh đồ"
+     },
+     {
+      "name": "PHAN HUY ÍCH",
+      "from": "xã Thu Hoạch huyện Thiên Lộc, Tả mạc, Ứng chế hợp cách"
+     },
+     {
+      "name": "NGUYỄN THẾ LỊCH",
+      "from": "xã Yên Lũng huyện Từ Liêm, Nho sinh trúng thức"
+     },
+     {
+      "name": "PHẠM ĐÌNH DƯ",
+      "from": "xã Kim Đôi huyện Vũ Giàng, Nho sinh trúng thức"
+     },
+     {
+      "name": "NGUYỄN QUỐC NGẠN",
+      "from": "phường Bái Ân huyện Quảng Đức, Sinh đồ"
+     },
+     {
+      "name": "NGUYỄN NHA",
+      "from": "xã Tả Thanh Oai huyện Thanh Oai, Nho sinh"
+     },
+     {
+      "name": "LÊ DUY ĐẢN",
+      "from": "xã Hương La huyện Yên Phong, Giám sinh, Ứng chế hợp cách"
+     },
+     {
+      "name": "NGÔ DUY TRỪNG",
+      "from": "xã La Khê huyện Từ Liêm, Giám sinh"
+     },
+     {
+      "name": "TRẦN THIỀU SƯỞNG",
+      "from": "xã Khoái Lạc huyện Yên Định, Tri huyện"
+     },
+     {
+      "name": "LÊ TRỌNG ĐIỂN",
+      "from": "xã Nhân Mục Môn huyện Thanh Trì, Tri huyện"
+     },
+     {
+      "name": "HOÀNG BÌNH CHÍNH",
+      "from": "xã Thổ Hoàng huyện Thiên Thi, Tri huyện"
+     },
+     {
+      "name": "NGUYỄN THẾ BÌNH",
+      "from": "xã Cát Ngạn huyện Thanh Chương, thi đỗ năm 18 tuổi"
+     },
+     {
+      "name": "NGUYỄN QUÝ HIỂN",
+      "from": "xã Thạch Thán huyện Yên Sơn, Giáo thụ"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Hoản"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Hoản",
+   "others": [
+    {
+     "id": "bia-1778",
+     "year": 1778
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1776,
+  "raw": "1776",
+  "gap": 1,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1775",
+     "year": 1775
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Ngô Thì Nhậm",
+   "dates": "1746-1803",
+   "description": "Danh sĩ nổi tiếng, giữ nhiều chức quan quan trọng thời Lê và là trọng thần triều Tây Sơn. Ông có đóng góp lớn trong việc soạn thảo văn bản ngoại giao với nhà Thanh và được vua Quang Trung tin dùng.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phan Huy Ích",
+   "dates": "1751-1822",
+   "description": "Đỗ đầu kỳ thi Hội (Hội nguyên). Ông là đại thần trải qua hai triều đại Lê và Tây Sơn, giữ chức Thượng thư Bộ Lễ và từng đi sứ nhà Thanh.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Thế Lịch",
+   "dates": "1750-1829",
+   "description": "Còn có tên là Nguyễn Gia Phan. Ông giữ chức Thượng thư Bộ Lại triều Tây Sơn, sau này được vua Gia Long mời ra dạy học cho các hoàng tử.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Hoản",
+   "dates": "Không rõ",
+   "description": "Đại thần triều Lê, giữ nhiều chức vụ cao cấp như Tham tụng, Lại bộ Thượng thư, Tri Quốc tử giám. Ông là người soạn bài ký cho văn bia này.",
+   "isLaureate": false
+  },
+  {
+   "name": "Ngô Thế Trị",
+   "dates": "1733-?",
+   "description": "Làm quan đến chức Hàn lâm viện Đãi chế và từng được cử làm Phó sứ sang nhà Thanh.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nguyễn Hoản",
+  "dates": "Không rõ",
+  "description": "Đại thần triều Lê, giữ nhiều chức vụ cao cấp như Tham tụng, Lại bộ Thượng thư, Tri Quốc tử giám. Ông là người soạn bài ký cho văn bia này.",
+  "hometown": "Không rõ",
+  "roles": [
+   "Tham tụng",
+   "Lại bộ Thượng thư",
+   "Tri Quốc tử giám",
+   "Viện Quận công"
+  ]
+ }
+}

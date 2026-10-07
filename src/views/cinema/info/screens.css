@@ -1,0 +1,320 @@
+/* ============================================================
+   Kiểu hiện thông tin "Bình phong" (info/screens.js).
+   Hai tấm sơn mài trên lớp CSS3D, bám mặt phẳng bia. Mỗi tấm chia ba dải như một cánh
+   bình phong thật: "hoành" trên (kính nhạt — số năm khoa thi ở tấm trái), thân sơn
+   mài, dải chân. Hai tấm dùng CHUNG nhịp dọc nên các thanh ngang thẳng hàng qua tấm bia.
+   Mọi selector bắt đầu bằng .bp- ; kích thước khuôn do JS đặt qua biến --bp-*.
+   ============================================================ */
+
+/* Phần tử của CSS3DObject: 0×0, là điểm bản lề. Renderer ghi đè display/transform của nó —
+   chỉ đặt những gì renderer không đụng tới. */
+.bp-anchor {
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.bp-leaf {
+  --bp-gold: #d9b36c;
+  --bp-line: rgba(217, 179, 108, .35);
+  --bp-line-soft: rgba(217, 179, 108, .17);
+  --bp-ink: #efe8da;
+  --bp-dim: rgba(239, 232, 218, .72);
+  --bp-ease-out: cubic-bezier(.33, 1, .68, 1); /* ease-out cubic */
+
+  position: absolute;
+  bottom: 0;
+  width: var(--bp-w, 296px);
+  height: var(--bp-h, 340px);
+  box-sizing: border-box;
+  color: var(--bp-ink);
+  font: 400 13px/1.5 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.bp-leaf *,
+.bp-leaf *::before,
+.bp-leaf *::after { box-sizing: border-box; }
+/* Neo ở mép GẦN BIA: tấm trái mọc sang trái từ bản lề, tấm phải mọc sang phải. */
+.bp-leaf--l { right: 0; text-align: right; }
+.bp-leaf--r { left: 0; text-align: left; }
+
+/* ---------- Kính sơn mài ---------- */
+.bp-glass {
+  position: absolute;
+  inset: 0;
+  border-radius: 2px;
+  overflow: hidden;
+}
+/* "Hoành": kính nhạt hơn thân — dải đầu sáng, thoáng. */
+.bp-glass__head {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: var(--bp-head);
+  background: linear-gradient(180deg, rgba(22, 18, 13, .2), rgba(14, 12, 10, .1));
+}
+.bp-glass__body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: var(--bp-head);
+  bottom: 0;
+  /* Nền đặc vừa đủ: Safari có thể bỏ backdrop-filter trong không gian 3D. */
+  background:
+    linear-gradient(180deg, rgba(233, 196, 128, .05), rgba(233, 196, 128, 0) 34%),
+    linear-gradient(180deg, rgba(22, 18, 13, .66) 0%, rgba(14, 12, 10, .62) 52%, rgba(9, 8, 7, .64) 100%);
+  -webkit-backdrop-filter: blur(10px) saturate(112%);
+  backdrop-filter: blur(10px) saturate(112%);
+}
+
+/* ---------- Khung: chỉ vàng ngoài + chỉ trong cách 6 px + thanh ngang dưới "hoành" ---------- */
+.bp-frame {
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--bp-line);
+  border-radius: 2px;
+  box-shadow:
+    inset 0 28px 36px -28px rgba(236, 200, 132, .17),
+    0 26px 50px -20px rgba(0, 0, 0, .62);
+}
+.bp-frame::before {
+  content: '';
+  position: absolute;
+  inset: 5px; /* + 1 px viền ngoài = 6 px */
+  border: 1px solid var(--bp-line-soft);
+  border-radius: 1px;
+}
+.bp-frame::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: calc(var(--bp-head) - 1px);
+  height: 1px;
+  background: var(--bp-line);
+}
+
+/* ---------- Dải "hoành" ---------- */
+.bp-head {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: var(--bp-head);
+  display: flex;
+  align-items: center;
+  padding: 5px var(--bp-pad) 0;
+}
+.bp-leaf--l .bp-head { justify-content: flex-end; }
+
+/* Số năm khoa thi — "hoành" của tấm trái. Chữ số Bodoni Moda 700 (lining), nét cao ≈ 40 px. */
+.bp-year {
+  margin: 0;
+  font: 700 54px/1 'Bodoni Moda', 'Playfair Display', Didot, 'Times New Roman', serif;
+  letter-spacing: .015em;
+  font-variant-numeric: lining-nums;
+  color: var(--bp-ink);
+}
+
+.bp-title {
+  margin: 0;
+  font: 400 20px/1.24 'Playfair Display', Georgia, 'Times New Roman', serif;
+  letter-spacing: .004em;
+  color: var(--bp-ink);
+  font-variant-numeric: lining-nums;
+  text-wrap: balance;
+}
+.bp-nw { white-space: nowrap; }
+
+/* ---------- Thân + dải chân ---------- */
+.bp-body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: var(--bp-head);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 17px var(--bp-pad) 16px;
+}
+.bp-foot {
+  position: relative;
+  flex: none;
+  margin-top: auto;
+  height: var(--bp-foot);
+  padding-top: 12px;
+}
+/* Thanh ngang dưới chạy trọn giữa hai chỉ trong (như khung bình phong), không chỉ theo lề chữ. */
+.bp-foot::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(6px - var(--bp-pad));
+  right: calc(6px - var(--bp-pad));
+  height: 1px;
+  background: var(--bp-line-soft);
+}
+
+/* Tấm trái: nhãn bảo tàng — nhãn vàng nhỏ giãn chữ, giá trị bên dưới, căn mép gần bia. */
+.bp-rows {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.bp-rows--main {
+  min-height: 0;
+  overflow: hidden;
+}
+.bp-row dt {
+  font-size: 9.5px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--bp-gold);
+  opacity: .9;
+}
+/* Giãn chữ để lại một khoảng sau ký tự cuối → bù để mép phải nhãn thẳng hàng với giá trị. */
+.bp-leaf--l .bp-row dt { margin-right: -.2em; }
+.bp-row dd {
+  margin: 3px 0 0;
+  font-size: 13.5px;
+  line-height: 18px;
+  color: var(--bp-ink);
+  opacity: .94;
+  font-variant-numeric: lining-nums;
+}
+
+/* Tấm phải: mô tả với chữ hoa thả. Bài dài (tới ~600 ký tự) bị cắt, mờ dần ở đáy. */
+.bp-desc {
+  flex: 0 1 auto;
+  min-height: 0;
+  margin: 0 0 12px; /* chừa hơi thở trên thanh ngang dưới khi bài dài bị cắt */
+  overflow: hidden;
+  font-size: 12.75px;
+  font-weight: 300;
+  line-height: 1.62;
+  color: var(--bp-dim);
+  text-wrap: pretty;
+}
+.bp-desc::first-letter {
+  float: left;
+  margin: .1em .12em 0 -.02em;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+  font-size: 3.3em;
+  line-height: .78;
+  color: var(--bp-gold);
+}
+@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
+  .bp-desc::first-letter {
+    float: none;
+    margin: 0 .16em 0 0;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-initial-letter: 2;
+    initial-letter: 2;
+  }
+}
+.bp-desc.is-pending { font-size: 10.5px; letter-spacing: .22em; text-transform: uppercase; color: var(--bp-dim); opacity: .7; }
+.bp-desc.is-pending::first-letter { float: none; margin: 0; font: inherit; line-height: inherit; color: inherit; -webkit-initial-letter: normal; initial-letter: normal; }
+.bp-desc.is-clamped {
+  -webkit-mask-image: linear-gradient(180deg, #000 calc(100% - 2.8em), transparent);
+  mask-image: linear-gradient(180deg, #000 calc(100% - 2.8em), transparent);
+}
+
+/* Hai con số chính, chú thích thẳng một đáy. */
+.bp-figs {
+  display: flex;
+  align-items: flex-end;
+}
+.bp-fig {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.bp-fig--num {
+  flex: none;
+  padding-right: 15px;
+}
+.bp-fig--name {
+  flex: 1 1 auto;
+  padding-left: 15px;
+  border-left: 1px solid var(--bp-line-soft);
+}
+.bp-fig__v {
+  display: block;
+  font-weight: 400;
+  color: var(--bp-ink);
+}
+.bp-fig--num .bp-fig__v {
+  font: 700 44px/.86 'Bodoni Moda', 'Playfair Display', Georgia, serif;
+  letter-spacing: -.01em;
+  font-variant-numeric: lining-nums;
+}
+.bp-fig--name .bp-fig__v {
+  font: 400 16px/1.2 'Playfair Display', Georgia, serif;
+  text-wrap: balance;
+}
+.bp-fig__r {
+  display: block;
+  margin-bottom: 3px;
+  font: italic 400 12px/1.25 'Playfair Display', Georgia, serif;
+  color: var(--bp-dim);
+}
+.bp-fig__c {
+  display: block;
+  margin-top: 9px;
+  font-size: 9.5px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--bp-gold);
+  opacity: .9;
+}
+
+/* ---------- Nhịp chữ: nổi lên 8 px + hiện dần, lệch nhau 45 ms; ẩn thì mờ cùng lúc 120 ms ---------- */
+.bp-t {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity .12s linear, transform 0s linear .12s;
+}
+.bp-leaf.is-text .bp-t {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity .38s var(--bp-ease-out) calc(var(--i, 0) * 45ms),
+    transform .38s var(--bp-ease-out) calc(var(--i, 0) * 45ms);
+}
+.bp-leaf.bp-rm .bp-t,
+.bp-leaf.bp-rm.is-text .bp-t {
+  transform: none;
+  transition: opacity .2s linear;
+}
+@media (prefers-reduced-motion: reduce) {
+  .bp-t,
+  .bp-leaf.is-text .bp-t {
+    transform: none;
+    transition: opacity .2s linear;
+  }
+}
+
+.bp-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

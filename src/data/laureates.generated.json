@@ -1,0 +1,8009 @@
+{
+ "bia-1442": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Nguyễn Trực",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Nguyễn Như Đổ",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa lang",
+   "name": "Lương Như Hộc",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trần Văn Huy",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Hoàng Sằn Phu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Hộc",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Lãm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Hữu Phu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Cư",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trần Bá Linh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Sĩ Liên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Duy Tắc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cư Đạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Viên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đạt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Hựu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Như Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Đương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Thế Dụ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Khúc Hữu Thành",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Lâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thiện Tích",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nghị",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Thiết Trường",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Bàn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quốc Kiệt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Mỹ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Khắc Tuy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Địch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Lôi Phủ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Cầu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hiển",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nguyên Chẩn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1448": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Nguyễn Nghiêu Tư",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Trịnh Thiết Trường",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Chu Thiêm Uy",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Mậu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Dương Chấp Trung",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trịnh Kiên",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Đức Khản",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Đình Tích",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Bá Ký",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Di Quyết",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đặng Tuyên",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Bùi Phúc",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Văn Chất",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phan Hoan",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Thúc Thông",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đoàn Nhân Công",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Mông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nguyên Chẩn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tông Lỗi",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thiện",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đinh Minh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tạ Tử Điên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Duy Hinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Quốc Trinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Đức Lâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Ngự",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1463": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Lương Thế Vinh",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Nguyễn Đức Trinh",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Quách Đình Bảo",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Lỗ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Tài",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Dương Văn Đán",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Tường",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lê Đình Tuấn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đào Bạt",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đỗ Hân",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Ngữ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Ký",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Nhữ Nhuế",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Hoàng Bồi",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đinh Thúc Thông",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Hữu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Đình Liêu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lưu Công Ngạn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Khôi",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tông Tây",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Tử Nghi",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bá Kỳ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Chu Lộc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Bá Lược",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Bảo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Bá Ký",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Văn Thiện",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Xuân Dương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Lương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Tuấn Khanh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Văn Hiển",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Nghĩa",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Nại",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cấu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Cái Phùng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Phổ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Đức Nhan",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Công Định",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hạ Cảnh Đức",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nhữ Văn Lan",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cư Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Chính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Như Trác",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1466": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Dương Châu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Bùi Viết Lương",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Quách Hữu Nghiêm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Hà Công Trình",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lương Hối",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Đôn Phục",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đoàn Lạn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Thừa Nghiệp",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nhân Thiếp",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang Lộc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tất Bột",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nhân Bị",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Nhuận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Thông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Chương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bá Dung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Chấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Khản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Nhân Bản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Thúc Chẩn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Thái Tất Tiên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Doãn Truân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Lôi",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Doanh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Mạc Đức Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Cử",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hà Nghiễm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1475": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Vũ Tuấn Chiêu",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Ông Nghĩa Đạt",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Cao Quýnh",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Phạm Xán",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Trần Thâm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Ứng Ngạn Lượng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Vương Hiển",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Tấn Vĩ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Lê Quảng Du",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Phạm Hưng Văn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Đỗ Trí Trung",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Kiều Phú",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Kim",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Đỗ Tuyền",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Vũ Mẫn Trí",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Tuấn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Vinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Phúc Cẩn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Duy Tiếu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Ấu Miễn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quan Hiền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Thiệu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Tương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Minh Khang",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Triệu Dung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tĩnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Quý",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Thái Thuận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Sùng Nghê",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Mô",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đoàn Mậu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Ly Châu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Lễ Kính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tạ Đức Hải",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tạ Thông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Dương Hiến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Chính Lạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Luân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tư Phụ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tư Phúc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1478": [
+  {
+   "title": "Đệ nhị danh",
+   "name": "Lê Quảng Chí",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Đệ tam danh",
+   "name": "Trần Bích Hoành",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Đệ tam danh",
+   "name": "Lê Ninh",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Địch Tâm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Quỳnh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Duy Thiện",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nghiêm Lâm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Sĩ Nguyên",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Hoàng Đức Lương",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Ngô Sở Ngọc",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Ninh Hãng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Giản",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hiến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Cảnh Huống",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Dương Kỳ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Quách Toản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Khánh Dung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Doãn Hoành Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Tín Biểu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Quý Nghị",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kỳ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nghiêm Phụ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thiệu Tri",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nghiễm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Bính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hiếu Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Xương Trạch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trí Khoan",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cối",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tâm Hoằng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lương Vinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phí Mẫn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lưu Hy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vương Khắc Mại",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Kim Húc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cẩn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Miễn Lân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Tiến Khang",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Hựu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Sảnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đường",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nghĩa Kỳ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đỉnh Bật",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Giản Liêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thọ Kình",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quýnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tắc Dĩnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tạ Hùng Kiệt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Doãn Hựu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hanh Huyễn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Trinh Chấp",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Tĩnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Định",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Đức Trinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kính Hài",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Lâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Hiền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Cận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Cung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Giám",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Kiệt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Công Đảng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1481": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Phạm Đôn Lễ",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Lưu Hưng Hiếu",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Nguyễn Doãn Địch",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Ngô Văn Cảnh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Vũ Khắc Minh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Lưu Ngạn Quang",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Duy Trinh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Phạm Hùng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Hoàng Bá Dương",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Bùi Sư Lục",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Lê Đức Thiệu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Minh Thông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đàm Đình Phương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Chuyết",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Nguyên Trinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Cấu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tôn Miệt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nhân Bị",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Tú",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Nghi Huynh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đổ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thái",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Khổng Cư Lỗ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Thân Tông Vũ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Công Truyền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Tử Hiền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tất Thông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tử Loa",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nhân Lễ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Ứng Toản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "LƯU DI QUYẾT",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Tứ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Bá Linh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Khắc Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Thang Nghĩa Phương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Đức Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Oanh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Dư Khánh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Duy Hàn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1487": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Trần Sùng Dĩnh",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Nguyễn Đức Huấn",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Thân Cảnh Vân",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Cảnh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Thẩm Lộc",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Lý Tường",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đinh Trung Thuần",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Bùi Đoan Giáo",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Bảo Khuê",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Ngô Hoan",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Cẩn Liêm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Trật",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Triệt Vũ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Viện",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trịnh Quỳ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Ứng Triệu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Tuấn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Loan",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Lệ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Lý Uyên",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Thừa Phủ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Ngô Ngọc",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Bùi Phổ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Thuần Hỗ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Hạo",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Quảng Trinh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đỗ Đạt",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trần Hoành",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Bảo",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trần Bân",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Đôn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đặng Minh Khiêm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trần Kỳ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Trân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thông Doãn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Úc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Nại",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Phất",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Duy Minh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Diệu Huy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hanh Phu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thù",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nho Tông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tủng Mục",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tuyên Cần",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Chân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tuân Đạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đoàn Huệ Nhu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Thịnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Tán",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Thuần Thông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trinh Biểu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Ngạn Chương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Hoà Xuân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thận Lễ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lưu Túc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Mật",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Ngung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Ích Cữu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trình Chí Sâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1496": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Nghiêm Viện",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Nguyễn Huân",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Đinh Lưu",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Đinh Cương",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Thanh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Đặng Miễn Cung",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Lê Quýnh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Triệu Nghị Phù",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Phạm Cảnh Lương",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Phạm Giới",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Khiết Tú",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đạo Diễn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Củng Uyên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Thông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Văn Vĩ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Củng Thuận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tổ Khuê",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Tước",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Kiểu Vinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tường Phiêu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đàm Tụy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Túc Khang",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kiện Hy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Tiến Chiêu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thượng Nghiêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Sở Thùy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Toại",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Hoằng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Khải Đễ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1502": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Lê Ích Mộc",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Lê Sạn",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Nguyễn Văn Thái",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Cảnh Diễn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Đức Khâm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Như Côn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Trần Dực",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Lê Văn Học",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Hạ Ngọc Chúc",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Ngạn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Vĩnh Kiên",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Đặng Tuyên",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Bá Tùng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Đốc",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Vũ Bá Dung",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Vũ Cán",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Ngô Văn Huy",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Trương Đức Quang",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Chưởng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "HOÀNG SĨ DỊCH",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Văn Hiến",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Vũ Bá Thắng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Mai Đức Bá",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Tự",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Đoàn Nhân Thục",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Bùi Dục Tài",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Lê Nhân Tế",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Khiêm Bính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Kiệt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Duy Minh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kim",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Doãn Mậu Khôi",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tử Trọng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Chử Thiên Khải",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê DựC",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Văn Hiệu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Tử Nghi",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Hiến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đinh Trinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Như Hổ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Nhạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Nghi Hướng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Tân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Kim Chương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thế Mỹ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trọng Hưng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Doãn Chính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Tráng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Lư",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Đình Mục",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Xuân Lan",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Huyên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hiếu Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đoan",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Đình Tưởng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Thúc Viện",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Đệ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Bá Huyên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Mạc Văn Uy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tử Kiến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Mậu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1511": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Hoàng Nghĩa Phú",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Trần Bảo Tín",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Vũ Duy Chu",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Bùi Doãn Hiệp",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Hy Tái",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lê Tư",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Duy Tường",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Mai Bang",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đào Khắc Cần",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phan Chính Nghị",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Vĩnh Toán",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Dực",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Doãn Minh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Bá Khang",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Thái Kính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Bích Hoành",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Sĩ Kiện",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Xuân Vi",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Khải",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đàm Sâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Ý",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Kiều Văn Bá",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thì Khắc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngọ Cương Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Viết Thứ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hữu Quan",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huyễn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Vô Địch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bạt Tụy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Đĩnh Trực",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Nguyên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tạ Đình Huy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "La Thế Nghiệp",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Trung Hòa",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đoàn Văn Thông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thái Hoa",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Quách Thu Ưng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tuệ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Mậu Thuật",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Vô Cương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Đàm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Phi Hổ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lương Đức Mậu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Mạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kiều",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1514": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Nguyễn Đức Lượng",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Nguyễn Chiêu Huấn",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Hoàng Minh Tá",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Vũ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Tự Cường",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Chính Nghị",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đoàn Quảng Phu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Nguyên Tán",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Thọ Chất",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Đôn Cung",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Đốc Tín",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Ngô Tòng Củ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Trọng Hiệu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Văn Kiệt",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lại Gia Phúc",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Doãn Khâm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Chử Sư Đổng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Hà Cảnh Đạo",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đỗ Cảnh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Chính Tuân",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Đạm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lê Thời Bật",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trịnh Bá",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bỉnh Di",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Doãn Tuy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Văn Nguyên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Chuyên Mỹ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Lân Định",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bỉnh Đức",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Công Phụ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Minh Du",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Quang Túc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Điển Kính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Kính Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Doãn Thông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Duy Lương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Hữu Nghiêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đoàn Sư Đức",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cảnh Quynh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Châu Mạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kính Hoà",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hanh Gia",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Viên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1518": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Ngô Miễn Thiệu",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Nguyễn Mẫn Đốc",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Lưu Khải Chuyên",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lại Kim Bảng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đặng Ất",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Chấn Chi",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Hồng Tiệm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nghiêm Văn Hậu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lê Vô Địch",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Độ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cư Nhân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Củng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Dương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vương Hoành",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hòa Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngọ Doãn Trù",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tảo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1529": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Đỗ Tổng",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Nguyễn Hãng",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Nguyễn Văn Huy",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Vân Quang",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Trần Thụy",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Phạm Huy",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Đặng Lương Tá",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Hoảng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Doãn Địch",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Phí Thạc",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Chiêu Khánh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hữu Hoán",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Địch Giáo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Thực",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Khắc Thận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Tảo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quý Lương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Ký",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "An Khí Sử",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Ngung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Chu Tam Dị",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Tế",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đinh Thụy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Kinh Bang",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lương Nhượng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Dương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang Tán",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1554": [
+  {
+   "title": "Chế khoa",
+   "name": "Đinh Bạt Tụy",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa xuất thân"
+  },
+  {
+   "title": "Chế khoa",
+   "name": "Nguyễn Văn Nghi",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa xuất thân"
+  },
+  {
+   "title": "Chế khoa",
+   "name": "Nguyễn Sư Lộ",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa xuất thân"
+  },
+  {
+   "title": "Chế khoa",
+   "name": "Phan Tất Thông",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa xuất thân"
+  },
+  {
+   "title": "Chế khoa",
+   "name": "Đỗ Danh Đại",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa",
+   "name": "Chu Quang Trứ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa",
+   "name": "Nguyễn Chiêu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa",
+   "name": "Lê Văn Hiếu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa",
+   "name": "Biện Hoành",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa",
+   "name": "Nguyễn Công Dự",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa",
+   "name": "Vũ Hoán",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa",
+   "name": "Nguyễn Sằn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa",
+   "name": "Nguyễn Đức",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa xuất thân"
+  }
+ ],
+ "bia-1565": [
+  {
+   "title": "Chế khoa Tiến sĩ",
+   "name": "Lê Khiêm",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Chế khoa Tiến sĩ",
+   "name": "Bùi Khắc Nhất",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Chế khoa Tiến sĩ",
+   "name": "Đỗ Tế Mỹ",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Chế khoa Tiến sĩ",
+   "name": "Dương Trí Dụng",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa Tiến sĩ",
+   "name": "Lê Nghĩa Trạch",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa Tiến sĩ",
+   "name": "Đinh Doãn Tín",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa Tiến sĩ",
+   "name": "Lê Văn Xướng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa Tiến sĩ",
+   "name": "Hoàng Quốc Thực",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa Tiến sĩ",
+   "name": "Đỗ Cảnh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Chế khoa Tiến sĩ",
+   "name": "Lê Đa Năng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Đồng Chế khoa Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1577": [
+  {
+   "title": "Chế khoa",
+   "name": "Lê Trạc Tú",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa xuất thân"
+  },
+  {
+   "title": "Chế khoa",
+   "name": "Nguyễn Bật Lượng",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa xuất thân"
+  },
+  {
+   "title": "Chế khoa",
+   "name": "Lê Phúc Nhạc",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Chế khoa xuất thân"
+  },
+  {
+   "title": "Chế khoa",
+   "name": "Hồ Bỉnh Quốc",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Chế khoa xuất thân"
+  },
+  {
+   "title": "Chế khoa",
+   "name": "Nguyễn Hoành Từ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Chế khoa xuất thân"
+  }
+ ],
+ "bia-1580": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Văn Giai",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phùng Khắc Khoan",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Văn Lan",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đặng Đôn Phục",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Quang Hoa",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trạch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1583": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Nhân Thiệm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Phong",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trần Phúc Hựu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Thông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1589": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Lê Nhữ Bật",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lương Chí",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lương Khiêm Hanh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Đình Túc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1592": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Trịnh Cảnh Thụy",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Ngô Trí Hòa",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Trí Tri",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1595": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Thực",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Nhật Tráng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Mậu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Kính Chỉ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Danh Thế",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Trạch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1598": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Thứ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Duy Thì",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lê Bật Tứ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Khắc Khoan",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Giới",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1602": [
+  {
+   "title": "Đình nguyên",
+   "name": "Nguyễn Đăng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Văn Lễ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Dực",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Dụng Triêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nghiêu Thần",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hữu Tác",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Văn Bưu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Chính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tự Cường",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1604": [
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Thế Tiêu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Đỗ Khắc Kính",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Duy Minh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Cấn Văn Nhạ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tự Cường",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tạ Đình Đương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Vĩ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1607": [
+  {
+   "title": "Đình nguyên",
+   "name": "Lưu Đình Chất",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Nhân Triệt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Thất Dục",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Khắc Niệm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trạm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1610": [
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Văn Khuê",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tiến Dụng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Khuê",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Lượng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Sâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Khuê",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Thế Hỗ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1613": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Tất Thắng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kinh Tế",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bá Tấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Kiểu Cường",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Thì Mẫn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1616": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Trí Dụng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Miễn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Nghi",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hi Tái",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1619": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Lại",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Cầu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Bỉnh Quân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Công Phụ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Hữu Lễ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nghi",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Trí Trạch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1623": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Phi Kiến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nhân Trừng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Phúc Khánh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phùng Thế Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đệ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Bảng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trật",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1628": [
+  {
+   "title": "Thám hoa",
+   "name": "Giang Văn Minh",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Dương Cảo",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Đồng Nhân Phái",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Duy Hiểu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Phi Hiển",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Khả Trù",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thế Trân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hòa",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lã Thì Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Khắc Văn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Thân Khuê",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Thuần",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Kính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Công Trứ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang Minh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bình",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tài Toàn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trạch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1631": [
+  {
+   "title": "Thám hoa",
+   "name": "Nguyễn Thọ Quyến",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Lê Biện",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Cao Nhạc",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Danh Thọ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Trạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1637": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Nguyễn Xuân Chính",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Nguyễn Nghi",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Nguyễn Thế Khanh",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Hữu Thường",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Sách Hiển",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cổn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Vĩnh Miên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Hoàng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Văn Chính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Liễn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hưng Nhân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Triệt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Khái",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lương Đạt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nhuận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kinh Học",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Vị",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nhân Đại",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Đức Vọng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đạt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1640": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Phí Văn Thuật",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trần Ngọc Hậu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Vinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Hạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trương Quang Tiền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Công Tạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Quảng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Bỉnh Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Lương Bật",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Nhân Triệt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Kiêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Văn Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Văn Tổng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Thuần Nhân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Đậu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Suyền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Nhân Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Văn Tuyển",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Quách Đồng Đức",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Vinh Tiến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Như Uyên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1643": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Khắc Thiệu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lê Hiệu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Đình Dự",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Trí Trạch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Đức Toàn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Quỳnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lương Nghi",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Bảng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Lương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1646": [
+  {
+   "title": "Thám hoa",
+   "name": "Nguyễn Đăng Cảo",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Viết Cử",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Văn Đạt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tá Tương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Khắc Kỷ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đăng Minh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Hiển Danh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Vĩnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Sĩ Vinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đinh Tất Hưng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đồng Tồn Trạch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Mậu Tài",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đắc Vinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Đình Lại",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Cao Cử",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Kiêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Văn Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1650": [
+  {
+   "title": "Thám hoa",
+   "name": "Khương Thế Hiền",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Văn Lễ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Cao Đệ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Thế Tế",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Thọ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hy Tái",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Chiêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Hưng Tạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1652": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Phùng Viết Tu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Chất",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hồ Sĩ Dương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Văn Tín",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Thân Toàn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Uông Nhuệ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Công Bật",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Chính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Đắc Toàn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1656": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Trụ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Vinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Trác Lạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Đăng Long",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Đức Đôn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Công Lượng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1659": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Nguyễn Quốc Trinh",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Nguyễn Văn Bích",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Nguyễn Văn Thực",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Mai Trọng Hòa",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Đỗ Thiện Chính",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Duy Chất",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Vinh Thịnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Thức",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Văn Luân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Cầu Hối",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Bật Hài",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Công Đạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Mậu Dị",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Văn Trinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Công Triều",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Văn Hy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Chí Đạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ninh Đạt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Sách Thí",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1661": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Đặng Công Chất",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Đào Công Chính",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Ngô Khuê",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trần Xuân Bảng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lê Trí Bình",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Nhân Kiệt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phí Đăng Nhậm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Thạnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lại Đăng Tiến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Hiệp Tâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Liêu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn VĂN PHÚ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1664": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Viết Thứ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lương Mậu Huân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Duy Đoán",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Công Bình",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Sách Dụ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang Thiện",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nhữ Tiến Dụng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Sĩ Giáo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tiến Tài",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Lương Bật",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Hải",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Tông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1667": [
+  {
+   "title": "Đình nguyên",
+   "name": "Nguyễn Quán Nho",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hữu Đăng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang Trạch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1670": [
+  {
+   "title": "Đệ nhất danh",
+   "name": "Lưu Danh Công",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Đệ nhị danh",
+   "name": "Thiều Sĩ Lâm",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Lê Hữu Danh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Đình Lâm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hùng Xứng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Mỹ Tài",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Đình Tướng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trạc Dụng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Khuê",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tiến Sách",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đăng Sĩ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Thọ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Trạch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Viết Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Công Liêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Bảng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Cầu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đinh Nho Công",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Tĩnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Danh Nho",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Tiến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Công Trí",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tống Nho",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Tự Cường",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Công Nho",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trí Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trương Quang Trạch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Thế Vinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Sĩ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Duy Khuông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1673": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Quang Vận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Vọng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đương Bao",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đăng Tuân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Danh Nho",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1676": [
+  {
+   "title": "Tiến sĩ cập đệ",
+   "name": "Nguyễn Quý Đức",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Bùi Công Phụ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Quang Chiếu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Tiến Triều",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Lương Năng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Chu Danh Tể",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Đức Nhuận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Đăng Cử",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Sách Tuân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Khả Trinh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trung Lượng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Xuân Dung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trương Hữu Hiệu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đoàn Tuấn Hòa",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Dị Tài",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Cổn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Xuân Đỉnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đăng Long",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Siêu Hải",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Ngô Chung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1680": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Công Thiện",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Công Thước",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Côn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Xuân Thì",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hưng Công",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Công Phương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang Thành",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nhữ Tiến Hiền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Công Phụ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang Thọ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Thái Danh Nho",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Minh Lương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đinh Đình Thụy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hà Công Luận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Sĩ Cẩn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Hữu Dung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Đình Thiều",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang Lân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1683": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Nguyễn Đăng Đạo",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Bảng nhãn",
+   "name": "Phạm Quang Trạch",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Quách Giai",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Đương Hồ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Thiện Thuật",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Đăng Phụ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoa Công Phương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Công Toản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Phụ Dực",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Đức Vận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Tiến Gián",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Công Độ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Tuấn Ngạn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phí Quốc Thể",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thủ Xứng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tạ Đăng Vọng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Long Bảng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Bách",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1685": [
+  {
+   "title": "Thám hoa",
+   "name": "Vũ Thạnh",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Bùi Công Tốn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trương Công",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Công Bật",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Danh Dự",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Chí Tuân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Thê",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Công Quỳnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Duy Dương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Công Đổng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Trọng Trình",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Vinh Phúc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Đình Châu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1688": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Đình Hoàn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hồ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hành",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quốc Cương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Tuấn Dị",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hà Tông Mục",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1691": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Ngô Vi Thực",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Mại",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Hữu Đạo",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Quốc Hiển",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Khả Tông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Danh Đống",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đồng Bỉnh Do",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Mậu Thịnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Công Đạt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Mai Thụy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang Hạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1694": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Công Trạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Công Hoàn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Anh Tuấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Vi Nho",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Duy Viên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1697": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Quyền",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Trù",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Quang Huân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tô Thế Huy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Hoàng Thực",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Vĩ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Xuân Đài",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Viết Hồ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Công Cơ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Đăng Đạt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1700": [
+  {
+   "title": "Tiến sĩ cập đệ",
+   "name": "Nguyễn Đình Ức",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Tạ Đăng Huân",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Hồ Phi Tích",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đinh Nho Hoàn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Toàn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hiệu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quốc Bảo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Quốc Đỉnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Hữu Nhẫm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trung Quán",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hữu Hỷ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Y",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lại Duy Chí",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trương Minh Lượng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Tướng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quốc Quang",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Công Hãng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Đình Thạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Phấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1703": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Quang Luân",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang Nhuận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trí Cung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Minh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thường Thái",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Minh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1706": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Quang Dung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Công Đĩnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thẩm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đăng Liên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bá Tông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1710": [
+  {
+   "title": "Thám hoa",
+   "name": "Phạm Khiêm Ích",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Công Khuê",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Vĩ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đồng Lâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quốc Tĩnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Khắc Thuần",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Lãng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hồng Hạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quang Dương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hữu Mưu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Lệnh Danh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Viết Tú",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Đình Kính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Khanh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Quản Danh Dương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đoàn Quang Dung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Duy Cơ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đăng Cơ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Công Bảo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Hưng Giáo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1712": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Duy Đôn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Từ Bá Cơ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trí Vị",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lưu Thành",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cơ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bật Luân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trọng Thường",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Đình Ân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đinh Phụ Ích",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quán Giai",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Lệ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tần Lê Thoan",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đồng Công Viện",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Huyên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Lân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Công Lạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Huy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1715": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Bùi Sĩ Tiêm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Quý Ân",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phùng Bá Kỳ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nham",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Cao Dương Trạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Đình Thụy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Bật Trạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Nhân Hân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Công Thái",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tuyền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Ánh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Ân Triêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lương Lâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hoàn Viện",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Đăng Xuân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đinh Nguyên Hanh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Quỹ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Phùng Thì",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kiều",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Cẩn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1718": [
+  {
+   "title": "Tiến sĩ cập đệ",
+   "name": "Vũ Công Tể",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Tuyền",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Ninh Địch",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hữu Kiều",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Danh Hiền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Công Viên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Cẩm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trương Hữu Thiệu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Như Kỳ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hà Sách Dự",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Quán",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Lệnh Nghi",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Bá",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Toản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Đăng Truyền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quốc Dực",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Cảnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1721": [
+  {
+   "title": "Tiến sĩ cập đệ",
+   "name": "Ngô Sách Hân",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trương Thì",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Trác Luân",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Tông Quai",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Đôn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Giang Sĩ Đoan",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Mại",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Bá Tương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Xuân Yến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đăng Giai",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Công Mậu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Từ Trọng Đĩnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Đình Chất",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Nhân Chiêu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Đình Thu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huy Mãn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Ngô Dụng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trịnh Đồng Giai",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Ngọc Huyễn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Kiều",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Công Hoàn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hồ Sĩ Tân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Xuân Vịnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Viêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Hy Thiều",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1724": [
+  {
+   "title": "Bảng nhãn",
+   "name": "Hà Tông Huân",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Trần Danh Dĩnh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Lương Nguyễn Huyễn",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Hoành",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Công Trấn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đồng Hưu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hoàng Tuyên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Văn Hoán",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Viêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Cao Nguyễn Phán",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Kinh Vĩ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Chu Nguyên Lâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Hữu Du",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bạch Phấn Ưng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Phú Thứ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Đỉnh Chung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trọng Côn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1727": [
+  {
+   "title": "Thám hoa",
+   "name": "Nguyễn Thế Lập",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đức Vĩ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Công Thế",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hoàn Hạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quốc Ích",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Quản Dĩnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Bá",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Công Diễn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Sĩ Lâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Khâm Thận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1731": [
+  {
+   "title": "Thám hoa",
+   "name": "Đỗ Huy Kỳ",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Trần Danh Ninh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Nguyễn Nghiễm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Quản Đình Du",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bá Lân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thì Lượng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Mai Thế Chuẩn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Mai Danh Tông",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Danh Lâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Nguyên Ninh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Lê Lân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Công Thụ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1733": [
+  {
+   "title": "Bảng nhãn",
+   "name": "Nhữ Trọng Đài",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trần Trọng Liêu",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Hồ Quýnh",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kỳ Nhậm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Công Hân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Như Khuê",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Đình Dung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bá Quýnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Mô",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huệ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Đồng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Thành Doãn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Hiền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trương Nguyễn Điều",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hành",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nghiêm Bá Đĩnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Danh Tiêu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huy Thuật",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1736": [
+  {
+   "title": "Trạng nguyên",
+   "name": "Trịnh Huệ",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Thám hoa",
+   "name": "Nguyễn Quốc Hiệu",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Lê Sĩ Bàng",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Sĩ Triêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Phương Đề",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đồng Doãn Khuê",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Xuân Lan",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Bá Tân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nhữ Đình Toản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Đình Quyền",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Danh Tân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bá Tuân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Mai Trọng Tương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thế Giai",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tông Mại",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1739": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Vũ Diệm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Trần Thiệu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Lâm Thái",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trương Đình Tuyên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Bùi Trọng Huyến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huy Thục",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Luân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Đình Trọng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1743": [
+  {
+   "title": "Thám hoa",
+   "name": "Phan Kính",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Trần Văn Trứ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hoàng Vĩ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hoản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Sĩ Thuyên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Doãn Giản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Doãn Giai",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1746": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Đoàn Thụ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Trần Danh Tố",
+   "tier": 3,
+   "band": "Đệ tam giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Đào Vũ Thường",
+   "tier": 3,
+   "band": "Đệ tam giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nguyễn Như Thức",
+   "tier": 3,
+   "band": "Đệ tam giáp · Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1748": [
+  {
+   "title": "Thám hoa",
+   "name": "Nguyễn Huy Oánh",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Trịnh Xuân Thụ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Miên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huy Dận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kỳ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trọng Đột",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Trọng Tín",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Phạm Dịch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quốc Khuê",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Tiến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Doãn Thân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Nhuệ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huy Ngọc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1752": [
+  {
+   "title": "Bảng nhãn",
+   "name": "Lê Quý Đôn",
+   "tier": 1,
+   "band": "Đệ nhất giáp · Tiến sĩ cập đệ"
+  },
+  {
+   "title": "Hoàng giáp",
+   "name": "Đoàn Nguyễn Thục",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nghiêm Vũ Đăng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Diêu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tạ Đình Hoán",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Xuân Huy",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1754": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Tông Trình",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Trọng Khiêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Sử",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Cận",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Huy Đĩnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bá Trữ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Điều Huyễn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thưởng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1757": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Bùi Đình Dự",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Huy Cơ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Nguyễn Đạt",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Khiêm Thụ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Lê Phiên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Huy Điển",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1760": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Trần Thực",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Khản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Tạ Đăng Đạo",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Duy Doãn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huy Cẩn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1763": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Cơ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Duy Thức",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoa Quý Khâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Dương Ưng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Lệnh Tân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1766": [
+  {
+   "title": "Hoàng giáp",
+   "name": "Ngô Thì Sĩ",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lý Trần Quán",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đặng Dụng Chu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Duy Trung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Uông Sĩ Điển",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trương Đăng Quỹ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quýnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Bá Dương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Phúc Lâm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trọng Hoành",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Đồng Viện",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1769": [
+  {
+   "title": "Đình nguyên",
+   "name": "Bùi Huy Bích",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Công Chí",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Giản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lý Trần Thản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lý Trần Dự",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huy Trạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Tố",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Duy Viên",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Trọng Đương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1772": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Hồ Sĩ Đống",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Nhữ Công Chân",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Công Xán",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Duy Hiệp",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quýnh",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Nguyễn Thường",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đào Vũ Hương",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Duy Diệm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Huy Trác",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Dương Nguyễn Huống",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Huy Vĩ",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huy Biểu",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lưu Tiệp",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1775": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Thế Trị",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Hữu Dung",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huy Vượng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Đỗ Huy Cư",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Thì Nhậm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lưu Định",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Huy Ích",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thế Lịch",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Đình Dư",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quốc Ngạn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Nha",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Duy Đản",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Duy Trừng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Thiều Sưởng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Trọng Điển",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Bình Chính",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Thế Bình",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Quý Hiển",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1778": [
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Duân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Chu Doãn Mại",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Trọng Huyến",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ninh Tốn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "bia-1779": [
+  {
+   "title": "Tiến sĩ",
+   "name": "Lê Huy Trâm",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Tiến sĩ",
+   "name": "Phạm Nguyễn Du",
+   "tier": 2,
+   "band": "Đệ nhị giáp · Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phạm Quý Thích",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Hoàng Quốc Trân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Huy Quân",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Hàn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Thiều",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đình Thạc",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Lê Đăng Cử",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Kiêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Vũ Di Lượng",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Trần Huy Liễn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Ngô Tiêm",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Nguyễn Đường",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  },
+  {
+   "title": "Đồng Tiến sĩ",
+   "name": "Phan Huy Ôn",
+   "tier": 3,
+   "band": "Đệ tam giáp · Đồng Tiến sĩ xuất thân"
+  }
+ ],
+ "$generated": "tools/extract-stele-info.mjs — tên người đỗ thật theo bia (lớp tên trên thân bia)"
+}

@@ -1,0 +1,368 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 73 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/73/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1757",
+ "year": 1757,
+ "canChi": "Đinh Sửu",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA ĐINH SỬU NIÊN HIỆU CẢNH HƯNG NĂM THỨ 18 (1757)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Nhà Lê (Lê Trung Hưng)",
+ "era": "Cảnh Hưng",
+ "eraYear": 18,
+ "king": {
+  "name": "Lê Hiển Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 6,
+ "passedRaw": "6",
+ "erected": 1757,
+ "contributors": {
+  "author": "Nhữ Đình Toản",
+  "calligrapher": "Nguyễn Hữu Hàm",
+  "editor": "",
+  "engraver": ""
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 1
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 5
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Bùi Đình Dự",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "Xã Nãi Sơn huyện Nghi Dương (nay thuộc xã Tú Sơn huyện Kiến Thụy tỉnh Thái Bình)",
+   "honors": []
+  },
+  {
+   "name": "Phạm Huy Cơ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Đông Bình huyện Gia Định (nay thuộc xã Đông Lai huyện Gia Bình tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Phạm Nguyễn Đạt",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Kim Đôi huyện Vũ Giàng (nay thuộc xã Kim Chân huyện Quế Võ tỉnh Bắc Ninh)",
+   "honors": []
+  },
+  {
+   "name": "Phan Khiêm Thụ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Yên Việt Hạ huyện La Sơn (nay thuộc xã Đức Châu huyện Đức Thọ tỉnh Hà Tĩnh)",
+   "honors": []
+  },
+  {
+   "name": "Phan Lê Phiên",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Đông Ngạc huyện Từ Liêm (nay là xã Đông Ngạc huyện Từ Liêm Tp. Hà Nội)",
+   "honors": []
+  },
+  {
+   "name": "Đào Huy Điển",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Đào Xá huyện Đường An (nay thuộc xã Bãi Sậy huyện Ân Thi tỉnh Hưng Yên)",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa xuân năm Đinh Sửu, niên hiệu Cảnh Hưng thứ 18 (1757), triều đình mở khoa thi Hội cho các Cống sĩ, chọn được 6 người trúng cách.",
+   "Vào Điện thí, triều đình ban Bùi Đình Dự đỗ Đệ nhị giáp Tiến sĩ xuất thân, Phạm Huy Cơ đứng đầu 5 người đỗ Đệ tam giáp đồng Tiến sĩ xuất thân.",
+   "Cùng năm ấy, ngày 19 tháng chạp, bia được dựng, giao Nhữ Đình Toản soạn bài ký.",
+   "Bài ký mong người có tên trên bia “làm nền tảng cho triều đình, làm cột rường cho xã tắc”."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Hội được tổ chức vào mùa xuân năm Đinh Sửu (1757) dưới triều vua Lê Hiển Tông.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Mùa xuân năm đó, mở khoa thi Hội, đặc sai Đô đốc Đồng tri tại Trung kinh quân doanh Thự Phủ sự Phó Đô tướng Khanh Quận công Trịnh Kiều làm Đề điệu, Bồi tụng Công bộ Tả Thị lang Bảo Lĩnh hầu Trần Danh Ninh làm Tri Cống cử, Hàn lâm viện Thừa chỉ Thái Đình bá Vũ Trần Thiệu, Thiêm sai Thị nội Thư tả Hình phiên Đông các Đại học sĩ Tuân Lĩnh bá Bùi Trọng Huyến làm Giám thí, lấy bọn Phạm Nguyễn Đạt vào hạng trúng cách."
+   }
+  },
+  {
+   "text": "Các quan viên tham gia tổ chức khoa thi gồm: Trịnh Kiều (Đề điệu), Trần Danh Ninh (Tri Cống cử), Vũ Trần Thiệu và Bùi Trọng Huyến (Giám thí).",
+   "kind": "note",
+   "label": "Các quan viên tham gia tổ chức khoa thi gồm",
+   "labelKind": "inline",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Mùa xuân năm đó, mở khoa thi Hội, đặc sai Đô đốc Đồng tri tại Trung kinh quân doanh Thự Phủ sự Phó Đô tướng Khanh Quận công Trịnh Kiều làm Đề điệu, Bồi tụng Công bộ Tả Thị lang Bảo Lĩnh hầu Trần Danh Ninh làm Tri Cống cử, Hàn lâm viện Thừa chỉ Thái Đình bá Vũ Trần Thiệu, Thiêm sai Thị nội Thư tả Hình phiên Đông các Đại học sĩ Tuân Lĩnh bá Bùi Trọng Huyến làm Giám thí, lấy bọn Phạm Nguyễn Đạt vào hạng trúng cách."
+   }
+  },
+  {
+   "text": "Mục đích của việc dựng bia là để tôn vinh hiền tài, làm nền tảng cho triều đình và cột rường cho xã tắc.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Những kẻ sĩ được khắc tên vào bia đá, ai chẳng lo toan gây dựng cơ nghiệp vương triều trở nên tốt đẹp như ngọc vàng, để làm nền tảng cho triều đình, làm cột rường cho xã tắc, công danh sự nghiệp sẽ còn mãi với bia đá này."
+   }
+  },
+  {
+   "text": "Bia được dựng vào ngày 19 tháng chạp niên hiệu Cảnh Hưng thứ 18 (1757).",
+   "kind": "note",
+   "anchor": {
+    "section": "colo",
+    "para": 1,
+    "match": "Bia dựng ngày 19 tháng chạp niên hiệu Cảnh Hưng thứ 18 (1757) Hoàng Lê."
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Nhữ Đình Toản",
+   "dates": "",
+   "description": "Đặc tiến Kim tử Vinh lộc đại phu Nhập nội thị Bồi tụng Ngự sử đài Phó Đô Ngự sử hành Binh bộ Tả Thị lang Tri Hàn lâm viện sự Bá Trạch hầu. Ông là người vâng sắc soạn bài ký cho văn bia này.",
+   "hometown": "",
+   "roles": [
+    "Bồi tụng",
+    "Phó Đô Ngự sử",
+    "Binh bộ Tả Thị lang",
+    "Tri Hàn lâm viện sự",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Bùi Đình Dự",
+   "dates": "1726-?",
+   "description": "Đỗ Đệ nhị giáp Tiến sĩ xuất thân, làm quan đến chức Hàn lâm Thị độc, sau đổi tên thành Bùi Đình Đảng.",
+   "hometown": "Xã Nãi Sơn huyện Nghi Dương",
+   "roles": [
+    "Hàn lâm Thị độc"
+   ]
+  },
+  {
+   "name": "Phạm Huy Cơ",
+   "dates": "1717-1767",
+   "description": "Trước khi thi đỗ ông làm Tri huyện, sau làm quan Hiệu thảo, Thự Sơn Nam Hiến sát sứ. Có tài liệu ghi tên ông là Nguyễn Huy Cơ.",
+   "hometown": "Xã Đông Bình huyện Gia Định",
+   "roles": [
+    "Tri huyện",
+    "Hiệu thảo",
+    "Thự Sơn Nam Hiến sát sứ"
+   ]
+  },
+  {
+   "name": "Phạm Nguyễn Đạt",
+   "dates": "1729-?",
+   "description": "Nguyên tên là Phạm Tiến, từng giữ chức Tham chính Hải Dương, Đông các Đại học sĩ, Hữu Thị lang Bộ Binh và được cử đi sứ sang nhà Thanh.",
+   "hometown": "Xã Kim Đôi huyện Vũ Giàng",
+   "roles": [
+    "Tham chính Hải Dương",
+    "Đông các Đại học sĩ",
+    "Thừa chính sứ",
+    "Hữu Thị lang Bộ Binh",
+    "Sứ giả"
+   ]
+  },
+  {
+   "name": "Phan Khiêm Thụ",
+   "dates": "1722-?",
+   "description": "Làm quan đến chức Cấp sự trung.",
+   "hometown": "Xã Yên Việt Hạ huyện La Sơn",
+   "roles": [
+    "Cấp sự trung"
+   ]
+  },
+  {
+   "name": "Phan Lê Phiên",
+   "dates": "1735-1809",
+   "description": "Giữ nhiều chức vụ quan trọng như Tả Thị lang Bộ Hộ, Tham tụng, Bình chương sự, Tri Quốc tử giám Tư nghiệp, tước Tứ Xuyên hầu. Sau đổi tên là Phan Trọng Phiên.",
+   "hometown": "Xã Đông Ngạc huyện Từ Liêm",
+   "roles": [
+    "Tả Thị lang Bộ Hộ",
+    "Tham tụng",
+    "Bình chương sự",
+    "Tri Quốc tử giám Tư nghiệp"
+   ]
+  },
+  {
+   "name": "Đào Huy Điển",
+   "dates": "1724-?",
+   "description": "Làm quan đến chức Thừa chính sứ, Lễ khoa Đô Cấp sự trung.",
+   "hometown": "Xã Đào Xá huyện Đường An",
+   "roles": [
+    "Tri huyện",
+    "Thừa chính sứ",
+    "Lễ khoa Đô Cấp sự trung"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA ĐINH SỬU NIÊN HIỆU CẢNH HƯNG NĂM THỨ 18 (1757)",
+  "paragraphs": [
+   "Niên hiệu Cảnh Hưng thứ 18, Hoàng thượng trẻ tuổi khiêm nhường hành đạo, muốn đồng đều cất nhắc để cầu tìm người hiền. Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư Thượng phụ Minh vương gắng hết lòng trung, cử hành thịnh điển. Mùa xuân năm đó, mở khoa thi Hội, đặc sai Đô đốc Đồng tri tại Trung kinh quân doanh Thự Phủ sự Phó Đô tướng Khanh Quận công Trịnh Kiều làm Đề điệu, Bồi tụng Công bộ Tả Thị lang Bảo Lĩnh hầu Trần Danh Ninh làm Tri Cống cử, Hàn lâm viện Thừa chỉ Thái Đình bá Vũ Trần Thiệu, Thiêm sai Thị nội Thư tả Hình phiên Đông các Đại học sĩ Tuân Lĩnh bá Bùi Trọng Huyến làm Giám thí, lấy bọn Phạm Nguyễn Đạt vào hạng trúng cách. Sang tháng sau vào Điện thí, ban cho Bùi Đình Dự đỗ Đệ nhị giáp Tiến sĩ xuất thân, bọn Nguyễn Huy Cơ đỗ Đệ tam giáp đồng Tiến sĩ xuất thân. Sau khi gọi loa xướng tên, cấp khoa tự, ban quan phục, cho dự yến Quỳnh, ban hoa bạc, ưu thưởng trọng hậu, ơn huệ chất chồng. Sau ngày áo gấm vinh quy, lại về triều nhậm chức. Đến nay lại cho khắc tên vào bia đá dựng ngoài cửa nhà Thái học, sai thần soạn bài ký. Thần trộm nghĩ khoa thi Tiến sĩ là thịnh điển của triều đình, các danh thần văn võ đều xuất thân từ con đường đó. Cho nên thánh triều rất tôn trọng, chẳng những nêu tên họ trên bảng vàng, lại còn được khắc vào bia đá, khiến cùng đỉnh chung cờ biển tồn tại mãi muôn đời, chính là để tỏ ý tôn sùng phép cũ vậy. Những kẻ sĩ được khắc tên vào bia đá, ai chẳng lo toan gây dựng cơ nghiệp vương triều trở nên tốt đẹp như ngọc vàng, để làm nền tảng cho triều đình, làm cột rường cho xã tắc, công danh sự nghiệp sẽ còn mãi với bia đá này. Thế thì việc dựng bia đá này không chỉ để trông vào cho đẹp mắt một thời, mà còn để lại tiếng thơm muôn thủa. Thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Đặc tiến Kim tử Vinh lộc đại phu Nhập nội thị Bồi tụng Ngự sử đài Phó Đô Ngự sử hành Binh bộ Tả Thị lang Tri Hàn lâm viện sự Bá Trạch hầu Nhữ Đình Toản vâng sắc soạn.",
+   "Bia dựng ngày 19 tháng chạp niên hiệu Cảnh Hưng thứ 18 (1757) Hoàng Lê.",
+   "Môn thị Nội cai Hợp binh phiên Điển thư Nguyễn Hữu Hàm, người xã Nhân Mục Môn huyện Thanh Trì vâng viết chữ (chân)."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 1,
+    "names": [
+     {
+      "name": "BÙI ĐÌNH DỰ",
+      "from": "xã Nãi Sơn huyện Nghi Dương"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 5,
+    "names": [
+     {
+      "name": "PHẠM HUY CƠ",
+      "from": "xã Đông Bình huyện Gia Định, Tri huyện"
+     },
+     {
+      "name": "PHẠM NGUYỄN ĐẠT",
+      "from": "xã Kim Đôi huyện Vũ Giàng, nguyên tên là Phạm Tiến, Giám sinh"
+     },
+     {
+      "name": "PHAN KHIÊM THỤ",
+      "from": "xã Yên Việt Hạ huyện La Sơn, Giám sinh, Văn chức"
+     },
+     {
+      "name": "PHAN LÊ PHIÊN",
+      "from": "xã Đông Ngạc huyện Từ Liêm, trú quán xã Phú Mỹ, Giám sinh, Thị nội Văn chức"
+     },
+     {
+      "name": "ĐÀO HUY ĐIỂN",
+      "from": "xã Đào Xá huyện Đường An, cư trú phường Hòe Nhai huyện Quảng Đức, Tri huyện, Thị nội Văn chức"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nhữ Đình Toản"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Nguyễn Hữu Hàm"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Nhữ Đình Toản",
+   "others": [
+    {
+     "id": "bia-1752",
+     "year": 1752
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1757,
+  "raw": "1757",
+  "gap": 0,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1757",
+     "year": 1757
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Nhữ Đình Toản",
+   "dates": "",
+   "description": "Đặc tiến Kim tử Vinh lộc đại phu Nhập nội thị Bồi tụng Ngự sử đài Phó Đô Ngự sử hành Binh bộ Tả Thị lang Tri Hàn lâm viện sự Bá Trạch hầu. Ông là người vâng sắc soạn bài ký cho văn bia này.",
+   "isLaureate": false
+  },
+  {
+   "name": "Bùi Đình Dự",
+   "dates": "1726-?",
+   "description": "Đỗ Đệ nhị giáp Tiến sĩ xuất thân, làm quan đến chức Hàn lâm Thị độc, sau đổi tên thành Bùi Đình Đảng.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phạm Huy Cơ",
+   "dates": "1717-1767",
+   "description": "Trước khi thi đỗ ông làm Tri huyện, sau làm quan Hiệu thảo, Thự Sơn Nam Hiến sát sứ. Có tài liệu ghi tên ông là Nguyễn Huy Cơ.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phạm Nguyễn Đạt",
+   "dates": "1729-?",
+   "description": "Nguyên tên là Phạm Tiến, từng giữ chức Tham chính Hải Dương, Đông các Đại học sĩ, Hữu Thị lang Bộ Binh và được cử đi sứ sang nhà Thanh.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phan Khiêm Thụ",
+   "dates": "1722-?",
+   "description": "Làm quan đến chức Cấp sự trung.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phan Lê Phiên",
+   "dates": "1735-1809",
+   "description": "Giữ nhiều chức vụ quan trọng như Tả Thị lang Bộ Hộ, Tham tụng, Bình chương sự, Tri Quốc tử giám Tư nghiệp, tước Tứ Xuyên hầu. Sau đổi tên là Phan Trọng Phiên.",
+   "isLaureate": true
+  },
+  {
+   "name": "Đào Huy Điển",
+   "dates": "1724-?",
+   "description": "Làm quan đến chức Thừa chính sứ, Lễ khoa Đô Cấp sự trung.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nhữ Đình Toản",
+  "dates": "",
+  "description": "Đặc tiến Kim tử Vinh lộc đại phu Nhập nội thị Bồi tụng Ngự sử đài Phó Đô Ngự sử hành Binh bộ Tả Thị lang Tri Hàn lâm viện sự Bá Trạch hầu. Ông là người vâng sắc soạn bài ký cho văn bia này.",
+  "hometown": "",
+  "roles": [
+   "Bồi tụng",
+   "Phó Đô Ngự sử",
+   "Binh bộ Tả Thị lang",
+   "Tri Hàn lâm viện sự",
+   "Người soạn văn bia"
+  ]
+ }
+}

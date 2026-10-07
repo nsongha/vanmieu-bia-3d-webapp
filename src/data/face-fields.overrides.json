@@ -1,0 +1,162 @@
+{
+  "$comment": "r81 — sửa tay ô chữ mặt bia khi dò tự động sai (tools/measure-face-fields.mjs → face-fields.generated.json): { \"bia-xxxx\": { \"x0\"?, \"x1\"?, \"y0\"?, \"y1\"?, \"band\"?, \"note\": \"…\" } }, toạ độ mô hình LOD0 của nguồn v2 (y1 = đường khắc dưới dải tiêu đề, y0 = đáy khung trong / trên đỉnh đầu rùa, x0 / x1 = hai đường dọc của khung trong). Ghi đè từng trường lên số dò lúc khởi động (src/data/index.js). Xem lại bằng --sheet.",
+  "source": "v2",
+  "steles": {
+    "bia-1463": {
+      "x0": -0.212,
+      "x1": 0.232,
+      "note": "dò lấy cặp đường dọc phía trong; khung trong ở -0,213 / 0,233"
+    },
+    "bia-1475": {
+      "x0": -0.24,
+      "x1": 0.25,
+      "y1": 0.796,
+      "note": "dò lấy hai cột chữ giữa mặt bia (ô hẹp 0,36); khung trong là đường kép ở -0,243 / 0,253, đường dưới dải tiêu đề kép 0,797–0,803"
+    },
+    "bia-1478": {
+      "x1": 0.243,
+      "note": "mép phải khung trong ở 0,245 (dò lấy đường ngoài 0,254)"
+    },
+    "bia-1481": {
+      "x0": -0.222,
+      "note": "đường dọc trái của khung ở -0,223 (dò lệch vào 0,008)"
+    },
+    "bia-1487": {
+      "x0": -0.236,
+      "x1": 0.218,
+      "note": "mặt bia phong hoá: dò lấy vệt ố ở 0,204 (phải); khung trong -0,24 / 0,218"
+    },
+    "bia-1502": {
+      "y1": 0.783,
+      "x1": 0.224,
+      "note": "dò lấy một dòng chữ ở 0,715; đường khắc dưới dải tiêu đề ở 0,784; đường dọc phải 0,225"
+    },
+    "bia-1511": {
+      "x0": -0.234,
+      "x1": 0.236,
+      "note": "dò lấy cặp đường dọc phía trong (-0,185 / 0,2); góc khung trong ở -0,236 / 0,238"
+    },
+    "bia-1529": {
+      "y0": 0.209,
+      "note": "đáy dò rơi vào dải hoa văn chân bia (0,176); đáy khung trong ở 0,208"
+    },
+    "bia-1554": {
+      "x0": -0.24,
+      "x1": 0.234,
+      "note": "dò lấy cặp đường phía trong (-0,176 / 0,152); khung trong ở -0,242 / 0,235"
+    },
+    "bia-1592": {
+      "x0": -0.271,
+      "x1": 0.234,
+      "y0": 0.193,
+      "y1": 0.789,
+      "note": "dò lấy mép phiến + dải hoa văn chân bia; khung trong: trái -0,275, phải 0,235, đường dưới dải tiêu đề 0,79, đáy 0,19"
+    },
+    "bia-1604": {
+      "y1": 0.759,
+      "y0": 0.22,
+      "note": "dò lấy một dòng chữ ở 0,69; góc trên khung trong ở 0,762; đáy khung 0,218"
+    },
+    "bia-1610": {
+      "x0": -0.214,
+      "x1": 0.181,
+      "note": "dò lấy cặp đường phía trong; khung trong ở -0,216 / 0,184"
+    },
+    "bia-1613": {
+      "x0": -0.213,
+      "note": "mép trái khung trong ở -0,215 (dò lệch vào 0,01)"
+    },
+    "bia-1616": {
+      "x0": -0.231,
+      "y0": 0.234,
+      "note": "mép trái khung trong ở -0,234 (dò lệch vào 0,02); đáy khung 0,232"
+    },
+    "bia-1628": {
+      "y0": 0.213,
+      "note": "đáy dò ở rãnh dưới gờ đáy khung (0,205); gờ ở 0,211"
+    },
+    "bia-1631": {
+      "x0": -0.204,
+      "x1": 0.226,
+      "y0": 0.23,
+      "y1": 0.783,
+      "note": "dò lấy mép phiến (-0,25 / 0,27) và một dòng chữ (0,708); khung trong: -0,205 / 0,227, trên 0,783, đáy 0,228"
+    },
+    "bia-1640": {
+      "x1": 0.227,
+      "y1": 0.751,
+      "note": "mép phải khung trong ở 0,228 (dò ra ngoài 0,006); đường khắc dưới dải tiêu đề ở 0,752–0,755"
+    },
+    "bia-1643": {
+      "x1": 0.249,
+      "note": "mép phải khung trong ở 0,25 (dò ra ngoài 0,004)"
+    },
+    "bia-1650": {
+      "x1": 0.228,
+      "note": "mép phải lòng ô ở 0,229 (dò lấy mép viền hoa văn 0,243)"
+    },
+    "bia-1652": {
+      "y0": 0.189,
+      "note": "đáy dò dưới chỉ kép đáy khung (0,175); chỉ kép ở 0,183–0,187"
+    },
+    "bia-1659": {
+      "x0": -0.24,
+      "x1": 0.224,
+      "y0": 0.205,
+      "note": "dò lấy mép ngoài viền hoa văn (-0,287 / 0,271 / 0,144); khung trong (chỉ kép) -0,243 / 0,227, đáy 0,203"
+    },
+    "bia-1661": {
+      "x0": -0.222,
+      "x1": 0.25,
+      "note": "dò lấy mép ngoài viền hoa văn (-0,264 / 0,286); khung trong -0,225 / 0,254"
+    },
+    "bia-1664": {
+      "x0": -0.249,
+      "x1": 0.204,
+      "note": "khung trong -0,25 / 0,205 (dò lệch ra ngoài 0,003)"
+    },
+    "bia-1688": {
+      "y0": 0.182,
+      "note": "đáy dò rơi xuống dưới dải hoa văn chân bia (0,142); chỉ kép đáy khung ở 0,172–0,178"
+    },
+    "bia-1694": {
+      "x1": 0.223,
+      "note": "mép phải lòng ô ở 0,225 (dò lấy mép ngoài thành sáng 0,234)"
+    },
+    "bia-1706": {
+      "x0": -0.242,
+      "x1": 0.224,
+      "y1": 0.785,
+      "note": "khung kép: lòng ô trong ở trên 0,786 / phải 0,225 / trái -0,245 (dò lấy khung ngoài)"
+    },
+    "bia-1710": {
+      "x1": 0.235,
+      "note": "mép phải lòng ô ở 0,237 (dò lấy mép ngoài thành sáng 0,243)"
+    },
+    "bia-1718": {
+      "y0": 0.224,
+      "note": "đáy dò ở chân phiến (0,171); chỉ đáy khung ở 0,213–0,222, dưới là dải hoa văn"
+    },
+    "bia-1733": {
+      "x1": 0.235,
+      "note": "mép phải lòng ô ở 0,237 (dò lấy mép ngoài thành sáng 0,247)"
+    },
+    "bia-1739": {
+      "x1": 0.195,
+      "note": "mép phải lòng ô ở 0,196 (dò lấy mép ngoài thành sáng 0,21)"
+    },
+    "bia-1748": {
+      "x1": 0.209,
+      "note": "mép phải lòng ô ở 0,21 (dò lấy mép ngoài thành sáng 0,217)"
+    },
+    "bia-1754": {
+      "x1": 0.196,
+      "note": "mép phải lòng ô ở 0,197 (dò lấy mép ngoài thành sáng 0,205)"
+    },
+    "bia-1778": {
+      "x1": 0.178,
+      "y0": 0.232,
+      "note": "lòng ô: phải 0,18, đáy 0,231 (dò lấy mép ngoài thành sáng 0,184 / 0,224)"
+    }
+  }
+}

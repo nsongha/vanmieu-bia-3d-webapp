@@ -1,0 +1,52 @@
+/* cinema.css › settings — Bánh răng + bảng cài đặt, vùng bấm to hơn khi điều khiển bằng tay.
+   (C: tách nguyên văn từ cinema.css — thứ tự @import trong cinema.css giữ nguyên cascade.) */
+/* ---------- Bánh răng + bảng cài đặt ---------- */
+.cinema .cin-gear {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--fg);
+  background: var(--glass);
+  border: 1px solid var(--hair);
+  -webkit-backdrop-filter: blur(12px) saturate(120%);
+  backdrop-filter: blur(12px) saturate(120%);
+  pointer-events: auto;
+  transition: background-color .25s ease, border-color .25s ease, color .25s ease;
+}
+.cinema:not([data-input="hand"]) .cin-gear:hover { background: var(--glass-hi); border-color: rgba(236, 236, 236, .28); }
+.cinema .cin-gear[aria-expanded="true"] {
+  color: var(--gold);
+  border-color: rgba(217, 179, 108, .45);
+  background: rgba(217, 179, 108, .12);
+}
+
+.cinema .cin-setwrap {
+  position: absolute;
+  z-index: 10;
+  top: 64px;
+  right: calc(var(--gut) + env(safe-area-inset-right, 0px));
+  display: flex;
+  justify-content: flex-end;
+}
+.cinema .cin-setwrap[hidden] { display: none; }
+/* r84: "Xem thử chuyển cảnh" — bảng ẩn tạm (giữ nguyên trạng thái), mờ ra / vào nhanh */
+.cinema .cin-setwrap { transition: opacity .18s ease, transform .18s ease; }
+.cinema .cin-setwrap.is-preview-hidden { opacity: 0; transform: translateY(-6px); pointer-events: none; visibility: hidden; transition: opacity .18s ease, transform .18s ease, visibility 0s linear .18s; }
+.cinema .cin-setwrap .sp-panel {
+  -webkit-backdrop-filter: blur(26px) saturate(130%);
+  backdrop-filter: blur(26px) saturate(130%);
+}
+
+/* ---------- Điều khiển bằng cử chỉ tay: vùng bấm to hơn hẳn ---------- */
+body.gesture-on .cinema .cin-gear { width: 56px; height: 56px; }
+body.gesture-on .cinema .cin-gear svg { width: 24px; height: 24px; }
+body.gesture-on .cinema .cin-fab { width: 64px; height: 64px; }
+/* Điều khiển bằng tay: đích nam châm "tới" chiếm giữa mép phải → FAB lên ngay phía trên nó
+   (mép dưới FAB cách mép trên đích 20 px). */
+body.gesture-on .cinema .cin-fab { top: calc(50% - 44px - 20px - 32px); }
+body.gesture-on .cinema .cin-fab__i { font-size: 28px; }
+body.gesture-on .cinema .cin-fab__x svg { width: 21px; height: 21px; }
+body.gesture-on .cinema .cin-panel__x { width: 56px; height: 56px; }
+body.gesture-on .cinema .cin-panel__head { grid-template-columns: 56px minmax(0, 1fr) 56px; }
+body.gesture-on .cinema .cin-panel__links a { padding: 16px 18px; }
+body.gesture-on .cinema .cin-err__go { padding: 16px 26px; }

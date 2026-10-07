@@ -1,0 +1,446 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 66 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/66/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1736",
+ "year": 1736,
+ "canChi": "Bính Thìn",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA BÍNH THÌN NIÊN HIỆU VĨNH HỰU NĂM THỨ 2 (1736)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Hoàng Lê",
+ "dynastyVerify": "cần đối chiếu — nguồn ghi \"Hoàng Lê\" (không rõ giai đoạn), suy Lê trung hưng từ năm thi 1736 theo mốc 1533–1789 của src/data/dynasties.js",
+ "era": "Vĩnh Hựu",
+ "eraYear": 2,
+ "king": {
+  "name": "Lê Ý Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Vĩnh Hựu trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 15,
+ "passedRaw": "15",
+ "erected": 1738,
+ "contributors": {
+  "author": "Nguyễn Đình Thái",
+  "calligrapher": "Không ghi",
+  "editor": "Không ghi",
+  "engraver": "Không ghi"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 2
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 1
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 12
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Trịnh Huệ",
+   "tier": 1,
+   "title": "Trạng nguyên",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ đệ nhất danh (Trạng Nguyên)",
+   "hometown": "Hương Sóc Sơn huyện Vĩnh Phúc, trú quán xã Bất Quần huyện Quảng Xương",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Quốc Hiệu",
+   "tier": 1,
+   "title": "Thám hoa",
+   "rank": "Đệ nhất giáp Tiến sĩ cập đệ đệ tam danh (Thám Hoa)",
+   "hometown": "Xã Phú Thứ huyện Duy Tiên",
+   "honors": []
+  },
+  {
+   "name": "Lê Sĩ Bàng",
+   "tier": 2,
+   "title": "Hoàng giáp",
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp)",
+   "hometown": "Xã Nội Thiên Lộc huyện Thiên Lộc",
+   "honors": []
+  },
+  {
+   "name": "Lê Sĩ Triêm",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Nội Thiên Lộc huyện Thiên Lộc",
+   "honors": []
+  },
+  {
+   "name": "Vũ Phương Đề",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Mộ Trạch huyện Đường An",
+   "honors": []
+  },
+  {
+   "name": "Đồng Doãn Khuê",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Hùng Sơn huyện Đại Từ",
+   "honors": []
+  },
+  {
+   "name": "Đào Xuân Lan",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Hà Mi huyện Nông Cống",
+   "honors": []
+  },
+  {
+   "name": "Trần Bá Tân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã An Hoạch huyện Đông Sơn",
+   "honors": []
+  },
+  {
+   "name": "Nhữ Đình Toản",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Hoạch Trạch huyện Đường An",
+   "honors": []
+  },
+  {
+   "name": "Vũ Đình Quyền",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Phường Yên Thái huyện Quảng Đức",
+   "honors": []
+  },
+  {
+   "name": "Trần Danh Tân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Bồng Trì huyện Gia Định",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Bá Tuân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Đa Hòa huyện Đông Yên",
+   "honors": []
+  },
+  {
+   "name": "Mai Trọng Tương",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Cao Lãm huyện Sơn Minh",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Thế Giai",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Nhân Lý huyện Thanh Lâm",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Tông Mại",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Yên Đổ huyện Bình Lục",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa xuân tháng 3 năm Bính Thìn, niên hiệu Vĩnh Hựu thứ 2 (1736), triều đình mở khoa thi Hội, qua bốn trường chọn được 15 người trúng cách.",
+   "Vào Điện thí, triều đình ban Trịnh Huệ đỗ Đệ nhất giáp Tiến sĩ cập đệ Đệ nhất danh (Trạng nguyên), Nguyễn Quốc Hiệu đỗ Đệ tam danh (Thám hoa), Lê Sĩ Bàng đỗ Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp).",
+   "12 người còn lại đỗ Đệ tam giáp đồng Tiến sĩ xuất thân.",
+   "Bia được dựng tháng 3 niên hiệu Vĩnh Hựu thứ 4 (1738), do Nguyễn Đình Thái — Tiến sĩ khoa Ất Mùi — soạn bài ký."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Hội được tổ chức vào mùa xuân tháng 3 năm Bính Thìn (1736) niên hiệu Vĩnh Hựu thứ 2.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Mùa xuân tháng 3 năm Bính Thìn, chuẩn lời tâu của Bộ Lễ xin mở khoa thi Hội."
+   }
+  },
+  {
+   "text": "Đại nguyên súy Thống quốc chính Thượng sư Uy vương (Trịnh Giang) là người ra lệnh mở khoa thi.",
+   "kind": "gloss",
+   "terms": [
+    {
+     "term": "Đại nguyên súy Thống quốc chính Thượng sư Uy vương",
+     "def": "Trịnh Giang"
+    }
+   ],
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Đại nguyên súy Thống quốc chính Thượng sư Uy vương"
+   }
+  },
+  {
+   "text": "Các quan viên trông coi khoa thi gồm: Cảnh Quận công Trịnh Diễn (Đề điệu), Huy Lâm hầu Ngô Đình Thạc (Tri Cống cử), Gia Lạc bá Dương Lệ và Đông Thọ bá Phạm Minh (Giám thí).",
+   "kind": "note",
+   "label": "Các quan viên trông coi khoa thi gồm",
+   "labelKind": "inline",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Đặc sai Phó tướng Tả Đô đốc Cảnh Quận công Trịnh Diễn làm Đề điệu, Bồi tụng Công bộ Thượng thư Huy Lâm hầu Ngô Đình Thạc làm Tri Cống cử, Bồi tụng Lại bộ Hữu Thị lang Gia Lạc bá Dương Lệ, Hộ bộ Hữu Thị lang Đông Thọ bá Phạm Minh làm Giám thí."
+   }
+  },
+  {
+   "text": "Khoa thi lấy đỗ 15 người trúng cách qua bốn trường thi Hội, sau đó vào thi Điện để phân định thứ bậc.",
+   "kind": "note"
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Trịnh Huệ",
+   "dates": "1704-?",
+   "description": "Đỗ Trạng nguyên, làm quan đến chức Tham tụng Thượng thư Bộ Hình. Từng bị bắt giam do theo phe Hoàng Công Phụ, sau được tha và thăng đến chức Tế tửu Quốc tử giám, khi mất được tặng hàm Hữu Thị lang.",
+   "hometown": "Hương Sơn Biện Thượng, huyện Vĩnh Phúc (nay thuộc Vĩnh Lộc, Thanh Hóa)",
+   "roles": [
+    "Tham tụng",
+    "Thượng thư Bộ Hình",
+    "Tế tửu Quốc tử giám"
+   ]
+  },
+  {
+   "name": "Nhữ Đình Toản",
+   "dates": "1703-1774",
+   "description": "Cháu nội Nhữ Đình Dụng, con Nhữ Tiến Hiền. Làm quan đến chức Tham tụng, Thượng thư Bộ Binh, sau chuyển sang chức võ và được ban tước quốc lão.",
+   "hometown": "Xã Hoạch Trạch, huyện Đường An (nay thuộc Bình Giang, Hải Dương)",
+   "roles": [
+    "Tham tụng",
+    "Thượng thư Bộ Binh",
+    "Quốc lão"
+   ]
+  },
+  {
+   "name": "Nguyễn Đình Thái",
+   "dates": "1684-1758",
+   "description": "Còn gọi là Nguyễn Công Thái. Đỗ Tiến sĩ khoa Ất Mùi (1715) và khoa Đông các (1728). Làm quan đến chức Tham tụng kiêm Thượng thư Bộ Lại, tước Kiều Quận công. Là người soạn bài ký trên bia này.",
+   "hometown": "Xã Kim Lũ, huyện Thanh Trì (nay thuộc Đại Kim, Hoàng Mai, Hà Nội)",
+   "roles": [
+    "Tham tụng",
+    "Thượng thư Bộ Lại",
+    "Kiều Quận công",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Lê Sĩ Bàng",
+   "dates": "1705-?",
+   "description": "Em trai của Lê Sĩ Triêm. Làm quan đến chức Đông các Học sĩ, quyền tham chính Kinh Bắc.",
+   "hometown": "Xã Nội Thiên Lộc, huyện Thiên Lộc (nay thuộc Can Lộc, Hà Tĩnh)",
+   "roles": [
+    "Đông các Học sĩ",
+    "Quyền tham chính Kinh Bắc"
+   ]
+  },
+  {
+   "name": "Trần Bá Tân",
+   "dates": "1710-?",
+   "description": "Sau đổi tên là Trần Huy Bật. Làm quan đến chức Thượng thư Bộ Lại, tước hầu, sau bị giáng xuống Thượng thư Bộ Công.",
+   "hometown": "Xã An Hoạch, huyện Đông Sơn (nay thuộc Thanh Hóa)",
+   "roles": [
+    "Thượng thư Bộ Lại",
+    "Thượng thư Bộ Công"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA BÍNH THÌN NIÊN HIỆU VĨNH HỰU NĂM THỨ 2 (1736)",
+  "paragraphs": [
+   "Mừng nay nước nhà yên ổn, văn vận hanh thông. Kính vâng: Hoàng thượng nối cơ nghiệp lớn, làm sáng mệnh trời. Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư Uy vương noi theo lệ lớn tuyển chọn hiền tài. Mùa xuân tháng 3 năm Bính Thìn, chuẩn lời tâu của Bộ Lễ xin mở khoa thi Hội. Đặc sai Phó tướng Tả Đô đốc Cảnh Quận công Trịnh Diễn làm Đề điệu, Bồi tụng Công bộ Thượng thư Huy Lâm hầu Ngô Đình Thạc làm Tri Cống cử, Bồi tụng Lại bộ Hữu Thị lang Gia Lạc bá Dương Lệ, Hộ bộ Hữu Thị lang Đông Thọ bá Phạm Minh làm Giám thí. Qua trường bốn lấy bọn Nhữ Đình Toản 15 người trúng cách. Qua tháng sau Điện thí, cho bọn Trịnh Huệ đỗ Cập đệ, Xuất thân có thứ bậc khác nhau. Lại sai khắc tên vào đá để lưu truyền mãi mãi."
+  ],
+  "colophon": [
+   "Bia dựng tháng 3 niên hiệu Vĩnh Hựu thứ 4 (1738) Hoàng Lê.",
+   "Tiến sĩ khoa Ất Mùi, Đặc tiến Kim tử Vinh lộc đại phu Bồi tụng Tả Thị lang Bộ Lại kiêm Đông các Hiệu thư Kiều Quận công Nguyễn Đình Thái vâng sắc soạn."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhất giáp Tiến sĩ cập đệ",
+    "count": 2,
+    "names": [
+     {
+      "name": "TRỊNH HUỆ",
+      "from": "hương Sóc Sơn huyện Vĩnh Phúc, trú quán xã Bất Quần huyện Quảng Xương, Lang trung",
+      "prefix": "Đệ nhất danh"
+     },
+     {
+      "name": "NGUYỄN QUỐC HIỆU",
+      "from": "xã Phú Thứ huyện Duy Tiên, Giám sinh",
+      "prefix": "Đệ tam danh"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 1,
+    "names": [
+     {
+      "name": "LÊ SĨ BÀNG",
+      "from": "xã Nội Thiên Lộc huyện Thiên Lộc, Giám sinh"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 12,
+    "names": [
+     {
+      "name": "LÊ SĨ TRIÊM",
+      "from": "xã Nội Thiên Lộc huyện Thiên Lộc, Huấn đạo"
+     },
+     {
+      "name": "VŨ PHƯƠNG ĐỀ",
+      "from": "xã Mộ Trạch huyện Đường An, Tri huyện"
+     },
+     {
+      "name": "ĐỒNG DOÃN KHUÊ",
+      "from": "xã Hùng Sơn huyện Đại Từ, Giám sinh"
+     },
+     {
+      "name": "ĐÀO XUÂN LAN",
+      "from": "xã Hà Mi huyện Nông Cống, Giám sinh"
+     },
+     {
+      "name": "TRẦN BÁ TÂN",
+      "from": "xã An Hoạch huyện Đông Sơn, sau đổi tên là Huy Bật"
+     },
+     {
+      "name": "NHỮ ĐÌNH TOẢN",
+      "from": "xã Hoạch Trạch huyện Đường An, Tự thừa"
+     },
+     {
+      "name": "VŨ ĐÌNH QUYỀN",
+      "from": "phường Yên Thái huyện Quảng Đức, Nho sinh trúng thức"
+     },
+     {
+      "name": "TRẦN DANH TÂN",
+      "from": "xã Bồng Trì huyện Gia Định, thi đỗ năm 18 tuổi"
+     },
+     {
+      "name": "NGUYỄN BÁ TUÂN",
+      "from": "xã Đa Hòa huyện Đông Yên, Giám sinh"
+     },
+     {
+      "name": "MAI TRỌNG TƯƠNG",
+      "from": "xã Cao Lãm huyện Sơn Minh. Nho sinh trúng thức"
+     },
+     {
+      "name": "NGUYỄN THẾ GIAI",
+      "from": "xã Nhân Lý huyện Thanh Lâm, Nho sinh trúng thức"
+     },
+     {
+      "name": "NGUYỄN TÔNG MẠI",
+      "from": "xã Yên Đổ huyện Bình Lục, Giám sinh"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Nguyễn Đình Thái"
+  }
+ ],
+ "crossRefs": [],
+ "passRate": null,
+ "erection": {
+  "year": 1738,
+  "raw": "1738",
+  "gap": 2,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1736",
+     "year": 1736
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Trịnh Huệ",
+   "dates": "1704-?",
+   "description": "Đỗ Trạng nguyên, làm quan đến chức Tham tụng Thượng thư Bộ Hình. Từng bị bắt giam do theo phe Hoàng Công Phụ, sau được tha và thăng đến chức Tế tửu Quốc tử giám, khi mất được tặng hàm Hữu Thị lang.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nhữ Đình Toản",
+   "dates": "1703-1774",
+   "description": "Cháu nội Nhữ Đình Dụng, con Nhữ Tiến Hiền. Làm quan đến chức Tham tụng, Thượng thư Bộ Binh, sau chuyển sang chức võ và được ban tước quốc lão.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Đình Thái",
+   "dates": "1684-1758",
+   "description": "Còn gọi là Nguyễn Công Thái. Đỗ Tiến sĩ khoa Ất Mùi (1715) và khoa Đông các (1728). Làm quan đến chức Tham tụng kiêm Thượng thư Bộ Lại, tước Kiều Quận công. Là người soạn bài ký trên bia này.",
+   "isLaureate": false,
+   "links": [
+    {
+     "id": "bia-1715",
+     "year": 1715,
+     "$verify": "cần đối chiếu"
+    }
+   ]
+  },
+  {
+   "name": "Lê Sĩ Bàng",
+   "dates": "1705-?",
+   "description": "Em trai của Lê Sĩ Triêm. Làm quan đến chức Đông các Học sĩ, quyền tham chính Kinh Bắc.",
+   "isLaureate": true
+  },
+  {
+   "name": "Trần Bá Tân",
+   "dates": "1710-?",
+   "description": "Sau đổi tên là Trần Huy Bật. Làm quan đến chức Thượng thư Bộ Lại, tước hầu, sau bị giáng xuống Thượng thư Bộ Công.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Nguyễn Đình Thái",
+  "dates": "1684-1758",
+  "description": "Còn gọi là Nguyễn Công Thái. Đỗ Tiến sĩ khoa Ất Mùi (1715) và khoa Đông các (1728). Làm quan đến chức Tham tụng kiêm Thượng thư Bộ Lại, tước Kiều Quận công. Là người soạn bài ký trên bia này.",
+  "hometown": "Xã Kim Lũ, huyện Thanh Trì (nay thuộc Đại Kim, Hoàng Mai, Hà Nội)",
+  "roles": [
+   "Tham tụng",
+   "Thượng thư Bộ Lại",
+   "Kiều Quận công",
+   "Người soạn văn bia"
+  ],
+  "links": [
+   {
+    "id": "bia-1715",
+    "year": 1715,
+    "$verify": "cần đối chiếu"
+   }
+  ]
+ }
+}

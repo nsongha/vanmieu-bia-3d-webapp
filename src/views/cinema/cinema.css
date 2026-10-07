@@ -1,0 +1,20 @@
+/* ============================================================
+   Chế độ "Điện ảnh" — CSS chia theo thành phần (C) trong css/. Thứ tự @import dưới đây = thứ tự các khối trong tệp
+   cinema.css cũ → cascade y hệt. Mọi selector đều nằm dưới .cinema hoặc body[data-view="cinema"].
+   ============================================================ */
+@import './css/base.css';
+@import './css/arrows.css';
+@import './css/loading.css';
+@import './css/hud.css';
+@import './css/timeline.css';
+@import './css/overlays.css';
+@import './css/phone.css';
+@import './css/settings.css';
+@import './css/info.css';
+@import './css/rub.css';
+@import './css/guide.css';
+
+/* r74 — giữ V trên MẶT bia: hiệu ứng QUÉT BẢN DẬP trên đá (stage/scan.js) thay vòng tiến độ quanh huy hiệu V — vòng vẫn đếm
+   (lớp cử chỉ), chỉ ẩn khi view khai báo cổng mặt bia và tay đang ở trên mặt bia. */
+/* r77: chỉ khi bật "Quét bản dập khi mở toàn văn" (body[data-hand-vhold-scan]) — tắt thì vòng trên huy hiệu V như r72g */
+body[data-hand-vhold-scan='1'][data-hand-vhold-face='1'][data-hand-over-face='1'] .hi-cursor .hi-vhold { opacity: 0 !important; transition: none !important; }

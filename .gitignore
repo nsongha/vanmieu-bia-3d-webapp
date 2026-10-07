@@ -1,0 +1,13 @@
+node_modules
+dist
+.DS_Store
+*.log
+.captures
+public/mediapipe
+public/basis
+test-clips
+__pycache__
+
+# Model pipeline v2: bản dựng lớn (LOD0/1/2 + KTX2), không đưa vào git — xem tools/v2/
+models-v2/
+data/Bản dập - 85 bia/

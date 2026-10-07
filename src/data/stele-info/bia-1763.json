@@ -1,0 +1,353 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 75 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/75/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1763",
+ "year": 1763,
+ "canChi": "Quý Mùi",
+ "title": "Văn bia đề danh Tiến sĩ khoa Quý Mùi niên hiệu Cảnh Hưng năm thứ 24 (1763)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Lê Trung Hưng",
+ "era": "Cảnh Hưng",
+ "eraYear": 24,
+ "king": {
+  "name": "Lê Hiển Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "Không ghi",
+ "passed": 5,
+ "passedRaw": "5",
+ "erected": 1763,
+ "contributors": {
+  "author": "Lê Quý Đôn",
+  "calligrapher": "Trần Đình Khoa",
+  "editor": "Nguyễn Hoản",
+  "engraver": "Lê Văn Lộc"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 0
+  },
+  {
+   "tier": 3,
+   "label": "Đồng Tiến sĩ xuất thân",
+   "count": 5
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Vũ Cơ",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Ngọc Lặc, huyện Tứ Kỳ",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Duy Thức",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Vọng Nguyệt, huyện Yên Phong",
+   "honors": []
+  },
+  {
+   "name": "Hoa Quý Khâm",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Cổ Nhuế, huyện Từ Liêm",
+   "honors": []
+  },
+  {
+   "name": "Phạm Dương Ưng",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Phường Cổ Vũ, huyện Thọ Xương (nguyên quán xã Hoa Đường, huyện Đường An)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Lệnh Tân",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+   "hometown": "Xã Phù Lê, huyện Thụy Nguyên",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa xuân năm Quý Mùi, niên hiệu Cảnh Hưng thứ 24 (1763) — khoa thi Hội thứ bảy kể từ khi Hoàng thượng lên ngôi — triều đình chọn được 5 người trúng cách.",
+   "Vào Điện thí tháng 9, cả 5 người đều đỗ Đệ tam giáp đồng Tiến sĩ xuất thân: Vũ Cơ, Nguyễn Duy Thức, Hoa Quý Khâm, Phạm Dương Ưng và Nguyễn Lệnh Tân.",
+   "Bia được dựng ngay năm ấy, do Lê Quý Đôn soạn bài ký, Nguyễn Hoản nhuận sắc.",
+   "Bài ký dẫn Kinh Thi: “Nhân tài chính là cây trăn, cây hộ của nước nhà”."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Nhân tài chính là cây trăn, cây hộ của nước nhà (dựa theo Kinh Thi).",
+   "kind": "gloss",
+   "terms": [
+    {
+     "term": "cây hộ của nước nhà",
+     "def": "dựa theo Kinh Thi"
+    }
+   ],
+   "anchor": {
+    "section": "body",
+    "para": 6,
+    "match": "cây hộ của nước nhà"
+   }
+  },
+  {
+   "text": "Quy trình thi cử gồm thi Hương vào mùa thu, thi Hội vào mùa xuân và thi Điện vào tháng 9.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 4,
+    "match": "Nước nhà được vận trung hưng, sùng Nho trọng đạo, dùng thi thư lễ nghĩa phổ biến khắp nơi trong nước, ba năm mở một khoa, mùa thu thi Hương mùa xuân thi Hội, phép thi chọn rất kỹ càng, lễ đãi ngộ rất trọng hậu."
+   }
+  },
+  {
+   "text": "Nam sảnh là tên gọi khác của Thượng thư sảnh, đặt ở phía nam hoàng cung.",
+   "kind": "note"
+  },
+  {
+   "text": "Vua Lê Hiển Tông và Chúa Trịnh Doanh (Minh vương) cùng phối hợp trong việc tuyển chọn hiền tài.",
+   "kind": "note"
+  },
+  {
+   "text": "Bia được dựng vào ngày mồng 2 tháng 12 niên hiệu Cảnh Hưng thứ 24.",
+   "kind": "note",
+   "anchor": {
+    "section": "colo",
+    "para": 2,
+    "match": "Bia dựng ngày mồng 2 tháng 12 niên hiệu Cảnh Hưng thứ 24 (1763)."
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Lê Quý Đôn",
+   "dates": "1726-1784",
+   "description": "Nhà bác học lớn thời Lê Trung Hưng, giữ chức Hàn lâm viện Thừa chỉ, Bí thư các Học sĩ, Quốc sử viện sự. Ông là người soạn bài ký cho văn bia này.",
+   "hometown": "Xã Diên Hà, huyện Diên Hà (nay thuộc Thái Bình)",
+   "roles": [
+    "Hàn lâm viện Thừa chỉ",
+    "Bí thư các Học sĩ",
+    "Quốc sử viện sự"
+   ]
+  },
+  {
+   "name": "Vũ Cơ",
+   "dates": "1736-?",
+   "description": "Con của Vũ Khâm Lân, làm quan đến chức Hàn lâm Hiệu lý, Trấn thủ Lạng Sơn.",
+   "hometown": "Xã Ngọc Lặc, huyện Tứ Kỳ (nay thuộc xã Ngọc Sơn, huyện Tứ Kỳ, tỉnh Hải Dương)",
+   "roles": [
+    "Viên ngoại lang",
+    "Hàn lâm Hiệu lý",
+    "Trấn thủ Lạng Sơn"
+   ]
+  },
+  {
+   "name": "Nguyễn Duy Thức",
+   "dates": "1734-?",
+   "description": "Giữ các chức quan như Hàn lâm viện Hiệu thảo, Hàn lâm Thị chế, Hưng Hoá Trấn thủ.",
+   "hometown": "Xã Vọng Nguyệt, huyện Yên Phong (nay thuộc xã Tam Giang, huyện Yên Phong, tỉnh Bắc Ninh)",
+   "roles": [
+    "Tri huyện",
+    "Hàn lâm viện Hiệu thảo",
+    "Hàn lâm Thị chế",
+    "Hưng Hoá Trấn thủ"
+   ]
+  },
+  {
+   "name": "Hoa Quý Khâm",
+   "dates": "1727-?",
+   "description": "Con của Hoa Thế Phương, làm quan Cấp sự trung, Hiến sát sứ Nghệ An. Sau này con cháu đổi sang họ Văn.",
+   "hometown": "Xã Cổ Nhuế, huyện Từ Liêm (nay thuộc Tp. Hà Nội)",
+   "roles": [
+    "Huấn đạo",
+    "Cấp sự trung",
+    "Hiến sát sứ Nghệ An"
+   ]
+  },
+  {
+   "name": "Phạm Dương Ưng",
+   "dates": "1737-?",
+   "description": "Làm quan Đông các Học sĩ, Phó Đốc thị đạo Thuận Quảng.",
+   "hometown": "Phường Phục Cổ, huyện Thọ Xương (nay thuộc quận Hoàn Kiếm, Tp. Hà Nội)",
+   "roles": [
+    "Nho sinh trúng thức",
+    "Đông các Học sĩ",
+    "Phó Đốc thị đạo Thuận Quảng"
+   ]
+  },
+  {
+   "name": "Nguyễn Lệnh Tân",
+   "dates": "1726-?",
+   "description": "Làm quan đến chức Đông các Đại học sĩ.",
+   "hometown": "Xã Phù Lê, huyện Thụy Nguyên (nay thuộc xã Thiệu Thịnh, huyện Thiệu Hóa, tỉnh Thanh Hóa)",
+   "roles": [
+    "Huấn đạo",
+    "Đông các Đại học sĩ"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA QUÝ MÙI NIÊN HIỆU CẢNH HƯNG NĂM THỨ 24 (1763)",
+  "paragraphs": [
+   "Từ xưa những bề tôi có công lao to lớn thường được chạm tên lên chuông đồng, khắc vào bia đá để tỏ ý ca ngợi khuyến khích. Nay các vị tân khoa vừa mới bước chân vào đường sĩ hoạn, chưa có gì đáng chép, cũng được ghi tên họ dựng trước nhà Thái học, đó là để biểu dương khích lệ. Quy tắc điển chế lớn lao, thật cao cả lắm.",
+   "Kính nghĩ: Hoàng thượng bệ hạ kế thừa nghiệp trước, rạng tỏ đức lành. Thực nhờ Đại nguyên súy Thống quốc chính Thượng sư Thượng phụ Minh vương lấy đạo trung hòa dựng nền chính trị, lấy óc sáng suốt mở rộng công xưa, giao trọn quyền cho Khâm sai tiết chế các xứ thuỷ bộ chư quân kiêm Chưởng chính cơ Thái uý Tĩnh quốc công sử dụng hiền tài, mở mang trăm việc.",
+   "Từ khi Hoàng thượng lên ngôi tới nay, đã 7 lần mở khoa thi. Mùa xuân năm Quí Mùi, theo lệ cũ, thi Hội cho các Cử nhân trong nước. Đặc sai Phó tướng Trung kinh quân doanh Đô đốc Thiêm sự Thự phủ sự Khanh Quận công Trịnh Kiều làm Đề điệu, Nhập thị Bồi tụng Hình bộ Thượng thư hành Ngự sử đài Đô Ngự sử Bái Xuyên hầu Trần Huy Bật làm Tri Cống cử, Nhập thị Tả chính ngôn Hộ bộ Hữu Thị lang trí sĩ khởi phục Diên Phương bá Lê Trọng Thứ làm Giám thí, cùng các quan chấp sự chia giữ các việc.",
+   "Tháng 4, danh sách những người trúng cách là bọn Nguyễn Duy Thức 5 người được dâng lên. Tháng 9 vào Điện thí. Thiếu bảo Binh bộ Thượng thư Quốc tử giám Tế tửu trí sĩ khởi phục phụng thị ngũ lão Huy Quận công Hà Tông Huân, Nhập thị Thiêm sai Phủ liêu Hàn lâm viện Thừa chỉ kiêm Bí thư các Học sĩ Dĩnh Thành bá Lê Quý Đôn, Kinh Bắc xứ Hiến sát sứ Trần Văn Trứ dâng quyển lên đọc. Hoàng thượng ban cho bọn Vũ Cơ đều đỗ đồng Tiến sĩ xuất thân. Tháng 7, ban cấp áo mũ triều phục, cho vinh quy về làng. Lại chiếu lệ cũ dựng bia đề danh, sai bề tôi là Đôn soạn bài ký.",
+   "Thần kính cẩn cúi đầu rập đầu dâng lời rằng: Đặt chế độ trị nước trị tất phải nhờ ở nhân tài trong nước. Nhân tài sinh ra thì mênh mông không cùng, nhưng phải dạy dỗ rồi sau mới thành, lại phải đem dùng rồi mới thấy rõ. Kìa như giống quýt đất Giang Phố, giống bưởi miền Vân Mộng và những lê táo ở vùng Thường Sơn, Đông Quận đều như chọn đất mà sinh ra. Nhưng nhân tài thì không thế. Từ nơi đô thành trấn lớn cho tới xóm huyện xa, từ con em các nhà công khanh đến những người tài tuấn nơi thôn dã nghèo nàn, ai ai cũng đều có tư chất thông minh, ham học hỏi; việc giáo dục tuyển dụng do đó lại rất quan hệ ở bề trên. Nước nhà được vận trung hưng, sùng Nho trọng đạo, dùng thi thư lễ nghĩa phổ biến khắp nơi trong nước, ba năm mở một khoa, mùa thu thi Hương mùa xuân thi Hội, phép thi chọn rất kỹ càng, lễ đãi ngộ rất trọng hậu. Khuyến khích đào tạo rộng rãi, tuyển dụng đề bạt công bằng, sự thật còn chép trong sử sách. Các Nho sinh học sĩ nối nhau xuất hiện đông đảo. Lúc đầu thì tu rèn để tự lập, về sau thì rộng lớn sáng suốt. Các bậc tướng văn tướng võ, những người cầm quyền cai trị đều từ những người ấy mà chọn ra; kính giúp kinh bang tế thế cũng cần đến những người ấy. Nền thái bình hơn một trăm năm, nhờ có hiền tài giúp trị, công lao tưởng cũng không nhỏ vậy.",
+   "Liên tiếp các đời thịnh trị cho tới ngày nay. Thánh thượng kiêm cả đạo làm vua làm thầy, càng mở mang lớn lao rạng rỡ. Về mẫu mực tất phải chọn những bài tinh thuần đúng đắn, về văn chương thì lấy những bài trang nhã hàm súc. Quan Nội các ra đề, Hoàng thượng đích thân chọn định, Thượng thư sảnh dâng quyển, Hoàng thượng đích thân bình duyệt, cầu tìm nhân tài ân cần hết mức như thế! Cống sĩ mới cởi bỏ áo vải chưa được bao năm, người thì được đề bạt vào nơi khu yếu, người được bổ đi nắm giữ các trấn ty, giao giữ các chức Hiến sát, Bố chánh. Sự dùng người như thế, công lao khai mở đẽo gọt mài dũa há chẳng lớn lao ư?",
+   "Kinh Thi có câu: “Chiêm bỉ Hãn lộc, Trăn hộ tể tể, Khải đễ quân tử, Can lộc khải đễ”. Dịch là: Nhân tài chính là cây trăn, cây hộ của nước nhà vậy. Đạo lý cử dùng hiền tài, chẳng gì quý bằng sự hòa dị: người trên hòa dị để đối đãi với kẻ dưới, kẻ dưới hòa dị để ứng hợp với người trên. Thế vươn dậy đã dấy, cơ cổ võ đang hăng, nhân tài tất sẽ nẩy nở tươi tốt. Cho nên Văn Vương có đức hòa dị mà nhà Chu được nhiều bậc anh tài nổi danh, triều đình rộng mở đường thu dùng anh kiệt, người già tác thành cho hậu nhân. Lâu ngày giáo hoá thành tựu, công dụng của bậc đại thánh thực chẳng có thể đo đếm hình dung hết được! Từ nay về sau, nhờ được chăm nom nâng đỡ, kẻ sĩ ngâm phú “Cá nhảy” mà về kinh chiêm bái, hát thơ Lộc minh mà xếp hàng dự thi tất sẽ nườm nượp chật đường, đủ sung dùng cho cả trăm nghìn năm đến vô cùng, đủ phò tá cho nền trị bình lớn lao lâu dài muôn vạn năm, thì tên tuổi của họ bia đá không sao chép hết được. Còn như vì cảm ơn đãi ngộ trọng hậu, nghĩ trọng danh nghĩa mà cẩn trọng sửa mình, trau dồi đạo đức, giữ vững phẩm tiết để khỏi nhơ danh khoa bảng, không phụ ơn giáo dục, thì đó vẫn là phận sự của kẻ sĩ quân tử xưa nay, thần không dám rườm lời. Thần kính cẩn làm bài ký."
+  ],
+  "colophon": [
+   "Đặc tiến Kim tử Vinh lộc đại phu Nhập thị Thiêm sai Phủ liêu Hàn lâm viện Thừa chỉ kiêm Bí thư các Học sĩ kiêm Quốc sử viện sự Dĩnh Thành bá Lê Quý Đôn vâng sắc soạn.",
+   "Triều liệt đại phu Nhập thị Thiêm sai Hữu tư giảng Đông các Đại học sĩ hành Phụng Thiên phủ doãn Nguyễn Hoản vâng sắc nhuận.",
+   "Bia dựng ngày mồng 2 tháng 12 niên hiệu Cảnh Hưng thứ 24 (1763).",
+   "Ngự sử đài Đô lại thủ bạ Đồng Tri châu người xã An Lạc huyện Thanh Lâm là Trần Đình Khoa vâng mệnh viết chữ chân.",
+   "Lê Văn Lộc thợ đá người thôn Nhuệ xã An Hoạch huyện Đông Sơn vâng mệnh khắc chữ."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ tam giáp đồng Tiến sĩ xuất thân",
+    "count": 5,
+    "names": [
+     {
+      "name": "VŨ CƠ",
+      "from": "xã Ngọc Lặc huyện Tứ Kỳ, Viên ngoại lang"
+     },
+     {
+      "name": "NGUYỄN DUY THỨC",
+      "from": "xã Vọng Nguyệt huyện Yên Phong, Tri huyện"
+     },
+     {
+      "name": "HOA QUÝ KHÂM",
+      "from": "xã Cổ Nhuế, huyện Từ Liêm, Huấn đạo"
+     },
+     {
+      "name": "PHẠM DƯƠNG ƯNG",
+      "from": "phường Cổ Vũ huyện Thọ Xương, nguyên quán xã Hoa Đường huyện Đường An, Nho sinh trúng thức"
+     },
+     {
+      "name": "NGUYỄN LỆNH TÂN",
+      "from": "xã Phù Lê huyện Thụy Nguyên, Huấn đạo"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Lê Quý Đôn"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Hoản"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Trần Đình Khoa"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Lê Văn Lộc"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Lê Quý Đôn",
+   "others": [
+    {
+     "id": "bia-1754",
+     "year": 1754
+    },
+    {
+     "id": "bia-1769",
+     "year": 1769
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1763,
+  "raw": "1763",
+  "gap": 0,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1763",
+     "year": 1763
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Lê Quý Đôn",
+   "dates": "1726-1784",
+   "description": "Nhà bác học lớn thời Lê Trung Hưng, giữ chức Hàn lâm viện Thừa chỉ, Bí thư các Học sĩ, Quốc sử viện sự. Ông là người soạn bài ký cho văn bia này.",
+   "isLaureate": false
+  },
+  {
+   "name": "Vũ Cơ",
+   "dates": "1736-?",
+   "description": "Con của Vũ Khâm Lân, làm quan đến chức Hàn lâm Hiệu lý, Trấn thủ Lạng Sơn.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Duy Thức",
+   "dates": "1734-?",
+   "description": "Giữ các chức quan như Hàn lâm viện Hiệu thảo, Hàn lâm Thị chế, Hưng Hoá Trấn thủ.",
+   "isLaureate": true
+  },
+  {
+   "name": "Hoa Quý Khâm",
+   "dates": "1727-?",
+   "description": "Con của Hoa Thế Phương, làm quan Cấp sự trung, Hiến sát sứ Nghệ An. Sau này con cháu đổi sang họ Văn.",
+   "isLaureate": true
+  },
+  {
+   "name": "Phạm Dương Ưng",
+   "dates": "1737-?",
+   "description": "Làm quan Đông các Học sĩ, Phó Đốc thị đạo Thuận Quảng.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Lệnh Tân",
+   "dates": "1726-?",
+   "description": "Làm quan đến chức Đông các Đại học sĩ.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Lê Quý Đôn",
+  "dates": "1726-1784",
+  "description": "Nhà bác học lớn thời Lê Trung Hưng, giữ chức Hàn lâm viện Thừa chỉ, Bí thư các Học sĩ, Quốc sử viện sự. Ông là người soạn bài ký cho văn bia này.",
+  "hometown": "Xã Diên Hà, huyện Diên Hà (nay thuộc Thái Bình)",
+  "roles": [
+   "Hàn lâm viện Thừa chỉ",
+   "Bí thư các Học sĩ",
+   "Quốc sử viện sự"
+  ]
+ }
+}

@@ -1,0 +1,358 @@
+{
+ "$source": "data/82-van-bia-tien-si.json · id 69 (https://honinh.com/82-van-bia-tai-van-mieu-ha-noi-tu-khoa-thi-1442-den-khoa-thi-1779/69/)",
+ "$generated": "tools/extract-stele-info.mjs — không sửa tay; sửa nguồn hoặc tool rồi chạy lại",
+ "id": "bia-1746",
+ "year": 1746,
+ "canChi": "Bính Dần",
+ "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA BÍNH DẦN NIÊN HIỆU CẢNH HƯNG NĂM THỨ 7 (1746)",
+ "dynasty": "Lê trung hưng",
+ "dynastyId": "le-trung-hung",
+ "dynastyRaw": "Lê Trung Hưng",
+ "era": "Cảnh Hưng",
+ "eraYear": 7,
+ "king": {
+  "name": "Lê Hiển Tông",
+  "$verify": "cần đối chiếu — suy từ niên hiệu Cảnh Hưng trong tiêu đề"
+ },
+ "candidates": null,
+ "candidatesRaw": "không dưới 2.000",
+ "passed": 4,
+ "passedRaw": "4",
+ "erected": 1747,
+ "contributors": {
+  "author": "Dương Công Chú",
+  "calligrapher": "Nguyễn Thái Huy",
+  "editor": "Nguyễn Công Thái",
+  "engraver": "Lê Khắc Thực"
+ },
+ "tiers": [
+  {
+   "tier": 1,
+   "label": "Tiến sĩ cập đệ",
+   "count": 0
+  },
+  {
+   "tier": 2,
+   "label": "Tiến sĩ xuất thân",
+   "count": 1
+  },
+  {
+   "tier": 3,
+   "label": "Tiến sĩ xuất thân",
+   "count": 3
+  }
+ ],
+ "laureates": [
+  {
+   "name": "Đoàn Thụ",
+   "tier": 2,
+   "title": null,
+   "rank": "Đệ nhị giáp Tiến sĩ xuất thân",
+   "hometown": "xã Phù Lỗ huyện Kim Hoa (nay thuộc xã Phù Lỗ huyện Sóc Sơn Tp. Hà Nội)",
+   "honors": []
+  },
+  {
+   "name": "Trần Danh Tố",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp Tiến sĩ xuất thân",
+   "hometown": "xã Ngọc Điền huyện Thạch Hà (nay thuộc thị trấn Thạch Hà tỉnh Hà Tĩnh)",
+   "honors": []
+  },
+  {
+   "name": "Đào Vũ Thường",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp Tiến sĩ xuất thân",
+   "hometown": "xã Yên Lũ huyện Thanh Lan (nay thuộc xã Đông Quan huyện Đông Hưng tỉnh Thái Bình)",
+   "honors": []
+  },
+  {
+   "name": "Nguyễn Như Thức",
+   "tier": 3,
+   "title": null,
+   "rank": "Đệ tam giáp Tiến sĩ xuất thân",
+   "hometown": "xã Phú Yên huyện Thư Trì (nay thuộc xã Hoà Bình huyện Vũ Thư tỉnh Thái Bình)",
+   "honors": []
+  }
+ ],
+ "intro": {
+  "text": [
+   "Mùa xuân năm Bính Dần, niên hiệu Cảnh Hưng thứ 7 (1746), triều đình mở khoa thi Hội cho các Cống sĩ: không dưới 2.000 người dự thi, chọn được 4 người.",
+   "Ngày 21 tháng 5 vào Điện thí, triều đình ban Đoàn Thụ đỗ Đệ nhị giáp Tiến sĩ xuất thân, Trần Danh Tố đứng đầu 3 người đỗ đồng Tiến sĩ xuất thân.",
+   "Mùa thu năm Đinh Mão (1747), bia được dựng, giao Dương Công Chú soạn bài ký.",
+   "Bài ký dẫn lại câu răn đời trước: “Thuần chính cứng sáng thì bia đá vẻ vang, a dua dựa dẫm thì bia đá hổ thẹn”."
+  ],
+  "$verify": "AI soạn, cần đối chiếu — chỉ từ content + historical_notes của mục này"
+ },
+ "notes": [
+  {
+   "text": "Khoa thi Hội được tổ chức vào mùa xuân năm Bính Dần cho các Cống sĩ trong nước.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Mùa xuân năm Bính Dần thi Hội cho các Cống sĩ trong nước."
+   }
+  },
+  {
+   "text": "Chúa Trịnh Doanh (Minh vương) là người chủ trương tạo dựng mọi việc và lựa dùng nhân tài.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Thực nhờ [Đại nguyên súy Thống quốc chính Thượng sư Thượng phụ Minh vương] tạo dựng mọi việc, lựa dùng nhân tài."
+   }
+  },
+  {
+   "text": "Lời răn dạy kẻ sĩ: 'Thuần chính cứng sáng thì bia đá vẻ vang, a dua dựa dẫm thì bia đá hổ thẹn'.",
+   "kind": "note",
+   "label": "Lời răn dạy kẻ sĩ",
+   "labelKind": "title",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Thuần chính cứng sáng thì bia đá vẻ vang, a dua dựa dẫm thì bia đá hổ thẹn"
+   }
+  },
+  {
+   "text": "Việc dựng bia nhằm mục đích rạng đời nay, tỏ tới đời sau và gửi ý khuyên răn đối với hàng sĩ phu.",
+   "kind": "note",
+   "anchor": {
+    "section": "body",
+    "para": 0,
+    "match": "Thần đem điều ấy ghi vào bia này, chẳng những để rạng đời tỏ tới đời sau mà còn gửi ý khuyên răn đối với hàng sĩ phu nữa."
+   }
+  }
+ ],
+ "biographies": [
+  {
+   "name": "Dương Công Chú",
+   "dates": "Không ghi",
+   "description": "Đặc tiến Kim tử Vinh lộc đại phu Tả Tư giảng Thiêm sai Tri Thị nội Thư tả Lại phiên Hàn lâm viện Thừa chỉ Đạo Phái bá. Ông là người vâng sắc soạn văn bia này.",
+   "hometown": "Không ghi",
+   "roles": [
+    "Tả Tư giảng",
+    "Hàn lâm viện Thừa chỉ",
+    "Người soạn văn bia"
+   ]
+  },
+  {
+   "name": "Nguyễn Công Thái",
+   "dates": "Không ghi",
+   "description": "Đặc tiến Kim tử Vinh lộc đại phu Suy trung Dực vận công thần Tham tụng, Thượng thư Bộ Lễ kiêm Đông các Hiệu thư Kiều Quận công. Ông giữ vai trò nhuận sắc văn bia.",
+   "hometown": "Không ghi",
+   "roles": [
+    "Tham tụng",
+    "Thượng thư Bộ Lễ",
+    "Người nhuận sắc văn bia"
+   ]
+  },
+  {
+   "name": "Đoàn Thụ",
+   "dates": "1715-?",
+   "description": "Đỗ Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp). Ông làm quan đến chức Tả Thị lang, tước Diên Trạch hầu. Có tài liệu ghi tên là Đoàn Chú.",
+   "hometown": "xã Phù Lỗ huyện Kim Hoa (nay thuộc xã Phù Lỗ huyện Sóc Sơn Tp. Hà Nội)",
+   "roles": [
+    "Tả Thị lang",
+    "Diên Trạch hầu"
+   ]
+  },
+  {
+   "name": "Trần Danh Tố",
+   "dates": "1713-?",
+   "description": "Đỗ Đệ tam giáp Tiến sĩ xuất thân. Ông làm quan đến chức Cấp sự trung.",
+   "hometown": "xã Ngọc Điền huyện Thạch Hà (nay thuộc thị trấn Thạch Hà tỉnh Hà Tĩnh)",
+   "roles": [
+    "Cấp sự trung"
+   ]
+  },
+  {
+   "name": "Đào Vũ Thường",
+   "dates": "1705-?",
+   "description": "Đỗ Đệ tam giáp Tiến sĩ xuất thân. Ông làm quan đến chức Hiến sát sứ.",
+   "hometown": "xã Yên Lũ huyện Thanh Lan (nay thuộc xã Đông Quan huyện Đông Hưng tỉnh Thái Bình)",
+   "roles": [
+    "Hiến sát sứ"
+   ]
+  },
+  {
+   "name": "Nguyễn Như Thức",
+   "dates": "1719-?",
+   "description": "Đỗ Đệ tam giáp Tiến sĩ xuất thân. Ông làm quan đến chức Giám sát Ngự sử.",
+   "hometown": "xã Phú Yên huyện Thư Trì (nay thuộc xã Hoà Bình huyện Vũ Thư tỉnh Thái Bình)",
+   "roles": [
+    "Giám sát Ngự sử"
+   ]
+  }
+ ],
+ "content": {
+  "title": "VĂN BIA ĐỀ DANH TIẾN SĨ KHOA BÍNH DẦN NIÊN HIỆU CẢNH HƯNG NĂM THỨ 7 (1746)",
+  "paragraphs": [
+   "Sao Khuê mở vận thái, sao Đẩu hiện nhân tài, cầu hiền kén sĩ, khoa cử thịnh hành. Hoàng thượng bệ hạ kế tục thể chế, giữ pháp độ lập thành, trọng đãi người hiền, chấn hưng trị đạo. Thực nhờ [Đại nguyên súy Thống quốc chính Thượng sư Thượng phụ Minh vương] tạo dựng mọi việc, lựa dùng nhân tài. Mùa xuân năm Bính Dần thi Hội cho các Cống sĩ trong nước. Đặc sai Đặc tiến Phụ quốc Thượng tướng quân Tả hòa quân doanh Đô đốc phủ Đô đốc đồng Tri Thự phủ sự phó tướng Thụy Quận công Trịnh Tân làm Đề điệu, hành Tham tụng Lại bộ Tả Thị lang Nhuyễn Đình hầu Trịnh Ngô Dụng làm Tri Cống cử, Thiêm sai Công bộ Hữu Thị lang hành Phó Đô Ngự sử kiêm Đông các Học sĩ tả chính ngôn Thư Trạch hầu Vũ Công Trấn, Thiêm sai Công bộ Hữu Thị lang Ôn Trạch bá Vũ Khâm Lân làm Giám thí, cùng các quan bách ty trong ngoài chia giữ các việc. Buổi ấy sĩ tử tới đua tài không dưới 2.000 người, số trúng tuyển là bọn Trần Danh Tố 4 người. Ngày 21 tháng 5 vào Điện thí. Hôm sau quan Độc quyển nâng quyển đọc, Hoàng thượng định thứ bậc cao thấp, cho Đoàn Thụ đỗ Đệ nhị giáp Tiến sĩ xuất thân, bọn Trần Danh Tố 3 người đỗ đồng Tiến sĩ xuất thân. Loa truyền gọi tên, Bộ Lễ treo bảng vàng ngoài cửa nhà Thái học. Việc ban áo mũ yến tiệc đều y theo lệ cũ. Mùa thu năm Đinh Mão, quan Bộ Công xin dựng bia đá đề danh. Vua y theo lời tâu, bèn sai thần soạn văn bia. Thần kính cẩn cúi đầu rập đầu dâng lời rằng: Tính danh thêu lên cờ lệnh, khắc vào đỉnh vạc, các bậc tiên vương nêu cao công lao của các cựu thần. Nhưng tạc đá khắc bia, quy chế bản triều tôn Nho thì đời xưa chưa có, mà khoa thi Tiến sĩ thì từ trước đã có tiếng là chọn được nhiều hiền tài. Người thì giúp mưu lược từ thủa đầu sáng nghiệp, người có hoài bão lớn trong buổi thái bình, công kinh lược giúp đời đã thấy rờ rỡ. Cho nên từ xưa đến nay đời nào cũng coi trọng khoa mục. Khi chưa thi thì muốn cất nhắc đồng đều, cúng lễ ở các đền miếu để tỏ lòng chí thành. Khi đã đỗ thì ưu ái trọng hậu, lại khắc tên vào đá cứng để lưu truyền mãi mãi. Kẻ sĩ ở chốn nhà tranh vách đất, một khi được ghi tên ở bảng Long hổ, thân được dự vào hạng khoa danh thì phải làm thế nào để không hổ thẹn với tấm đá này. Bài ký trước có câu: “Thuần chính cứng sáng thì bia đá vẻ vang, a dua dựa dẫm thì bia đá hổ thẹn”, há chẳng đáng thận trọng lấy làm răn hay sao! Thần đem điều ấy ghi vào bia này, chẳng những để rạng đời tỏ tới đời sau mà còn gửi ý khuyên răn đối với hàng sĩ phu nữa. Thần kính cẩn dâng bài ký."
+  ],
+  "colophon": [
+   "Đặc tiến Kim tử Vinh lộc đại phu Tả Tư giảng Thiêm sai Tri Thị nội Thư tả Lại phiên Hàn lâm viện Thừa chỉ Đạo Phái bá Dương Công Chú vâng sắc soạn.",
+   "Đặc tiến Kim tử Vinh lộc đại phu Suy trung Dực vận công thần Tham tụng, Thượng thư Bộ Lễ kiêm Đông các Hiệu thư Kiều Quận công Nguyễn Công Thái vâng sắc nhuận.",
+   "Bia dựng ngày 16 tháng 9 niên hiệu Cảnh Hưng 8 (1747) Hoàng Việt.",
+   "Đô lại Bộ Lại người xã Liêu Hạ huyện Đường Hào là Nguyễn Thái Huy vâng viết chữ (chân).",
+   "Bá hộ Lê Khắc Thực cùng toàn đội vâng khắc chữ."
+  ],
+  "roll": [
+   {
+    "heading": "Đệ nhị giáp Tiến sĩ xuất thân",
+    "count": 1,
+    "names": [
+     {
+      "name": "ĐOÀN THỤ",
+      "from": "xã Phù Lỗ huyện Kim Hoa, Giám sinh"
+     }
+    ]
+   },
+   {
+    "heading": "Đệ tam giáp Tiến sĩ xuất thân",
+    "count": 3,
+    "names": [
+     {
+      "name": "TRẦN DANH TỐ",
+      "from": "xã Ngọc Điền huyện Thạch Hà, Giám sinh"
+     },
+     {
+      "name": "ĐÀO VŨ THƯỜNG",
+      "from": "xã Yên Lũ huyện Thanh Lan, Huấn đạo"
+     },
+     {
+      "name": "NGUYỄN NHƯ THỨC",
+      "from": "xã Phú Yên huyện Thư Trì, Giám sinh"
+     }
+    ]
+   }
+  ]
+ },
+ "credits": [
+  {
+   "role": "Soạn văn",
+   "name": "Dương Công Chú"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Công Thái"
+  },
+  {
+   "role": "Viết chữ",
+   "name": "Nguyễn Thái Huy"
+  },
+  {
+   "role": "Khắc đá",
+   "name": "Lê Khắc Thực"
+  }
+ ],
+ "crossRefs": [
+  {
+   "role": "Soạn văn",
+   "name": "Dương Công Chú",
+   "others": [
+    {
+     "id": "bia-1748",
+     "year": 1748
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  },
+  {
+   "role": "Nhuận sắc",
+   "name": "Nguyễn Công Thái",
+   "others": [
+    {
+     "id": "bia-1724",
+     "year": 1724
+    },
+    {
+     "id": "bia-1739",
+     "year": 1739
+    },
+    {
+     "id": "bia-1743",
+     "year": 1743
+    },
+    {
+     "id": "bia-1748",
+     "year": 1748
+    },
+    {
+     "id": "bia-1752",
+     "year": 1752
+    },
+    {
+     "id": "bia-1754",
+     "year": 1754
+    }
+   ],
+   "$note": "trùng tên trong dữ liệu"
+  }
+ ],
+ "passRate": null,
+ "erection": {
+  "year": 1747,
+  "raw": "1747",
+  "gap": 1,
+  "batch": {
+   "count": 1,
+   "entries": [
+    {
+     "id": "bia-1746",
+     "year": 1746
+    }
+   ]
+  }
+ },
+ "stories": [
+  {
+   "name": "Dương Công Chú",
+   "dates": "Không ghi",
+   "description": "Đặc tiến Kim tử Vinh lộc đại phu Tả Tư giảng Thiêm sai Tri Thị nội Thư tả Lại phiên Hàn lâm viện Thừa chỉ Đạo Phái bá. Ông là người vâng sắc soạn văn bia này.",
+   "isLaureate": false
+  },
+  {
+   "name": "Nguyễn Công Thái",
+   "dates": "Không ghi",
+   "description": "Đặc tiến Kim tử Vinh lộc đại phu Suy trung Dực vận công thần Tham tụng, Thượng thư Bộ Lễ kiêm Đông các Hiệu thư Kiều Quận công. Ông giữ vai trò nhuận sắc văn bia.",
+   "isLaureate": false
+  },
+  {
+   "name": "Đoàn Thụ",
+   "dates": "1715-?",
+   "description": "Đỗ Đệ nhị giáp Tiến sĩ xuất thân (Hoàng giáp). Ông làm quan đến chức Tả Thị lang, tước Diên Trạch hầu. Có tài liệu ghi tên là Đoàn Chú.",
+   "isLaureate": true
+  },
+  {
+   "name": "Trần Danh Tố",
+   "dates": "1713-?",
+   "description": "Đỗ Đệ tam giáp Tiến sĩ xuất thân. Ông làm quan đến chức Cấp sự trung.",
+   "isLaureate": true
+  },
+  {
+   "name": "Đào Vũ Thường",
+   "dates": "1705-?",
+   "description": "Đỗ Đệ tam giáp Tiến sĩ xuất thân. Ông làm quan đến chức Hiến sát sứ.",
+   "isLaureate": true
+  },
+  {
+   "name": "Nguyễn Như Thức",
+   "dates": "1719-?",
+   "description": "Đỗ Đệ tam giáp Tiến sĩ xuất thân. Ông làm quan đến chức Giám sát Ngự sử.",
+   "isLaureate": true
+  }
+ ],
+ "authorBio": {
+  "name": "Dương Công Chú",
+  "dates": "Không ghi",
+  "description": "Đặc tiến Kim tử Vinh lộc đại phu Tả Tư giảng Thiêm sai Tri Thị nội Thư tả Lại phiên Hàn lâm viện Thừa chỉ Đạo Phái bá. Ông là người vâng sắc soạn văn bia này.",
+  "hometown": "Không ghi",
+  "roles": [
+   "Tả Tư giảng",
+   "Hàn lâm viện Thừa chỉ",
+   "Người soạn văn bia"
+  ]
+ }
+}
