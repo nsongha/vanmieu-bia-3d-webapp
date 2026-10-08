@@ -13,6 +13,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "prepare-models": "node tools/prepare-models.mjs",
+    "download-models": "node tools/download-models.js",
     "test:cinema": "node tests/cinema/run.mjs"
   },
   "dependencies": {
