@@ -31,6 +31,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build
+        env:
+          VITE_MODELS_BASE: https://pub-bcf6c209410d41c09a90010a4d615f88.r2.dev/models-v2/
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
