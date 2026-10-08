@@ -215,6 +215,8 @@ export function installNames(S, K, deps) {
     }
     const readInto = (b) => () => {
       gl.bindBuffer(gl.PIXEL_PACK_BUFFER, b);
+      // Orphan buffer để tránh cảnh báo "discarded shadow copy" của Chrome khi dùng lại PBO
+      gl.bufferData(gl.PIXEL_PACK_BUFFER, lumaPboBytes, gl.STREAM_READ);
       // r64: LUMA_ROWS hàng cách đều (mỗi hàng một lệnh đọc không đồng bộ vào PBO, nối tiếp nhau)
       for (let k = 0; k < rows; k++) {
         const y = R.y + Math.min(R.h - 1, Math.floor(((k + 0.5) * R.h) / rows));
