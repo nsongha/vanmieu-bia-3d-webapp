@@ -64,8 +64,8 @@ async function render() {
   currentName = null;
   mountingName = name;
   root.replaceChildren();
-  root.className = 'view view-' + (name || 'landing');
-  document.body.dataset.view = name || 'landing';
+  root.className = 'view view-' + (name || 'cinema');
+  document.body.dataset.view = name || 'cinema';
 
   const mod = await routes[name]();
   if (myGen !== gen) return; // đã chuyển sang view khác trong lúc chờ import

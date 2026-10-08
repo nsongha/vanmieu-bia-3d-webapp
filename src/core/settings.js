@@ -161,26 +161,26 @@ export const TRANSITION_SPEC = Object.freeze({
 export const TRANSITION_KEYS = Object.freeze(Object.keys(TRANSITION_SPEC));
 export const DEFAULTS = Object.freeze({
   rev: REV,             // phiên bản lược đồ (không phải cài đặt người dùng)
-  exposure: 1,          // 0.6..1.6  × renderer.toneMappingExposure của preset
-  key: 0.95,               // 0..2      × cường độ đèn chính
-  env: 0.7,               // 0..2      × môi trường (hemi + PMREM)
+  exposure: 1.18,          // 0.6..1.6  × renderer.toneMappingExposure của preset
+  key: 1,               // 0..2      × cường độ đèn chính
+  env: 0.9,               // 0..2      × môi trường (hemi + PMREM)
   shadow: 'soft',       // 'off' | 'soft' | 'sharp' — Trưng bày / Nghiên cứu (Điện ảnh: cinemaCastShadow + contactShadow)
-  shadowOpacity: 0.95,     // 0..1.5    × floorShadow của preset — Trưng bày / Nghiên cứu
-  reflection: 0.05,     // 0..1      cường độ sàn phản chiếu mờ (0 = tắt); Điện ảnh: gương lòng bục
-  dishGlass: 0.1,         // 0..1      Điện ảnh: chất liệu lòng bục — 0 = đá (graphite mờ, như cũ) … 1 = kính đen (Fresnel)
-  pedestalRipple: 0.3,     // r63: 0..1 Điện ảnh: "Độ nhăn" mặt lòng bục (ảnh phản chiếu gợn + chấm đèn vỡ nhẹ); 0 = phẳng tuyệt đối như cũ
-  pedestalRippleSize: 0.5, // r63: 0..1 "Kích thước gợn": mịn → rộng (cạnh ô vân, xem RIPPLE_SIZE_RANGE_M)
-  pedestalRippleDrift: false, // r63: "Chuyển động nhẹ" — vân trôi rất chậm, chỉ ở khung đang vẽ (không tự vẽ khi rảnh)
+  shadowOpacity: 0.55,     // 0..1.5    × floorShadow của preset — Trưng bày / Nghiên cứu
+  reflection: 0.3,     // 0..1      cường độ sàn phản chiếu mờ (0 = tắt); Điện ảnh: gương lòng bục
+  dishGlass: 0.8,         // 0..1      Điện ảnh: chất liệu lòng bục — 0 = đá (graphite mờ, như cũ) … 1 = kính đen (Fresnel)
+  pedestalRipple: 0.15,     // r63: 0..1 Điện ảnh: "Độ nhăn" mặt lòng bục (ảnh phản chiếu gợn + chấm đèn vỡ nhẹ); 0 = phẳng tuyệt đối như cũ
+  pedestalRippleSize: 1, // r63: 0..1 "Kích thước gợn": mịn → rộng (cạnh ô vân, xem RIPPLE_SIZE_RANGE_M)
+  pedestalRippleDrift: true, // r63: "Chuyển động nhẹ" — vân trôi rất chậm, chỉ ở khung đang vẽ (không tự vẽ khi rảnh)
   showFps: false,       // đồng hồ FPS góc trên trái để gỡ lỗi độ mượt (bật trong Cài đặt → Hiển thị → Gỡ lỗi)
   maxFps: 60,           // r40: trần khung hình của cảnh 3D (core/renderer.js): 30 | 60 | 120 — xem MAX_FPS_OPTIONS
-  autoRotate: false,     // tự xoay / đung đưa khi rảnh
+  autoRotate: true,     // tự xoay / đung đưa khi rảnh
   transition: 'glide',   // chuyển cảnh giữa hai bia: chỉ còn 'glide' (B) — khoá giữ lại cho lớp cử chỉ (bảng thời lượng hiệu ứng)
-  glideDuration: 1.6,    // r35: 0,8..2,4 s — Điện ảnh: thời gian một lượt "Lướt" (các kiểu khác giữ thời lượng riêng); xem GLIDE_RANGE
+  glideDuration: 1,    // r35: 0,8..2,4 s — Điện ảnh: thời gian một lượt "Lướt" (các kiểu khác giữ thời lượng riêng); xem GLIDE_RANGE
   cinemaViewAngle: 20,   // −45..45 độ — Điện ảnh: góc camera mặc định quanh bia (dương = sang PHẢI người xem, thấy mặt hông phải → khung 3/4 có chiều sâu); 0 = chính diện
   cinemaHoverFront: true, // Điện ảnh: hover bia → camera vòng về chính diện (đèn sáng lên), rời → về lại góc mặc định
-  cinemaHoverZoom: 0.08,  // 0..0.25 Điện ảnh: hover → camera tiến gần thêm ngần này (phần khoảng cách); 0 = không zoom. Tự kẹp cho vừa khung + kiểu thông tin
+  cinemaHoverZoom: 0.04,  // 0..0.25 Điện ảnh: hover → camera tiến gần thêm ngần này (phần khoảng cách); 0 = không zoom. Tự kẹp cho vừa khung + kiểu thông tin
   cinemaBgDark: 0.5,     // 0..1  Điện ảnh: độ tối nền (nền, sương, hồ sáng sàn — không đụng đèn bia / bục); 0,5 = như trước, 1 = đen tuyệt đối
-  cinemaContrast: 0.75,   // 0..1  Điện ảnh: ánh sáng kịch tính khi CHƯA hover (sáng góc trên trái, tối dần xuống); hover → sáng đều. 0 = luôn sáng đều
+  cinemaContrast: 0.7,   // 0..1  Điện ảnh: ánh sáng kịch tính khi CHƯA hover (sáng góc trên trái, tối dần xuống); hover → sáng đều. 0 = luôn sáng đều
   // Đèn rọi của trạng thái chưa hover (Điện ảnh). Đứng yên trong không gian: bia lướt vào / ra vùng sáng.
   spotIntensity: 1,      // 0..2  × cường độ đèn rọi (0 = tắt đèn rọi)
   spotColor: '#ffd9b0',  // màu đèn rọi — mặc định ấm như đèn sợi đốt (cùng màu đèn chính của preset)
@@ -195,8 +195,8 @@ export const DEFAULTS = Object.freeze({
   keyFalloff: 1,       // 0..1 độ suy giảm: 0 = đèn ở rất xa (sáng đều như trước), 1 = sát bia (sáng mạnh ở trên, tối dần xuống rùa)
   keyColor: '#ffd9b0',   // màu đèn chính (mặc định = màu key của preset Điện ảnh)
   // Bóng của Điện ảnh — tách khỏi shadow / shadowOpacity (hai khoá đó chỉ còn cho Trưng bày / Nghiên cứu).
-  cinemaCastShadow: 1.3,   // 0..1.5 bóng đổ của đèn rọi (xuống sàn, lên bục, lên chính bia); 0 = tắt hẳn, không vẽ shadow map
-  contactShadow: 0.95,      // 0..1.5 bóng tiếp xúc: quầng tối dưới chân rùa trên mặt bục (0 = tắt)
+  cinemaCastShadow: 0.55,   // 0..1.5 bóng đổ của đèn rọi (xuống sàn, lên bục, lên chính bia); 0 = tắt hẳn, không vẽ shadow map
+  contactShadow: 0.55,      // 0..1.5 bóng tiếp xúc: quầng tối dưới chân rùa trên mặt bục (0 = tắt)
   cinemaInfo: 'screens', // cách hiện thông tin bia ở chế độ Điện ảnh: xem CINEMA_INFO_OPTIONS
   cinemaInfoRich: true, // r71 → r72: thông tin mở rộng (bia có dữ liệu văn bia — r79: cả 82 bia) khi kiểu là Bình phong; false = bình phong gốc
   cinemaRubbingScan: true, // r77: quét bản dập trên mặt bia khi mở toàn văn (giữ V / nút đọc); tắt = vòng tiến độ trên huy hiệu V, đọc trên đá trơn
@@ -204,7 +204,7 @@ export const DEFAULTS = Object.freeze({
   readerMode: '3d',  // r78: kiểu bảng đọc — '3d' (tấm nổi trước bia, thị sai thật, bóng lên đá) | 'flat' (tấm phẳng trên màn như r77)
   readerGap: 0.15,   // r78: khoảng cách tấm đọc 3D ↔ mặt bia (đơn vị bia — bia cao 1), READER_GAP_RANGE
   readerZoomIn: 2.8,  // r80: giây camera tiến vào khung đọc (mở toàn văn) — người dùng: gấp đôi 1,4 s của r74; READER_ZOOM_RANGE
-  readerZoomOut: 1.0, // r80: giây camera lùi ra (đóng) — giữ đúng 1,0 s như trước; READER_ZOOM_RANGE
+  readerZoomOut: 1, // r80: giây camera lùi ra (đóng) — giữ đúng 1,0 s như trước; READER_ZOOM_RANGE
   // r82 → r84: tấm đọc trượt lên trong phần cuối đoạn tiến vào — r84 (người dùng: chữ Hán bay CÙNG lúc camera tiến) 58 → 36 %: chữ
   // tấm đọc hiện ở ~0,68 đoạn tiến (sau chữ bay cuối cùng); READER_SLIDE_RANGE
   readerSlideShare: 0.36,
@@ -235,7 +235,7 @@ export const DEFAULTS = Object.freeze({
   sparkleDensity: 0.5,     // mật độ hạt sáng trên nét khắc (× 3000 điểm mỗi bia)
   moteMin: 0.0025,         // cỡ hạt sáng nhỏ nhất (đơn vị bia — bia cao ≈ 1)
   moteMax: 0.006,          // … lớn nhất
-  glyphLook: 'stroke',     // r86: 'stroke' Nét khắc (r85) · 'traced' Hình chữ dò (r84 — mặt nạ chữ dò + sprite hình chữ) — GLYPH_LOOK_OPTIONS
+  glyphLook: 'traced',     // r86: 'stroke' Nét khắc (r85) · 'traced' Hình chữ dò (r84 — mặt nạ chữ dò + sprite hình chữ) — GLYPH_LOOK_OPTIONS
   traceGlow: 1,            // r86 Hình chữ dò: × độ sáng chữ trên đá (lõi nét) + chữ bay
   traceWarmth: 0.5,        // … màu: 0 vàng nhạt · 0,5 vàng ấm (r82b) · 1 hổ phách
   traceHalo: 1,            // … × quầng sáng mềm quanh nét
@@ -243,7 +243,7 @@ export const DEFAULTS = Object.freeze({
   hanGlow: 1,              // … × độ sáng chữ trên đá + chữ bay
   hanWarmth: 0.4,          // … màu: 0 vàng nhạt · 0,5 vàng ấm · 1 hổ phách
   glyphFlyMode: 'cloud',   // r85: 'cloud' đám mây camera bay xuyên qua · 'whoosh' vụt qua (r84)
-  glyphCloudDist: 1.0,     // r88: đám mây chữ nổi trước mặt bia tới ngần này × khoảng cách đầu rùa – mặt bia (mỗi bia một khác)
+  glyphCloudDist: 1,     // r88: đám mây chữ nổi trước mặt bia tới ngần này × khoảng cách đầu rùa – mặt bia (mỗi bia một khác)
   glyphCloudLife: 1.8,     // r89: s — chữ rời mặt bia → tắt hẳn (đám mây tồn tại); dài hơn → chữ tấm đọc tự hiện muộn hơn
   readerCloudOverlap: 0.55, // r90: s — tiêu đề tấm đọc bắt đầu ngần này trước hạn tắt của đám mây (pEnd; ẩn) — đo: ~0,4 s trước khi chữ
                            // cuối thật sự tắt, lúc đó ~57 % đám mây đã tan (thưa dần CLOUD_THIN_S); thân bài luôn sau đám mây
@@ -282,7 +282,7 @@ export const DEFAULTS = Object.freeze({
   readerOutUi: 0.25,       // đóng: mục lục / Đóng / Đầu trang tắt hết trong ngần này đầu đoạn lùi
   cinemaNames: true,    // hiện danh sách người đỗ trên thân bia (Điện ảnh) — thử nghiệm
   cinemaArrows: 'gold', // kiểu mũi tên chuyển bia hai bên (Điện ảnh): xem NAV_ARROW_OPTIONS
-  cinemaTimeline: 'ruler', // kiểu dòng thời gian 82 bia (Điện ảnh): xem TIMELINE_OPTIONS
+  cinemaTimeline: 'line', // kiểu dòng thời gian 82 bia (Điện ảnh): xem TIMELINE_OPTIONS
   cinemaIdleAutoplay: true, // Điện ảnh (kiosk): rảnh cinemaIdleAfter giây → tự trình chiếu (▶ + Lướt); chuột / chạm / phím / tay
                             // đã "nhận" → dừng ngay (lượt lướt đang chạy vẫn chạy nốt)
   cinemaIdleAfter: 30,      // 15 | 30 | 60 | 120 giây rảnh trước khi tự trình chiếu
@@ -301,16 +301,19 @@ export const DEFAULTS = Object.freeze({
   pedestalSharp: 0.2,   // 0..1  độ sắc mép chữ khắc: 0 = vai rộng mềm (gờ 6 mm) … 1 = mép sắc (gờ 0,5 mm); 0,25 ≈ độ mềm trước r7 (gờ 3,1 mm)
   pedestalProfile: 'round', // dáng mép chữ khắc: xem PEDESTAL_PROFILE_OPTIONS
   pedestalSep: 'dash',    // dấu ngăn giữa các cụm chữ khắc: xem PEDESTAL_SEP_OPTIONS
-  pedestalTopGlow: 0.8,    // 0..2  đèn viền trên bục khi hover bia (0 = tắt)
+  pedestalTopGlow: 1,    // 0..2  đèn viền trên bục khi hover bia (0 = tắt)
   pedestalTopColor: '#ffe7c4',
-  pedestalBottomGlow: 0.2, // 0..2  đèn hắt dưới chân bục (0 = tắt)
+  pedestalBottomGlow: 0.1, // 0..2  đèn hắt dưới chân bục (0 = tắt)
   pedestalBottomColor: '#ffe7c4',
   pedestalHighlight: 1,    // 0..2  vệt sáng trên mặt vát chữ (đèn ảo chỉ có trên đá bục) — làm rõ số năm khi chưa hover; 0 = tắt
   pedestalHighlightPos: 0, // −90..90 độ — tâm vệt quanh bục: 0 = giữa chữ mặt trước (số năm), âm = sang trái
   pedestalFloorShadow: 1,  // 0..1.5 bóng chân bục trên sàn (vành tối quanh chân bục); 0 = tắt
   sound: true,           // r32: âm thanh phản hồi (core/sound.js): mõ gỗ khi nhón / chọn, chuông khi xong bước hướng dẫn, gõ khẽ khi đổi bia
   soundVolume: 0.6,      // r32: 0..1 âm lượng
-  bg: { gallery: 'paper', cinema: 'black', lab: 'grid' },
+  gesture: true,
+  gesturePreview: true,
+  gestureDebug: true,
+  bg: { gallery: 'paper', cinema: 'warm', lab: 'grid' },
 });
 
 /** Màu đèn bục (Điện ảnh), dùng chung cho đèn trên và đèn dưới. Ngoài các lựa chọn này, bảng Cài đặt có ô chọn màu tuỳ ý. */
